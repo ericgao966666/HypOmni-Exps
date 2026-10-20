@@ -1,0 +1,167 @@
+{
+  "status": "complete",
+  "completed_at": 1792148575.6457307,
+  "formal_runs": 57,
+  "warmup_repeats": 2,
+  "test_evaluations": 15,
+  "seeds": [
+    50,
+    51,
+    52
+  ],
+  "strict_dual_goal_success": false,
+  "selected": {
+    "minimal9": {
+      "config": {
+        "variant": "B1",
+        "pair_mode": "minimal9",
+        "weight": 0.1,
+        "temperature": "fixed",
+        "detach_radius": false,
+        "compatibility": 0.0,
+        "eta": 1.0,
+        "angle_weight": 0.0,
+        "uncertainty": false,
+        "calibration": 0.0,
+        "entropy": 0.0,
+        "radius_max": 4.0,
+        "training": "standard"
+      },
+      "results": {
+        "val": {
+          "macro_R1": {
+            "mean": 29.439290364583332,
+            "std": 0.014671025697689086
+          },
+          "strict": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "mismatch": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "gap": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "violation": {
+            "mean": 2.204630365475578,
+            "std": 0.00077223755877037
+          }
+        },
+        "test": {
+          "macro_R1": {
+            "mean": 28.941514756944446,
+            "std": 0.04274075319170118
+          },
+          "strict": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "mismatch": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "gap": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "violation": {
+            "mean": 2.204422986152348,
+            "std": 0.0008146194800639041
+          }
+        }
+      }
+    },
+    "all21": {
+      "config": {
+        "variant": "A1",
+        "pair_mode": "all21",
+        "weight": 0.1,
+        "temperature": "shared",
+        "detach_radius": false,
+        "compatibility": 0.0,
+        "eta": 1.0,
+        "angle_weight": 0.0,
+        "uncertainty": false,
+        "calibration": 0.0,
+        "entropy": 0.0,
+        "radius_max": 4.0,
+        "training": "warmup9"
+      },
+      "results": {
+        "val": {
+          "macro_R1": {
+            "mean": 29.087999131944443,
+            "std": 0.04905366026482523
+          },
+          "strict": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "mismatch": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "gap": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "violation": {
+            "mean": 1.4245053580617029,
+            "std": 0.0007575818678167359
+          }
+        },
+        "test": {
+          "macro_R1": {
+            "mean": 28.778754340277775,
+            "std": 0.06615531900096044
+          },
+          "strict": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "mismatch": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "gap": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "violation": {
+            "mean": 1.4238054794161912,
+            "std": 0.0007200167970193616
+          }
+        }
+      }
+    }
+  },
+  "validation": {
+    "unit_tests_passed": 22,
+    "distributed_loss_gradient_equivalence": true,
+    "exact_cpu_resume": true,
+    "cache_sha256_verified": true,
+    "scientific_core_matches_snapshot": true,
+    "all_formal_budgets_complete": true,
+    "tests_started_after_selection": true,
+    "failed_jobs": {},
+    "figures_exit_code": 0
+  },
+  "source_manifest_sha256": "7b3731ccce41bc0260c5f6a64492d22f40490b5597c2581c72706cb3c35b9996",
+  "empty_runtime_directories_removed": [
+    "/home/xiaobo.xia/YuxuanGao/.tmp/sh_crhc4gml",
+    "/home/xiaobo.xia/YuxuanGao/.tmp/sh_w06ochj8",
+    "/home/xiaobo.xia/YuxuanGao/.tmp/sh_dwfq9tz_"
+  ],
+  "artifacts": [
+    "comparison.csv",
+    "comparison.json",
+    "geometry_baselines_paired.png",
+    "geometry_overview_paired.png",
+    "geometry_overview_paired.pdf",
+    "screening_tradeoffs.png",
+    "paired_training_curves.pdf"
+  ]
+}

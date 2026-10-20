@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-20",
+  "captured_at": "2026-10-20T08:29:02.495116+00:00",
+  "source_server": "server-a",
+  "note": "Byte-exact selected historical results. Source paths are relative to that server workspace. Capture time and current repository HEAD are not experiment execution versions. Historical code provenance remains in original run manifests.",
+  "files": [
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/summary.md",
+      "source_path": "Hyperbolic-Omnimodal/outputs/server_b_20261014/summary.md",
+      "bytes": 634,
+      "sha256": "78cd45b4ba3ce0e777580677ca34365a5d4d546a8e9fa1dc2d047ea7c1f9c558"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/summary.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/server_b_20261014/summary.json",
+      "bytes": 7018,
+      "sha256": "af588a964f5d6aba0e4bf9cc2b7809aa9c4a1169d5f41ae301d7d9a6fca9adf0"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/ablation_summary.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_hierarchy_ablation_20261016/summary.json",
+      "bytes": 26367,
+      "sha256": "95d75116556f9c5e0720786dae7bd40a2e9c061f2229781b1ae61085e7aec463"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/control9_summary.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_hierarchy_control9_20261016/summary.json",
+      "bytes": 13295,
+      "sha256": "e80d1a9a7fa8dfe2ea6864263d931246bf135ab364c0a8d64dfc25b39092fb89"
+    },
+    {
+      "experiment_id": "EXP-003",
+      "path": "results/EXP-003/2026-10-20/completion_summary.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/completion_summary.json",
+      "bytes": 4032,
+      "sha256": "d8459b6af26915da539749aceeb78126bce4e5c6a278eda3ca1bf060f1dc3eea"
+    },
+    {
+      "experiment_id": "EXP-003",
+      "path": "results/EXP-003/2026-10-20/comparison.csv",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/comparison.csv",
+      "bytes": 6368,
+      "sha256": "7b02ebf4524d20fb264d37e5bf941a0796e3f14a5193aca6eefb50ba09e9ae4a"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-20/vast_comparison.csv",
+      "source_path": "Hyperbolic-Omnimodal/outputs/author_unimodal_20261016/comparison.csv",
+      "bytes": 1741,
+      "sha256": "f227def979d86121eef3988f3f5712de4140ed29096e1b99b5ff5ed645398546"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-20/msrvtt_comparison.csv",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_author_unimodal_20261016/comparison.csv",
+      "bytes": 2032,
+      "sha256": "044f40411aab6fe3ee2b049d6d4e3e13f7c2248945c4482d0c1782f411453d0a"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-20/audio_comparison.csv",
+      "source_path": "Hyperbolic-Omnimodal/outputs/audio_author_unimodal_20261017/comparison.csv",
+      "bytes": 1272,
+      "sha256": "44bd5a0da3ab7f552f4cba8abed900888fa0282bca656cf41370fe27fcb42465"
+    },
+    {
+      "experiment_id": "EXP-005",
+      "path": "results/EXP-005/2026-10-20/early_transfer.csv",
+      "source_path": "Hyperbolic-Omnimodal/outputs/early_transfer_20261017/comparison.csv",
+      "bytes": 7103,
+      "sha256": "2e38c9efa9985b4ceb859f7585d4d6537ee5cddc141b30c7323100dc287a0bdd"
+    },
+    {
+      "experiment_id": "EXP-005",
+      "path": "results/EXP-005/2026-10-20/objective_controls.csv",
+      "source_path": "Hyperbolic-Omnimodal/outputs/vast_objective_controls_20261017/comparison.csv",
+      "bytes": 53492,
+      "sha256": "bebf4485f436781d6bcd2b596746ad0f926fbeda8c7248c90c55f241b46c4ef8"
+    },
+    {
+      "experiment_id": "EXP-005",
+      "path": "results/EXP-005/2026-10-20/same_weights_scoring_ablation.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/vast_objective_controls_20261017/same_weights_scoring_ablation.json",
+      "bytes": 3111,
+      "sha256": "5b3f07eb46e8f08ee07136fd59471ed00ae32c20e8bf9e0d7614a010e097b101"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/comparison.csv",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/comparison.csv",
+      "bytes": 4302,
+      "sha256": "72e77a4e1e283b056db6452663d1537e9b597a66b68d24d3ecec8b71c78c1e64"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/analysis_figures.pdf",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/analysis/analysis_figures.pdf",
+      "bytes": 102544,
+      "sha256": "6a604e7761caa18fc6438733f9361ed6e9d470408db3b928f9a4db51551aa7ca"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/hyperbolic_geometry_report.pdf",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/geometry/hyperbolic_geometry_report.pdf",
+      "bytes": 377954,
+      "sha256": "2541e4406289d6a8c8380520078e7db64cab26e8159f77bbde84da85ff2a9b74"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/geometry_summary.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/geometry/geometry_summary.json",
+      "bytes": 27300,
+      "sha256": "90bc9db58b61b2da0cd9ba2fe2f8f4ffb26ca2e1fc113d96a56e30d5c8de8577"
+    },
+    {
+      "experiment_id": "EXP-007",
+      "path": "results/EXP-007/2026-10-20/results.md",
+      "source_path": "meru-width-coco/output/geometry_compare_20261017/evaluation_v2/results.md",
+      "bytes": 9819,
+      "sha256": "aae674d17896ee301838a3a391df9eb9b885be0f7d00df20bcda605131763578"
+    },
+    {
+      "experiment_id": "EXP-007",
+      "path": "results/EXP-007/2026-10-20/results.csv",
+      "source_path": "meru-width-coco/output/geometry_compare_20261017/evaluation_v2/results.csv",
+      "bytes": 40033,
+      "sha256": "1a974b2eeed9d54732a6636b300006a21802d1d99c0108971f7812d39d6d0fe3"
+    }
+  ]
+}

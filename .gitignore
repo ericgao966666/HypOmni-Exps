@@ -1,0 +1,40 @@
+# Machine-specific paths, credentials and local editor state
+/config/*.local.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*cookies*
+*credentials*
+/.vscode/
+/.idea/
+.DS_Store
+
+# Environments, caches, temporary files and raw logs
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.tmp/
+*.log
+
+# Keep datasets, weights and feature arrays in their original projects
+/datasets/
+/checkpoints/
+/weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npy
+*.npz
+*.parquet
+*.h5
+*.hdf5
+*.tar
+*.tar.gz
+*.zip

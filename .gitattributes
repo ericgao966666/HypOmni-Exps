@@ -1,0 +1,11 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+# Preserve byte-exact CSV snapshots, including original CRLF, for SHA-256 checks.
+*.csv -text
+*.tsv text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary

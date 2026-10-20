@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "current_server": "server-a",
+  "servers": {
+    "server-a": {
+      "workspace_root": null,
+      "dataset_root": null,
+      "projects": {
+        "Hyperbolic-Omnimodal": null,
+        "meru-width-coco": null,
+        "VAST27M-download": null
+      }
+    },
+    "server-b": {
+      "workspace_root": null,
+      "dataset_root": null,
+      "projects": {
+        "Hyperbolic-Omnimodal": null,
+        "meru-width-coco": null,
+        "VAST27M-download": null
+      }
+    }
+  }
+}
