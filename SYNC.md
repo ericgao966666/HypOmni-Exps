@@ -18,22 +18,24 @@ git config --local core.autocrlf false
 git config --local user.useConfigOnly true
 ```
 
-当前源服务器使用已核实的提交身份 EricGao / gaoyuxuan.cn@gmail.com，仅设置在本仓库。另一台服务器首次提交前配置自己的姓名和邮箱，仅使用 `git config --local user.name` / `git config --local user.email`。`user.useConfigOnly` 防止 Git 自动猜测身份，但不会屏蔽已有全局身份，所以仍需设置本地值。
+当前源服务器的本仓库提交署名为 `ericgao966666 / ericgao96.cn@gmail.com`，与本次同步使用的 GitHub 连接账号一致，仅设置在本仓库。Git 提交署名与 GitHub 登录授权分别管理：前者记录提交作者，后者决定远端读写权限，更换连接账号不会自动修改本地署名。
+
+另一台服务器首次提交前配置自己的姓名和邮箱，仅使用 `git config --local user.name` / `git config --local user.email`。`user.useConfigOnly` 防止 Git 自动猜测身份，但不会屏蔽已有全局身份，所以仍需设置本地值。仓库级 Git 配置不会随 clone 同步。
 
 从 [servers.example.json](config/servers.example.json) 创建忽略的本机路径配置，见[配置说明](config/README.md)。当前机器记为 server-a，目标机器记为 server-b；首次落地后固定别名。
 
 ## 另一台服务器接入
 
-待首次上传完成后，在另一台服务器获授权的工作区根目录执行：
+首次上传已完成。在另一台服务器获授权的工作区根目录执行：
 
 ```bash
-git clone https://github.com/ericgao966666/HypOmni-Exps.git experiment-notebook
-cd experiment-notebook
+git clone https://github.com/ericgao966666/HypOmni-Exps.git
+cd HypOmni-Exps
 ```
 
 公开仓库允许匿名读取；提交推送需要该仓库的写入权限及本机授权的认证方式。不要借用共享账号中其他人的凭据，也不要把本机配置或认证材料加入提交。
 
-完成上述本地配置即可查看总览与结果快照。把以下约定加入该机器适用的工作区规则：实验工作开始前读取 `experiment-notebook/README.md`，更新实验时遵守日志仓库的 `AGENTS.md`。仓库内部规则不会自动作用于其外部的代码仓库。
+完成上述本地配置即可查看总览与结果快照。把以下约定加入该机器适用的工作区规则：实验工作开始前读取 `HypOmni-Exps/README.md`，更新实验时遵守日志仓库的 `AGENTS.md`。仓库内部规则不会自动作用于其外部的代码仓库。
 
 ## 日常协作
 
