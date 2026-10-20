@@ -31,6 +31,29 @@
 
 权威结果：[完成摘要](../results/EXP-003/2026-10-20/completion_summary.json)、[全条件表](../results/EXP-003/2026-10-20/comparison.csv)、[几何对照图](../../Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/geometry_overview_paired.pdf)。
 
+## 头部训练曲线
+
+![seed50 下 B0–B2 和 A1–A9 的 9 对与 21 对验证检索及锥违约曲线](../results/EXP-003/2026-10-20/paired_training_curves.png)
+
+[打开完整预览](../results/EXP-003/2026-10-20/paired_training_curves.png) · [下载原始 PDF](../results/EXP-003/2026-10-20/paired_training_curves.pdf)
+
+每行对比同一机制的 9 对（蓝）与 21 对（橙）模型，横轴为 epoch；左列是验证集十二方向 macro R@1（%），右列是平均锥违约（rad）。图只包含 seed50 的 standard 训练，不是三种子均值或测试集曲线。各条件均独立从共享 warmup 开始。
+
+| 图中标签 | 机制 |
+|---|---|
+| B0 / B1 / B2 | 锥约束权重 λ=0 / 0.1 / 1 |
+| A1 | 学习共享温度 |
+| A2 | 学习不同关系类型的温度 |
+| A3 | 停止 NCE 对半径的梯度 |
+| A4 | 增加 parent-cap 兼容性项 |
+| A5 | 训练锥半开角乘以 1.2 |
+| A6 | 蕴含损失中增加外角项 |
+| A7 | 在 A2 上加入 parent-dependent 温度 |
+| A8 | 增加不确定性校准 |
+| A9 | 增加正熵项 |
+
+PNG 由原始单页 PDF 以 150 DPI 渲染，渲染来源和哈希见结果清单；未重新训练、重算指标或重画曲线。
+
 ## 结论与下一步
 
 没有配置同时通过检索和严格包含改善的标准。违约降低属于部分进展；正负样本都被包含属于无区分能力的退化，不能作为成功。
@@ -41,3 +64,4 @@
 
 - 2026-10-16：正式队列和锁定测试完成，记录中无剩余失败任务。
 - 2026-10-20：补录并保留十二方向指标口径。
+- 2026-10-20：加入原始配对训练曲线 PDF 与可直接查看的 PNG 预览，并解释机制标签。

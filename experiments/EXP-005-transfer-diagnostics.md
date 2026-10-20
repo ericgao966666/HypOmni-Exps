@@ -43,7 +43,15 @@
 
 同一 hyperbolic0 权重改用方向余弦后，AudioCaps 为 14.80 / 13.35%，明显高于其测地距离分数，但仍低于初始水平。方向余弦仅是诊断读出，不替换双曲模型的正式检索结果。
 
-原始证据：[轨迹 CSV](../results/EXP-005/2026-10-20/early_transfer.csv)、[目标对照 CSV](../results/EXP-005/2026-10-20/objective_controls.csv)、[同权重评分消融](../results/EXP-005/2026-10-20/same_weights_scoring_ablation.json)、[迁移曲线](../../Hyperbolic-Omnimodal/outputs/vast_objective_controls_20261017/transfer_curves.pdf)。
+原始证据：[轨迹 CSV](../results/EXP-005/2026-10-20/early_transfer.csv)、[目标对照 CSV](../results/EXP-005/2026-10-20/objective_controls.csv)、[同权重评分消融](../results/EXP-005/2026-10-20/same_weights_scoring_ablation.json)。
+
+## 随训练轮数变化的迁移曲线
+
+![五种冻结编码器头部训练目标在四个数据集上的逐轮迁移曲线](../results/EXP-005/2026-10-20/transfer_curves.png)
+
+[打开原图](../results/EXP-005/2026-10-20/transfer_curves.png) · [下载矢量 PDF](../results/EXP-005/2026-10-20/transfer_curves.pdf) · [逐轮数值 JSON](../results/EXP-005/2026-10-20/comparison.json)
+
+横轴是共享 warmup 后的训练 epoch。VAST 验证与 MSRVTT 迁移面板使用六方向 macro R@1；AudioCaps 和 Clotho 面板使用双向平均 R@1，样本数分别为 704 和 1,045。这张图展示五种目标的探索性轨迹，不将跨域测试曲线用于选模。
 
 ## 结论与局限
 
@@ -59,3 +67,4 @@
 
 - 2026-10-17：完成时长轨迹、四种额外目标对照及同权重评分诊断。
 - 2026-10-20：补录；区分探索性测试曲线与验证选模。
+- 2026-10-20：补入原始迁移曲线 PNG/PDF 和逐轮 JSON，供本页及 EXP-004 共用。

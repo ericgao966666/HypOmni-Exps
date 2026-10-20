@@ -117,7 +117,31 @@ T 表示文本，V 表示视频，A 表示音频。Recall 指标单位均为 %�
 | PMRL | 31.99 / 41.19 | 16.94 / 18.18 |
 | Ours | 9.80 / 20.17 | 4.75 / 7.08 |
 
-## 关联训练曲线：后续 MSRVTT 微调
+## 关联训练曲线
+
+这里汇集三组已有曲线，分别来自 EXP-003、EXP-005 和 EXP-006。它们对应不同训练阶段、方法条件与指标口径；EXP-004 本身是冻结评测，上面的完整结果表保持不变。
+
+### 1. VAST 子集模型的头部训练
+
+![VAST 上 9 对和 21 对子集模型在各机制条件下的验证检索与锥违约训练曲线](../results/EXP-003/2026-10-20/paired_training_curves.png)
+
+[打开完整预览](../results/EXP-003/2026-10-20/paired_training_curves.png) · [下载原始矢量 PDF](../results/EXP-003/2026-10-20/paired_training_curves.pdf) · [EXP-003 条件与结论](EXP-003-subset-mechanisms.md)
+
+每行是一个机制条件，蓝色为 9 对，橙色为 21 对；横轴为 30 轮头部训练的 epoch。左列是 VAST **验证集十二方向** macro R@1，右列是原空间平均锥违约，单位 rad；这里不是本页 VAST 测试集的六方向分数。
+
+该图使用 seed50 的 standard 训练，B0/B1/B2 对应 λ=0/0.1/1；A1–A9 的机制释义见 EXP-003。每个条件独立从共享 warmup 开始，不能把上下两行视作连续训练阶段。原图只有 PDF，页面 PNG 是由该 PDF 渲染的预览，未重画曲线或重算指标。
+
+### 2. 随 VAST 训练轮数变化的跨数据集迁移
+
+![五种头部训练目标在 VAST 验证集、MSRVTT、AudioCaps 和 Clotho 上随轮数变化的迁移表现](../results/EXP-005/2026-10-20/transfer_curves.png)
+
+[打开原图](../results/EXP-005/2026-10-20/transfer_curves.png) · [下载矢量 PDF](../results/EXP-005/2026-10-20/transfer_curves.pdf) · [逐轮数值 JSON](../results/EXP-005/2026-10-20/comparison.json) · [EXP-005 诊断结论](EXP-005-transfer-diagnostics.md)
+
+该图比较五种冻结编码器下的头部训练目标：PMRL spectral、cosine3、cosine9、无锥双曲模型和 λ=0.1 双曲模型；这些不是本页四个官方/本地 checkpoint 的重复评测。横轴是共享 warmup 后的 epoch，记录 0/1/2/3/5/10/15/20/30。
+
+上排分别为 VAST 验证集与 MSRVTT 迁移的**六方向**平均 R@1，下排是 AudioCaps 704 条与 Clotho 1,045 条的双向平均 R@1。VAST 域内提高没有伴随音频文本迁移提高。跨域曲线用于探索退化过程，不按测试曲线重新挑选最佳 checkpoint。
+
+### 3. 后续 MSRVTT 端到端微调
 
 下面是已有的四模型 MSRVTT 训练对比图，对应[EXP-006 端到端微调](EXP-006-msrvtt-finetune.md)。EXP-004 本身只做冻结推理，上面的完整结果表均是微调前结果。
 
@@ -150,3 +174,4 @@ VAST cohort 可能与官方预训练数据重叠，不能称为认证零样本�
 - 2026-10-20：补录；与 EXP-003 的十二方向结果分开记录。
 - 2026-10-20：展开 VAST 与 MSRVTT 六方向及 macro 的 R@1/5/10，补入 VAST 中位排名，数值由原 CSV 生成。
 - 2026-10-20：增加关联 EXP-006 的 MSRVTT 十轮微调曲线、PDF 和选模汇总，明确与本页冻结评测结果的区别。
+- 2026-10-20：按用户要求补齐全部三组已有曲线，追加 VAST 头部训练和跨数据集迁移曲线；保留各自来源及指标口径。

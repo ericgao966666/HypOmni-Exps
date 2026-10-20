@@ -3,7 +3,7 @@
   "snapshot_date": "2026-10-20",
   "captured_at": "2026-10-20T08:29:02.495116+00:00",
   "source_server": "server-a",
-  "note": "Byte-exact selected historical results. Source paths are relative to the source server workspace unless source_root is dataset_root, in which case they are relative to that server dataset root. Capture time and current repository HEAD are not experiment execution versions. Historical code provenance remains in original run manifests.",
+  "note": "Selected historical results. Original artifacts are byte-exact copies; entries with derivation record reproducible display previews and the source digest. Source paths are relative to the source server workspace unless source_root is dataset_root. Capture time and current repository HEAD are not experiment execution versions. Historical code provenance remains in original run manifests.",
   "files": [
     {
       "experiment_id": "EXP-001",
@@ -434,7 +434,71 @@
       "captured_at": "2026-10-20T13:50:33.801460+00:00",
       "bytes": 39088,
       "sha256": "bda88204e2799fed943f0ce984a2f4f2afd5f1c66189444d3c71abc8b862479d"
+    },
+    {
+      "experiment_id": "EXP-003",
+      "path": "results/EXP-003/2026-10-20/paired_training_curves.pdf",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/paired_training_curves.pdf",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T13:55:32.927248+00:00",
+      "bytes": 32939,
+      "sha256": "84109eaceba13ae86f7145e368a595624233a649fe0f583cf3217b41f27e1257"
+    },
+    {
+      "experiment_id": "EXP-005",
+      "path": "results/EXP-005/2026-10-20/transfer_curves.png",
+      "source_path": "Hyperbolic-Omnimodal/outputs/vast_objective_controls_20261017/transfer_curves.png",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T13:55:32.927248+00:00",
+      "bytes": 301778,
+      "sha256": "1c3102e9d3a9167e8f67e0c133a6bc271b14de0494261099d045fe16648a0195"
+    },
+    {
+      "experiment_id": "EXP-005",
+      "path": "results/EXP-005/2026-10-20/transfer_curves.pdf",
+      "source_path": "Hyperbolic-Omnimodal/outputs/vast_objective_controls_20261017/transfer_curves.pdf",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T13:55:32.927248+00:00",
+      "bytes": 30486,
+      "sha256": "ec34544cc54c2f9dd5b0088eb8c81bb6deb34f3f504e72cb4b277c2fcc0ca4ad"
+    },
+    {
+      "experiment_id": "EXP-005",
+      "path": "results/EXP-005/2026-10-20/comparison.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/vast_objective_controls_20261017/comparison.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T13:55:32.927248+00:00",
+      "bytes": 148066,
+      "sha256": "7c2edd6697d8020d5dcda3309090198b5a247f22e5bd6b4a4237b30373a6c4f2"
+    },
+    {
+      "experiment_id": "EXP-003",
+      "path": "results/EXP-003/2026-10-20/paired_training_curves.png",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/paired_training_curves.pdf",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T13:55:32.927248+00:00",
+      "bytes": 363587,
+      "sha256": "152b6f283cb3804af14885238d32cd6b765e160032367e9773e8b4e5b95613a7",
+      "source_sha256": "84109eaceba13ae86f7145e368a595624233a649fe0f583cf3217b41f27e1257",
+      "derivation": {
+        "operation": "render_pdf_page",
+        "page": 1,
+        "dpi": 150,
+        "renderer": "pdftoppm version 22.02.0",
+        "command": [
+          "pdftoppm",
+          "-f",
+          "1",
+          "-singlefile",
+          "-r",
+          "150",
+          "-png",
+          "paired_training_curves.pdf",
+          "paired_training_curves"
+        ],
+        "note": "Display preview of the original PDF; no training, metric recomputation, or plot regeneration."
+      }
     }
   ],
-  "updated_at": "2026-10-20T13:50:33.801460+00:00"
+  "updated_at": "2026-10-20T13:55:32.927248+00:00"
 }
