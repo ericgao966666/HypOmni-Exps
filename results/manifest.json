@@ -407,7 +407,20 @@
       "captured_at": "2026-10-20T09:38:30.903534+00:00",
       "bytes": 15387,
       "sha256": "ab65fc59903db43c03752cc0a191c23425970102c6793ac1e34434553fa750f9"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20-server-b/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md",
+      "source_root": "workspace",
+      "source_path": "PMRL-minimal-hyperbolic/docs/ZERO_SHOT_COMPLETE_RESULTS.md",
+      "source_server": "server-b",
+      "captured_at": "2026-10-20T09:53:58.541033+00:00",
+      "source_updated_date": "2026-10-15",
+      "snapshot_version": "2026-10-20-server-b",
+      "bytes": 35687,
+      "sha256": "7fc43bb024cf36221287b38362e05789684d23d1690d58e56929e9a95be77968",
+      "supersedes": "results/EXP-001/2026-10-20/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md"
     }
   ],
-  "updated_at": "2026-10-20T09:38:30.903534+00:00"
+  "updated_at": "2026-10-20T09:53:58.541033+00:00"
 }

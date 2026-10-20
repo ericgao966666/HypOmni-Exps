@@ -2,7 +2,7 @@
 
 这里统一记录研究问题、实验状态、主要结论和结果位置。通常一个研究问题对应一张实验卡；同一问题的种子、消融、失败重试和续跑放在卡内。历史基线与方法探索可按章节汇总，如 EXP-001。原始配置、日志和 checkpoint 保留在项目输出目录，主要结果表与精选分析图另存为本仓库可同步快照。
 
-首批整理范围：2026-10-13 至 2026-10-20；现已补入 2026 年 8–9 月的零样本基线与方法探索。最后核对：2026-10-20，Asia/Shanghai。其他更早实验尚未系统补录；交接到其他服务器的任务，只记录当前能核实的交接状态。
+首批整理范围：2026-10-13 至 2026-10-20；现已补入 2026 年 8–10 月的零样本基线与方法探索，EXP-001 已同步 server-b 的 2026-10-15 版完整报告。最后核对：2026-10-20，Asia/Shanghai。其他更早实验尚未系统补录；交接到其他服务器的任务，只记录当前能核实的交接状态。
 
 本目录是独立 Git 仓库，分支为 `main`，远端为 [ericgao966666/HypOmni-Exps](https://github.com/ericgao966666/HypOmni-Exps)。两台服务器的使用方式见[同步说明](SYNC.md)，维护规则见 [AGENTS.md](AGENTS.md)。本地内容是否已经推送，以 Git 分支状态和远端提交记录为准。
 
@@ -18,7 +18,7 @@
 
 | 编号 | 研究问题 | 项目 | 最近实验记录 | 状态 | 当前判断 |
 |---|---|---|---|---|---|
-| EXP-001 | [历史零样本基线与方法探索](experiments/EXP-001-zero-shot-baselines.md) | PMRL-minimal-hyperbolic / Hyperbolic-Omnimodal | 08–09；10-14 | 历史评估完成；Parent 仅验证 | 视频 Top-50 均值持平，音频 direct 下降；旧 Parent 消融置于文末 |
+| EXP-001 | [历史零样本基线与方法探索](experiments/EXP-001-zero-shot-baselines.md) | PMRL-minimal-hyperbolic / Hyperbolic-Omnimodal | 08–10；报告 10-15；同步 10-20 | 历史评估、MERU 配对及 HyperGRAM pure 探索完成；Parent 仅验证 | 历史视频 Top-50 均值持平，音频 direct 下降；已补 MERU、纯双曲与调参，按协议分组 |
 | EXP-002 | [子集配对数量与约束强度](experiments/EXP-002-subset-pilot.md) | Hyperbolic-Omnimodal | 10-16 | 初版停止；后续消融完成 | 9 对弱约束检索较好，未解决严格包含；已附四张几何审计图 |
 | EXP-003 | [温度与训练机制能否兼顾检索和层级](experiments/EXP-003-subset-mechanisms.md) | Hyperbolic-Omnimodal | 10-16 | 已完成 | 57 次正式运行，未通过双目标验收 |
 | EXP-004 | [官方权重与本地模型的冻结迁移能力](experiments/EXP-004-frozen-transfer.md) | Hyperbolic-Omnimodal | 10-16 至 10-17 | 已完成 | 视频音频较强，音频文本迁移较弱 |
