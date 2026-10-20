@@ -1,0 +1,7 @@
+{
+  "horopca_objective_abs_error": 1.6669304825356335e-13,
+  "horopca_gradient_max_error": 1.0408340855860843e-17,
+  "cosne_interior_optimization_exact_output_agreement": true,
+  "original_boundary_projection_counterexample_norm": 1.0000141421356237,
+  "corrected_boundary_projection_norm": 0.9999899999999999
+}

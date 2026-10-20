@@ -19,7 +19,7 @@
 | 编号 | 研究问题 | 项目 | 最近实验记录 | 状态 | 当前判断 |
 |---|---|---|---|---|---|
 | EXP-001 | [不同 parent 构造能否改善检索与包含](experiments/EXP-001-parent-ablation.md) | Hyperbolic-Omnimodal | 10-14 | 已完成验证 | 检索差异小，锥满足率为零 |
-| EXP-002 | [子集配对数量与约束强度](experiments/EXP-002-subset-pilot.md) | Hyperbolic-Omnimodal | 10-16 | 初版停止；后续消融完成 | 9 对弱约束检索较好，未解决严格包含 |
+| EXP-002 | [子集配对数量与约束强度](experiments/EXP-002-subset-pilot.md) | Hyperbolic-Omnimodal | 10-16 | 初版停止；后续消融完成 | 9 对弱约束检索较好，未解决严格包含；已附四张几何审计图 |
 | EXP-003 | [温度与训练机制能否兼顾检索和层级](experiments/EXP-003-subset-mechanisms.md) | Hyperbolic-Omnimodal | 10-16 | 已完成 | 57 次正式运行，未通过双目标验收 |
 | EXP-004 | [官方权重与本地模型的冻结迁移能力](experiments/EXP-004-frozen-transfer.md) | Hyperbolic-Omnimodal | 10-16 至 10-17 | 已完成 | 视频音频较强，音频文本迁移较弱 |
 | EXP-005 | [音频迁移下降发生在哪个阶段](experiments/EXP-005-transfer-diagnostics.md) | Hyperbolic-Omnimodal | 10-17 | 已完成探索性诊断 | 第一轮已下降，多种目标均受影响 |

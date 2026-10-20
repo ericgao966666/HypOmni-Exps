@@ -1,0 +1,403 @@
+{
+  "subset9_lambda0": {
+    "checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_control9_20261016/c_9pairs_lambda0/last.pt",
+    "checkpoint_sha256": "0fc94e1ac34411390b45d34ab05294b03c59ec43691023ef2d96ff0568a914e9",
+    "all_edges": {
+      "count": 18432,
+      "valid_pair_count": 18432,
+      "parent_domain_invalid_fraction": 0.0,
+      "child_domain_invalid_fraction": 0.0,
+      "parent_q": {
+        "min": 9.226548967735303,
+        "p05": 12.658328579841086,
+        "median": 14.448939718326738,
+        "p95": 16.295432196125358,
+        "max": 18.69591679562208
+      },
+      "child_q": {
+        "min": 10.274898168547141,
+        "p05": 13.47515881039334,
+        "median": 15.267950465505933,
+        "p95": 16.82631850624265,
+        "max": 18.69591679562208
+      },
+      "parent_scaled_radius": {
+        "min": 2.9181561259961843,
+        "p05": 3.2330191474043457,
+        "median": 3.364963550670535,
+        "p95": 3.4849721626919914,
+        "max": 3.622166792526515
+      },
+      "child_scaled_radius": {
+        "min": 3.025210680779585,
+        "p05": 3.295369050374993,
+        "median": 3.4199738035818,
+        "p95": 3.5169732538937573,
+        "max": 3.622166792526515
+      },
+      "radial_order_fraction": 0.7669270833333334,
+      "official_fp32": {
+        "satisfied_count": 0,
+        "satisfied_fraction": 0.0,
+        "valid_only_satisfied_count": 0,
+        "valid_only_satisfied_fraction": 0.0,
+        "mean_violation": 2.851351261138916,
+        "aperture_degrees": {
+          "min": 0.6129345893859863,
+          "p05": 0.7032303720712662,
+          "median": 0.793104737997055,
+          "p95": 0.9053037703037263,
+          "max": 1.2420735359191895
+        },
+        "exterior_angle_degrees": {
+          "min": 153.966552734375,
+          "p05": 159.59242401123046,
+          "median": 163.92031860351562,
+          "p95": 168.90306549072267,
+          "max": 171.57763671875
+        },
+        "signed_violation": {
+          "min": 2.6697728633880615,
+          "p05": 2.770757281780243,
+          "median": 2.8474104404449463,
+          "p95": 2.9337393641471863,
+          "max": 2.9810006618499756
+        }
+      },
+      "official_fp64": {
+        "satisfied_count": 0,
+        "satisfied_fraction": 0.0,
+        "valid_only_satisfied_count": 0,
+        "valid_only_satisfied_fraction": 0.0,
+        "mean_violation": 2.8513513061282314,
+        "aperture_degrees": {
+          "min": 0.612934609817782,
+          "p05": 0.7032304189189361,
+          "median": 0.7931046895530995,
+          "p95": 0.9053037872856486,
+          "max": 1.2420736630018405
+        },
+        "exterior_angle_degrees": {
+          "min": 153.96655925043422,
+          "p05": 159.59243149265507,
+          "median": 163.92030135276894,
+          "p95": 168.9030887435504,
+          "max": 171.57761200753282
+        },
+        "signed_violation": {
+          "min": 2.669772827622441,
+          "p05": 2.770757103151001,
+          "median": 2.84741066657121,
+          "p95": 2.9337388773899917,
+          "max": 2.9810000581705394
+        }
+      },
+      "legal_domain_implementation_comparison": {
+        "count": 18432,
+        "max_energy_difference": 1.499409485461456e-10,
+        "membership_agreement": 1.0
+      }
+    }
+  },
+  "subset9_lambda0p1": {
+    "checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_ablation_20261016/b_9pairs_lambda0p1/last.pt",
+    "checkpoint_sha256": "ee88c1600a37b50d292751f4b0d5cab1e8670cb878613dc7aeadb57100b3f169",
+    "all_edges": {
+      "count": 18432,
+      "valid_pair_count": 18432,
+      "parent_domain_invalid_fraction": 0.0,
+      "child_domain_invalid_fraction": 0.0,
+      "parent_q": {
+        "min": 3.368221585312137,
+        "p05": 4.735226235223076,
+        "median": 5.872013268193748,
+        "p95": 7.94836964268178,
+        "max": 9.091857679273245
+      },
+      "child_q": {
+        "min": 4.140832450396536,
+        "p05": 6.373758230278951,
+        "median": 7.762374512236498,
+        "p95": 25.949348873777765,
+        "max": 26.471986921636105
+      },
+      "parent_scaled_radius": {
+        "min": 1.928873698180808,
+        "p05": 2.2591442856689437,
+        "median": 2.4705175908932375,
+        "p95": 2.770047890138364,
+        "max": 2.903537173114665
+      },
+      "child_scaled_radius": {
+        "min": 2.1283153408880464,
+        "p05": 2.5514343017674594,
+        "median": 2.74655894479063,
+        "p95": 3.94966475932286,
+        "max": 3.9695908187981224
+      },
+      "radial_order_fraction": 0.9912109375,
+      "official_fp32": {
+        "satisfied_count": 0,
+        "satisfied_fraction": 0.0,
+        "valid_only_satisfied_count": 0,
+        "valid_only_satisfied_fraction": 0.0,
+        "mean_violation": 2.2043352127075195,
+        "aperture_degrees": {
+          "min": 1.2604771852493286,
+          "p05": 1.4418510973453522,
+          "median": 1.9518641233444214,
+          "p95": 2.420701026916504,
+          "max": 3.4041404724121094
+        },
+        "exterior_angle_degrees": {
+          "min": 15.96895980834961,
+          "p05": 23.876945781707764,
+          "median": 141.47710418701172,
+          "p95": 154.77853088378907,
+          "max": 161.77249145507812
+        },
+        "signed_violation": {
+          "min": 0.25150424242019653,
+          "p05": 0.38972993940114975,
+          "median": 2.431016445159912,
+          "p95": 2.670102834701538,
+          "max": 2.7909207344055176
+        }
+      },
+      "official_fp64": {
+        "satisfied_count": 0,
+        "satisfied_fraction": 0.0,
+        "valid_only_satisfied_count": 0,
+        "valid_only_satisfied_fraction": 0.0,
+        "mean_violation": 2.2043344007751866,
+        "aperture_degrees": {
+          "min": 1.2604773055863436,
+          "p05": 1.441851092471857,
+          "median": 1.9518642237999633,
+          "p95": 2.42070074542011,
+          "max": 3.4041407556328513
+        },
+        "exterior_angle_degrees": {
+          "min": 15.968304525230762,
+          "p05": 23.878458364754433,
+          "median": 141.4771106553317,
+          "p95": 154.77852233150918,
+          "max": 161.7725060646466
+        },
+        "signed_violation": {
+          "min": 0.2514927924812844,
+          "p05": 0.38981946095691794,
+          "median": 2.431016587095415,
+          "p95": 2.6701025019763867,
+          "max": 2.7909200897395503
+        }
+      },
+      "legal_domain_implementation_comparison": {
+        "count": 18432,
+        "max_energy_difference": 2.981532021273381e-09,
+        "membership_agreement": 1.0
+      }
+    }
+  },
+  "subset21_lambda1": {
+    "checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_ablation_20261016/a_21pairs_lambda1/last.pt",
+    "checkpoint_sha256": "a76839bbf7f13221a3dc50dfc4753d9130e40bdd5d5f3caf4a53393c75576427",
+    "all_edges": {
+      "count": 18432,
+      "valid_pair_count": 18432,
+      "parent_domain_invalid_fraction": 0.0,
+      "child_domain_invalid_fraction": 0.0,
+      "parent_q": {
+        "min": 0.7503616528726538,
+        "p05": 0.7978639727715798,
+        "median": 0.8427310260833958,
+        "p95": 1.8700537289749048,
+        "max": 2.012666779687241
+      },
+      "child_q": {
+        "min": 1.6541337867638857,
+        "p05": 1.7323292520238833,
+        "median": 1.8468913524748796,
+        "p95": 27.146690393959624,
+        "max": 27.26598500045906
+      },
+      "parent_scaled_radius": {
+        "min": 0.6934364777461742,
+        "p05": 0.730999429892849,
+        "median": 0.7656889757232513,
+        "p95": 1.3839643105419437,
+        "max": 1.4492859227228496
+      },
+      "child_scaled_radius": {
+        "min": 1.2773296687292173,
+        "p05": 1.317097110759871,
+        "median": 1.3729890516727412,
+        "p95": 3.994741385594535,
+        "max": 3.999123243065104
+      },
+      "radial_order_fraction": 1.0,
+      "official_fp32": {
+        "satisfied_count": 0,
+        "satisfied_fraction": 0.0,
+        "valid_only_satisfied_count": 0,
+        "valid_only_satisfied_fraction": 0.0,
+        "mean_violation": 0.771594762802124,
+        "aperture_degrees": {
+          "min": 5.702930927276611,
+          "p05": 6.1394569158554075,
+          "median": 13.728632926940918,
+          "p95": 14.517120504379273,
+          "max": 15.458369255065918
+        },
+        "exterior_angle_degrees": {
+          "min": 19.4876766204834,
+          "p05": 36.47407684326172,
+          "median": 54.66643142700195,
+          "p95": 78.32835922241212,
+          "max": 106.6249771118164
+        },
+        "signed_violation": {
+          "min": 0.16880445182323456,
+          "p05": 0.43326579332351683,
+          "median": 0.7604052126407623,
+          "p95": 1.1515169680118562,
+          "max": 1.619997262954712
+        }
+      },
+      "official_fp64": {
+        "satisfied_count": 0,
+        "satisfied_fraction": 0.0,
+        "valid_only_satisfied_count": 0,
+        "valid_only_satisfied_fraction": 0.0,
+        "mean_violation": 0.7715947220051361,
+        "aperture_degrees": {
+          "min": 5.7029306649577,
+          "p05": 6.139456823867393,
+          "median": 13.728633293873473,
+          "p95": 14.517120987120805,
+          "max": 15.458369225059084
+        },
+        "exterior_angle_degrees": {
+          "min": 19.487815578735106,
+          "p05": 36.47403049195738,
+          "median": 54.666375091150684,
+          "p95": 78.3283552793692,
+          "max": 106.62498239542698
+        },
+        "signed_violation": {
+          "min": 0.1688080961617351,
+          "p05": 0.43326536467988536,
+          "median": 0.7604042862767623,
+          "p95": 1.1515168086349106,
+          "max": 1.6199972828786142
+        }
+      },
+      "legal_domain_implementation_comparison": {
+        "count": 18432,
+        "max_energy_difference": 4.517718910079793e-08,
+        "membership_agreement": 1.0
+      }
+    }
+  },
+  "subset21_lambda0p1": {
+    "checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/h1_frozen/last.pt",
+    "checkpoint_sha256": "7b60d5748528a480c72e6f800abe93fba7820891d7a12bd465bb30bdfa3290e9",
+    "epoch": 25,
+    "all_edges": {
+      "count": 18432,
+      "valid_pair_count": 18432,
+      "parent_domain_invalid_fraction": 0.0,
+      "child_domain_invalid_fraction": 0.0,
+      "parent_q": {
+        "min": 2.043372996256983,
+        "p05": 2.5254717208479405,
+        "median": 2.956671825993535,
+        "p95": 4.667306565652592,
+        "max": 5.387862775434597
+      },
+      "child_q": {
+        "min": 2.9947644643193483,
+        "p05": 3.9349609731389235,
+        "median": 4.577822180745515,
+        "p95": 26.723514777089484,
+        "max": 26.965314325068448
+      },
+      "parent_scaled_radius": {
+        "min": 1.462865894770611,
+        "p05": 1.6566497833556795,
+        "median": 1.8046551026317807,
+        "p95": 2.245013105882117,
+        "max": 2.3857988592678163
+      },
+      "child_scaled_radius": {
+        "min": 1.8167895359826989,
+        "p05": 2.0788163595204137,
+        "median": 2.2260920755219,
+        "p95": 3.9790409463121983,
+        "max": 3.9880422072161585
+      },
+      "radial_order_fraction": 1.0,
+      "official_fp32": {
+        "satisfied_count": 0,
+        "satisfied_fraction": 0.0,
+        "valid_only_satisfied_count": 0,
+        "valid_only_satisfied_fraction": 0.0,
+        "mean_violation": 1.8216569423675537,
+        "aperture_degrees": {
+          "min": 2.1273353099823,
+          "p05": 2.455948758125305,
+          "median": 3.878655791282654,
+          "p95": 4.542187881469727,
+          "max": 5.6169538497924805
+        },
+        "exterior_angle_degrees": {
+          "min": 50.76283264160156,
+          "p05": 77.8015510559082,
+          "median": 110.07068252563477,
+          "p95": 126.96317863464355,
+          "max": 142.06570434570312
+        },
+        "signed_violation": {
+          "min": 0.8401127457618713,
+          "p05": 1.3094090402126313,
+          "median": 1.8596554398536682,
+          "p95": 2.1523224115371704,
+          "max": 2.413114547729492
+        }
+      },
+      "official_fp64": {
+        "satisfied_count": 0,
+        "satisfied_fraction": 0.0,
+        "valid_only_satisfied_count": 0,
+        "valid_only_satisfied_fraction": 0.0,
+        "mean_violation": 1.8216569298375371,
+        "aperture_degrees": {
+          "min": 2.127335020088584,
+          "p05": 2.45594874984811,
+          "median": 3.8786559529403215,
+          "p95": 4.54218809028676,
+          "max": 5.616953739507256
+        },
+        "exterior_angle_degrees": {
+          "min": 50.76293012559261,
+          "p05": 77.8015710321412,
+          "median": 110.07067799804899,
+          "p95": 126.96317726562678,
+          "max": 142.0657053298898
+        },
+        "signed_violation": {
+          "min": 0.8401144361035658,
+          "p05": 1.3094073309152519,
+          "median": 1.8596555888088218,
+          "p95": 2.1523223181859112,
+          "max": 2.413114389454936
+        }
+      },
+      "legal_domain_implementation_comparison": {
+        "count": 18432,
+        "max_energy_difference": 1.0414384910006902e-09,
+        "membership_agreement": 1.0
+      }
+    }
+  }
+}

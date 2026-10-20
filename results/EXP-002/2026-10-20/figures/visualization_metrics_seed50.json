@@ -1,0 +1,252 @@
+{
+  "subset9_lambda0": {
+    "horopca": {
+      "distance_spearman": 0.39235939269103703,
+      "knn10_retention": 0.15416666666666667,
+      "radial_spearman": 0.6034567518490632,
+      "radial_rmse": 0.9006637586215861,
+      "max_ball_norm": 0.8747286966115664,
+      "seconds": 5.925579095026478,
+      "details": {
+        "steps": 500,
+        "loss_initial": -0.33983900248208937,
+        "loss_final": -5.845012485007653,
+        "origin_projection": [
+          [
+            3.057250738555731e-16,
+            4.738899301687284e-17
+          ]
+        ],
+        "centering": "none: preserve the learned origin"
+      }
+    },
+    "cosne": {
+      "distance_spearman": 0.16971191384895623,
+      "knn10_retention": 0.4029761904761905,
+      "radial_spearman": 0.2897430205170917,
+      "radial_rmse": 0.7401422705539676,
+      "max_ball_norm": 0.9999900000000002,
+      "seconds": 38.177154838107526,
+      "details": {
+        "settings": {
+          "n_components": 2,
+          "method": "exact",
+          "metric": "precomputed",
+          "square_distances": true,
+          "learning_rate": 5.0,
+          "learning_rate_for_h_loss": 0.1,
+          "student_t_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "n_iter": 1000,
+          "perplexity": 20,
+          "init": "random",
+          "random_state": 50,
+          "verbose": 0
+        },
+        "iterations": 1000,
+        "error": 1.4984533065484704,
+        "ball_projection": "radial correction; original negative-quadrant update could leave ball"
+      }
+    }
+  },
+  "subset9_lambda0p1": {
+    "horopca": {
+      "distance_spearman": 0.5987279717763191,
+      "knn10_retention": 0.13095238095238096,
+      "radial_spearman": 0.9353751589656635,
+      "radial_rmse": 0.8779964219930543,
+      "max_ball_norm": 0.9199752038847288,
+      "seconds": 5.467008684994653,
+      "details": {
+        "steps": 500,
+        "loss_initial": -0.628757271540264,
+        "loss_final": -3.273856657721308,
+        "origin_projection": [
+          [
+            2.8794757769565064e-16,
+            3.3270461095036e-16
+          ]
+        ],
+        "centering": "none: preserve the learned origin"
+      }
+    },
+    "cosne": {
+      "distance_spearman": 0.5072964530600597,
+      "knn10_retention": 0.2889880952380952,
+      "radial_spearman": 0.9062861824830911,
+      "radial_rmse": 0.7551924381541484,
+      "max_ball_norm": 0.99999,
+      "seconds": 38.44465019903146,
+      "details": {
+        "settings": {
+          "n_components": 2,
+          "method": "exact",
+          "metric": "precomputed",
+          "square_distances": true,
+          "learning_rate": 5.0,
+          "learning_rate_for_h_loss": 0.1,
+          "student_t_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "n_iter": 1000,
+          "perplexity": 20,
+          "init": "random",
+          "random_state": 50,
+          "verbose": 0
+        },
+        "iterations": 1000,
+        "error": 1.8250538535054313,
+        "ball_projection": "radial correction; original negative-quadrant update could leave ball"
+      }
+    }
+  },
+  "subset21_lambda1": {
+    "horopca": {
+      "distance_spearman": 0.7904899367220103,
+      "knn10_retention": 0.16904761904761906,
+      "radial_spearman": 0.8524697411627745,
+      "radial_rmse": 0.3472998834756487,
+      "max_ball_norm": 0.9557012359777024,
+      "seconds": 4.926109957974404,
+      "details": {
+        "steps": 500,
+        "loss_initial": -2.1706216768337088,
+        "loss_final": -3.352850184571249,
+        "origin_projection": [
+          [
+            -3.5286865905582845e-16,
+            -1.5689710956191578e-16
+          ]
+        ],
+        "centering": "none: preserve the learned origin"
+      }
+    },
+    "cosne": {
+      "distance_spearman": 0.732241490754135,
+      "knn10_retention": 0.16517857142857142,
+      "radial_spearman": 0.6069546291433886,
+      "radial_rmse": 0.6586884865267881,
+      "max_ball_norm": 0.9642485314518765,
+      "seconds": 35.78006070991978,
+      "details": {
+        "settings": {
+          "n_components": 2,
+          "method": "exact",
+          "metric": "precomputed",
+          "square_distances": true,
+          "learning_rate": 5.0,
+          "learning_rate_for_h_loss": 0.1,
+          "student_t_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "n_iter": 1000,
+          "perplexity": 20,
+          "init": "random",
+          "random_state": 50,
+          "verbose": 0
+        },
+        "iterations": 900,
+        "error": 2.605162205910051,
+        "ball_projection": "radial correction; original negative-quadrant update could leave ball"
+      }
+    }
+  },
+  "meru": {
+    "horopca": {
+      "distance_spearman": 0.6136174627839229,
+      "knn10_retention": 0.4114583333333333,
+      "radial_spearman": 0.8676614215952252,
+      "radial_rmse": 0.07833491703475401,
+      "max_ball_norm": 0.11275190149481798,
+      "seconds": 3.623084079939872,
+      "details": {
+        "steps": 500,
+        "loss_initial": -0.0003080775114414166,
+        "loss_final": -0.009639202371999125,
+        "origin_projection": [
+          [
+            4.826755895258347e-16,
+            -1.9850957916591192e-16
+          ]
+        ],
+        "centering": "none: preserve the learned origin"
+      }
+    },
+    "cosne": {
+      "distance_spearman": 0.4418036012453944,
+      "knn10_retention": 0.4635416666666667,
+      "radial_spearman": -0.1958898534997287,
+      "radial_rmse": 0.12567610785552094,
+      "max_ball_norm": 0.11551365423728174,
+      "seconds": 7.849408223992214,
+      "details": {
+        "settings": {
+          "n_components": 2,
+          "method": "exact",
+          "metric": "precomputed",
+          "square_distances": true,
+          "learning_rate": 5.0,
+          "learning_rate_for_h_loss": 0.1,
+          "student_t_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "n_iter": 1000,
+          "perplexity": 20,
+          "init": "random",
+          "random_state": 50,
+          "verbose": 0
+        },
+        "iterations": 1000,
+        "error": 0.9160051175191785,
+        "ball_projection": "radial correction; original negative-quadrant update could leave ball"
+      }
+    }
+  },
+  "subset21_lambda0p1": {
+    "horopca": {
+      "distance_spearman": 0.7307311562155007,
+      "knn10_retention": 0.1425595238095238,
+      "radial_spearman": 0.918297343296236,
+      "radial_rmse": 0.7520217641941165,
+      "max_ball_norm": 0.9319191859623931,
+      "seconds": 8.235178883885965,
+      "details": {
+        "steps": 500,
+        "loss_initial": -1.1128316574705164,
+        "loss_final": -2.7732109465952153,
+        "origin_projection": [
+          [
+            8.095602160623136e-17,
+            -2.4961931707623095e-17
+          ]
+        ],
+        "centering": "none: preserve the learned origin"
+      }
+    },
+    "cosne": {
+      "distance_spearman": 0.6362494317665822,
+      "knn10_retention": 0.3860119047619048,
+      "radial_spearman": 0.9877158295002308,
+      "radial_rmse": 0.03913987956308092,
+      "max_ball_norm": 0.9636383943728816,
+      "seconds": 47.94206122192554,
+      "details": {
+        "settings": {
+          "n_components": 2,
+          "method": "exact",
+          "metric": "precomputed",
+          "square_distances": true,
+          "learning_rate": 5.0,
+          "learning_rate_for_h_loss": 0.1,
+          "student_t_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "n_iter": 1000,
+          "perplexity": 20,
+          "init": "random",
+          "random_state": 50,
+          "verbose": 0
+        },
+        "iterations": 1000,
+        "error": 1.7477000118455135,
+        "ball_projection": "radial correction; original negative-quadrant update could leave ball"
+      }
+    }
+  }
+}

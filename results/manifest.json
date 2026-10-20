@@ -130,6 +130,124 @@
       "source_path": "meru-width-coco/output/geometry_compare_20261017/evaluation_v2/results.csv",
       "bytes": 40033,
       "sha256": "1a974b2eeed9d54732a6636b300006a21802d1d99c0108971f7812d39d6d0fe3"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/geometry_overview_seed50.png",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/geometry_overview_seed50.png",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 774348,
+      "sha256": "0955b6736b187dd62661207d7818d20c3e704ff41268bfd819a8c13edc666428"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/geometry_overview_seed50.pdf",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/geometry_overview_seed50.pdf",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 140072,
+      "sha256": "8b0be229e190e0a03e2eeefba3108a6e61512c35ed9b865e3afc134094a14445"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/cone_audit_comparison.png",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/cone_audit_comparison.png",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 136559,
+      "sha256": "67a9f71af91f59a623327dcf9447b9a10623b60e00d302c0bcdea7c1838bee6c"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/cone_audit_comparison.pdf",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/cone_audit_comparison.pdf",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 20588,
+      "sha256": "60fd63065192e6c3b4f29d90b049690a0c8bb24421c13862ad3ff1962a7c2dca"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/meru_geometry_overview_seed50.png",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/meru_geometry_overview_seed50.png",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 183683,
+      "sha256": "c7447f51f80987584b149222961f4ba7e90fa9447b8015fd19f205497924dd16"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/meru_geometry_overview_seed50.pdf",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/meru_geometry_overview_seed50.pdf",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 34199,
+      "sha256": "b88e926527f2ab53be2073737401ee8dc2c878004bc0836974cec8ef14ad5571"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/meru_cone_audit.png",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/meru_cone_audit.png",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 210633,
+      "sha256": "cfb5de6d16148c0209f6e0122342fa5352b0f92dcc81fb7cff780eefaed1525f"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/meru_cone_audit.pdf",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/meru_cone_audit.pdf",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 28333,
+      "sha256": "3840c8685db00ca4f368e02f7a08dfe9694bc4e828d1dd06994fe50afb007c65"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/subset_cone_audit.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/subset_cone_audit.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 13241,
+      "sha256": "d692e3a3a9468b0f8088783e8e1fa73b8c5e66d29984d99cef59ae69f2669a51"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/meru_cone_audit.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/meru_cone_audit.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 10845,
+      "sha256": "c9e7e3ab8468fea307d7ccc01a5e4e04ccc957b04bcdf22224719afad3e878cc"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/visualization_metrics_seed50.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/visualization_metrics_seed50.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 7755,
+      "sha256": "8cca48b6dba6bd05e7b2f3c26d112a54d034b1a15f7bac336d993f14968d06f4"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/visualization_implementation_checks.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/visualization_implementation_checks.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 312,
+      "sha256": "0f0de366ebd19e7410051f6568d382fc3350b00dcc7485391c6e6bade33a7e5c"
+    },
+    {
+      "experiment_id": "EXP-002",
+      "path": "results/EXP-002/2026-10-20/figures/plot_revision.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/geometry_audit_20261016/plot_revision.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:22:38.606123+00:00",
+      "bytes": 209,
+      "sha256": "78cc87d87351c15e241cbf2921d39d1eb67bcd1a19f14f7e215fed8b9a17c381"
     }
-  ]
+  ],
+  "updated_at": "2026-10-20T09:22:38.606123+00:00"
 }

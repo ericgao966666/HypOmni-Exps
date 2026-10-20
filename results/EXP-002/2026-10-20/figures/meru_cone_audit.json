@@ -1,0 +1,362 @@
+{
+  "checkpoint": "/data-nfs/xiaoboxia/YuxuanGao/meru_width_coco/checkpoints/meru_vit_b.pth",
+  "checkpoint_sha256": "b37dfc515eb3753a8da59ff16231c7c3d89b494bca0345ab48d296235c939651",
+  "curvature": 0.09999999403953552,
+  "official_source_sha256": "bd02210a14a4ca84c9eb24e7aad9b07ad42df5369d68124cf44d5ae07ba496f1",
+  "K": 0.1,
+  "tolerance": 1e-07,
+  "dataset": "COCO val2017, all 25,014 captions paired to 5,000 images; no adaptation",
+  "cache_manifest": {
+    "annotation_path": "/data-nfs/xiaoboxia/YuxuanGao/meru_width_coco/datasets/coco/annotations/captions_val2017.json",
+    "annotation_sha256": "afe3b30e403dd7f228e2373023abbd60042a6e10ec6874d3652df034d289ebb9",
+    "array_dtypes": {
+      "caption_ids": "int64",
+      "image_features": "float32",
+      "image_ids": "int64",
+      "image_offsets": "int64",
+      "text_features": "float32",
+      "text_image_ids": "int64",
+      "unique_image_ids": "int64"
+    },
+    "array_shapes": {
+      "caption_ids": [
+        25014
+      ],
+      "image_features": [
+        5000,
+        768
+      ],
+      "image_ids": [
+        5000
+      ],
+      "image_offsets": [
+        5001
+      ],
+      "text_features": [
+        25014,
+        512
+      ],
+      "text_image_ids": [
+        25014
+      ],
+      "unique_image_ids": [
+        5000
+      ]
+    },
+    "backbone": "meru_vit_b",
+    "caption_policy": {
+      "name": "all"
+    },
+    "checkpoint_path": "/data-nfs/xiaoboxia/YuxuanGao/meru_width_coco/checkpoints/meru_vit_b.pth",
+    "checkpoint_sha256": "b37dfc515eb3753a8da59ff16231c7c3d89b494bca0345ab48d296235c939651",
+    "complete": true,
+    "format_version": 1,
+    "image_archive_path": null,
+    "image_archive_sha256": null,
+    "image_feature_dim": 768,
+    "model_type": "meru",
+    "num_captions": 25014,
+    "num_images": 5000,
+    "official_meru_revision": "6d4430055f58354539f68668175135256f99d47f",
+    "source_num_captions": 25014,
+    "split": "val",
+    "text_feature_dim": 512,
+    "transform": {
+      "interpolation": "bicubic",
+      "name": "squeezed_resize",
+      "size": [
+        224,
+        224
+      ]
+    }
+  },
+  "matched": {
+    "count": 25014,
+    "valid_pair_count": 269,
+    "parent_domain_invalid_fraction": 0.9892460222275525,
+    "child_domain_invalid_fraction": 0.0,
+    "parent_q": {
+      "min": 0.12152410298585892,
+      "p05": 0.16034053266048431,
+      "median": 0.1867586299777031,
+      "p95": 0.1973048374056816,
+      "max": 0.2075856775045395
+    },
+    "child_q": {
+      "min": 0.24734270572662354,
+      "p05": 0.2573545277118683,
+      "median": 0.2640240788459778,
+      "p95": 0.2703155279159546,
+      "max": 0.27800071239471436
+    },
+    "parent_scaled_radius": {
+      "min": 0.1212269589304924,
+      "p05": 0.15966132432222366,
+      "median": 0.18568966537714005,
+      "p95": 0.19604661241173743,
+      "max": 0.2061229944229126
+    },
+    "child_scaled_radius": {
+      "min": 0.24488770961761475,
+      "p05": 0.25459516048431396,
+      "median": 0.2610490322113037,
+      "p95": 0.26712727546691895,
+      "max": 0.27453896403312683
+    },
+    "radial_order_fraction": 1.0,
+    "official_fp32": {
+      "satisfied_count": 12783,
+      "satisfied_fraction": 0.5110338210602063,
+      "valid_only_satisfied_count": 2,
+      "valid_only_satisfied_fraction": 0.007434944237918215,
+      "mean_violation": 0.03201080113649368,
+      "aperture_degrees": {
+        "min": 74.46298217773438,
+        "p05": 90.0,
+        "median": 90.0,
+        "p95": 90.0,
+        "max": 90.0
+      },
+      "exterior_angle_degrees": {
+        "min": 64.0948257446289,
+        "p05": 80.65292854309082,
+        "median": 89.8628044128418,
+        "p95": 97.36732406616211,
+        "max": 107.48876953125
+      },
+      "signed_violation": {
+        "min": -0.45213067531585693,
+        "p05": -0.16313716769218445,
+        "median": -0.0022714734077453613,
+        "p95": 0.1339718401432037,
+        "max": 0.41472768783569336
+      }
+    },
+    "official_fp64": {
+      "satisfied_count": 12768,
+      "satisfied_fraction": 0.5104341568721515,
+      "valid_only_satisfied_count": 2,
+      "valid_only_satisfied_fraction": 0.007434944237918215,
+      "mean_violation": 0.03207805173580507,
+      "aperture_degrees": {
+        "min": 74.4630009658488,
+        "p05": 89.99189715312747,
+        "median": 89.99189715312747,
+        "p95": 89.99189715312747,
+        "max": 89.99189715312747
+      },
+      "exterior_angle_degrees": {
+        "min": 64.09484561843323,
+        "p05": 80.65295728069428,
+        "median": 89.86270907214526,
+        "p95": 97.36723728580073,
+        "max": 107.48868354456475
+      },
+      "signed_violation": {
+        "min": -0.45198881583906525,
+        "p05": -0.16299524941973872,
+        "median": -0.002134147972214673,
+        "p95": 0.13411056926604378,
+        "max": 0.4147284619174654
+      }
+    },
+    "legal_domain_implementation_comparison": {
+      "count": 269,
+      "max_energy_difference": 5.288962493299465e-06,
+      "membership_agreement": 1.0
+    }
+  },
+  "mismatched": {
+    "count": 25014,
+    "valid_pair_count": 269,
+    "parent_domain_invalid_fraction": 0.9892460222275525,
+    "child_domain_invalid_fraction": 0.0,
+    "parent_q": {
+      "min": 0.12152410298585892,
+      "p05": 0.16034053266048431,
+      "median": 0.1867586299777031,
+      "p95": 0.1973048374056816,
+      "max": 0.2075856775045395
+    },
+    "child_q": {
+      "min": 0.24734270572662354,
+      "p05": 0.2573545277118683,
+      "median": 0.2640240788459778,
+      "p95": 0.2703155279159546,
+      "max": 0.27800071239471436
+    },
+    "parent_scaled_radius": {
+      "min": 0.1212269589304924,
+      "p05": 0.15966132432222366,
+      "median": 0.18568966537714005,
+      "p95": 0.19604661241173743,
+      "max": 0.2061229944229126
+    },
+    "child_scaled_radius": {
+      "min": 0.24488770961761475,
+      "p05": 0.25459516048431396,
+      "median": 0.2610490322113037,
+      "p95": 0.26712727546691895,
+      "max": 0.27453896403312683
+    },
+    "radial_order_fraction": 1.0,
+    "official_fp32": {
+      "satisfied_count": 968,
+      "satisfied_fraction": 0.03869832893579595,
+      "valid_only_satisfied_count": 0,
+      "valid_only_satisfied_fraction": 0.0,
+      "mean_violation": 0.2000216841697693,
+      "aperture_degrees": {
+        "min": 74.46298217773438,
+        "p05": 90.0,
+        "median": 90.0,
+        "p95": 90.0,
+        "max": 90.0
+      },
+      "exterior_angle_degrees": {
+        "min": 72.07136535644531,
+        "p05": 91.0060905456543,
+        "median": 102.076171875,
+        "p95": 108.673579788208,
+        "max": 116.93106079101562
+      },
+      "signed_violation": {
+        "min": -0.31291377544403076,
+        "p05": 0.017559564113616942,
+        "median": 0.2110975980758667,
+        "p95": 0.32983686327934264,
+        "max": 0.6090085506439209
+      }
+    },
+    "official_fp64": {
+      "satisfied_count": 967,
+      "satisfied_fraction": 0.038658351323258976,
+      "valid_only_satisfied_count": 0,
+      "valid_only_satisfied_fraction": 0.0,
+      "mean_violation": 0.20015546408839724,
+      "aperture_degrees": {
+        "min": 74.4630009658488,
+        "p05": 89.99189715312747,
+        "median": 89.99189715312747,
+        "p95": 89.99189715312747,
+        "max": 89.99189715312747
+      },
+      "exterior_angle_degrees": {
+        "min": 72.07105319096303,
+        "p05": 91.00608187034109,
+        "median": 102.07605001168795,
+        "p95": 108.67343718551633,
+        "max": 116.93104686613424
+      },
+      "signed_violation": {
+        "min": -0.31277773187591573,
+        "p05": 0.01770086253878498,
+        "median": 0.21123946033946928,
+        "p95": 0.32997987822914343,
+        "max": 0.6090089318406369
+      }
+    },
+    "legal_domain_implementation_comparison": {
+      "count": 269,
+      "max_energy_difference": 5.281672559753758e-06,
+      "membership_agreement": 1.0
+    }
+  },
+  "reverse": {
+    "count": 25014,
+    "valid_pair_count": 269,
+    "parent_domain_invalid_fraction": 0.0,
+    "child_domain_invalid_fraction": 0.9892460222275525,
+    "parent_q": {
+      "min": 0.24734270572662354,
+      "p05": 0.2573545277118683,
+      "median": 0.2640240788459778,
+      "p95": 0.2703155279159546,
+      "max": 0.27800071239471436
+    },
+    "child_q": {
+      "min": 0.12152410298585892,
+      "p05": 0.16034053266048431,
+      "median": 0.1867586299777031,
+      "p95": 0.1973048374056816,
+      "max": 0.2075856775045395
+    },
+    "parent_scaled_radius": {
+      "min": 0.24488770961761475,
+      "p05": 0.25459516048431396,
+      "median": 0.2610490322113037,
+      "p95": 0.26712727546691895,
+      "max": 0.27453896403312683
+    },
+    "child_scaled_radius": {
+      "min": 0.1212269589304924,
+      "p05": 0.15966132432222366,
+      "median": 0.18568966537714005,
+      "p95": 0.19604661241173743,
+      "max": 0.2061229944229126
+    },
+    "radial_order_fraction": 0.0,
+    "official_fp32": {
+      "satisfied_count": 0,
+      "satisfied_fraction": 0.0,
+      "valid_only_satisfied_count": 0,
+      "valid_only_satisfied_fraction": 0.0,
+      "mean_violation": 1.5125751495361328,
+      "aperture_degrees": {
+        "min": 46.006832122802734,
+        "p05": 47.72086715698242,
+        "median": 49.244876861572266,
+        "p95": 50.9992790222168,
+        "max": 53.95884704589844
+      },
+      "exterior_angle_degrees": {
+        "min": 126.55774688720703,
+        "p05": 131.27310485839843,
+        "median": 135.17327117919922,
+        "p95": 143.25516357421876,
+        "max": 155.41432189941406
+      },
+      "signed_violation": {
+        "min": 1.2705631256103516,
+        "p05": 1.412542462348938,
+        "median": 1.502377986907959,
+        "p95": 1.6482880771160124,
+        "max": 1.8799562454223633
+      }
+    },
+    "official_fp64": {
+      "satisfied_count": 0,
+      "satisfied_fraction": 0.0,
+      "valid_only_satisfied_count": 0,
+      "valid_only_satisfied_fraction": 0.0,
+      "mean_violation": 1.5125752747687498,
+      "aperture_degrees": {
+        "min": 46.00683181561958,
+        "p05": 47.72085961609326,
+        "median": 49.24487744431203,
+        "p95": 50.99928380906749,
+        "max": 53.95886070551245
+      },
+      "exterior_angle_degrees": {
+        "min": 126.55760981351848,
+        "p05": 131.27301553870691,
+        "median": 135.17323818969743,
+        "p95": 143.2551779221158,
+        "max": 155.41429476878426
+      },
+      "signed_violation": {
+        "min": 1.2705607764039524,
+        "p05": 1.4125416141077174,
+        "median": 1.5023776401957358,
+        "p95": 1.648287248222926,
+        "max": 1.8799555046829304
+      }
+    },
+    "legal_domain_implementation_comparison": {
+      "count": 269,
+      "max_energy_difference": 2.659616549216537e-08,
+      "membership_agreement": 1.0
+    }
+  },
+  "local_dtype_aware_patch_satisfied_fraction": 0.5041176940913089
+}
