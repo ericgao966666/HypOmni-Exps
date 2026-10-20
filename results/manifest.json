@@ -3,7 +3,7 @@
   "snapshot_date": "2026-10-20",
   "captured_at": "2026-10-20T08:29:02.495116+00:00",
   "source_server": "server-a",
-  "note": "Byte-exact selected historical results. Source paths are relative to that server workspace. Capture time and current repository HEAD are not experiment execution versions. Historical code provenance remains in original run manifests.",
+  "note": "Byte-exact selected historical results. Source paths are relative to the source server workspace unless source_root is dataset_root, in which case they are relative to that server dataset root. Capture time and current repository HEAD are not experiment execution versions. Historical code provenance remains in original run manifests.",
   "files": [
     {
       "experiment_id": "EXP-001",
@@ -247,7 +247,167 @@
       "captured_at": "2026-10-20T09:22:38.606123+00:00",
       "bytes": 209,
       "sha256": "78cc87d87351c15e241cbf2921d39d1eb67bcd1a19f14f7e215fed8b9a17c381"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md",
+      "source_root": "workspace",
+      "source_path": "PMRL-minimal-hyperbolic/ZERO_SHOT_COMPLETE_RESULTS.md",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 16082,
+      "sha256": "c9a8e5f37b3488965bb694d80607ed5285de8698b323e88617d51ff5e1fb16f3"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/MAIN_RESULT_PROTOCOL.md",
+      "source_root": "workspace",
+      "source_path": "PMRL-minimal-hyperbolic/main_results/README.md",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 12816,
+      "sha256": "237cda9c46808e55cc31bb30f4763997f7bc21747772b28592773c4e8ac4bfdf"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/protocol.json",
+      "source_root": "workspace",
+      "source_path": "PMRL-minimal-hyperbolic/main_results/protocol.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 15282,
+      "sha256": "e1c18b280b45a9e5068ce4282334b045646ea55127600c80a70c42eed07b5edd"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/paired_zeroshot.md",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/paired_zeroshot.md",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 588,
+      "sha256": "8073ee3a730587f26a334013ccbee3ff95195ea3964685807f75e1cac54203e4"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/paired_zeroshot.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/paired_zeroshot.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 17342,
+      "sha256": "c156eb8f03b6d1e03e44013af927a8ed9088c1c9e3649b40cb7ec701ba4d3e18"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/external_local.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/external_local.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 34921,
+      "sha256": "b3f8718b92ee09bade522a705b7e99bde74052407cddd53cb6e23b159c27a12c"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/paired_audio_zeroshot.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/paired_audio_zeroshot.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 8236,
+      "sha256": "256e9a6b04794bb8ef8e50653df10a04817d7e820c8a1e7bed13f89b7043f04b"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/external_audio_zeroshot.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/external_audio_zeroshot.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 15607,
+      "sha256": "a0e4974b23b1425bdec944cb65e9580c4b6128929c5562934a5873c6ad4f138d"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/paired_audio_stage1_direct.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/paired_audio_stage1_direct.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 8276,
+      "sha256": "882c43e0793e67724fe194e984ba93760fa1eaa7bcdc5c706e2ac2585b5fc7ed"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/external_audio_stage1_direct.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/external_audio_stage1_direct.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 15591,
+      "sha256": "44ff95a1749aa942b73d4af98d20f58fd063eac1904c708776acd8b125b155ee"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/pmrl_tau1_0p1.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/pmrl_tau1_0p1.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 14629,
+      "sha256": "3f175cd21791262d7a640c5e58daf3ed0b1fefddb7c9044bb651c7585d2c2d8f"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/pmrl_tau1_0p07.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/pmrl_tau1_0p07.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 14658,
+      "sha256": "5269306467f0efd9257ae914c446f134f9f9a7f468cea214ecbabf8da1c2e88c"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/video_top20.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/video_top20.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 107645,
+      "sha256": "47e267cf0267c1c61440ddec639e548f8033ae1910973615b9beaab9e3cf64c1"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p2.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/ours_entailment_0p2.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 15240,
+      "sha256": "efaebc3f79bee8efbd465ca38049c3fc137f775408d5af96fae35eb8e1ce0013"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p3.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/ours_entailment_0p3.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 15259,
+      "sha256": "5daa812fa4d13d18bd8d94c4630d954d3edeaa438059d2f63d22f8bfd7cae92d"
+    },
+    {
+      "experiment_id": "EXP-001",
+      "path": "results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p5.json",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/main_results_vast86707_20260823/results/ours_entailment_0p5.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T09:38:30.903534+00:00",
+      "bytes": 15387,
+      "sha256": "ab65fc59903db43c03752cc0a191c23425970102c6793ac1e34434553fa750f9"
     }
   ],
-  "updated_at": "2026-10-20T09:22:38.606123+00:00"
+  "updated_at": "2026-10-20T09:38:30.903534+00:00"
 }

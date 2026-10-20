@@ -8,7 +8,7 @@
 | 项目 | Hyperbolic-Omnimodal |
 | 状态 | 初版停止；固定预算后续消融已完成 |
 | 实验日期 / 最后核对 | 2026-10-16 / 2026-10-20 |
-| 前序 / 后续 | [Parent 消融](EXP-001-parent-ablation.md) / [机制实验](EXP-003-subset-mechanisms.md) |
+| 前序 / 后续 | [历史 Parent 消融](EXP-001-zero-shot-baselines.md#7-历史-parent-消融) / [机制实验](EXP-003-subset-mechanisms.md) |
 
 ## 要回答的问题
 

@@ -1,0 +1,265 @@
+{
+  "protocol_version": 1,
+  "created_at": "2026-08-23T00:00:00+08:00",
+  "scope": {
+    "stage1": "VAST150K continuous pretraining followed by zero-shot evaluation",
+    "stage2": "dataset-specific finetuning on MSR-VTT, DiDeMo, ActivityNet, and VATEX",
+    "directions": ["text_to_video", "video_to_text"],
+    "primary_metric": "R@1",
+    "secondary_metrics": ["R@5", "R@10", "Ravg"],
+    "seeds": [42, 50, 123],
+    "gpus": [4, 5, 6, 7],
+    "rerank_top_k": 50,
+    "checkpoint_policy": {
+      "main": "final_checkpoint",
+      "appendix": "author_native_best_checkpoint_when_it_uses_test_selection"
+    }
+  },
+  "fairness": {
+    "paired_causal_claim": ["pmrl", "ours"],
+    "paired_fixed": [
+      "repository and parent commit",
+      "VAST base checkpoint",
+      "accepted 86707-sample VAST manifest",
+      "data paths and preprocessing",
+      "global batch size 64",
+      "one epoch / 1360 optimizer steps",
+      "optimizer, base learning rate, warmup, weight decay, and seeds",
+      "ITM weight 0.1",
+      "video-only first-stage candidate scores with native joint-modality ITM reranking",
+      "Top-50 reranking and evaluation splits"
+    ],
+    "paired_intended_difference": [
+      "hyperbolic projection and distance module",
+      "hyperbolic spectral loss",
+      "entailment regularizer",
+      "learning rate for parameters introduced by those modules"
+    ],
+    "ours_tau1_note": "The reused Ours checkpoint records tau1=0.5, but hyperbolic_spectral_pmrl does not read tau1 in its training or retrieval score path. The formal Ours config sets tau1=0.05 for field-level parity; the effective computation is unchanged.",
+    "external_baselines": "method-level reproduction in each official repository; paper hyperparameters take precedence over official config, then official launcher",
+    "reporting_separation": [
+      "published paper numbers",
+      "local VAST-86707 reproductions",
+      "official-code protocol adaptations marked with dagger"
+    ],
+    "known_limitation": "Ours hyperparameters were selected using all four evaluation test sets; all four are therefore test-tuned rather than untouched-test results."
+  },
+  "data": {
+    "vast_manifest": {
+      "path": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/minimal_causal_assets_20260820/vast150k/VASTannotations150k.accepted.json",
+      "samples": 86707,
+      "sha256": "ce83a1b91fce11aed08cdc0080f96f466a668b245ad769610622b9c05a8aa5d9"
+    },
+    "vast_videos": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/minimal_causal_assets_20260820/vast150k/videos",
+    "vast_audio": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/datasets/vast150k/audios",
+    "annotations": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/datasets/annotations",
+    "datasets": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/datasets",
+    "decoded_finetune_audio": {
+      "root": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/decoded_wav",
+      "format": "PCM signed 16-bit WAV with source sample rate and channel count preserved",
+      "reason": "The fixed PMRL torchaudio 2.0.2+cu117 environment exposes only sox_io, whose build cannot decode the valid source MP3 files.",
+      "index_policy": "Each output has an absolute same-ID MP3 provenance link and a same-ID decoded WAV. Main-result loaders recognize the conversion report and require the WAV, so corrupt sources without a decoded file are deterministically excluded before sampling.",
+      "corrupt_source_policy": "Never replace corrupt source audio with silence. A conversion report may be accepted as complete-after-exclusion only when its failure IDs exactly equal the MP3-minus-WAV set; the same WAV-existence filter is used by every method and effective split sizes must still pass preflight minima.",
+      "fairness_policy": "PMRL, Ours, VAST, GRAM, TRIANGLE, and HyperGRAM use the exact same per-dataset decoded directory. HyperGRAM alone needs a recorded Python-3.13 fork compatibility route from librosa to TorchAudio SoundFile for PCM WAV; decoded samples are equivalent and downstream resampling, fbank construction, sampling, model, loss, and scores are unchanged.",
+      "reports": {
+        "msrvtt": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/decoded_wav/msrvtt/_conversion_report.json",
+        "didemo": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/decoded_wav/didemo/_conversion_report.json",
+        "activitynet": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/decoded_wav/activitynet/_conversion_report.json",
+        "vatex": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/decoded_wav/vatex/_conversion_report.json"
+      }
+    },
+    "didemo_audio": {
+      "output": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/didemo/audios",
+      "released_test_audio": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/datasets/didemo/test_audios",
+      "released_test_audio_files": 1016,
+      "released_video_stream_audit_report": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/didemo/audios/extraction_report.json",
+      "released_video_stream_audit_audio": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/didemo/released_video_audio_audit",
+      "released_video_stream_audit": {
+        "annotation_ids": 9366,
+        "real_audio_extracted": 13,
+        "missing_video": 1,
+        "no_audio_or_decode_error": 9352
+      },
+      "official_hash_map": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/didemo/official_source/yfcc100m_hash.txt",
+      "official_hash_map_sha256": "481d9aaf020624d5915200bcf4752fb46d3e1931167e8b46715a5f342577cc4d",
+      "official_hash_map_url": "https://github.com/LisaAnne/LocalizingMoments/blob/master/data/yfcc100m_hash.txt",
+      "official_download_protocol": "https://github.com/LisaAnne/LocalizingMoments/blob/master/download/download_videos_AWS.py",
+      "official_source_report": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/main_result_assets_20260824/didemo/audios/official_source_extraction_report.json",
+      "policy": "Use only released real test audio or real audio extracted from the official raw YFCC100M/AWS video; never synthesize silence; apply the same available-ID filter to every local method.",
+      "minimum_effective_ids": {
+        "train": 8000,
+        "test": 990
+      }
+    }
+  },
+  "initialization": {
+    "checkpoint_dir": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/models/model_weights/pretrain_vast",
+    "checkpoint": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/models/model_weights/pretrain_vast/ckpt/model_step_204994.pt",
+    "checkpoint_sha256": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5"
+  },
+  "sources": {
+    "vast": {
+      "url": "https://github.com/txh-mercury/VAST",
+      "commit": "410ca47acf40d4ab098e345b76159df66bc42239",
+      "checkout": "/home/xiaobo.xia/YuxuanGao/main_result_baselines/VAST",
+      "transport": "GitHub codeload exact-commit snapshot",
+      "archive_sha256": "fced4d749bd8cefe49fef5c9e47ef9db6605e1fe926c24ce0801f9edb4950486",
+      "source_tree_sha256": "a96abd430e0b280cd4dd9b103abf1aa2f92a77b450d71a6322032d29a4491c24"
+    },
+    "gram": {
+      "url": "https://github.com/ispamm/GRAM",
+      "commit": "b70c5c213de7d5bbd5f453e22757583c8d0ad599",
+      "checkout": "/home/xiaobo.xia/YuxuanGao/main_result_baselines/GRAM",
+      "transport": "GitHub codeload exact-commit snapshot",
+      "archive_sha256": "9e3d4dbe47c2a3ba61f6596ec00b807fbd2222d3a31187a1eeed8f64a0aee517",
+      "official_source_tree_sha256": "34f3ed90b07ce6c9d99603c8a13167b4ec82e60a2bd025be4391e1244b5e2f37",
+      "source_tree_sha256": "03291700ddc52c7f2b25308dc4655fe77dbe44350098d39b27c6e90c5f73ce3a"
+    },
+    "pmrl": {
+      "url": "https://github.com/codecraftprompt/PMRL",
+      "commit": "fd34b912e6225b94d1a6db41fee30d743eefe8ae",
+      "checkout": "/home/xiaobo.xia/YuxuanGao/PMRL-minimal-hyperbolic",
+      "transport": "minimal branch from official repository"
+    },
+    "triangle": {
+      "url": "https://github.com/ispamm/TRIANGLE",
+      "commit": "9ce7c32b06edaeb8ddb623d08ffdaa4574c14e08",
+      "checkout": "/home/xiaobo.xia/YuxuanGao/main_result_baselines/TRIANGLE",
+      "transport": "GitHub codeload exact-commit snapshot",
+      "archive_sha256": "94ff2525f8c95cf2452c98521309d6093ba53dccd5b528e7915eb38c380dec42",
+      "official_source_tree_sha256": "9b3bd411b77b59350525903e72085e2b9495c8ec53313469de6ffecb52d06252",
+      "source_tree_sha256": "a7953eb174c721f5f865f3caa27cf1677a2dad6a22d19c5711f00ac58cf2e776"
+    },
+    "hypergram": {
+      "url": "https://github.com/uta-smile/HyperGram",
+      "commit": "fd6e89b1733c48a75835c0bd7ae23b150490d01c",
+      "checkout": "/home/xiaobo.xia/YuxuanGao/main_result_baselines/HyperGram",
+      "transport": "git checkout",
+      "environment_note": "Python 3.13 environment; official pyproject dependencies installed directly because the repository's editable package build has unconfigured flat-layout discovery; open PyTorch bounds resolved to the coherent minimum stack torch/torchaudio 2.8.0, torchvision 0.23.0, xformers 0.0.32.post2",
+      "evaluation_tools_dependency": "/home/xiaobo.xia/YuxuanGao/main_result_baselines/GRAM/evaluation_tools (read-only symlink; HyperGRAM imports this package but does not include it in its repository)",
+      "official_source_tree_sha256": "cfc331d475dbf69a9c63f5291e1a9a2f265dba4250f0a01996b153edff406c11",
+      "source_tree_sha256": "1d45c7967a8d789db153cbe7f0c03f9c78f9e9f1c6ac340cf2a36bbd3415def7"
+    }
+  },
+  "hyperparameters": {
+    "finetune_protocol": {
+      "source": "PMRL paper Section 5.1 default one-epoch setting; uniformly applied for a controlled comparison",
+      "epochs_per_dataset": {
+        "msrvtt": 1,
+        "didemo": 1,
+        "activitynet": 1,
+        "vatex": 1
+      },
+      "scope": "VAST, GRAM, PMRL, HyperGRAM, TRIANGLE, and Ours"
+    },
+    "vast": {
+      "source": "official checkpoint for the published VAST row; local rerun only if a VAST-86707 reproduction row is needed"
+    },
+    "gram": {
+      "source": "GRAM paper",
+      "continuous_pretraining": {
+        "optimizer": "adamw",
+        "learning_rate": 0.0001,
+        "global_batch_size": 256,
+        "epochs": 1
+      },
+      "finetune_epochs": {
+        "msrvtt": 1,
+        "didemo": 1,
+        "activitynet": 1,
+        "vatex": 1
+      }
+    },
+    "pmrl": {
+      "source": "PMRL paper",
+      "base_learning_rate": 0.00002,
+      "global_batch_size": 64,
+      "epochs": 1,
+      "tau1": 0.05,
+      "tau2": 0.1,
+      "lambda_intra": 1.0,
+      "itm_weight": 0.1
+    },
+    "ours": {
+      "source": "completed exploratory search; fixed before main-result execution",
+      "base_learning_rate": 0.00002,
+      "new_module_learning_rate": 0.0001,
+      "global_batch_size": 64,
+      "epochs": 1,
+      "spectral_temperature": 0.03,
+      "entailment_weight": 0.1,
+      "entailment_min_radius": 0.1,
+      "itm_weight": 0.1,
+      "hard_negative_temperature": 0.07,
+      "curvature": 1.0,
+      "radius_multiplier_bound": 3.0
+    },
+    "triangle": {
+      "source": "TRIANGLE official code with the user-selected one-epoch main-result schedule",
+      "continuous_pretraining": {
+        "optimizer": "adamw",
+        "learning_rate": 0.0001,
+        "global_batch_size": 256,
+        "epochs": 1,
+        "train_video_frames": 1,
+        "test_video_frames": 8
+      },
+      "finetune_note": "dagger: official-code protocol adaptation because the paper does not report the four-dataset finetuning table"
+    },
+    "hypergram": {
+      "source": "HyperGRAM paper, then exact official config where the paper omits a value",
+      "continuous_pretraining": {
+        "optimizer": "adamw",
+        "learning_rate": 0.00005,
+        "global_batch_size": 128,
+        "epochs": 1,
+        "curvature_init": 1.0,
+        "learn_curvature": true,
+        "initial_euclidean_weight": 0.5,
+        "initial_hyperbolic_weight": 0.5,
+        "itm_weight": 0.1
+      },
+      "finetune_note": "dagger: only MSR-VTT Stage-2 is released; other datasets use the official optimization path plus GRAM dataset schedules"
+    }
+  },
+  "reused_ours_checkpoints": {
+    "42": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/outputs/minimal_hyperbolic_search_20260821/train/entailment/temp0p03_lr0p0001_ent0p1/seed-42/ckpt/model_step_1360.pt",
+    "50": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/outputs/minimal_hyperbolic_search_20260821/train/entailment/temp0p03_lr0p0001_ent0p1/seed-50/ckpt/model_step_1360.pt",
+    "123": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/outputs/minimal_hyperbolic_search_20260821/train/entailment/temp0p03_lr0p0001_ent0p1/seed-123/ckpt/model_step_1360.pt"
+  },
+  "reused_ours_training_code": {
+    "search_tracked_diff": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/outputs/minimal_hyperbolic_search_20260821/protocol/tracked.diff",
+    "model_diff_sha256": "4ddfcd88db788d94ea0ada80d70a8c7956ef889b1244c4bcc9a93eb35579f381"
+  },
+  "official_runtime_adaptation": {
+    "scope": ["gram", "triangle", "hypergram"],
+    "patch": "/home/xiaobo.xia/YuxuanGao/PMRL-minimal-hyperbolic/main_results/official_runtime_gradient_accumulation.patch",
+    "vast_wav_loader_patch": "/home/xiaobo.xia/YuxuanGao/PMRL-minimal-hyperbolic/main_results/official_runtime_vast_wav_loader.patch",
+    "hypergram_py313_audio_patch": "/home/xiaobo.xia/YuxuanGao/PMRL-minimal-hyperbolic/main_results/official_runtime_hypergram_py313_audio.patch",
+    "reason": "The official dataloader divides by gradient_accumulation_steps but the official training loop updates every micro-batch, and it does not save the actual final checkpoint. The common pipeline patch performs one optimizer update per configured accumulation window and explicitly saves the final step. GRAM, TRIANGLE, and HyperGRAM also incorrectly prefilter the released VAST150K WAV audio as MP3; the identical loader patch changes only that existence-check suffix to WAV. VAST has no suffix prefilter and PMRL already checks WAV. HyperGRAM's Python-3.13 environment also requires PCM WAV reads to use TorchAudio SoundFile because librosa 1.x rejects the repository's forked DataLoader workers; waveform equality was verified and all downstream audio processing is unchanged. Model, loss, score, and sampling code are unchanged.",
+    "hypergram_audio_mapper_sha256": {
+      "official": "f44f213e0361ef411fa06b2c38e47a1e20193a439b92679e2e8d61d7e7133c61",
+      "execution": "9c7cc4bfe813ade06aecc73c04c41dce27605b51f21754d20e12ff921567b7bc"
+    },
+    "stage1_accumulation_steps": {
+      "gram": 4,
+      "triangle": 4,
+      "hypergram": 2
+    },
+    "pipeline_sha256": {
+      "gram": {
+        "official": "9a60c3af134b50bc6c07904698870308b2b0d923ae5818fd0c6830046e07b42e",
+        "execution": "ece73c7252b39499e46069c10f21590990f94e6af9797b94f3ecf061b755fbc8"
+      },
+      "triangle": {
+        "official": "eebe18a8f06b02ab1fad678ec390216d512431924d6bcc8d77c12dadc6e32807",
+        "execution": "18e86a2dd3aab736622e4156981481c620f36cafb313bcdfea9856d4e6356d6b"
+      },
+      "hypergram": {
+        "official": "daf078023139be050e4d57fe3e4fb22d3ea187ac6a105c1663716cb04cd1e4b6",
+        "execution": "ea13e251df9dc8487c930f671862c8e94c3ac533468ed42892618c028b69660b"
+      }
+    }
+  },
+  "output_root": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/outputs/main_results_vast86707_20260823"
+}
