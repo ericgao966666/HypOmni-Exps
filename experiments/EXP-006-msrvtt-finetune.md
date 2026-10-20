@@ -40,6 +40,14 @@ Ours 相对 VAST 的 macro 提升 3.88 pp，条件样本 bootstrap 区间 [2.70,
 
 几何测量中八类边半径顺序正确率 100%，A→TA 为 99.77%，但九类边的严格锥满足率均为 0%。平均 exterior angle 为 30.19°–146.08°，平均 aperture 仅 1.79°–2.91°，显示径向顺序与角度包含没有共同学成。
 
+## 训练曲线
+
+![MSRVTT 四模型验证集平均 R@1 训练曲线和微调前后测试表现](../results/EXP-006/2026-10-20/training_comparison.png)
+
+[打开原图](../results/EXP-006/2026-10-20/training_comparison.png) · [下载矢量 PDF](../results/EXP-006/2026-10-20/training_comparison.pdf) · [选模与结果汇总](../results/EXP-006/2026-10-20/comparison.json)
+
+左图是 500 个验证视频上随 epoch 变化的六方向 macro R@1，黑圈为验证选中的 checkpoint；右图是相同 884 个测试视频上微调前后的 macro R@1。图版对应四种方法均完成十轮预算后的结果。各模型的绝对训练 loss 不在这张图中。
+
 ## 结果位置
 
 - [最终结果表](../results/EXP-006/2026-10-20/comparison.csv)
@@ -55,3 +63,4 @@ Ours 相对 VAST 的 macro 提升 3.88 pp，条件样本 bootstrap 区间 [2.70,
 
 - 2026-10-17：初始早停结果保存，随后补足统一十轮预算并重算报告与 bootstrap。
 - 2026-10-20：补录；当前主表使用完整预算版本。
+- 2026-10-20：补入已有训练对比 PNG/PDF 与机器可读汇总，供本页和 EXP-004 共用。
