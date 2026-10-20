@@ -1,0 +1,60 @@
+{
+  "directions": {
+    "t2v": {
+      "R@1": 36.71875,
+      "R@5": 59.765625,
+      "R@10": 68.603515625,
+      "median_rank": 3.0
+    },
+    "t2a": {
+      "R@1": 6.884765625,
+      "R@5": 18.9453125,
+      "R@10": 27.294921875,
+      "median_rank": 42.0
+    },
+    "v2t": {
+      "R@1": 36.42578125,
+      "R@5": 59.814453125,
+      "R@10": 69.43359375,
+      "median_rank": 3.0
+    },
+    "v2a": {
+      "R@1": 18.505859375,
+      "R@5": 40.33203125,
+      "R@10": 50.78125,
+      "median_rank": 10.0
+    },
+    "a2t": {
+      "R@1": 6.54296875,
+      "R@5": 18.798828125,
+      "R@10": 26.611328125,
+      "median_rank": 43.0
+    },
+    "a2v": {
+      "R@1": 18.017578125,
+      "R@5": 40.0390625,
+      "R@10": 51.025390625,
+      "median_rank": 10.0
+    }
+  },
+  "macro": {
+    "R@1": 20.515950520833332,
+    "R@5": 39.615885416666664,
+    "R@10": 48.958333333333336
+  },
+  "geodesic_lorentz_rank_equivalence": {
+    "t2v": true,
+    "t2a": true,
+    "v2t": true,
+    "v2a": true,
+    "a2t": true,
+    "a2v": true
+  },
+  "model": "ours",
+  "n": 2048,
+  "checkpoint": null,
+  "checkpoint_sha256": null,
+  "manifest_sha256": "1759eee7ddf78afb12cc24ee429ebe53f4ed402cfe667841385a6e68f57560dc",
+  "scoring": "negative_geodesic_c1",
+  "protocol": "Fixed VAST test cohort; 2 frames, 1 audio window, first caption; no ITM, no training. Author pretraining overlap not excluded."
+}

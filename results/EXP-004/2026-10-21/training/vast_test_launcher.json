@@ -1,0 +1,30 @@
+{
+  "pid": 337786,
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/PMRL/.venv/bin/python",
+    "-B",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/source/experiments/subset_hierarchy/mechanisms.py",
+    "--suite",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016",
+    "--output",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/test/minimal9_B1_standard_s50",
+    "--experiment-config",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/test/minimal9_B1_standard_s50/config.json",
+    "--seed",
+    "50",
+    "--input",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/warmup/last.pt",
+    "--resume",
+    "--evaluate-checkpoint",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/last.pt",
+    "--eval-split",
+    "test"
+  ],
+  "gpu": 0,
+  "started": 1792147652.2266686,
+  "allocator_cap_gib": 2,
+  "gpu_headroom_gib": 8,
+  "sharing_authorized": true,
+  "source_manifest_sha256": "7b3731ccce41bc0260c5f6a64492d22f40490b5597c2581c72706cb3c35b9996",
+  "controller_sha256": "1199a7767cf6e328e3849d74a9ee402ee407da8b82a39f5fbc7aae13407a9913"
+}

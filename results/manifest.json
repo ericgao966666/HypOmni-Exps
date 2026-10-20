@@ -3,7 +3,7 @@
   "snapshot_date": "2026-10-20",
   "captured_at": "2026-10-20T08:29:02.495116+00:00",
   "source_server": "server-a",
-  "note": "Selected historical results. Original artifacts are byte-exact copies; entries with derivation record reproducible display previews and the source digest. Source paths are relative to the source server workspace unless source_root is dataset_root. Capture time and current repository HEAD are not experiment execution versions. Historical code provenance remains in original run manifests.",
+  "note": "Selected historical results. Original artifacts are byte-exact copies; entries with derivation record reproducible display previews or metadata extracts and their source digests. Source paths are relative to the source server workspace unless source_root is dataset_root. Capture time and current repository HEAD are not experiment execution versions. Historical code provenance remains in original run manifests.",
   "files": [
     {
       "experiment_id": "EXP-001",
@@ -628,7 +628,173 @@
       "captured_at": "2026-10-20T15:43:13.136512+00:00",
       "bytes": 1016,
       "sha256": "73eabc408f2ff5e919884328fe3bcff3857863ba8e0fb0b2cadb9b5b25d45fe5"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/base_protocol.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/protocol.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 4089,
+      "sha256": "2d4a1bb2f0af14c954bcf1a3438e23164e894992b052898acc27896e2025cc01"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/warmup_done.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/warmup/DONE.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 382,
+      "sha256": "1f79b7ff47a3f1123a56b3f4954635558d4a6d6d3eeeb134c4ebcb6c6534e5f4"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/main_done.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/DONE.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 17911,
+      "sha256": "86d75019062fbbb03cfaba851d9c50921ebbe29042c4d96f076b16d96e04e469"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/main_experiment.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/experiment.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 810,
+      "sha256": "450e5c5190ca465e3c2d3a9107fe4016834d22f72e13bba882aca28d0f826621"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/main_config.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/config.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 290,
+      "sha256": "9d20ea512da6e3c7ef8f01645fc1a38e7baf9b1f22516e1fe1a2cae32672e1b7"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/vast_test_launcher.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/test/minimal9_B1_standard_s50/launcher.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 1306,
+      "sha256": "d137740e2b239414413ec80af63ff5d7c43bcff2aaadf7aebdb845598b439431"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/vast_head_test_metrics.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/test/minimal9_B1_standard_s50/test_metrics.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 16244,
+      "sha256": "b440d8df2ce4c8345f59ec5f96b7fae90b19b65d5dc289ff2e4302a52b5bd708"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/vast_ours_metrics.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/author_unimodal_20261016/ours9_lambda0p1/metrics.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 1381,
+      "sha256": "f897713935ca72d8a64bfd6edc03215e36ce9dbf534e03e0d5a1161e79790c33"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/vast_comparison_report.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/author_unimodal_20261016/comparison.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 8037,
+      "sha256": "e5a43fa2c19664e18e86d005fe31cf480a01b14970330771811dff5c1e77edeb"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/msrvtt_ours_metrics.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_author_unimodal_20261016/ours/metrics.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 2215,
+      "sha256": "833d2a1a96d74447dcba763d520da879de44cb2e6ae1544193eae106818f6b30"
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/checkpoint_audit.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 2760,
+      "sha256": "40017c98635080d421810f88dca684c6f50c6fdcfeaefdad4d080c820b920e4c",
+      "derivation": {
+        "operation": "cross_check_saved_metadata",
+        "checkpoint_inspection": "Static pickle opcode inspection inside Torch ZIP without unpickling or loading tensors",
+        "sources": [
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/best.pt",
+            "sha256": "9e1c3caf277b73e98fcef9a3f4805de2f06f63f24525a2fa70bba1287a238be5"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/last.pt",
+            "sha256": "e27b3dcbeb4b1a82c15e4acd32527273b92f8fdfe242e2095f53dd5df74f22ef"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/metrics.jsonl",
+            "sha256": "e89dd1c53f269df40856271ba307ba90d4843f0d8dac3757343d0911eaae0e30"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/test/minimal9_B1_standard_s50/launcher.json",
+            "sha256": "d137740e2b239414413ec80af63ff5d7c43bcff2aaadf7aebdb845598b439431"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/author_unimodal_20261016/comparison.json",
+            "sha256": "e5a43fa2c19664e18e86d005fe31cf480a01b14970330771811dff5c1e77edeb"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_author_unimodal_20261016/ours/metrics.json",
+            "sha256": "833d2a1a96d74447dcba763d520da879de44cb2e6ae1544193eae106818f6b30"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/protocol.json",
+            "sha256": "2d4a1bb2f0af14c954bcf1a3438e23164e894992b052898acc27896e2025cc01"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/warmup/DONE.json",
+            "sha256": "1f79b7ff47a3f1123a56b3f4954635558d4a6d6d3eeeb134c4ebcb6c6534e5f4"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/warmup/last.pt",
+            "sha256": "aa0bd3cae91deb3cd1467196200f3fdf0f9c65cf91d23b377d6d7caf6716f5aa"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/DONE.json",
+            "sha256": "86d75019062fbbb03cfaba851d9c50921ebbe29042c4d96f076b16d96e04e469"
+          },
+          {
+            "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/experiment.json",
+            "sha256": "450e5c5190ca465e3c2d3a9107fe4016834d22f72e13bba882aca28d0f826621"
+          }
+        ]
+      }
+    },
+    {
+      "experiment_id": "EXP-004",
+      "path": "results/EXP-004/2026-10-21/training/main_validation_summary.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T17:50:56.263826+00:00",
+      "bytes": 3481,
+      "sha256": "748410940529a94250642f2fab9cbf802bb32c9290e24823975810b257dafad8",
+      "derivation": {
+        "operation": "extract_fields",
+        "source_path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/metrics.jsonl",
+        "source_sha256": "e89dd1c53f269df40856271ba307ba90d4843f0d8dac3757343d0911eaae0e30",
+        "fields": [
+          "epoch",
+          "step",
+          "val.macro_R1"
+        ]
+      }
     }
   ],
-  "updated_at": "2026-10-20T15:43:13.136512+00:00"
+  "updated_at": "2026-10-20T17:50:56.263826+00:00"
 }

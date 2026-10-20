@@ -1,0 +1,70 @@
+{
+  "verified_at": "2026-10-20T17:50:56.263826+00:00",
+  "scope": "Ours checkpoint provenance for VAST and MSRVTT in EXP-004; no inference rerun",
+  "seed": 50,
+  "batch_size": 256,
+  "updates_per_epoch": 322,
+  "split_sizes": {
+    "train": 82611,
+    "val": 2048,
+    "test": 2048
+  },
+  "warmup": {
+    "epochs": 8,
+    "steps": 2576,
+    "input_to_main": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/warmup/last.pt",
+    "input_sha256": "aa0bd3cae91deb3cd1467196200f3fdf0f9c65cf91d23b377d6d7caf6716f5aa",
+    "input_file_digest_verified": true
+  },
+  "main_training_completed": {
+    "epochs": 30,
+    "steps": 9660
+  },
+  "total_local_training_budget": {
+    "epochs": 38,
+    "steps": 12236,
+    "excludes": "official VAST pretraining"
+  },
+  "checkpoints": {
+    "best": {
+      "epoch": 22,
+      "step": 7084,
+      "best": 29.508463541666668,
+      "stage": "main",
+      "sha256": "9e1c3caf277b73e98fcef9a3f4805de2f06f63f24525a2fa70bba1287a238be5",
+      "path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/best.pt",
+      "validation_macro_R1_12_directions_at_epoch": 29.508463541666668
+    },
+    "last": {
+      "epoch": 30,
+      "step": 9660,
+      "best": 29.508463541666668,
+      "stage": "main",
+      "sha256": "e27b3dcbeb4b1a82c15e4acd32527273b92f8fdfe242e2095f53dd5df74f22ef",
+      "path": "Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/last.pt",
+      "validation_macro_R1_12_directions_at_epoch": 29.435221354166668
+    }
+  },
+  "evaluation_sources": {
+    "vast": {
+      "n": 2048,
+      "checkpoint": "last",
+      "checkpoint_epoch": 30,
+      "checkpoint_step": 9660,
+      "source_features": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/test/minimal9_B1_standard_s50/test.pt",
+      "recorded_launcher_evaluate_checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/last.pt",
+      "six_direction_scores_match_test_metrics": true,
+      "historical_report_selection_label": "validation-selected checkpoint",
+      "correction": "Historical label says validation-selected but saved feature source and evaluation launcher identify last.pt. Original metrics retained."
+    },
+    "msrvtt": {
+      "n": 884,
+      "checkpoint": "best",
+      "checkpoint_epoch": 22,
+      "checkpoint_step": 7084,
+      "recorded_checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/best.pt",
+      "recorded_checkpoint_sha256": "9e1c3caf277b73e98fcef9a3f4805de2f06f63f24525a2fa70bba1287a238be5"
+    }
+  },
+  "same_checkpoint_across_vast_and_msrvtt": false
+}

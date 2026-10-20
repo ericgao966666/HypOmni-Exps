@@ -1,0 +1,76 @@
+{
+  "directions": {
+    "t2v": {
+      "R@1": 36.76470588235294,
+      "R@5": 61.651583710407245,
+      "R@10": 71.15384615384616,
+      "median_rank": 3.0
+    },
+    "t2a": {
+      "R@1": 5.769230769230769,
+      "R@5": 16.063348416289593,
+      "R@10": 23.868778280542987,
+      "median_rank": 63.0
+    },
+    "v2t": {
+      "R@1": 35.52036199095023,
+      "R@5": 59.276018099547514,
+      "R@10": 69.23076923076923,
+      "median_rank": 3.0
+    },
+    "v2a": {
+      "R@1": 15.95022624434389,
+      "R@5": 37.217194570135746,
+      "R@10": 47.39819004524887,
+      "median_rank": 13.0
+    },
+    "a2t": {
+      "R@1": 5.429864253393665,
+      "R@5": 14.819004524886878,
+      "R@10": 23.190045248868778,
+      "median_rank": 51.0
+    },
+    "a2v": {
+      "R@1": 15.723981900452488,
+      "R@5": 35.85972850678733,
+      "R@10": 47.171945701357465,
+      "median_rank": 14.0
+    }
+  },
+  "macro": {
+    "R@1": 19.193061840120663,
+    "R@5": 37.48114630467572,
+    "R@10": 47.002262443438916
+  },
+  "geodesic_lorentz_rank_equivalence": {
+    "t2v": true,
+    "t2a": true,
+    "v2t": true,
+    "v2a": true,
+    "a2t": true,
+    "a2v": true
+  },
+  "model": "ours9_lambda0p1_seed50",
+  "n": 884,
+  "scoring": "negative_geodesic_c1",
+  "checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/best.pt",
+  "checkpoint_sha256": "9e1c3caf277b73e98fcef9a3f4805de2f06f63f24525a2fa70bba1287a238be5",
+  "manifest_sha256": "6d34d988c7c4530148f19438dcb031b990d31a8dc8e458375546619f6f4ecf27",
+  "protocol": "MSRVTT official 1000-video test list, 884 available audio/video pairs; 2 midpoint frames, 1 audio window, first caption. Same checkpoints as VAST evaluation; no MSRVTT fine-tuning or ITM.",
+  "backbone_checkpoint": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/models/model_weights/pretrain_vast/ckpt/model_step_204994.pt",
+  "configuration": {
+    "variant": "B1",
+    "pair_mode": "minimal9",
+    "weight": 0.1,
+    "temperature": "fixed",
+    "detach_radius": false,
+    "compatibility": 0.0,
+    "eta": 1.0,
+    "angle_weight": 0.0,
+    "uncertainty": false,
+    "calibration": 0.0,
+    "entropy": 0.0,
+    "radius_max": 4.0,
+    "training": "standard"
+  }
+}

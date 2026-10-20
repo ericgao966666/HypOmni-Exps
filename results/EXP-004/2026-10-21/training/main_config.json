@@ -1,0 +1,15 @@
+{
+  "variant": "B1",
+  "pair_mode": "minimal9",
+  "weight": 0.1,
+  "temperature": "fixed",
+  "detach_radius": false,
+  "compatibility": 0.0,
+  "eta": 1.0,
+  "angle_weight": 0.0,
+  "uncertainty": false,
+  "calibration": 0.0,
+  "entropy": 0.0,
+  "radius_max": 4.0,
+  "training": "standard"
+}

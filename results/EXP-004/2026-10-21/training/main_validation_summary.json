@@ -1,0 +1,156 @@
+{
+  "seed": 50,
+  "metric": "validation macro R@1 over 12 disjoint directions (%)",
+  "rows": [
+    {
+      "epoch": 1,
+      "step": 322,
+      "validation_macro_R1_12_directions": 23.640950520833332
+    },
+    {
+      "epoch": 2,
+      "step": 644,
+      "validation_macro_R1_12_directions": 25.333658854166668
+    },
+    {
+      "epoch": 3,
+      "step": 966,
+      "validation_macro_R1_12_directions": 26.151529947916668
+    },
+    {
+      "epoch": 4,
+      "step": 1288,
+      "validation_macro_R1_12_directions": 26.558430989583332
+    },
+    {
+      "epoch": 5,
+      "step": 1610,
+      "validation_macro_R1_12_directions": 27.091471354166668
+    },
+    {
+      "epoch": 6,
+      "step": 1932,
+      "validation_macro_R1_12_directions": 27.567545572916668
+    },
+    {
+      "epoch": 7,
+      "step": 2254,
+      "validation_macro_R1_12_directions": 27.909342447916668
+    },
+    {
+      "epoch": 8,
+      "step": 2576,
+      "validation_macro_R1_12_directions": 28.181966145833332
+    },
+    {
+      "epoch": 9,
+      "step": 2898,
+      "validation_macro_R1_12_directions": 28.409830729166668
+    },
+    {
+      "epoch": 10,
+      "step": 3220,
+      "validation_macro_R1_12_directions": 28.316243489583332
+    },
+    {
+      "epoch": 11,
+      "step": 3542,
+      "validation_macro_R1_12_directions": 28.50341796875
+    },
+    {
+      "epoch": 12,
+      "step": 3864,
+      "validation_macro_R1_12_directions": 28.629557291666668
+    },
+    {
+      "epoch": 13,
+      "step": 4186,
+      "validation_macro_R1_12_directions": 28.767903645833332
+    },
+    {
+      "epoch": 14,
+      "step": 4508,
+      "validation_macro_R1_12_directions": 28.94287109375
+    },
+    {
+      "epoch": 15,
+      "step": 4830,
+      "validation_macro_R1_12_directions": 28.902180989583332
+    },
+    {
+      "epoch": 16,
+      "step": 5152,
+      "validation_macro_R1_12_directions": 29.142252604166668
+    },
+    {
+      "epoch": 17,
+      "step": 5474,
+      "validation_macro_R1_12_directions": 29.158528645833332
+    },
+    {
+      "epoch": 18,
+      "step": 5796,
+      "validation_macro_R1_12_directions": 29.219563802083332
+    },
+    {
+      "epoch": 19,
+      "step": 6118,
+      "validation_macro_R1_12_directions": 29.146321614583332
+    },
+    {
+      "epoch": 20,
+      "step": 6440,
+      "validation_macro_R1_12_directions": 29.313151041666668
+    },
+    {
+      "epoch": 21,
+      "step": 6762,
+      "validation_macro_R1_12_directions": 29.313151041666668
+    },
+    {
+      "epoch": 22,
+      "step": 7084,
+      "validation_macro_R1_12_directions": 29.508463541666668
+    },
+    {
+      "epoch": 23,
+      "step": 7406,
+      "validation_macro_R1_12_directions": 29.345703125
+    },
+    {
+      "epoch": 24,
+      "step": 7728,
+      "validation_macro_R1_12_directions": 29.38232421875
+    },
+    {
+      "epoch": 25,
+      "step": 8050,
+      "validation_macro_R1_12_directions": 29.26025390625
+    },
+    {
+      "epoch": 26,
+      "step": 8372,
+      "validation_macro_R1_12_directions": 29.366048177083332
+    },
+    {
+      "epoch": 27,
+      "step": 8694,
+      "validation_macro_R1_12_directions": 29.345703125
+    },
+    {
+      "epoch": 28,
+      "step": 9016,
+      "validation_macro_R1_12_directions": 29.390462239583332
+    },
+    {
+      "epoch": 29,
+      "step": 9338,
+      "validation_macro_R1_12_directions": 29.361979166666668
+    },
+    {
+      "epoch": 30,
+      "step": 9660,
+      "validation_macro_R1_12_directions": 29.435221354166668
+    }
+  ]
+}

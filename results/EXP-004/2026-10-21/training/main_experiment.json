@@ -1,0 +1,27 @@
+{
+  "config": {
+    "variant": "B1",
+    "pair_mode": "minimal9",
+    "weight": 0.1,
+    "temperature": "fixed",
+    "detach_radius": false,
+    "compatibility": 0.0,
+    "eta": 1.0,
+    "angle_weight": 0.0,
+    "uncertainty": false,
+    "calibration": 0.0,
+    "entropy": 0.0,
+    "radius_max": 4.0,
+    "training": "standard"
+  },
+  "config_sha256": "9d20ea512da6e3c7ef8f01645fc1a38e7baf9b1f22516e1fe1a2cae32672e1b7",
+  "protocol_sha256": "2d4a1bb2f0af14c954bcf1a3438e23164e894992b052898acc27896e2025cc01",
+  "seed": 50,
+  "batch": 256,
+  "epochs": 30,
+  "input": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/warmup/last.pt",
+  "input_sha256": "aa0bd3cae91deb3cd1467196200f3fdf0f9c65cf91d23b377d6d7caf6716f5aa",
+  "smoke": false,
+  "profile_steps": 0,
+  "limit": 0
+}

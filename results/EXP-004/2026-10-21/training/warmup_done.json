@@ -1,0 +1,11 @@
+{
+  "stage": "warmup",
+  "arm": "h0",
+  "epoch": 8,
+  "steps": 2576,
+  "converged": true,
+  "smoke": false,
+  "status": "converged",
+  "best_checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/warmup/best.pt",
+  "last_checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_hierarchy_v0_20261016/warmup/last.pt"
+}

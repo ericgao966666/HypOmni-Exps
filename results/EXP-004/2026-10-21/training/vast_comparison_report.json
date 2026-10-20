@@ -1,0 +1,243 @@
+{
+  "models": {
+    "VAST": {
+      "directions": {
+        "t2v": {
+          "R@1": 27.880859375,
+          "R@5": 47.509765625,
+          "R@10": 55.615234375,
+          "median_rank": 7.0
+        },
+        "t2a": {
+          "R@1": 2.1484375,
+          "R@5": 6.494140625,
+          "R@10": 10.302734375,
+          "median_rank": 408.0
+        },
+        "v2t": {
+          "R@1": 13.330078125,
+          "R@5": 33.056640625,
+          "R@10": 45.01953125,
+          "median_rank": 14.0
+        },
+        "v2a": {
+          "R@1": 2.734375,
+          "R@5": 8.984375,
+          "R@10": 12.5,
+          "median_rank": 311.0
+        },
+        "a2t": {
+          "R@1": 2.294921875,
+          "R@5": 5.810546875,
+          "R@10": 8.642578125,
+          "median_rank": 368.0
+        },
+        "a2v": {
+          "R@1": 2.392578125,
+          "R@5": 6.4453125,
+          "R@10": 9.326171875,
+          "median_rank": 320.0
+        }
+      },
+      "macro": {
+        "R@1": 8.463541666666666,
+        "R@5": 18.050130208333332,
+        "R@10": 23.567708333333332
+      },
+      "geodesic_lorentz_rank_equivalence": {},
+      "model": "vast",
+      "n": 2048,
+      "checkpoint": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/models/model_weights/pretrain_vast/ckpt/model_step_204994.pt",
+      "checkpoint_sha256": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5",
+      "manifest_sha256": "1759eee7ddf78afb12cc24ee429ebe53f4ed402cfe667841385a6e68f57560dc",
+      "scoring": "cosine",
+      "protocol": "Fixed VAST test cohort; 2 frames, 1 audio window, first caption; no ITM, no training. Author pretraining overlap not excluded."
+    },
+    "GRAM": {
+      "directions": {
+        "t2v": {
+          "R@1": 35.205078125,
+          "R@5": 57.12890625,
+          "R@10": 66.2109375,
+          "median_rank": 3.0
+        },
+        "t2a": {
+          "R@1": 5.615234375,
+          "R@5": 14.794921875,
+          "R@10": 20.60546875,
+          "median_rank": 83.0
+        },
+        "v2t": {
+          "R@1": 22.75390625,
+          "R@5": 42.96875,
+          "R@10": 52.197265625,
+          "median_rank": 9.0
+        },
+        "v2a": {
+          "R@1": 5.029296875,
+          "R@5": 13.916015625,
+          "R@10": 20.99609375,
+          "median_rank": 75.0
+        },
+        "a2t": {
+          "R@1": 4.19921875,
+          "R@5": 11.03515625,
+          "R@10": 16.064453125,
+          "median_rank": 118.0
+        },
+        "a2v": {
+          "R@1": 4.00390625,
+          "R@5": 12.548828125,
+          "R@10": 19.140625,
+          "median_rank": 90.0
+        }
+      },
+      "macro": {
+        "R@1": 12.801106770833334,
+        "R@5": 25.398763020833332,
+        "R@10": 32.535807291666664
+      },
+      "geodesic_lorentz_rank_equivalence": {},
+      "model": "gram",
+      "n": 2048,
+      "checkpoint": "outputs/author_unimodal_20261016/checkpoints/gram_model_step_459.pt",
+      "checkpoint_sha256": "070c4b25a12f0a2861ced77d9bbe871e649f9be5b390e680e6049114a51b99d5",
+      "manifest_sha256": "1759eee7ddf78afb12cc24ee429ebe53f4ed402cfe667841385a6e68f57560dc",
+      "scoring": "cosine",
+      "protocol": "Fixed VAST test cohort; 2 frames, 1 audio window, first caption; no ITM, no training. Author pretraining overlap not excluded."
+    },
+    "PMRL": {
+      "directions": {
+        "t2v": {
+          "R@1": 40.72265625,
+          "R@5": 63.57421875,
+          "R@10": 71.58203125,
+          "median_rank": 2.0
+        },
+        "t2a": {
+          "R@1": 6.689453125,
+          "R@5": 18.115234375,
+          "R@10": 25.439453125,
+          "median_rank": 55.0
+        },
+        "v2t": {
+          "R@1": 40.33203125,
+          "R@5": 63.37890625,
+          "R@10": 71.923828125,
+          "median_rank": 2.0
+        },
+        "v2a": {
+          "R@1": 7.763671875,
+          "R@5": 20.3125,
+          "R@10": 29.4921875,
+          "median_rank": 32.0
+        },
+        "a2t": {
+          "R@1": 6.8359375,
+          "R@5": 17.041015625,
+          "R@10": 24.267578125,
+          "median_rank": 59.0
+        },
+        "a2v": {
+          "R@1": 7.666015625,
+          "R@5": 20.5078125,
+          "R@10": 29.736328125,
+          "median_rank": 35.0
+        }
+      },
+      "macro": {
+        "R@1": 18.3349609375,
+        "R@5": 33.821614583333336,
+        "R@10": 42.073567708333336
+      },
+      "geodesic_lorentz_rank_equivalence": {},
+      "model": "pmrl",
+      "n": 2048,
+      "checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/author_unimodal_20261016/checkpoints/pmrl_base.pt",
+      "checkpoint_sha256": "78ab07cf45f9465fcd1cb0a01b7c32ec83a467e642338a67bd6079bdb21b8836",
+      "manifest_sha256": "1759eee7ddf78afb12cc24ee429ebe53f4ed402cfe667841385a6e68f57560dc",
+      "scoring": "cosine",
+      "protocol": "Fixed VAST test cohort; 2 frames, 1 audio window, first caption; no ITM, no training. Author pretraining overlap not excluded."
+    },
+    "Ours (9-pair, lambda=0.1, seed50)": {
+      "directions": {
+        "t2v": {
+          "R@1": 36.71875,
+          "R@5": 59.765625,
+          "R@10": 68.603515625,
+          "median_rank": 3.0
+        },
+        "t2a": {
+          "R@1": 6.884765625,
+          "R@5": 18.9453125,
+          "R@10": 27.294921875,
+          "median_rank": 42.0
+        },
+        "v2t": {
+          "R@1": 36.42578125,
+          "R@5": 59.814453125,
+          "R@10": 69.43359375,
+          "median_rank": 3.0
+        },
+        "v2a": {
+          "R@1": 18.505859375,
+          "R@5": 40.33203125,
+          "R@10": 50.78125,
+          "median_rank": 10.0
+        },
+        "a2t": {
+          "R@1": 6.54296875,
+          "R@5": 18.798828125,
+          "R@10": 26.611328125,
+          "median_rank": 43.0
+        },
+        "a2v": {
+          "R@1": 18.017578125,
+          "R@5": 40.0390625,
+          "R@10": 51.025390625,
+          "median_rank": 10.0
+        }
+      },
+      "macro": {
+        "R@1": 20.515950520833332,
+        "R@5": 39.615885416666664,
+        "R@10": 48.958333333333336
+      },
+      "geodesic_lorentz_rank_equivalence": {
+        "t2v": true,
+        "t2a": true,
+        "v2t": true,
+        "v2a": true,
+        "a2t": true,
+        "a2v": true
+      },
+      "model": "ours",
+      "n": 2048,
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "manifest_sha256": "1759eee7ddf78afb12cc24ee429ebe53f4ed402cfe667841385a6e68f57560dc",
+      "scoring": "negative_geodesic_c1",
+      "protocol": "Fixed VAST test cohort; 2 frames, 1 audio window, first caption; no ITM, no training. Author pretraining overlap not excluded.",
+      "configuration": {
+        "pair_mode": "minimal9",
+        "entailment_weight": 0.1,
+        "seed": 50,
+        "selection": "validation-selected checkpoint",
+        "source_features": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/test/minimal9_B1_standard_s50/test.pt"
+      }
+    }
+  },
+  "sources": {
+    "VAST": "https://github.com/TXH-mercury/VAST",
+    "GRAM": "https://drive.google.com/drive/folders/1T6IFymtJ8mKeO_amz9Kz1OFgHZEK6huz",
+    "PMRL": "https://huggingface.co/xhLiu/PMRL"
+  },
+  "limitations": [
+    "Fixed VAST-2048 cohort held out from our local training, not guaranteed unseen by released models.",
+    "Common 2 midpoint video frames, 1 audio window, first caption; this is not each paper's full benchmark evaluation protocol.",
+    "Single-modality embeddings only, six directions; cosine for released Euclidean models, negative geodesic distance for ours; no ITM or fused candidate features.",
+    "Author GRAM directory is GRAM_pretrained_4modalities/model_step_459.pt. README table links and accompanying hps contain stale/inconsistent labels; release log identifies volume4Mod120k source.",
+    "Our 9-pair lambda=0.1 seed50 row was locally trained on 82611 VAST samples and is not a matched-training comparison.",
+    "Released model rows use fresh inference; ours uses audited frozen VAST pooled features. Full cache audit found one video feature discrepancy, documented in validation.json."
+  ]
+}
