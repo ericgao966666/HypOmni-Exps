@@ -23,7 +23,7 @@
 | EXP-003 | [温度与训练机制能否兼顾检索和层级](experiments/EXP-003-subset-mechanisms.md) | Hyperbolic-Omnimodal | 10-16 | 已完成 | 57 次正式运行，未通过双目标验收 |
 | EXP-004 | [官方权重与本地模型的冻结迁移能力](experiments/EXP-004-frozen-transfer.md) | Hyperbolic-Omnimodal | 10-16 至 10-17 | 已完成 | 完整六方向 R@1/5/10；视频音频较强，音频文本迁移较弱 |
 | EXP-005 | [音频迁移下降发生在哪个阶段](experiments/EXP-005-transfer-diagnostics.md) | Hyperbolic-Omnimodal | 10-17 | 已完成探索性诊断 | 第一轮已下降，多种目标均受影响 |
-| EXP-006 | [统一微调预算下的 MSRVTT 表现](experiments/EXP-006-msrvtt-finetune.md) | Hyperbolic-Omnimodal | 10-17 | 已完成含续跑 | Ours 24.87%，领先 VAST 3.88 pp |
+| EXP-006 | [统一微调预算下的 MSRVTT 表现](experiments/EXP-006-msrvtt-finetune.md) | Hyperbolic-Omnimodal | 10-17 | 已完成含续跑 | 已列微调前后完整六方向结果及初始化来源；Ours 平均 R@1 为 24.87% |
 | EXP-007 | [负曲率是否带来额外层级能力](experiments/EXP-007-coco-geometry.md) | meru-width-coco | 10-17 | 已完成并修正读出 | 小幅检索收益，无明确层级优势 |
 | EXP-008 | [区域监督下的欧氏与双曲对照](experiments/EXP-008-region-geometry.md) | meru-width-coco | 10-19 | 已交接；目标状态待核实 | 数据准备完成，尚无本机正式结果 |
 | EXP-009 | [低维空间是否放大几何差异](experiments/EXP-009-lowdim-finetune.md) | Hyperbolic-Omnimodal | 10-19 | 已交接；目标状态待核实 | 56 次运行协议完成，尚无正式结果 |

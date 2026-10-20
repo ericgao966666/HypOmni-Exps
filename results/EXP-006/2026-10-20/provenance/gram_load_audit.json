@@ -1,0 +1,7 @@
+{
+  "missing": [
+    "contra_head_d.linear.weight"
+  ],
+  "unexpected": [],
+  "initial_checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/author_unimodal_20261016/checkpoints/gram_model_step_459.pt"
+}

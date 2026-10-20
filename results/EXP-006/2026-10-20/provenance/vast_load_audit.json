@@ -1,0 +1,9 @@
+{
+  "missing": [
+    "vision_encoder.logit_scale"
+  ],
+  "unexpected": [
+    "vision_encoder.text.logit_scale"
+  ],
+  "initial_checkpoint": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/models/model_weights/pretrain_vast/ckpt/model_step_204994.pt"
+}

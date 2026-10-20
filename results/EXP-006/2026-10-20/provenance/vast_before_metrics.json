@@ -1,0 +1,53 @@
+{
+  "directions": {
+    "t2v": {
+      "R@1": 43.665158371040725,
+      "R@5": 68.32579185520362,
+      "R@10": 76.69683257918552,
+      "median_rank": 2.0
+    },
+    "t2a": {
+      "R@1": 6.561085972850679,
+      "R@5": 16.855203619909503,
+      "R@10": 23.190045248868778,
+      "median_rank": 69.0
+    },
+    "v2t": {
+      "R@1": 41.742081447963805,
+      "R@5": 65.27149321266968,
+      "R@10": 75.90497737556561,
+      "median_rank": 2.0
+    },
+    "v2a": {
+      "R@1": 4.638009049773756,
+      "R@5": 13.461538461538462,
+      "R@10": 20.02262443438914,
+      "median_rank": 99.0
+    },
+    "a2t": {
+      "R@1": 6.4479638009049784,
+      "R@5": 15.95022624434389,
+      "R@10": 24.20814479638009,
+      "median_rank": 67.0
+    },
+    "a2v": {
+      "R@1": 5.542986425339366,
+      "R@5": 14.93212669683258,
+      "R@10": 20.81447963800905,
+      "median_rank": 92.0
+    }
+  },
+  "macro": {
+    "R@1": 18.099547511312217,
+    "R@5": 32.46606334841629,
+    "R@10": 40.1395173453997
+  },
+  "geodesic_lorentz_rank_equivalence": {},
+  "model": "vast",
+  "n": 884,
+  "checkpoint": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/models/model_weights/pretrain_vast/ckpt/model_step_204994.pt",
+  "checkpoint_sha256": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5",
+  "manifest_sha256": "6d34d988c7c4530148f19438dcb031b990d31a8dc8e458375546619f6f4ecf27",
+  "scoring": "cosine",
+  "protocol": "MSRVTT official 1000-video test list, 884 available audio/video pairs; 2 midpoint frames, 1 audio window, first caption. Same checkpoints as VAST evaluation; no MSRVTT fine-tuning or ITM."
+}

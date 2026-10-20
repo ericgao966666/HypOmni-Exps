@@ -1,0 +1,5 @@
+{
+  "initial_backbone": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/models/model_weights/pretrain_vast/ckpt/model_step_204994.pt",
+  "heads": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/minimal9_B1_standard_s50/best.pt",
+  "head_load": "strict"
+}

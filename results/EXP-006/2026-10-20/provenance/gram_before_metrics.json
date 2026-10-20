@@ -1,0 +1,53 @@
+{
+  "directions": {
+    "t2v": {
+      "R@1": 41.96832579185521,
+      "R@5": 68.32579185520362,
+      "R@10": 78.16742081447964,
+      "median_rank": 2.0
+    },
+    "t2a": {
+      "R@1": 7.352941176470589,
+      "R@5": 17.647058823529413,
+      "R@10": 24.773755656108598,
+      "median_rank": 41.0
+    },
+    "v2t": {
+      "R@1": 36.31221719457013,
+      "R@5": 63.68778280542986,
+      "R@10": 72.85067873303167,
+      "median_rank": 2.0
+    },
+    "v2a": {
+      "R@1": 8.3710407239819,
+      "R@5": 24.8868778280543,
+      "R@10": 32.46606334841629,
+      "median_rank": 37.0
+    },
+    "a2t": {
+      "R@1": 5.995475113122172,
+      "R@5": 16.402714932126695,
+      "R@10": 24.660633484162897,
+      "median_rank": 56.0
+    },
+    "a2v": {
+      "R@1": 7.46606334841629,
+      "R@5": 21.040723981900452,
+      "R@10": 28.39366515837104,
+      "median_rank": 42.0
+    }
+  },
+  "macro": {
+    "R@1": 17.91101055806938,
+    "R@5": 35.33182503770739,
+    "R@10": 43.55203619909502
+  },
+  "geodesic_lorentz_rank_equivalence": {},
+  "model": "gram",
+  "n": 884,
+  "checkpoint": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/outputs/author_unimodal_20261016/checkpoints/gram_model_step_459.pt",
+  "checkpoint_sha256": "070c4b25a12f0a2861ced77d9bbe871e649f9be5b390e680e6049114a51b99d5",
+  "manifest_sha256": "6d34d988c7c4530148f19438dcb031b990d31a8dc8e458375546619f6f4ecf27",
+  "scoring": "cosine",
+  "protocol": "MSRVTT official 1000-video test list, 884 available audio/video pairs; 2 midpoint frames, 1 audio window, first caption. Same checkpoints as VAST evaluation; no MSRVTT fine-tuning or ITM."
+}

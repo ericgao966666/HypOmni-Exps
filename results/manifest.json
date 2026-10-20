@@ -511,7 +511,124 @@
       "bytes": 35687,
       "sha256": "7fc43bb024cf36221287b38362e05789684d23d1690d58e56929e9a95be77968",
       "supersedes": "results/EXP-001/2026-10-20/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/finetune_protocol.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/protocol.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 20365,
+      "sha256": "5a2d32ca07ba9b3a989a4ce0f106cb625d54bbe34c15573f3ca411425e782a86"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/vast_before_metrics.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_author_unimodal_20261016/vast/metrics.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 1592,
+      "sha256": "9801957f58562f6cdd83c449514ac45dd3cea2a74bd5ed2b77f253fa2ed1e951"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/vast_load_audit.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/runs/vast/load_audit.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 240,
+      "sha256": "8beb4a9eef3d7445c88baf6309f25b3f0095e7a9a9bf376645837af6f310b313"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/vast_epoch0_validation.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/runs/vast/initial_validation.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 880,
+      "sha256": "acae7932a0e50c021a40f54db63bd84ca66d7d4c1076604e93a805a9fa8697e4"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/gram_before_metrics.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_author_unimodal_20261016/gram/metrics.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 1607,
+      "sha256": "f056966b00b2179d2e1d0f0421cbfdb18a6650b3c3b2ee37484e3c5a83461ee3"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/gram_load_audit.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/runs/gram/load_audit.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 220,
+      "sha256": "0462286cbcc2e448e4bad0d0dea7951d5ffac44afd38100fb3396db1bfb20a14"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/gram_epoch0_validation.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/runs/gram/initial_validation.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 866,
+      "sha256": "ab5140777657b52304fc536022aa3bd0811ce51a4ba42f61e1caaf0f711f5b57"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/pmrl_before_metrics.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_author_unimodal_20261016/pmrl/metrics.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 1601,
+      "sha256": "f79b4eae05770eb62b758e32c1254a34927ca1fae4a401adacef7a0983bca4fd"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/pmrl_load_audit.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/runs/pmrl/load_audit.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 173,
+      "sha256": "336877db3762a24b18a7c64d98d4cd55532afa94bb47255acb4e0d2b60133588"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/pmrl_epoch0_validation.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/runs/pmrl/initial_validation.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 812,
+      "sha256": "ab8a322cc74dd6e8a2e2198332e51c0a34ea74c28ad7012644ceee48ef9cfbae"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/ours_before_metrics.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_author_unimodal_20261016/ours/metrics.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 2215,
+      "sha256": "833d2a1a96d74447dcba763d520da879de44cb2e6ae1544193eae106818f6b30"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/ours_load_audit.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/runs/ours/load_audit.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 279,
+      "sha256": "8c13a894c9b4cb37fdbec5fe773bbc30222913c93ba21f776981780039c82e81"
+    },
+    {
+      "experiment_id": "EXP-006",
+      "path": "results/EXP-006/2026-10-20/provenance/ours_epoch0_validation.json",
+      "source_path": "Hyperbolic-Omnimodal/outputs/msrvtt_finetune_20261017/runs/ours/initial_validation.json",
+      "source_server": "server-a",
+      "captured_at": "2026-10-20T15:43:13.136512+00:00",
+      "bytes": 1016,
+      "sha256": "73eabc408f2ff5e919884328fe3bcff3857863ba8e0fb0b2cadb9b5b25d45fe5"
     }
   ],
-  "updated_at": "2026-10-20T14:24:08.568715+00:00"
+  "updated_at": "2026-10-20T15:43:13.136512+00:00"
 }
