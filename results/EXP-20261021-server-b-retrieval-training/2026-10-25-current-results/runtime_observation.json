@@ -1,0 +1,211 @@
+{
+  "observed_at": "2026-10-25T07:22:03.941622+00:00",
+  "source_status_time": "2026-10-25T06:35:26.952564+00:00",
+  "source_status_sha256": "b9ca917fb798f62b9ed4efc7fecdee7dfa1c5b6e5585fa0e90b5ef5a035509ee",
+  "recorded_phase": "seed50_expand_after_64d",
+  "recorded_controller_pid": 721837,
+  "controller_exists": false,
+  "recorded_workers": [
+    {
+      "pid": 797604,
+      "exists": false,
+      "job": {
+        "kind": "train",
+        "task": {
+          "method": "vast",
+          "dimension": 32,
+          "seed": 50,
+          "recipe": "R3",
+          "stage": "warmup",
+          "epochs": 8,
+          "global_batch": 256,
+          "head_lr": 0.0003,
+          "other_lr": 0.0003,
+          "vision_lr": 5e-07,
+          "warmup_fraction": 0.05,
+          "entailment_weight": 0.0,
+          "temperature": 0.07,
+          "betas": [
+            0.9,
+            0.98
+          ],
+          "weight_decay": 0.01,
+          "grad_clip": 2.0
+        }
+      },
+      "devices": [
+        "3",
+        "1",
+        "2",
+        "5"
+      ]
+    }
+  ],
+  "current_training_state": "stopped",
+  "cause": "unconfirmed",
+  "last_vast32_logged_progress": {
+    "epoch": 6,
+    "step": 1885,
+    "batch": 275
+  },
+  "recoverable_checkpoint": {
+    "task": {
+      "method": "vast",
+      "dimension": 32,
+      "seed": 50,
+      "recipe": "R3",
+      "stage": "warmup",
+      "epochs": 8,
+      "global_batch": 256,
+      "head_lr": 0.0003,
+      "other_lr": 0.0003,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    "saved_epoch": 5,
+    "saved_step": 1610,
+    "path": "lowdim_retrieval_20261021/runs/vast_d32_s50_R3/warmup/last.pt",
+    "bytes": 11330649,
+    "mtime_utc": "2026-10-25T05:59:35.432527+00:00",
+    "checkpoint_payload_not_deserialized": true
+  },
+  "pending_conditions": [
+    {
+      "method": "vast",
+      "dimension": 32,
+      "seed": 50,
+      "recipe": "R3",
+      "stage": "joint",
+      "epochs": 10,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    {
+      "method": "vast",
+      "dimension": 128,
+      "seed": 50,
+      "recipe": "R3",
+      "stage": "joint",
+      "epochs": 10,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    {
+      "method": "vast",
+      "dimension": 512,
+      "seed": 50,
+      "recipe": "R3",
+      "stage": "joint",
+      "epochs": 10,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    {
+      "method": "pmrl",
+      "dimension": 32,
+      "seed": 50,
+      "recipe": "R3",
+      "stage": "joint",
+      "epochs": 10,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    {
+      "method": "pmrl",
+      "dimension": 128,
+      "seed": 50,
+      "recipe": "R3",
+      "stage": "joint",
+      "epochs": 10,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    {
+      "method": "pmrl",
+      "dimension": 512,
+      "seed": 50,
+      "recipe": "R3",
+      "stage": "joint",
+      "epochs": 10,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    }
+  ],
+  "root_filesystem_free_bytes": 0,
+  "data_filesystem_free_bytes": 201432145920,
+  "training_restarted_by_this_sync": false
+}

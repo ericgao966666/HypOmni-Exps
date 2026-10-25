@@ -10,6 +10,8 @@
 
 ## 当前关注
 
+- **64D完整、扩维训练中断**：[本轮检索训练方案](experiments/EXP-20261021-server-b-retrieval-training.md)：14/20选定条件测试完成；[最新表格与证据](results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/README.md)。64D双曲略优，其他三维度欧氏更好；剩余VAST/PMRL扩维待恢复。
+
 - **已观察到的收益**：[MSRVTT 端到端微调](experiments/EXP-006-msrvtt-finetune.md)六方向平均 R@1 达到 24.87%，超过本轮最强基线 VAST 3.88 个百分点，主要来自视频与音频方向。
 - **尚未解决的问题**：[子集层级机制](experiments/EXP-003-subset-mechanisms.md)与[几何对照](experiments/EXP-007-coco-geometry.md)仍未证明严格层级包含的成功；[音频迁移](experiments/EXP-005-transfer-diagnostics.md)随头部训练下降。
 - **等待结果回填**：[区域层级实验](experiments/EXP-008-region-geometry.md)与[低维端到端实验](experiments/EXP-009-lowdim-finetune.md)已交接，目标服务器后续训练状态待核实。
@@ -28,6 +30,7 @@
 | EXP-008 | [区域监督下的欧氏与双曲对照](experiments/EXP-008-region-geometry.md) | meru-width-coco | 10-19 | 已交接；目标状态待核实 | 数据准备完成，尚无本机正式结果 |
 | EXP-009 | [低维空间是否放大几何差异](experiments/EXP-009-lowdim-finetune.md) | Hyperbolic-Omnimodal | 10-19 | 已交接；目标状态待核实 | 56 次运行协议完成，尚无正式结果 |
 | PMRL–ITM 对齐 | [PMRL 对齐评分能否改善 ITM](experiments/EXP-20261021-server-a-pmrl-itm-alignment.md) | PMRL-ITM | 10-24 19:05完成；10-24 21:39核对 | 已完成4组单seed训练、开发集与16项测试 | 共同候选采样增益约+0.41～0.45pp；融合测试退化；[最终结果](results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/summary.md) |
+| 64D检索方案 | [64D优先训练方案](experiments/EXP-20261021-server-b-retrieval-training.md) | Hyperbolic-Omnimodal | 10-25 | 64D全完成；14/20测试，扩维已中断 | 单seed；64D双曲略优，其他三维度欧氏更好；严格包含仍0% |
 
 “已完成”指卡内声明的运行与评估完成，不代表假设成立，也不代表证明收敛。运行预算、验证集结果、测试集结果分别记录。
 

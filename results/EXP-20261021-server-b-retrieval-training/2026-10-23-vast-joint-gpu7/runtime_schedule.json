@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-23T11:07:26.747135+00:00",
+  "scope": {
+    "seeds": [
+      50
+    ],
+    "priority_dimension": 64,
+    "defer_expansion_until_64d_complete": true,
+    "four_gpu_groups": {
+      "vast": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "gram": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "pmrl": [
+        "1",
+        "2",
+        "6",
+        "7"
+      ]
+    },
+    "max_task_ranks_per_gpu": 2,
+    "preserve_existing_results": true,
+    "authorization": "User explicitly requested starting the single-GPU VAST64D R3 MSRVTT fine-tuning on GPU7 while preserving current training.",
+    "single_gpu_override": {
+      "condition": "train/vast_d64_s50_R3/joint",
+      "device": "7",
+      "allowed_peer": "pmrl_d64_s50_R3 four-GPU pretraining"
+    }
+  },
+  "tests_passed": 7,
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "files": {
+    "test_vast7.py": "df2e2d1152550d7204675da6d4a9ef165825e75aab93be5b607e021509df535b",
+    "vast7_schedule.py": "e0e44332c5835efc55083ebae1aca4a5ecb98f02d3f86119b1aa4ff204219c44",
+    "scheduling_scope.json": "de6a6dd09e4721fbd866b86dd69cf98b6c3a054c6cd6d2808814a2f26f4f3a27",
+    "README.md": "5b53de30986d74107eaeba6f765093e9a37a1920ada4e503877c4b012ac135d0"
+  },
+  "task": {
+    "method": "vast",
+    "dimension": 64,
+    "seed": 50,
+    "recipe": "R3",
+    "stage": "joint",
+    "epochs": 10,
+    "global_batch": 64,
+    "world_size": 1
+  }
+}

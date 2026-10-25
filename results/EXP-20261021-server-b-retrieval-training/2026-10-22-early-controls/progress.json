@@ -1,0 +1,245 @@
+{
+  "captured_at": "2026-10-22T06:25:55.369656+00:00",
+  "status": {
+    "pid": 3440751,
+    "phase": "64d_parallel_screen",
+    "time": 1792650352.915765,
+    "running": [
+      {
+        "pid": 2625495,
+        "start_ticks": "41933621",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "pmrl",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R3",
+            "stage": "warmup",
+            "epochs": 8,
+            "global_batch": 256,
+            "head_lr": 0.0003,
+            "other_lr": 0.0003,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__warmup.log",
+        "run_id": "20261022T060839-server-b-train-pmrl_d64_s50_R3-warmup"
+      },
+      {
+        "pid": 3513129,
+        "start_ticks": "42023408",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "hyp_cone",
+            "dimension": 64,
+            "seed": 51,
+            "recipe": "R0",
+            "stage": "joint",
+            "epochs": 10,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.1,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "5"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s51_R0__joint.log",
+        "run_id": "20261022T062336-server-b-train-hyp_cone_d64_s51_R0-joint"
+      },
+      {
+        "pid": 3513130,
+        "start_ticks": "42023408",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "hyp_cone",
+            "dimension": 64,
+            "seed": 52,
+            "recipe": "R0",
+            "stage": "joint",
+            "epochs": 10,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.1,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "6"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s52_R0__joint.log",
+        "run_id": "20261022T062336-server-b-train-hyp_cone_d64_s52_R0-joint"
+      },
+      {
+        "pid": 3513132,
+        "start_ticks": "42023408",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "euc_none",
+            "dimension": 64,
+            "seed": 51,
+            "recipe": "R0",
+            "stage": "joint",
+            "epochs": 10,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "7"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d64_s51_R0__joint.log",
+        "run_id": "20261022T062336-server-b-train-euc_none_d64_s51_R0-joint"
+      }
+    ],
+    "queued": [
+      "train/vast_d64_s50_R3/frozen",
+      "train/vast_d64_s50_R3/joint",
+      "train/gram_d64_s50_R3/frozen",
+      "train/gram_d64_s50_R3/joint",
+      "train/pmrl_d64_s50_R3/frozen",
+      "train/pmrl_d64_s50_R3/joint",
+      "train/euc_none_d64_s52_R0/joint"
+    ],
+    "failed": [],
+    "waiting_for_disk": [],
+    "free_disk_gib": 298.3487434387207,
+    "eligible_devices": [],
+    "controller": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/early_controls_20261022/early_schedule.py",
+    "resource_policy": {
+      "schema_version": 1,
+      "admission_used_gib": 45.0,
+      "allocation_cap_gib": 40.0,
+      "headroom_gib": 8.0,
+      "one_task_rank_per_gpu": true,
+      "authorization": "User authorized using remaining GPUs below 45 GiB for other planned experiments; advance only existing R0 seed51/52 controls."
+    }
+  },
+  "last_optimizer_events": {
+    "20261022T060839-server-b-train-pmrl_d64_s50_R3-warmup": {
+      "epoch": 1,
+      "step": 150,
+      "batch": 150,
+      "loss": 0.6299974918365479,
+      "grad_norm": 0.2543785870075226,
+      "gradients": {},
+      "learning_rates": {
+        "head": 0.0003
+      },
+      "seconds_per_batch": 6.164147644453527,
+      "peak_reserved_gib": 12.1640625
+    },
+    "20261022T062336-server-b-train-hyp_cone_d64_s51_R0-joint": {
+      "epoch": 1,
+      "step": 1,
+      "batch": 1,
+      "loss": 2.317862779716267,
+      "grad_norm": 7.007052421569824,
+      "gradients": {
+        "vision_encoder.visual.": 1.5917026996612549,
+        "audio_encoder.": 0.386064350605011,
+        "multimodal_encoder.bert.": 0.930973470211029,
+        "subset_heads.direction.": 0.6690235137939453,
+        "subset_heads.radius.": 0.055958300828933716
+      },
+      "learning_rates": {
+        "vision": 8.620689655172413e-09,
+        "head": 3.4482758620689656e-07,
+        "other": 3.4482758620689656e-07
+      },
+      "seconds_per_batch": 18.42320101399673,
+      "peak_reserved_gib": 22.134765625
+    },
+    "20261022T062336-server-b-train-hyp_cone_d64_s52_R0-joint": {
+      "epoch": 1,
+      "step": 1,
+      "batch": 1,
+      "loss": 2.205706270961771,
+      "grad_norm": 7.973227500915527,
+      "gradients": {
+        "vision_encoder.visual.": 1.6984771490097046,
+        "audio_encoder.": 0.36220481991767883,
+        "multimodal_encoder.bert.": 0.7705603241920471,
+        "subset_heads.direction.": 0.6227378249168396,
+        "subset_heads.radius.": 0.04915706440806389
+      },
+      "learning_rates": {
+        "vision": 8.620689655172413e-09,
+        "head": 3.4482758620689656e-07,
+        "other": 3.4482758620689656e-07
+      },
+      "seconds_per_batch": 18.84075363102602,
+      "peak_reserved_gib": 22.134765625
+    },
+    "20261022T062336-server-b-train-euc_none_d64_s51_R0-joint": {
+      "epoch": 1,
+      "step": 1,
+      "batch": 1,
+      "loss": 2.098305371440428,
+      "grad_norm": 7.02178430557251,
+      "gradients": {
+        "vision_encoder.visual.": 1.5967228412628174,
+        "audio_encoder.": 0.4039015769958496,
+        "multimodal_encoder.bert.": 0.9282116293907166,
+        "subset_heads.direction.": 0.6498849391937256,
+        "subset_heads.radius.": 0.05841521918773651
+      },
+      "learning_rates": {
+        "vision": 8.620689655172413e-09,
+        "head": 3.4482758620689656e-07,
+        "other": 3.4482758620689656e-07
+      },
+      "seconds_per_batch": 19.43556863901904,
+      "peak_reserved_gib": 22.134765625
+    }
+  }
+}

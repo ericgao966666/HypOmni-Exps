@@ -2040,7 +2040,1336 @@
           }
         ]
       }
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-implementation/launch_snapshot.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-21T04:51:56.001370+00:00",
+      "bytes": 5798,
+      "sha256": "1ad7398590e73568580d7d5c4c55d30f9e9f2874be5476b6346502ac7da2b55a",
+      "derivation": "Curated implementation/protocol/startup metadata; excludes weights, raw media and full logs."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-implementation/protocol_summary.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-21T04:51:56.001370+00:00",
+      "bytes": 3223,
+      "sha256": "bf2109826352b213cd3c5f89aa0985d2e06486efc2e7441396950ff95dd0b792",
+      "derivation": "Curated implementation/protocol/startup metadata; excludes weights, raw media and full logs."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-implementation/source_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-21T04:51:56.001370+00:00",
+      "bytes": 21073,
+      "sha256": "72556afd54cad2bf00f73495c5c61d1746b038e742178ca46105a3d14b73081f",
+      "derivation": "Curated implementation/protocol/startup metadata; excludes weights, raw media and full logs."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-implementation/validation_summary.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-21T04:51:56.001370+00:00",
+      "bytes": 1374,
+      "sha256": "7895e7d8677b8f89c3f989a91c3802068b975e65b9f89933cfad6d6cf0dedf9a",
+      "derivation": "Curated implementation/protocol/startup metadata; excludes weights, raw media and full logs."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-implementation/repository_validation.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-21T04:57:21.489535+00:00",
+      "bytes": 585,
+      "sha256": "dc2bbc6be936fa4eb29fc92f733024071093d2a4c9531388e8a06c6b1a02625a",
+      "derivation": "Read-only repository/source verification; records a pre-existing unrelated report-label/hash mismatch."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-parallel-screen/controller_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/parallel_20261021",
+      "captured_at": "2026-10-21T05:50:59.781384+00:00",
+      "bytes": 508,
+      "sha256": "f4c30aa73287a7f20d02afcc77ad62a269450dfb4988872adfb7c5048cc457d3",
+      "derivation": "Curated live-process handover, scheduling evidence and progress; training sources and protocol unchanged."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-parallel-screen/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/parallel_20261021",
+      "captured_at": "2026-10-21T05:50:59.781384+00:00",
+      "bytes": 604,
+      "sha256": "f1c811727110e90a99386ac01941d52cb1c48fffa14eb0867561ad5cf049dd10",
+      "derivation": "Curated live-process handover, scheduling evidence and progress; training sources and protocol unchanged."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-parallel-screen/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/parallel_20261021",
+      "captured_at": "2026-10-21T05:50:59.781384+00:00",
+      "bytes": 14715,
+      "sha256": "3317472db643864443d869916202a8547036cd0f1fa17481a580b7c58a34afce",
+      "derivation": "Curated live-process handover, scheduling evidence and progress; training sources and protocol unchanged."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-admission45/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/admission45_20261021",
+      "captured_at": "2026-10-21T09:30:46.355713+00:00",
+      "bytes": 709,
+      "sha256": "ce3ce5fc95a69947d12e847de0de8a6b203631df4ef58bc1b050f46a33a624b2",
+      "derivation": "User-authorized GPU admission override from below40 to below45 GiB; training source and active workers preserved."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-21-admission45/runtime_policy.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/admission45_20261021",
+      "captured_at": "2026-10-21T09:30:46.355713+00:00",
+      "bytes": 910,
+      "sha256": "fbeb5c1cd946b4e2dbda9e306eafd9cb4e6642796b6b38adc717f1f09bbe088a",
+      "derivation": "User-authorized GPU admission override from below40 to below45 GiB; training source and active workers preserved."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-22-early-controls/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/early_controls_20261022",
+      "captured_at": "2026-10-22T06:25:03.327169+00:00",
+      "bytes": 695,
+      "sha256": "4b337d04434e4d84a794515e107ddd071af0f24072f39059edba7485ff4aba02",
+      "derivation": "Selected runtime handover evidence or controller manifest; no training data or weights."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-22-early-controls/controller_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/early_controls_20261022",
+      "captured_at": "2026-10-22T06:25:03.327169+00:00",
+      "bytes": 861,
+      "sha256": "198e171820de2ce54e10f25b5253680afc46e03166ce07700cc178712dd09484",
+      "derivation": "Selected runtime handover evidence or controller manifest; no training data or weights."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-22-early-controls/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-22T06:25:55.369656+00:00",
+      "bytes": 7749,
+      "sha256": "e9bc2b35f22bf422f48a8845500b49011c9f0276327510bce64a763c0b47685a",
+      "derivation": "Runtime state and latest optimizer events from local logs."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-disk40/runtime_policy.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/disk40_20261023",
+      "captured_at": "2026-10-23T03:49:18.993799+00:00",
+      "bytes": 1509,
+      "sha256": "f1d7357a9f9eb86102700181dcc0f8f898f804d95e8d64eaa93ded4afdbf067e",
+      "derivation": "Runtime policy and selected checkpoint recovery evidence; no weights or datasets."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-disk40/recovery.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/disk40_20261023",
+      "captured_at": "2026-10-23T03:49:18.993799+00:00",
+      "bytes": 3204,
+      "sha256": "be64fac96e104405a6d76eb25fe57fc68901f441dffb810cdcdae4b113ea4cf9",
+      "derivation": "Runtime policy and selected checkpoint recovery evidence; no weights or datasets."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-disk40/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-23T03:50:48.088951+00:00",
+      "bytes": 4297,
+      "sha256": "7337d8910658698bcc69ed0d02b0121d27fd1e13fb685a16924a0d4f2dfcb834",
+      "derivation": "Selected resume launch, live status and actual optimizer update."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-early-selected/selection.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/early_selected_20261023",
+      "captured_at": "2026-10-23T04:37:51.148690+00:00",
+      "bytes": 26010,
+      "sha256": "9bd17b4ef9c6375318b46ec950699c8e5e82099452ebaaa92e903598c1db7e82",
+      "derivation": "Validation-only method selection and external coordinator handover evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-early-selected/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/early_selected_20261023",
+      "captured_at": "2026-10-23T04:37:51.148690+00:00",
+      "bytes": 810,
+      "sha256": "337f83e1510b7ea3f9af070650d2033f6e11141fd8688c9060f8c233a6caa100",
+      "derivation": "Validation-only method selection and external coordinator handover evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-early-selected/controller_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/early_selected_20261023",
+      "captured_at": "2026-10-23T04:37:51.148690+00:00",
+      "bytes": 658,
+      "sha256": "5e060d45041ff6dd2786769c121a37934d174bb69713a7342e0e250bb5bd6cd0",
+      "derivation": "Validation-only method selection and external coordinator handover evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-early-selected/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-23T04:39:27.592407+00:00",
+      "bytes": 4052,
+      "sha256": "facebda90fb8c7d05f68f8466aad199a5728dda934d936477d9726387f2c5108",
+      "derivation": "Live status and actual optimizer update for the advanced seed51 replicate."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-overlay-seed52/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/overlay_seed52_20261023",
+      "captured_at": "2026-10-23T05:57:19.203648+00:00",
+      "bytes": 1064,
+      "sha256": "4509ba137021ad99f2c00918af2f9df5279abbedfd5d25861e85c83d7b666afe",
+      "derivation": "Named single-GPU overlap authorization, controller checks and no-restart handover evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-overlay-seed52/runtime_policy.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/overlay_seed52_20261023",
+      "captured_at": "2026-10-23T05:57:19.203648+00:00",
+      "bytes": 1444,
+      "sha256": "e0899ff040b179970462667f42bad821bef83e925b84225dd87bfd2c20f11dbf",
+      "derivation": "Named single-GPU overlap authorization, controller checks and no-restart handover evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-overlay-seed52/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-23T05:58:46.781383+00:00",
+      "bytes": 6771,
+      "sha256": "bb653aea2034393affe26c712d7fe72747fb4e2f13737c2e068513df694ce9ec",
+      "derivation": "Actual stacked task placement and optimizer update; no throughput trial."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-gpu5-euc/selection.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/gpu5_euc_20261023",
+      "captured_at": "2026-10-23T06:04:33.419968+00:00",
+      "bytes": 26154,
+      "sha256": "aa3d5b412c4a0b79e0ee0e693356d4d2d19603201adba9cc74259a9a5995822f",
+      "derivation": "Euclidean validation-only selection, GPU5 scheduling and no-restart handover."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-gpu5-euc/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/gpu5_euc_20261023",
+      "captured_at": "2026-10-23T06:04:33.419968+00:00",
+      "bytes": 1260,
+      "sha256": "d9a6a09a8b994b998a1f5f273f5910b898a155eb47929419990f0b479cab40df",
+      "derivation": "Euclidean validation-only selection, GPU5 scheduling and no-restart handover."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-gpu5-euc/controller_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/gpu5_euc_20261023",
+      "captured_at": "2026-10-23T06:04:33.419968+00:00",
+      "bytes": 507,
+      "sha256": "4e5ae0db38e4e930d2f6e00cc2d02fcbde8bdf5c9fd4a5d264f8d04761afb5f2",
+      "derivation": "Euclidean validation-only selection, GPU5 scheduling and no-restart handover."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-gpu5-euc/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-23T06:05:53.727138+00:00",
+      "bytes": 6624,
+      "sha256": "6960818394f5c95ebfc09a23faf9a9a04b4c8a8fbca0275e6d3c070772bca9d4",
+      "derivation": "GPU5 assignment and actual optimizer update."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-seed50-only/execution_scope.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023",
+      "captured_at": "2026-10-23T06:36:13.810302+00:00",
+      "bytes": 750,
+      "sha256": "1e952085777cc48eed046f8c0c6d4138208c36cf8472bc3de408e719dd51b283",
+      "derivation": "Explicit user change to seed50-only, named single-GPU conditions, cancellation and no-restart recovery evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-seed50-only/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023",
+      "captured_at": "2026-10-23T06:36:13.810302+00:00",
+      "bytes": 1245,
+      "sha256": "0ed7250374b6400d716b38d17e5acc9196f6e533da75adcae9565bad30428cd7",
+      "derivation": "Explicit user change to seed50-only, named single-GPU conditions, cancellation and no-restart recovery evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-seed50-only/cancelled_multiseed.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023",
+      "captured_at": "2026-10-23T06:36:13.810302+00:00",
+      "bytes": 2402,
+      "sha256": "35f45ff507f522006d8a0bbf5234d1f1f0375e6ab0bb3ab8a136503e0d63a1b2",
+      "derivation": "Explicit user change to seed50-only, named single-GPU conditions, cancellation and no-restart recovery evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-seed50-only/controller_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023",
+      "captured_at": "2026-10-23T06:36:13.810302+00:00",
+      "bytes": 1034,
+      "sha256": "ed9ace2334537d18cf5c7e3e4c0fd3a7665aac8256f07289c89444d401c1109e",
+      "derivation": "Explicit user change to seed50-only, named single-GPU conditions, cancellation and no-restart recovery evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-seed50-only/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-23T06:37:34.173777+00:00",
+      "bytes": 10055,
+      "sha256": "02d511e9cf0066c25ea9a0fb46b4dec9c7f00380126fcde78b6285fa309a36d8",
+      "derivation": "Verified single-GPU seed50 configs, actual optimizer events and cancelled process exit evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-priority64-gpu3to6/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/priority64_gpu3to6_20261023",
+      "captured_at": "2026-10-23T06:51:50.459985+00:00",
+      "bytes": 1069,
+      "sha256": "b55e7e76df3ff185809c49b6cdc0200de87f4d34cebcc2155e04686360b999d8",
+      "derivation": "User-directed expansion pause and four-GPU64D resume; checkpoint and real optimizer evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-priority64-gpu3to6/paused_expansions.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/priority64_gpu3to6_20261023",
+      "captured_at": "2026-10-23T06:51:50.459985+00:00",
+      "bytes": 2733,
+      "sha256": "dbf429d8bb5e1516f42e90615845c75b097ae5ab1ca779a723301ea7e8954bdf",
+      "derivation": "User-directed expansion pause and four-GPU64D resume; checkpoint and real optimizer evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-priority64-gpu3to6/runtime_schedule.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/priority64_gpu3to6_20261023",
+      "captured_at": "2026-10-23T06:51:50.459985+00:00",
+      "bytes": 1196,
+      "sha256": "1c765b6494fcf4d96ec4928470267e63c7b6fe828d326622d98c22acab73ae95",
+      "derivation": "User-directed expansion pause and four-GPU64D resume; checkpoint and real optimizer evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-priority64-gpu3to6/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/priority64_gpu3to6_20261023",
+      "captured_at": "2026-10-23T06:51:50.459985+00:00",
+      "bytes": 6211,
+      "sha256": "b97eaca6fd41a6dfd050a8b8f2c515342a1f7cb61760d69d6ede9c873c901dca",
+      "derivation": "User-directed expansion pause and four-GPU64D resume; checkpoint and real optimizer evidence."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-pmrl-gpu1267/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/pmrl_gpu1267_20261023",
+      "captured_at": "2026-10-23T07:04:41.302208+00:00",
+      "bytes": 1009,
+      "sha256": "3ee24639a746179e8ccccef6c0fad7ffdce5137ad663aa9832d1873150da5f09",
+      "derivation": "Authorized PMRL four-GPU group, checkpoint verification and existing-worker handover."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-pmrl-gpu1267/runtime_schedule.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/pmrl_gpu1267_20261023",
+      "captured_at": "2026-10-23T07:04:41.302208+00:00",
+      "bytes": 1404,
+      "sha256": "7ac3f66a3aa190800f9a9f514df1f328226f1479e0845023b92e9d254cab329f",
+      "derivation": "Authorized PMRL four-GPU group, checkpoint verification and existing-worker handover."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-pmrl-gpu1267/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-23T07:05:41.961669+00:00",
+      "bytes": 7043,
+      "sha256": "0d84c58d271682963deb89528481ab60ce4c38cb978100dbf6020bf2732b181f",
+      "derivation": "Actual PMRL four-GPU resume launch and optimizer update."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/README.md",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/README.md",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 4759,
+      "sha256": "95cec49718a72e50a7b8458985a9e9d6a5e255419490f486c4229fdadb552ded",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/author_implementation_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/author_implementation_manifest.json",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 4463,
+      "sha256": "4df677a5dbbe782876a5f0eacbe0923e77d097b4b6c30b1f0f9db40f06741178",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/author_patch_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/author_patch_manifest.json",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 683,
+      "sha256": "cc4c441e50344c1294f0610f4790b86922db1233b0080b53bbf9cabfe650dc1d",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_R0_vs_R3.pdf",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/geometry_R0_vs_R3.pdf",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 96458,
+      "sha256": "cb06d368a2431184f00b040aaf68cc26276a641c3264044a979f2a88fd32a079",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_R0_vs_R3.png",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/geometry_R0_vs_R3.png",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 418697,
+      "sha256": "5d201ea2cd62680206a4b9532ddcd1dcae7e6ecfd6291ca59278097703495e8b",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_R1_vs_R2.pdf",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/geometry_R1_vs_R2.pdf",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 94957,
+      "sha256": "672248912f7845901df2f1913b1b0c259d6f78817cab9ff951e7a4ec7fe7b727",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_R1_vs_R2.png",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/geometry_R1_vs_R2.png",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 365562,
+      "sha256": "aa959cc03172f80601fcd92e7853a176ea1df6fec46f249a1e120305737a0372",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_validation_report.pdf",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/geometry_validation_report.pdf",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 198111,
+      "sha256": "3b3138971e73f0aeea7e7705a2ba6cdd9d3a5aaaf3a23a96af4f8da6c8b0d572",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/implementation_checks.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/implementation_checks.json",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 928,
+      "sha256": "ad1c56e7f6f31afaf80d76e0ead3db9cee68593d70a01cf7a9d12bdd4d57efea",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/native_geometry.csv",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/native_geometry.csv",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 1153,
+      "sha256": "1f98609e83babc39216267d2fd0938291648c98beec1373cfe8e85581b1d08cc",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/native_geometry_comparison.pdf",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/native_geometry_comparison.pdf",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 23790,
+      "sha256": "3fdb777cd5d7e310d889f717185271fa4b9de6eabfc8db517a9270c6182218cc",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/native_geometry_comparison.png",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/native_geometry_comparison.png",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 228342,
+      "sha256": "8491b6ebe26521a064c7f675b00695c04e5d6a5b2f64e79c5a7475f60b801576",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/projection_faithfulness.pdf",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/projection_faithfulness.pdf",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 21566,
+      "sha256": "6422af80971aa286fc9965e4d5dc7317bde9f164d837bcc8b410b2727902e861",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/projection_faithfulness.png",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/projection_faithfulness.png",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 134505,
+      "sha256": "def3507be8307f5a434d06d2279337a652114ffb16bb013fedcd5f36977a01fc",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/projection_quality.csv",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/projection_quality.csv",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 1138,
+      "sha256": "481b25a4cb146015adadc3eedbebf4a4606b9013f0ce8afb8c581f3bcb9bcfcc",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/provenance.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/provenance.json",
+      "captured_at": "2026-10-23T07:54:35.967284+00:00",
+      "bytes": 22997,
+      "sha256": "bff16c9273684ef6cdc32192e96d1df38c583b8f237029ab266488a55f382bc9",
+      "derivation": "Matched validation-only geometry analysis; 64D seed50, same 48 videos per recipe; original-space metrics over500 videos."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-vast-joint-gpu7/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/vast_joint_gpu7_20261023",
+      "captured_at": "2026-10-23T11:07:26.747135+00:00",
+      "bytes": 1173,
+      "sha256": "90cf2773252c666c91128e5674c5b5573fba351d67a06c81d9f6e234fda0ae82",
+      "derivation": "Authorized VAST single-GPU fine-tuning on GPU7 and existing-worker handover."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-vast-joint-gpu7/runtime_schedule.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/vast_joint_gpu7_20261023",
+      "captured_at": "2026-10-23T11:07:26.747135+00:00",
+      "bytes": 1497,
+      "sha256": "057b3367e77f8e8bfb9f5dc5b98ec68aca28be4cc98ca6f0bbac24d7da2bc578",
+      "derivation": "Authorized VAST single-GPU fine-tuning on GPU7 and existing-worker handover."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-23-vast-joint-gpu7/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021",
+      "captured_at": "2026-10-23T11:08:33.309227+00:00",
+      "bytes": 5773,
+      "sha256": "b6ba53e0b6af30f69947d4040be35142a5538678c219544e8b14c29876641305",
+      "derivation": "Actual single-GPU VAST fine-tuning optimizer update and resource allocation."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-pmrl-recovery/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/admission_retry_20261024",
+      "captured_at": "2026-10-24T08:16:46.953317+00:00",
+      "bytes": 1522,
+      "sha256": "d35365f826c0247915bc5148fdafd997c32da3eae08f55a0fbb2e9cfc4623806",
+      "derivation": "PMRL checkpoint recovery and bounded GPU-admission retry; no model-parameter change."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-pmrl-recovery/recovery_policy.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/admission_retry_20261024",
+      "captured_at": "2026-10-24T08:16:46.953317+00:00",
+      "bytes": 1302,
+      "sha256": "62aed6e7538b2d2031ac485501aed8efd7dd4058ca0861455b7c0a1198e1d9fd",
+      "derivation": "PMRL checkpoint recovery and bounded GPU-admission retry; no model-parameter change."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-pmrl-recovery/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/admission_retry_20261024",
+      "captured_at": "2026-10-24T08:16:46.953317+00:00",
+      "bytes": 6475,
+      "sha256": "99c4d8d17c7a60dc7a5aedcb4962416195dd5f28947193798303685aa89f6b84",
+      "derivation": "PMRL checkpoint recovery and bounded GPU-admission retry; no model-parameter change."
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/euc_none_d64_s50_R0.json",
+      "source_server": "server-b",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R0.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 6555,
+      "sha256": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "dataset_root"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/euc_none_d64_s50_R1.json",
+      "source_server": "server-b",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R1.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 6568,
+      "sha256": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "dataset_root"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/gram_d64_s50_R1.json",
+      "source_server": "server-b",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/gram_d64_s50_R1.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 2298,
+      "sha256": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "dataset_root"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/hyp_cone_d64_s50_R0.json",
+      "source_server": "server-b",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R0.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 6483,
+      "sha256": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "dataset_root"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/hyp_cone_d64_s50_R1.json",
+      "source_server": "server-b",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R1.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 6495,
+      "sha256": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "dataset_root"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/vast_d64_s50_R3.json",
+      "source_server": "server-b",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/vast_d64_s50_R3.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 2308,
+      "sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "dataset_root"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/handover.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/handover_complete.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 1824,
+      "sha256": "3c043897ae65536968ae14defe9784206c17281cc04d79eff899903888ae84d9",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "workspace"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/controller_manifest.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/controller_manifest.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 2047,
+      "sha256": "3b6daa2a498734bbac7e172b78e683ae131c23b0188ba98bfc37ee27bfa9a4d1",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "workspace"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/progress.json",
+      "source_server": "server-b",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/status.json",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 14100,
+      "sha256": "4b604e777accaf4ef032cf68059ad0a2b7eaabe923f06522edbbfcbc318cca97",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "workspace"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-24-method-tests/README.md",
+      "source_server": "server-b",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations",
+      "captured_at": "2026-10-24T09:09:50.906574+00:00",
+      "bytes": 1723,
+      "sha256": "ae57f6c91ed26372509a61f862ddf32f941306c187a32f8af2f9ec52e3f68d5b",
+      "derivation": "Method-locked seed50 test snapshot; six-direction macro on fixed 884 IDs. Raw metrics retained; no feature or model files.",
+      "source_root": "dataset_root"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/euc_none_d128_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6588,
+      "sha256": "beb7eca0fc591e39f089396fbccbf78042408a8513b317b6de51be9d5dbff3f0",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d128_s50_R1.json",
+      "source_sha256": "beb7eca0fc591e39f089396fbccbf78042408a8513b317b6de51be9d5dbff3f0"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/euc_none_d32_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6561,
+      "sha256": "8ba86bee8d459d54f9508978304073766ddef593f1994a9720e3bf83b15190ce",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d32_s50_R1.json",
+      "source_sha256": "8ba86bee8d459d54f9508978304073766ddef593f1994a9720e3bf83b15190ce"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/euc_none_d512_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6579,
+      "sha256": "8387804deaee2f8089a0618fc1b8f08d42db7f24e96f8f1d78a8879cf3c39e9a",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d512_s50_R1.json",
+      "source_sha256": "8387804deaee2f8089a0618fc1b8f08d42db7f24e96f8f1d78a8879cf3c39e9a"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/euc_none_d64_s50_R0.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6555,
+      "sha256": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R0.json",
+      "source_sha256": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/euc_none_d64_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6568,
+      "sha256": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R1.json",
+      "source_sha256": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/gram_d128_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 2315,
+      "sha256": "a62dfd2f3ed04602e17405cce98f9b9a6ecdc383763fb5e87d3fd4c37fef82e1",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/gram_d128_s50_R1.json",
+      "source_sha256": "a62dfd2f3ed04602e17405cce98f9b9a6ecdc383763fb5e87d3fd4c37fef82e1"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/gram_d32_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 2314,
+      "sha256": "6b00eca4c237d7114e994176576e56c3f27c8712dfbb75884e1ac1c59a1b58b7",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/gram_d32_s50_R1.json",
+      "source_sha256": "6b00eca4c237d7114e994176576e56c3f27c8712dfbb75884e1ac1c59a1b58b7"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/gram_d512_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 2311,
+      "sha256": "ff0027ef69bd1cb5a58399d563d56faffd1930de89e8cd26dffedd164f586234",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/gram_d512_s50_R1.json",
+      "source_sha256": "ff0027ef69bd1cb5a58399d563d56faffd1930de89e8cd26dffedd164f586234"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/gram_d64_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 2298,
+      "sha256": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/gram_d64_s50_R1.json",
+      "source_sha256": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/hyp_cone_d128_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6497,
+      "sha256": "ec2d5f689651cf9978eedec5d8f92a674feb878102681db0a937b07f6bc42cde",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d128_s50_R1.json",
+      "source_sha256": "ec2d5f689651cf9978eedec5d8f92a674feb878102681db0a937b07f6bc42cde"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/hyp_cone_d32_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6499,
+      "sha256": "bd143e5c707bfd2e1a48d4b8116bd470fc77165b6ebad81b8c82795938aae516",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d32_s50_R1.json",
+      "source_sha256": "bd143e5c707bfd2e1a48d4b8116bd470fc77165b6ebad81b8c82795938aae516"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/hyp_cone_d512_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6526,
+      "sha256": "92e329043f220701d4831ff3e9b62170dc9f5770016be07dc031b8b3117e3d90",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d512_s50_R1.json",
+      "source_sha256": "92e329043f220701d4831ff3e9b62170dc9f5770016be07dc031b8b3117e3d90"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/hyp_cone_d64_s50_R0.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6483,
+      "sha256": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R0.json",
+      "source_sha256": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/hyp_cone_d64_s50_R1.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 6495,
+      "sha256": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R1.json",
+      "source_sha256": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/pmrl_d64_s50_R3.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 2314,
+      "sha256": "9ffa71228730b9815ae54fbc80223f5998bc90234829c6c314d6dc017dccaee8",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/pmrl_d64_s50_R3.json",
+      "source_sha256": "9ffa71228730b9815ae54fbc80223f5998bc90234829c6c314d6dc017dccaee8"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/vast_d64_s50_R3.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 2308,
+      "sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations/vast_d64_s50_R3.json",
+      "source_sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/selections/hyp_cone.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 26010,
+      "sha256": "9bd17b4ef9c6375318b46ec950699c8e5e82099452ebaaa92e903598c1db7e82",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/selections/hyp_cone.json",
+      "source_sha256": "9bd17b4ef9c6375318b46ec950699c8e5e82099452ebaaa92e903598c1db7e82"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/selections/euc_none.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 26154,
+      "sha256": "aa3d5b412c4a0b79e0ee0e693356d4d2d19603201adba9cc74259a9a5995822f",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/selections/euc_none.json",
+      "source_sha256": "aa3d5b412c4a0b79e0ee0e693356d4d2d19603201adba9cc74259a9a5995822f"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/selections/vast.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 7320,
+      "sha256": "55715c523ab0ec439c09ea50d345b53cb8e714c635f049665665cb89ba91e689",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/selections/vast.json",
+      "source_sha256": "55715c523ab0ec439c09ea50d345b53cb8e714c635f049665665cb89ba91e689"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/selections/gram.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 7248,
+      "sha256": "a147e5fef90f5f0713d7f509558fcec633a37d9d5b23e03e4d69f7f3e3df12f8",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/selections/gram.json",
+      "source_sha256": "a147e5fef90f5f0713d7f509558fcec633a37d9d5b23e03e4d69f7f3e3df12f8"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/selections/pmrl.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 7271,
+      "sha256": "f806b1f120521a17c297d066a76cbd63ee772a79b46b8b31798f34106ac28607",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/selections/pmrl.json",
+      "source_sha256": "f806b1f120521a17c297d066a76cbd63ee772a79b46b8b31798f34106ac28607"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/SELECTIONS_LOCKED.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 661,
+      "sha256": "32f730576dfe841221540935db30a6d7654226c69947bb1dec561e46841fe08c",
+      "derivation": "Original JSON copied byte-for-byte; no model/features included.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/SELECTIONS_LOCKED.json",
+      "source_sha256": "32f730576dfe841221540935db30a6d7654226c69947bb1dec561e46841fe08c"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/test_macro.csv",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 2615,
+      "sha256": "b2819f09ff5969c8fe306f2f8309c8e93af9f8f7900283d3e7463044120dc1d4",
+      "derivation": "Derived from verified test JSON and locked validation selections.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations",
+      "inputs": [
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d128_s50_R1.json",
+          "sha256": "beb7eca0fc591e39f089396fbccbf78042408a8513b317b6de51be9d5dbff3f0"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d32_s50_R1.json",
+          "sha256": "8ba86bee8d459d54f9508978304073766ddef593f1994a9720e3bf83b15190ce"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d512_s50_R1.json",
+          "sha256": "8387804deaee2f8089a0618fc1b8f08d42db7f24e96f8f1d78a8879cf3c39e9a"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R0.json",
+          "sha256": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R1.json",
+          "sha256": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d128_s50_R1.json",
+          "sha256": "a62dfd2f3ed04602e17405cce98f9b9a6ecdc383763fb5e87d3fd4c37fef82e1"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d32_s50_R1.json",
+          "sha256": "6b00eca4c237d7114e994176576e56c3f27c8712dfbb75884e1ac1c59a1b58b7"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d512_s50_R1.json",
+          "sha256": "ff0027ef69bd1cb5a58399d563d56faffd1930de89e8cd26dffedd164f586234"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d64_s50_R1.json",
+          "sha256": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d128_s50_R1.json",
+          "sha256": "ec2d5f689651cf9978eedec5d8f92a674feb878102681db0a937b07f6bc42cde"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d32_s50_R1.json",
+          "sha256": "bd143e5c707bfd2e1a48d4b8116bd470fc77165b6ebad81b8c82795938aae516"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d512_s50_R1.json",
+          "sha256": "92e329043f220701d4831ff3e9b62170dc9f5770016be07dc031b8b3117e3d90"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R0.json",
+          "sha256": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R1.json",
+          "sha256": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/pmrl_d64_s50_R3.json",
+          "sha256": "9ffa71228730b9815ae54fbc80223f5998bc90234829c6c314d6dc017dccaee8"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/vast_d64_s50_R3.json",
+          "sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1"
+        }
+      ]
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/test_directions.csv",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 9387,
+      "sha256": "a115219254e27a7cfa27f2dccd2b50fe9791e76a0a9ddf97829cd2b8d9b38269",
+      "derivation": "Derived from verified test JSON and locked validation selections.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations",
+      "inputs": [
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d128_s50_R1.json",
+          "sha256": "beb7eca0fc591e39f089396fbccbf78042408a8513b317b6de51be9d5dbff3f0"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d32_s50_R1.json",
+          "sha256": "8ba86bee8d459d54f9508978304073766ddef593f1994a9720e3bf83b15190ce"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d512_s50_R1.json",
+          "sha256": "8387804deaee2f8089a0618fc1b8f08d42db7f24e96f8f1d78a8879cf3c39e9a"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R0.json",
+          "sha256": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R1.json",
+          "sha256": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d128_s50_R1.json",
+          "sha256": "a62dfd2f3ed04602e17405cce98f9b9a6ecdc383763fb5e87d3fd4c37fef82e1"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d32_s50_R1.json",
+          "sha256": "6b00eca4c237d7114e994176576e56c3f27c8712dfbb75884e1ac1c59a1b58b7"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d512_s50_R1.json",
+          "sha256": "ff0027ef69bd1cb5a58399d563d56faffd1930de89e8cd26dffedd164f586234"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d64_s50_R1.json",
+          "sha256": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d128_s50_R1.json",
+          "sha256": "ec2d5f689651cf9978eedec5d8f92a674feb878102681db0a937b07f6bc42cde"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d32_s50_R1.json",
+          "sha256": "bd143e5c707bfd2e1a48d4b8116bd470fc77165b6ebad81b8c82795938aae516"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d512_s50_R1.json",
+          "sha256": "92e329043f220701d4831ff3e9b62170dc9f5770016be07dc031b8b3117e3d90"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R0.json",
+          "sha256": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R1.json",
+          "sha256": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/pmrl_d64_s50_R3.json",
+          "sha256": "9ffa71228730b9815ae54fbc80223f5998bc90234829c6c314d6dc017dccaee8"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/vast_d64_s50_R3.json",
+          "sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1"
+        }
+      ]
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/validation_candidates_64d.csv",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 1386,
+      "sha256": "f626493607c97f469364925970ce09029392efce7cc6ee49e5f97a3879c07702",
+      "derivation": "Derived from verified test JSON and locked validation selections.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations",
+      "inputs": [
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d128_s50_R1.json",
+          "sha256": "beb7eca0fc591e39f089396fbccbf78042408a8513b317b6de51be9d5dbff3f0"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d32_s50_R1.json",
+          "sha256": "8ba86bee8d459d54f9508978304073766ddef593f1994a9720e3bf83b15190ce"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d512_s50_R1.json",
+          "sha256": "8387804deaee2f8089a0618fc1b8f08d42db7f24e96f8f1d78a8879cf3c39e9a"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R0.json",
+          "sha256": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R1.json",
+          "sha256": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d128_s50_R1.json",
+          "sha256": "a62dfd2f3ed04602e17405cce98f9b9a6ecdc383763fb5e87d3fd4c37fef82e1"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d32_s50_R1.json",
+          "sha256": "6b00eca4c237d7114e994176576e56c3f27c8712dfbb75884e1ac1c59a1b58b7"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d512_s50_R1.json",
+          "sha256": "ff0027ef69bd1cb5a58399d563d56faffd1930de89e8cd26dffedd164f586234"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d64_s50_R1.json",
+          "sha256": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d128_s50_R1.json",
+          "sha256": "ec2d5f689651cf9978eedec5d8f92a674feb878102681db0a937b07f6bc42cde"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d32_s50_R1.json",
+          "sha256": "bd143e5c707bfd2e1a48d4b8116bd470fc77165b6ebad81b8c82795938aae516"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d512_s50_R1.json",
+          "sha256": "92e329043f220701d4831ff3e9b62170dc9f5770016be07dc031b8b3117e3d90"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R0.json",
+          "sha256": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R1.json",
+          "sha256": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/pmrl_d64_s50_R3.json",
+          "sha256": "9ffa71228730b9815ae54fbc80223f5998bc90234829c6c314d6dc017dccaee8"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/vast_d64_s50_R3.json",
+          "sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1"
+        }
+      ]
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/baseline_r0_64d.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 2130,
+      "sha256": "ca924a04cf09374bec3e3b2dfd83b456cf37c4203cb763b74b3e93b8efdf1faa",
+      "derivation": "Audited legacy test macro scores for comparison; same frozen MSRVTT cohort.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/legacy_registry.json",
+      "source_sha256": "0e421ce3adb3950a2f12f558fff84492967711525c38ae91d433beecbb117f0e"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/runtime_observation.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 4742,
+      "sha256": "a36b2641bd9a24baf1c6d90f5c14b221709640f8fd6fbaf4be73ea83264e793d",
+      "derivation": "Fresh PID checks distinguish stale running status from actual stopped processes. Root disk full does not establish training exit cause.",
+      "source_root": "workspace",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/status.json",
+      "source_sha256": "b9ca917fb798f62b9ed4efc7fecdee7dfa1c5b6e5585fa0e90b5ef5a035509ee"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/run_launches.json",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 67690,
+      "sha256": "f0ecb6437f74c27e652f1ffedc2c1cbfb34cb08cb3995086550257d94fdcb36e",
+      "derivation": "Only newly recorded seed50 train/test launches; PID, GPU, command and log location retained, no full logs.",
+      "source_root": "workspace",
+      "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/launchers.jsonl",
+      "source_sha256": "3c7a2fffd0ea05cd53badc2535bb0badbcc9dbbcdfa92d2336579914d6ad290e"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-b-retrieval-training",
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/README.md",
+      "source_server": "server-b",
+      "captured_at": "2026-10-25T07:22:03.941622+00:00",
+      "bytes": 3122,
+      "sha256": "0679f9d16098e71e49052e185659c6a2c057dd5d870de3e902f07580829885fd",
+      "derivation": "Rendered verified test tables; best/second at displayed precision; observations separated from causal claims.",
+      "source_root": "dataset_root",
+      "source_path": "lowdim_retrieval_20261021/method_evaluations",
+      "inputs": [
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d128_s50_R1.json",
+          "sha256": "beb7eca0fc591e39f089396fbccbf78042408a8513b317b6de51be9d5dbff3f0"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d32_s50_R1.json",
+          "sha256": "8ba86bee8d459d54f9508978304073766ddef593f1994a9720e3bf83b15190ce"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d512_s50_R1.json",
+          "sha256": "8387804deaee2f8089a0618fc1b8f08d42db7f24e96f8f1d78a8879cf3c39e9a"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R0.json",
+          "sha256": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/euc_none_d64_s50_R1.json",
+          "sha256": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d128_s50_R1.json",
+          "sha256": "a62dfd2f3ed04602e17405cce98f9b9a6ecdc383763fb5e87d3fd4c37fef82e1"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d32_s50_R1.json",
+          "sha256": "6b00eca4c237d7114e994176576e56c3f27c8712dfbb75884e1ac1c59a1b58b7"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d512_s50_R1.json",
+          "sha256": "ff0027ef69bd1cb5a58399d563d56faffd1930de89e8cd26dffedd164f586234"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/gram_d64_s50_R1.json",
+          "sha256": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d128_s50_R1.json",
+          "sha256": "ec2d5f689651cf9978eedec5d8f92a674feb878102681db0a937b07f6bc42cde"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d32_s50_R1.json",
+          "sha256": "bd143e5c707bfd2e1a48d4b8116bd470fc77165b6ebad81b8c82795938aae516"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d512_s50_R1.json",
+          "sha256": "92e329043f220701d4831ff3e9b62170dc9f5770016be07dc031b8b3117e3d90"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R0.json",
+          "sha256": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/hyp_cone_d64_s50_R1.json",
+          "sha256": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/pmrl_d64_s50_R3.json",
+          "sha256": "9ffa71228730b9815ae54fbc80223f5998bc90234829c6c314d6dc017dccaee8"
+        },
+        {
+          "path": "lowdim_retrieval_20261021/method_evaluations/vast_d64_s50_R3.json",
+          "sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-24T21:39:02.222534+08:00"
+  "updated_at": "2026-10-24T21:39:02.222534+08:00",
+  "last_updated_at": "2026-10-25T07:22:03.941622+00:00"
 }

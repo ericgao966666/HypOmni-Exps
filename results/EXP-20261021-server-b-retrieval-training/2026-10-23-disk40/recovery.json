@@ -1,0 +1,86 @@
+{
+  "captured_at": "2026-10-23T03:49:18.993799+00:00",
+  "previous_supervisor": 3440751,
+  "stalled_worker": {
+    "pid": 2676599,
+    "start_ticks": "46758712",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "warmup",
+        "epochs": 8,
+        "global_batch": 256,
+        "head_lr": 0.0003,
+        "other_lr": 0.0003,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__warmup.log",
+    "run_id": "20261022T193249-server-b-train-pmrl_d64_s50_R3-warmup"
+  },
+  "seconds_without_updates": 27780.726503372192,
+  "saved_epoch": 5,
+  "stop_evidence": {
+    "time": 1792727189.612896,
+    "old_supervisor_pid": 3440751,
+    "old_worker_pid": 2676599,
+    "old_ranks_stopped": true,
+    "checkpoint_preserved": true
+  },
+  "new_launch": {
+    "pid": 853499,
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/disk40_20261023/disk_schedule.py",
+      "--execute"
+    ],
+    "resume_command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/disk40_20261023/disk_schedule.py",
+      "--execute"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/disk40_20261023/coordinator.log",
+    "started_at": 1792727207.4499114,
+    "status": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/status.json",
+    "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+    "controller_sha256": "815a3b1b007188e6bc518310f87333c58075100ed7a08d72c7acaddda4a5fed4",
+    "worker_wrapper_sha256": "466a21e70fa5249f3c58e4a3b227ba50eab4f5191235190a5e9f6874828d43fe",
+    "resource_policy": {
+      "schema_version": 1,
+      "admission_used_gib": 45.0,
+      "allocation_cap_gib": 40.0,
+      "headroom_gib": 8.0,
+      "one_task_rank_per_gpu": true,
+      "authorization": "2026-10-23 user explicitly requested lowering the disk protection floor to 40 GiB and continuing available experiments; GPU rules remain unchanged.",
+      "disk_reserve_gib": 40.0,
+      "checkpoint_margin_gib": 1.0,
+      "launch_margin_gib": 20.0
+    },
+    "previous_supervisor": 3440751,
+    "recovery": "Stopped stalled PMRL group; resume tasks from saved checkpoints."
+  },
+  "root_cause": "PMRL stalled around epoch6 end; exact cause not established; preserve epoch5 and requeue. No user data deleted."
+}

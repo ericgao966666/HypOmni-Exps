@@ -1,0 +1,11 @@
+{
+  "training_source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_files": {
+    "control/parallel_20261021/parallel_schedule.py": "cec2dc1b75bc4adac65347535e44e77910d3a990a9b37266a8f8df9574d98c7b",
+    "control/parallel_20261021/test_parallel_schedule.py": "a295db01ba535fbf522e5d8727e5e7a4d870d2c9a7b6ae4d507ed88d17d775ee"
+  },
+  "cpu_scheduling_tests": 5,
+  "gpu_profiling": false,
+  "training_protocol_changed": false,
+  "existing_workers_restarted": false
+}

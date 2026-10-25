@@ -1,0 +1,248 @@
+{
+  "method": "vast",
+  "recipe": "R3",
+  "selection_inputs_digest": "7a7cdc7461206aa6edbc0fa77b9c2324fbe4cbe30ebb5297dacf770e82b313e6",
+  "rule": "64D seed50 validation R@1, R@5, fewer total updates, R0/R2/R1/R3",
+  "candidates": [
+    {
+      "method": "vast",
+      "dimension": 64,
+      "recipe": "R0",
+      "seed": 50,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_finetune_64d_20261020/runs/msrvtt_vast_d64_s50",
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 38.6,
+            "R@5": 66.60000000000001,
+            "R@10": 78.60000000000001,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 41.4,
+            "R@5": 72.39999999999999,
+            "R@10": 81.0,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 13.4,
+            "R@5": 34.0,
+            "R@10": 48.6,
+            "median_rank": 12.0
+          },
+          "a2t": {
+            "R@1": 13.4,
+            "R@5": 36.6,
+            "R@10": 48.0,
+            "median_rank": 12.0
+          },
+          "v2a": {
+            "R@1": 11.0,
+            "R@5": 29.2,
+            "R@10": 40.0,
+            "median_rank": 19.0
+          },
+          "a2v": {
+            "R@1": 5.4,
+            "R@5": 20.599999999999998,
+            "R@10": 30.4,
+            "median_rank": 33.0
+          }
+        },
+        "macro": {
+          "R@1": 20.533333333333335,
+          "R@5": 43.23333333333333,
+          "R@10": 54.43333333333334
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 7,
+      "total_updates": 1160,
+      "world_size": 1,
+      "best_file": "/data0/xiaobo.xia/yuxuan.gao/lowdim_finetune_64d_20261020/runs/msrvtt_vast_d64_s50/best_epoch_0007.pt",
+      "best_sha256": "513ea8d953d7d174df33993e610a47fea2e25c1e5292cd14fab0d13b291acc5c",
+      "initial_heads_sha256": "ff01a3acb0cb171a8ce1eeb7bbcc64143d063acb96929b9b5fd8f3f521836403",
+      "provenance_files": {
+        "DONE.json": "316a08aa4a869d8e670846e7db47519f1aed137a7041c9a5be8a3fa85b44f63c",
+        "config.json": "17584e881091ec53365268c3c48f0de2e19ac0bd42781a7f8303f78ab55eb741",
+        "epochs.jsonl": "86f3a8fef694946495d1341abd22d0c9509cbc5c8e6e23b97fd85c0b986299f8",
+        "test_metrics.json": "c50627f469363c10813da8ab0404fa89b363ab71dda72932ce453e60bf158a33",
+        "test_features.pt": "db25bf13d3262c7490ce99d0497163cfd2a123bd1d4d67abba565753426c2537"
+      },
+      "elapsed": 4284.816710196959
+    },
+    {
+      "method": "vast",
+      "dimension": 64,
+      "recipe": "R1",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 44.0,
+            "R@5": 72.39999999999999,
+            "R@10": 82.19999999999999,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 43.6,
+            "R@5": 75.4,
+            "R@10": 84.2,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 15.4,
+            "R@5": 38.6,
+            "R@10": 49.8,
+            "median_rank": 11.0
+          },
+          "a2t": {
+            "R@1": 15.0,
+            "R@5": 38.800000000000004,
+            "R@10": 50.8,
+            "median_rank": 10.0
+          },
+          "v2a": {
+            "R@1": 12.8,
+            "R@5": 34.0,
+            "R@10": 45.2,
+            "median_rank": 14.0
+          },
+          "a2v": {
+            "R@1": 9.6,
+            "R@5": 30.8,
+            "R@10": 42.0,
+            "median_rank": 15.0
+          }
+        },
+        "macro": {
+          "R@1": 23.400000000000002,
+          "R@5": 48.33333333333334,
+          "R@10": 59.03333333333333
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 27,
+      "total_updates": 3480,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/vast_d64_s50_R1/joint",
+      "best_sha256": "2921821fff1adafc1687b5f7d8816139eac8bf021abc0d7293bc31df2ce4dbd9",
+      "done_sha256": "f17b114cec4f5f0b44faca5f9e1d067a17fbcafe39070454bfe7eb59fe7b82dd"
+    },
+    {
+      "method": "vast",
+      "dimension": 64,
+      "recipe": "R2",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 39.800000000000004,
+            "R@5": 67.80000000000001,
+            "R@10": 79.0,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 41.8,
+            "R@5": 73.6,
+            "R@10": 81.8,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 13.4,
+            "R@5": 35.199999999999996,
+            "R@10": 50.0,
+            "median_rank": 10.0
+          },
+          "a2t": {
+            "R@1": 14.000000000000002,
+            "R@5": 37.6,
+            "R@10": 47.8,
+            "median_rank": 12.0
+          },
+          "v2a": {
+            "R@1": 11.0,
+            "R@5": 30.0,
+            "R@10": 39.800000000000004,
+            "median_rank": 16.0
+          },
+          "a2v": {
+            "R@1": 5.800000000000001,
+            "R@5": 23.400000000000002,
+            "R@10": 34.0,
+            "median_rank": 32.0
+          }
+        },
+        "macro": {
+          "R@1": 20.966666666666665,
+          "R@5": 44.599999999999994,
+          "R@10": 55.400000000000006
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 7,
+      "total_updates": 1160,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/vast_d64_s50_R2/joint",
+      "best_sha256": "b102bf650571b03a457bbf452586ecc46ea108095b7f95c0479127cd7b515336",
+      "done_sha256": "339bc2a981b188536c316b8692f2d23ec23f633c655a5c44b94aca89b2bad030"
+    },
+    {
+      "method": "vast",
+      "dimension": 64,
+      "recipe": "R3",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 44.0,
+            "R@5": 73.6,
+            "R@10": 83.0,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 45.4,
+            "R@5": 76.0,
+            "R@10": 83.8,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 15.0,
+            "R@5": 35.199999999999996,
+            "R@10": 46.2,
+            "median_rank": 12.0
+          },
+          "a2t": {
+            "R@1": 16.8,
+            "R@5": 34.599999999999994,
+            "R@10": 46.0,
+            "median_rank": 13.0
+          },
+          "v2a": {
+            "R@1": 14.399999999999999,
+            "R@5": 34.599999999999994,
+            "R@10": 47.599999999999994,
+            "median_rank": 12.0
+          },
+          "a2v": {
+            "R@1": 11.600000000000001,
+            "R@5": 34.0,
+            "R@10": 46.2,
+            "median_rank": 13.0
+          }
+        },
+        "macro": {
+          "R@1": 24.53333333333333,
+          "R@5": 48.0,
+          "R@10": 58.800000000000004
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 9,
+      "total_updates": 13396,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/vast_d64_s50_R3/joint",
+      "best_sha256": "6d87830aa052383bb134d27d552bc29f1c5699497d851a89c704e7b6c0145b6b",
+      "done_sha256": "c5339345f9486b6a478cc5d1644f4b6400dcd08ea15d22502956d7148419c0d7"
+    }
+  ],
+  "locked_at": 1792832807.2628446,
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337"
+}

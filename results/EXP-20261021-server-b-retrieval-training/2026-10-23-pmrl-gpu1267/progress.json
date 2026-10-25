@@ -1,0 +1,253 @@
+{
+  "captured_at": "2026-10-23T07:05:41.961669+00:00",
+  "status": {
+    "pid": 1141660,
+    "phase": "64d_seed50_parallel_pretraining",
+    "time": 1792739141.6576939,
+    "running": [
+      {
+        "pid": 856070,
+        "start_ticks": "49732311",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "vast",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R3",
+            "stage": "frozen",
+            "epochs": 30,
+            "global_batch": 256,
+            "head_lr": 0.0001,
+            "other_lr": 0.0001,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__vast_d64_s50_R3__frozen.log",
+        "run_id": "20261023T034825-server-b-train-vast_d64_s50_R3-frozen"
+      },
+      {
+        "pid": 3798136,
+        "start_ticks": "50814587",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "gram",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R3",
+            "stage": "frozen",
+            "epochs": 30,
+            "global_batch": 256,
+            "head_lr": 0.0001,
+            "other_lr": 0.0001,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d64_s50_R3__frozen.log",
+        "run_id": "20261023T064848-server-b-train-gram_d64_s50_R3-frozen"
+      },
+      {
+        "pid": 1290393,
+        "start_ticks": "50897767",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "pmrl",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R3",
+            "stage": "warmup",
+            "epochs": 8,
+            "global_batch": 256,
+            "head_lr": 0.0003,
+            "other_lr": 0.0003,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "1",
+          "2",
+          "6",
+          "7"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__warmup.log",
+        "run_id": "20261023T070240-server-b-train-pmrl_d64_s50_R3-warmup"
+      }
+    ],
+    "queued": [
+      "train/vast_d64_s50_R3/joint",
+      "train/gram_d64_s50_R3/joint",
+      "train/pmrl_d64_s50_R3/frozen",
+      "train/pmrl_d64_s50_R3/joint"
+    ],
+    "failed": [],
+    "waiting_for_disk": [],
+    "free_disk_gib": 74.90451431274414,
+    "eligible_devices": [],
+    "controller": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/pmrl_gpu1267_20261023/parallel64_schedule.py",
+    "resource_policy": {
+      "schema_version": 1,
+      "admission_used_gib": 45.0,
+      "allocation_cap_gib": 40.0,
+      "headroom_gib": 8.0,
+      "one_task_rank_per_gpu": false,
+      "authorization": "2026-10-23 user explicitly requested lowering the disk protection floor to 40 GiB and continuing available experiments; GPU rules remain unchanged.",
+      "disk_reserve_gib": 40.0,
+      "checkpoint_margin_gib": 1.0,
+      "launch_margin_gib": 20.0,
+      "scheduling_scope": {
+        "seeds": [
+          50
+        ],
+        "priority_dimension": 64,
+        "defer_expansion_until_64d_complete": true,
+        "four_gpu_groups": {
+          "vast": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "gram": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "pmrl": [
+            "1",
+            "2",
+            "6",
+            "7"
+          ]
+        },
+        "max_task_ranks_per_gpu": 2,
+        "preserve_existing_results": true,
+        "authorization": "User explicitly requested an additional experiment on GPUs1/2/6/7; resume unfinished PMRL64D R3 without restarting VAST or GRAM."
+      },
+      "max_task_ranks_per_gpu": 2
+    },
+    "seeds": [
+      50
+    ],
+    "multi_seed_cancelled": true,
+    "expansion_after_64d": true
+  },
+  "launch": {
+    "run_id": "20261023T070240-server-b-train-pmrl_d64_s50_R3-warmup",
+    "pid": 1290393,
+    "start_ticks": "50897767",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "warmup",
+        "epochs": 8,
+        "global_batch": 256,
+        "head_lr": 0.0003,
+        "other_lr": 0.0003,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "2",
+      "6",
+      "7"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "pmrl",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "warmup",
+      "--devices",
+      "1,2,6,7"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__warmup.log",
+    "time": 1792738960.5476887,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 33.0400390625,
+      "2": 30.9921875,
+      "6": 35.091796875,
+      "7": 25.857421875
+    }
+  },
+  "actual_optimizer_event": {
+    "epoch": 6,
+    "step": 1611,
+    "batch": 1,
+    "loss": 0.5645335912704468,
+    "grad_norm": 0.21120411157608032,
+    "gradients": {
+      "contra_head_": 0.21120411157608032
+    },
+    "learning_rates": {
+      "head": 0.0003
+    },
+    "seconds_per_batch": 34.849227763013914,
+    "peak_reserved_gib": 11.78125
+  }
+}

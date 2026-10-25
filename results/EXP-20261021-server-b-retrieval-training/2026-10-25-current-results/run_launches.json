@@ -1,0 +1,2642 @@
+[
+  {
+    "run_id": "20261021T044353-server-b-train-hyp_cone_d64_s50_R1-joint",
+    "pid": 3258359,
+    "start_ticks": "32785097",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "0"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "0"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s50_R1__joint.log",
+    "time": 1792557833.8486195,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "0": 20.3369140625
+    }
+  },
+  {
+    "run_id": "20261021T044353-server-b-train-hyp_cone_d64_s50_R2-joint",
+    "pid": 3258360,
+    "start_ticks": "32785097",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R2",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 0.0001,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R2",
+      "--stage",
+      "joint",
+      "--devices",
+      "1"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s50_R2__joint.log",
+    "time": 1792557833.8497825,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 20.9951171875
+    }
+  },
+  {
+    "run_id": "20261021T044353-server-b-train-euc_none_d64_s50_R1-joint",
+    "pid": 3258361,
+    "start_ticks": "32785098",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "euc_none",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "2"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "2"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d64_s50_R1__joint.log",
+    "time": 1792557833.8510673,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "2": 25.6279296875
+    }
+  },
+  {
+    "run_id": "20261021T044353-server-b-train-euc_none_d64_s50_R2-joint",
+    "pid": 3258362,
+    "start_ticks": "32785098",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "euc_none",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R2",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 0.0001,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R2",
+      "--stage",
+      "joint",
+      "--devices",
+      "3"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d64_s50_R2__joint.log",
+    "time": 1792557833.8517244,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "3": 23.3251953125
+    }
+  },
+  {
+    "run_id": "20261021T055332-server-b-train-vast_d64_s50_R2-joint",
+    "pid": 4156660,
+    "start_ticks": "33202972",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "vast",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R2",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 0.0001,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "vast",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R2",
+      "--stage",
+      "joint",
+      "--devices",
+      "3"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__vast_d64_s50_R2__joint.log",
+    "time": 1792562012.5979142,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "3": 23.3212890625
+    }
+  },
+  {
+    "run_id": "20261021T055638-server-b-train-gram_d64_s50_R2-joint",
+    "pid": 7557,
+    "start_ticks": "33221601",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R2",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 0.0001,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R2",
+      "--stage",
+      "joint",
+      "--devices",
+      "1"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d64_s50_R2__joint.log",
+    "time": 1792562198.8830783,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 20.9951171875
+    }
+  },
+  {
+    "run_id": "20261021T071412-server-b-train-pmrl_d64_s50_R2-joint",
+    "pid": 1036182,
+    "start_ticks": "33686981",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R2",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 0.0001,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "pmrl",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R2",
+      "--stage",
+      "joint",
+      "--devices",
+      "1"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R2__joint.log",
+    "time": 1792566852.6865458,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 23.6025390625
+    }
+  },
+  {
+    "run_id": "20261021T072813-server-b-train-hyp_cone_d64_s50_R3-warmup",
+    "pid": 1204055,
+    "start_ticks": "33771087",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "warmup",
+        "epochs": 8,
+        "global_batch": 256,
+        "head_lr": 0.0003,
+        "other_lr": 0.0003,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "warmup",
+      "--devices",
+      "3"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s50_R3__warmup.log",
+    "time": 1792567693.7407172,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "3": 25.3564453125
+    }
+  },
+  {
+    "run_id": "20261021T072813-server-b-train-euc_none_d64_s50_R3-warmup",
+    "pid": 1204056,
+    "start_ticks": "33771087",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "euc_none",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "warmup",
+        "epochs": 8,
+        "global_batch": 256,
+        "head_lr": 0.0003,
+        "other_lr": 0.0003,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "warmup",
+      "--devices",
+      "4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d64_s50_R3__warmup.log",
+    "time": 1792567693.7422726,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "4": 27.7587890625
+    }
+  },
+  {
+    "run_id": "20261021T073129-server-b-train-hyp_cone_d64_s50_R3-frozen",
+    "pid": 1206253,
+    "start_ticks": "33790705",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "3"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s50_R3__frozen.log",
+    "time": 1792567889.921806,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "3": 25.3564453125
+    }
+  },
+  {
+    "run_id": "20261021T073129-server-b-train-euc_none_d64_s50_R3-frozen",
+    "pid": 1206254,
+    "start_ticks": "33790705",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "euc_none",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d64_s50_R3__frozen.log",
+    "time": 1792567889.923153,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "4": 27.7587890625
+    }
+  },
+  {
+    "run_id": "20261021T074309-server-b-train-euc_none_d64_s50_R3-joint",
+    "pid": 1210870,
+    "start_ticks": "33860680",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "euc_none",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "2"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "joint",
+      "--devices",
+      "2"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d64_s50_R3__joint.log",
+    "time": 1792568589.6747599,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "2": 29.3232421875
+    }
+  },
+  {
+    "run_id": "20261021T074410-server-b-train-hyp_cone_d64_s50_R3-joint",
+    "pid": 1211190,
+    "start_ticks": "33866719",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "joint",
+      "--devices",
+      "3"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s50_R3__joint.log",
+    "time": 1792568650.0660124,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "3": 25.3564453125
+    }
+  },
+  {
+    "run_id": "20261021T084316-server-b-train-vast_d64_s50_R3-warmup",
+    "pid": 1254225,
+    "start_ticks": "34221384",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "vast",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "warmup",
+        "epochs": 8,
+        "global_batch": 256,
+        "head_lr": 0.0003,
+        "other_lr": 0.0003,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "vast",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "warmup",
+      "--devices",
+      "0,1,2,4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__vast_d64_s50_R3__warmup.log",
+    "time": 1792572196.7199755,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "0": 25.8857421875,
+      "1": 21.6162109375,
+      "2": 29.521484375,
+      "4": 34.2490234375
+    }
+  },
+  {
+    "run_id": "20261021T092953-server-b-train-gram_d64_s50_R3-warmup",
+    "pid": 3985943,
+    "start_ticks": "34501069",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "warmup",
+        "epochs": 8,
+        "global_batch": 256,
+        "head_lr": 0.0003,
+        "other_lr": 0.0003,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "warmup",
+      "--devices",
+      "3,5,6,7"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d64_s50_R3__warmup.log",
+    "time": 1792574993.5676808,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "3": 25.3564453125,
+      "5": 30.5400390625,
+      "6": 23.5791015625,
+      "7": 26.2314453125
+    }
+  },
+  {
+    "run_id": "20261021T130816-server-b-train-vast_d64_s50_R3-frozen",
+    "pid": 2410031,
+    "start_ticks": "35811357",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "vast",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "vast",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "0,1,2,4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__vast_d64_s50_R3__frozen.log",
+    "time": 1792588096.4428325,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "0": 13.33984375,
+      "1": 5.3271484375,
+      "2": 7.5576171875,
+      "4": 5.1025390625
+    }
+  },
+  {
+    "run_id": "20261021T135115-server-b-train-gram_d64_s50_R3-frozen",
+    "pid": 3542844,
+    "start_ticks": "36069219",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "3,5,6,7"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d64_s50_R3__frozen.log",
+    "time": 1792590675.06089,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "3": 3.8984375,
+      "5": 7.3837890625,
+      "6": 7.732421875,
+      "7": 5.779296875
+    }
+  },
+  {
+    "run_id": "20261022T094426-server-b-train-vast_d64_s50_R3-frozen",
+    "pid": 2114911,
+    "start_ticks": "43228390",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "vast",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "vast",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "1,2,3,4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__vast_d64_s50_R3__frozen.log",
+    "time": 1792662266.7732835,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 16.7841796875,
+      "2": 21.9521484375,
+      "3": 25.09375,
+      "4": 40.2080078125
+    }
+  },
+  {
+    "run_id": "20261022T150607-server-b-train-gram_d64_s50_R3-frozen",
+    "pid": 361498,
+    "start_ticks": "45158421",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "1,2,3,4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d64_s50_R3__frozen.log",
+    "time": 1792681567.083642,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 30.111328125,
+      "2": 11.63671875,
+      "3": 30.919921875,
+      "4": 37.341796875
+    }
+  },
+  {
+    "run_id": "20261022T193249-server-b-train-pmrl_d64_s50_R3-warmup",
+    "pid": 2676599,
+    "start_ticks": "46758712",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "warmup",
+        "epochs": 8,
+        "global_batch": 256,
+        "head_lr": 0.0003,
+        "other_lr": 0.0003,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_train.py",
+      "--method",
+      "pmrl",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "warmup",
+      "--devices",
+      "1,2,4,5"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__warmup.log",
+    "time": 1792697569.9945607,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 28.810546875,
+      "2": 4.7275390625,
+      "4": 23.64453125,
+      "5": 3.9345703125
+    }
+  },
+  {
+    "run_id": "20261023T084459-server-b-train-pmrl_d64_s50_R3-frozen",
+    "pid": 1465285,
+    "start_ticks": "51511705",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "2",
+      "6",
+      "7"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "pmrl",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "1,2,6,7"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__frozen.log",
+    "time": 1792745099.9250872,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 25.345703125,
+      "2": 25.12890625,
+      "6": 38.8681640625,
+      "7": 3.7548828125
+    }
+  },
+  {
+    "run_id": "20261023T124524-server-b-train-pmrl_d64_s50_R3-frozen",
+    "pid": 1104000,
+    "start_ticks": "52954113",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "2",
+      "6",
+      "7"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "pmrl",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "1,2,6,7"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__frozen.log",
+    "time": 1792759524.008629,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 42.521484375,
+      "2": 41.056640625,
+      "6": 27.521484375,
+      "7": 24.77734375
+    }
+  },
+  {
+    "run_id": "20261023T124709-server-b-train-gram_d64_s50_R3-frozen",
+    "pid": 1151118,
+    "start_ticks": "52964672",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "3,4,5,6"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d64_s50_R3__frozen.log",
+    "time": 1792759629.5919268,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "3": 40.349609375,
+      "4": 16.546875,
+      "5": 5.115234375,
+      "6": 28.45703125
+    }
+  },
+  {
+    "run_id": "20261023T160902-server-b-train-pmrl_d64_s50_R3-frozen",
+    "pid": 748885,
+    "start_ticks": "54175984",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "frozen",
+        "epochs": 30,
+        "global_batch": 256,
+        "head_lr": 0.0001,
+        "other_lr": 0.0001,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "2",
+      "6",
+      "7"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "pmrl",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "frozen",
+      "--devices",
+      "1,2,6,7"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__frozen.log",
+    "time": 1792771742.717015,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 31.4150390625,
+      "2": 26.3798828125,
+      "6": 24.470703125,
+      "7": 23.859375
+    }
+  },
+  {
+    "run_id": "20261024T075456-server-b-train-gram_d64_s50_R3-joint",
+    "pid": 1639066,
+    "start_ticks": "59851396",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "5"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "joint",
+      "--devices",
+      "5"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d64_s50_R3__joint.log",
+    "time": 1792828496.8339925,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "5": 5.384765625
+    }
+  },
+  {
+    "run_id": "20261024T201844-server-b-train-pmrl_d64_s50_R3-joint",
+    "pid": 629874,
+    "start_ticks": "64314177",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "pmrl",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "joint",
+      "--devices",
+      "1"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__joint.log",
+    "time": 1792873124.652667,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 2.7802734375
+    }
+  },
+  {
+    "run_id": "20261024T212040-server-b-method_test-pmrl_d64_s50_R3-joint",
+    "pid": 657174,
+    "start_ticks": "64685717",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "pmrl",
+        "dimension": 64,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "joint",
+        "epochs": 10,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "6"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "pmrl",
+      "--dimension",
+      "64",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--device",
+      "6"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__pmrl_d64_s50_R3__joint.log",
+    "time": 1792876840.0480335,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "6": 4.3681640625
+    }
+  },
+  {
+    "run_id": "20261024T212155-server-b-train-hyp_cone_d32_s50_R1-joint",
+    "pid": 657533,
+    "start_ticks": "64693272",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "32",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "1"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d32_s50_R1__joint.log",
+    "time": 1792876915.596349,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 2.7802734375
+    }
+  },
+  {
+    "run_id": "20261024T212155-server-b-train-hyp_cone_d128_s50_R1-joint",
+    "pid": 657534,
+    "start_ticks": "64693272",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 128,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "6"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "128",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "6"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d128_s50_R1__joint.log",
+    "time": 1792876915.5980816,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "6": 4.3681640625
+    }
+  },
+  {
+    "run_id": "20261024T212155-server-b-train-hyp_cone_d512_s50_R1-joint",
+    "pid": 657535,
+    "start_ticks": "64693273",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 512,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "4",
+      "7"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "512",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "4,7"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d512_s50_R1__joint.log",
+    "time": 1792876915.6005032,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "4": 4.7080078125,
+      "7": 10.083984375
+    }
+  },
+  {
+    "run_id": "20261024T212155-server-b-train-euc_none_d32_s50_R1-joint",
+    "pid": 657536,
+    "start_ticks": "64693273",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "euc_none",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "5"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "32",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "5"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d32_s50_R1__joint.log",
+    "time": 1792876915.6021817,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "5": 15.705078125
+    }
+  },
+  {
+    "run_id": "20261024T212155-server-b-train-euc_none_d128_s50_R1-joint",
+    "pid": 657537,
+    "start_ticks": "64693273",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "euc_none",
+        "dimension": 128,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3",
+      "2"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "128",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "3,2"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d128_s50_R1__joint.log",
+    "time": 1792876915.604454,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "2": 31.154296875,
+      "3": 27.771484375
+    }
+  },
+  {
+    "run_id": "20261024T232735-server-b-method_test-hyp_cone_d512_s50_R1-joint",
+    "pid": 709288,
+    "start_ticks": "65447284",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 512,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "512",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__hyp_cone_d512_s50_R1__joint.log",
+    "time": 1792884455.7115517,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "4": 4.7080078125
+    }
+  },
+  {
+    "run_id": "20261024T234704-server-b-train-euc_none_d512_s50_R1-joint",
+    "pid": 716014,
+    "start_ticks": "65564134",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "euc_none",
+        "dimension": 512,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "7",
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "512",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "7,4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d512_s50_R1__joint.log",
+    "time": 1792885624.2173605,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "4": 4.7080078125,
+      "7": 3.7548828125
+    }
+  },
+  {
+    "run_id": "20261024T234719-server-b-train-gram_d32_s50_R1-joint",
+    "pid": 716109,
+    "start_ticks": "65565644",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "2",
+      "3"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "32",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "2,3"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d32_s50_R1__joint.log",
+    "time": 1792885639.3161483,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "2": 31.154296875,
+      "3": 36.064453125
+    }
+  },
+  {
+    "run_id": "20261024T235803-server-b-train-gram_d128_s50_R1-joint",
+    "pid": 719766,
+    "start_ticks": "65630104",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 128,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1",
+      "6"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "128",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "1,6"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d128_s50_R1__joint.log",
+    "time": 1792886283.918348,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 2.7802734375,
+      "6": 4.3681640625
+    }
+  },
+  {
+    "run_id": "20261024T235803-server-b-method_test-euc_none_d128_s50_R1-joint",
+    "pid": 719767,
+    "start_ticks": "65630105",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "euc_none",
+        "dimension": 128,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "128",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "1"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__euc_none_d128_s50_R1__joint.log",
+    "time": 1792886283.9226837,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 2.7802734375
+    }
+  },
+  {
+    "run_id": "20261024T235803-server-b-method_test-hyp_cone_d32_s50_R1-joint",
+    "pid": 719768,
+    "start_ticks": "65630105",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "6"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "32",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "6"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__hyp_cone_d32_s50_R1__joint.log",
+    "time": 1792886283.9237645,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "6": 4.3681640625
+    }
+  },
+  {
+    "run_id": "20261024T235803-server-b-method_test-hyp_cone_d128_s50_R1-joint",
+    "pid": 719769,
+    "start_ticks": "65630105",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 128,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "7"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "128",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "7"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__hyp_cone_d128_s50_R1__joint.log",
+    "time": 1792886283.9248083,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "7": 34.10546875
+    }
+  },
+  {
+    "run_id": "20261025T003252-server-b-method_test-euc_none_d32_s50_R1-joint",
+    "pid": 730692,
+    "start_ticks": "65838966",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "euc_none",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "5"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "32",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "5"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__euc_none_d32_s50_R1__joint.log",
+    "time": 1792888372.5316722,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "5": 15.705078125
+    }
+  },
+  {
+    "run_id": "20261025T014108-server-b-train-gram_d512_s50_R1-joint",
+    "pid": 754535,
+    "start_ticks": "66248576",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "gram",
+        "dimension": 512,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "7",
+      "4"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "512",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "7,4"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__gram_d512_s50_R1__joint.log",
+    "time": 1792892468.6384394,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "4": 4.7080078125,
+      "7": 3.7548828125
+    }
+  },
+  {
+    "run_id": "20261025T014108-server-b-method_test-euc_none_d512_s50_R1-joint",
+    "pid": 754536,
+    "start_ticks": "66248577",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "euc_none",
+        "dimension": 512,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "5"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "euc_none",
+      "--dimension",
+      "512",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "5"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__euc_none_d512_s50_R1__joint.log",
+    "time": 1792892468.6416745,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "5": 10.197265625
+    }
+  },
+  {
+    "run_id": "20261025T015950-server-b-method_test-gram_d128_s50_R1-joint",
+    "pid": 762580,
+    "start_ticks": "66360801",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "gram",
+        "dimension": 128,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "128",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "1"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__gram_d128_s50_R1__joint.log",
+    "time": 1792893590.8874803,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 2.7802734375
+    }
+  },
+  {
+    "run_id": "20261025T023056-server-b-method_test-gram_d32_s50_R1-joint",
+    "pid": 797372,
+    "start_ticks": "66547331",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "gram",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "6"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "32",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "6"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__gram_d32_s50_R1__joint.log",
+    "time": 1792895456.1866043,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "6": 4.3681640625
+    }
+  },
+  {
+    "run_id": "20261025T023111-server-b-train-vast_d32_s50_R3-warmup",
+    "pid": 797604,
+    "start_ticks": "66548842",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "vast",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R3",
+        "stage": "warmup",
+        "epochs": 8,
+        "global_batch": 256,
+        "head_lr": 0.0003,
+        "other_lr": 0.0003,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "3",
+      "1",
+      "2",
+      "5"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/train_seed50.py",
+      "--method",
+      "vast",
+      "--dimension",
+      "32",
+      "--seed",
+      "50",
+      "--recipe",
+      "R3",
+      "--stage",
+      "warmup",
+      "--devices",
+      "3,1,2,5"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__vast_d32_s50_R3__warmup.log",
+    "time": 1792895471.29133,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 27.9482421875,
+      "2": 31.154296875,
+      "3": 3.9111328125,
+      "5": 34.306640625
+    }
+  },
+  {
+    "run_id": "20261025T034851-server-b-method_test-gram_d512_s50_R1-joint",
+    "pid": 19516,
+    "start_ticks": "67014846",
+    "job": {
+      "kind": "method_test",
+      "task": {
+        "method": "gram",
+        "dimension": 512,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "6"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+      "--method",
+      "gram",
+      "--dimension",
+      "512",
+      "--seed",
+      "50",
+      "--recipe",
+      "R1",
+      "--device",
+      "6"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__gram_d512_s50_R1__joint.log",
+    "time": 1792900131.333628,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "6": 4.3681640625
+    }
+  }
+]

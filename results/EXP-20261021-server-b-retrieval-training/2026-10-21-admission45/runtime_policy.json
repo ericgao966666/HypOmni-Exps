@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-10-21T09:30:46.355713+00:00",
+  "policy": {
+    "schema_version": 1,
+    "admission_used_gib": 45.0,
+    "allocation_cap_gib": 40.0,
+    "headroom_gib": 8.0,
+    "one_task_rank_per_gpu": true,
+    "authorization": "User requested that GPUs with memory usage below 45 GiB may launch tasks."
+  },
+  "overrides_initial_admission_gib": 40,
+  "controller_files": {
+    "control/admission45_20261021/admission_schedule.py": "329e58320148b8ee0c63ca340cdf34d39687689ddb6a0d3fd7366caa8a3472d8",
+    "control/admission45_20261021/resource_policy.json": "ee346fbc4e0a38242e81ef303ca40b7c55e87a692370fbc25d4adee96a8be500",
+    "control/admission45_20261021/test_admission.py": "3c0c6796cb971e4796808705a84f70c913fc16b3b6d52509493a473bc9f464e1"
+  },
+  "cpu_tests_passed": 3,
+  "gpu_profiling": false,
+  "training_source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337"
+}

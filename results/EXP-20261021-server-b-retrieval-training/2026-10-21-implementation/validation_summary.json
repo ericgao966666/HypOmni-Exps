@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "cpu_checks": [
+    {
+      "check": 0,
+      "sha256": "91cd12b1462af05b153e37f65b7d6c3a3b46c619226af5269cd0c830780b69a2",
+      "unit_tests": 13,
+      "distributed_cases": [],
+      "exit_code": 0
+    },
+    {
+      "check": 1,
+      "sha256": "aa1fd2745022266bd36e06b69ed6b46201f1dc6884bd078bd15efd07addac55d",
+      "unit_tests": 7,
+      "distributed_cases": [],
+      "exit_code": 0
+    },
+    {
+      "check": 2,
+      "sha256": "32fdbccd9ec29bfba7a4e76533ab55237930a2e0365251c93ee073373581b241",
+      "unit_tests": null,
+      "distributed_cases": [
+        "PASS global256 world4 hyperbolic",
+        "PASS global256 world4 euclidean",
+        "PASS global256 world4 vast",
+        "PASS global256 world4 gram",
+        "PASS global256 world4 pmrl"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "media_samples": 18,
+  "gpu_profiling_performed": false,
+  "gpu_preflight_performed": false,
+  "readiness_sha256": "f5bae3151603d38ae661392af9eea24078a84929362105412ccf00829ca4bada",
+  "startup_repair": {
+    "reason": "multiprocessing AF_UNIX path too long",
+    "parameter_updates_completed": 0,
+    "short_tmpdir": "/home/xiaobo.xia/YuxuanGao/.tmp.retrieval64.29daha2z",
+    "archive": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/history/attempt_0001_long_tmpdir",
+    "time": 1792557975.7808104
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "captured_at": "2026-10-23T05:58:46.781383+00:00",
+  "status": {
+    "pid": 358303,
+    "phase": "64d_parallel_screen",
+    "time": 1792735126.097448,
+    "running": [
+      {
+        "pid": 856070,
+        "start_ticks": "49732311",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "vast",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R3",
+            "stage": "frozen",
+            "epochs": 30,
+            "global_batch": 256,
+            "head_lr": 0.0001,
+            "other_lr": 0.0001,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__vast_d64_s50_R3__frozen.log",
+        "run_id": "20261023T034825-server-b-train-vast_d64_s50_R3-frozen"
+      },
+      {
+        "pid": 3904627,
+        "start_ticks": "50026611",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "hyp_cone",
+            "dimension": 64,
+            "seed": 51,
+            "recipe": "R1",
+            "stage": "joint",
+            "epochs": 30,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.1,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "6"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s51_R1__joint.log",
+        "run_id": "20261023T043728-server-b-train-hyp_cone_d64_s51_R1-joint"
+      },
+      {
+        "pid": 456697,
+        "start_ticks": "50496220",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "hyp_cone",
+            "dimension": 64,
+            "seed": 52,
+            "recipe": "R1",
+            "stage": "joint",
+            "epochs": 30,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.1,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "1"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s52_R1__joint.log",
+        "run_id": "20261023T055545-server-b-train-hyp_cone_d64_s52_R1-joint"
+      }
+    ],
+    "queued": [
+      "train/vast_d64_s50_R3/joint",
+      "train/gram_d64_s50_R3/frozen",
+      "train/gram_d64_s50_R3/joint",
+      "train/pmrl_d64_s50_R3/warmup",
+      "train/pmrl_d64_s50_R3/frozen",
+      "train/pmrl_d64_s50_R3/joint"
+    ],
+    "failed": [],
+    "waiting_for_disk": [],
+    "free_disk_gib": 171.4917335510254,
+    "eligible_devices": [
+      "5",
+      "7"
+    ],
+    "controller": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/overlay_seed52_20261023/overlay_schedule.py",
+    "resource_policy": {
+      "schema_version": 1,
+      "admission_used_gib": 45.0,
+      "allocation_cap_gib": 40.0,
+      "headroom_gib": 8.0,
+      "one_task_rank_per_gpu": false,
+      "authorization": "2026-10-23 user explicitly requested directly stacking one experiment on GPUs1-4 without a throughput trial; advance the already-selected hyp_cone R1 seed52 replicate.",
+      "disk_reserve_gib": 40.0,
+      "checkpoint_margin_gib": 1.0,
+      "launch_margin_gib": 20.0,
+      "max_task_ranks_per_gpu": 2,
+      "overlap_condition": "train/hyp_cone_d64_s52_R1/joint",
+      "overlap_devices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "overlap_peer": "train/vast_d64_s50_R3/frozen"
+    },
+    "early_replicates": {
+      "method": "hyp_cone",
+      "seeds": [
+        51,
+        52
+      ],
+      "recipe": "R1"
+    }
+  },
+  "launch": {
+    "run_id": "20261023T055545-server-b-train-hyp_cone_d64_s52_R1-joint",
+    "pid": 456697,
+    "start_ticks": "50496220",
+    "job": {
+      "kind": "train",
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 64,
+        "seed": 52,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      }
+    },
+    "devices": [
+      "1"
+    ],
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/overlay_seed52_20261023/train_overlay.py",
+      "--method",
+      "hyp_cone",
+      "--dimension",
+      "64",
+      "--seed",
+      "52",
+      "--recipe",
+      "R1",
+      "--stage",
+      "joint",
+      "--devices",
+      "1"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s52_R1__joint.log",
+    "time": 1792734945.0727828,
+    "port": "file rendezvous",
+    "admission_used_gib": {
+      "1": 28.966796875
+    }
+  },
+  "actual_optimizer_event": {
+    "epoch": 1,
+    "step": 1,
+    "batch": 1,
+    "loss": 2.205706270961771,
+    "grad_norm": 7.973227500915527,
+    "gradients": {
+      "vision_encoder.visual.": 1.6984771490097046,
+      "audio_encoder.": 0.36220481991767883,
+      "multimodal_encoder.bert.": 0.7705603241920471,
+      "subset_heads.direction.": 0.6227378249168396,
+      "subset_heads.radius.": 0.04915706440806389
+    },
+    "learning_rates": {
+      "vision": 2.8735632183908045e-09,
+      "head": 1.1494252873563219e-07,
+      "other": 1.1494252873563219e-07
+    },
+    "seconds_per_batch": 18.20832368597621,
+    "peak_reserved_gib": 22.134765625
+  }
+}

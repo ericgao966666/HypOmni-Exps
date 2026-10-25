@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-23T06:04:33.419968+00:00",
+  "tests_passed": 6,
+  "condition": "euc_none_d64_s51_R1/joint",
+  "device": "5",
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "files": {
+    "gpu5_schedule.py": "96d7fa87101a0b59446e3e9cd0f9e42572de5b5eb3e22bcfcb30f3152dced681",
+    "test_gpu5.py": "4fe7f572747b0e15b95700524abb1f3734b526c511fb7b72593419c7eb1bdf90",
+    "README.md": "3d4cd3a8df3b30f40f86781ee9d61aa814dec2bcd784423835c79e67611d303e"
+  }
+}

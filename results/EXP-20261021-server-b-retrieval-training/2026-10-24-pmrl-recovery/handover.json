@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "time": 1792829578.5584886,
+  "old_supervisor_pid": 1753450,
+  "new_supervisor_pid": 1648358,
+  "retained_worker_pids": [
+    1639066
+  ],
+  "paused_expansion_worker_pids": [],
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "d1cd217cdb8dc0fabc21b19867a2e3d1cb1fa6f3a2f99ed21e3831f02098281c",
+  "execution_scope": {
+    "seeds": [
+      50
+    ],
+    "priority_dimension": 64,
+    "defer_expansion_until_64d_complete": true,
+    "four_gpu_groups": {
+      "vast": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "gram": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "pmrl": [
+        "1",
+        "2",
+        "6",
+        "7"
+      ]
+    },
+    "max_task_ranks_per_gpu": 2,
+    "preserve_existing_results": true,
+    "authorization": "User explicitly requested starting the single-GPU VAST64D R3 MSRVTT fine-tuning on GPU7 while preserving current training.",
+    "single_gpu_override": {
+      "condition": "train/vast_d64_s50_R3/joint",
+      "device": "7",
+      "allowed_peer": "pmrl_d64_s50_R3 four-GPU pretraining"
+    },
+    "resource_retry": {
+      "error": "RuntimeError: GPU no longer has 40 GiB allocation plus 8 GiB headroom",
+      "max_retries": 3,
+      "cooldown_seconds": [
+        60,
+        120,
+        300
+      ]
+    },
+    "recovery_authorization": "User requested immediate PMRL checkpoint continuation in parallel with current GRAM training after disk cleanup."
+  }
+}

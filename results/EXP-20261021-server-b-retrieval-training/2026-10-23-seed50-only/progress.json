@@ -1,0 +1,356 @@
+{
+  "captured_at": "2026-10-23T06:37:34.173777+00:00",
+  "status": {
+    "pid": 2787945,
+    "phase": "seed50_screen_and_early_expansion",
+    "time": 1792737444.382557,
+    "running": [
+      {
+        "pid": 856070,
+        "start_ticks": "49732311",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "vast",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R3",
+            "stage": "frozen",
+            "epochs": 30,
+            "global_batch": 256,
+            "head_lr": 0.0001,
+            "other_lr": 0.0001,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__vast_d64_s50_R3__frozen.log",
+        "run_id": "20261023T034825-server-b-train-vast_d64_s50_R3-frozen"
+      },
+      {
+        "pid": 2847813,
+        "start_ticks": "50726536",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "hyp_cone",
+            "dimension": 32,
+            "seed": 50,
+            "recipe": "R1",
+            "stage": "joint",
+            "epochs": 30,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.1,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "2"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d32_s50_R1__joint.log",
+        "run_id": "20261023T063408-server-b-train-hyp_cone_d32_s50_R1-joint"
+      },
+      {
+        "pid": 2847814,
+        "start_ticks": "50726536",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "euc_none",
+            "dimension": 32,
+            "seed": 50,
+            "recipe": "R1",
+            "stage": "joint",
+            "epochs": 30,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "3"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d32_s50_R1__joint.log",
+        "run_id": "20261023T063408-server-b-train-euc_none_d32_s50_R1-joint"
+      },
+      {
+        "pid": 2847815,
+        "start_ticks": "50726536",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "hyp_cone",
+            "dimension": 128,
+            "seed": 50,
+            "recipe": "R1",
+            "stage": "joint",
+            "epochs": 30,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.1,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "4"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d128_s50_R1__joint.log",
+        "run_id": "20261023T063408-server-b-train-hyp_cone_d128_s50_R1-joint"
+      }
+    ],
+    "queued": [
+      "train/vast_d64_s50_R3/joint",
+      "train/gram_d64_s50_R3/frozen",
+      "train/gram_d64_s50_R3/joint",
+      "train/pmrl_d64_s50_R3/warmup",
+      "train/pmrl_d64_s50_R3/frozen",
+      "train/pmrl_d64_s50_R3/joint"
+    ],
+    "failed": [],
+    "waiting_for_disk": [],
+    "free_disk_gib": 119.69965744018555,
+    "eligible_devices": [
+      "6",
+      "5"
+    ],
+    "controller": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/seed50_only_20261023/seed50_schedule.py",
+    "resource_policy": {
+      "schema_version": 1,
+      "admission_used_gib": 45.0,
+      "allocation_cap_gib": 40.0,
+      "headroom_gib": 8.0,
+      "one_task_rank_per_gpu": false,
+      "authorization": "2026-10-23 user explicitly requested lowering the disk protection floor to 40 GiB and continuing available experiments; GPU rules remain unchanged.",
+      "disk_reserve_gib": 40.0,
+      "checkpoint_margin_gib": 1.0,
+      "launch_margin_gib": 20.0,
+      "max_task_ranks_per_gpu": 2,
+      "overlap_conditions": {
+        "train/hyp_cone_d32_s50_R1/joint": "2",
+        "train/euc_none_d32_s50_R1/joint": "3",
+        "train/hyp_cone_d128_s50_R1/joint": "4"
+      },
+      "overlap_peer": "train/vast_d64_s50_R3/frozen",
+      "execution_scope": {
+        "schema_version": 1,
+        "seeds": [
+          50
+        ],
+        "methods": [
+          "hyp_cone",
+          "euc_none",
+          "vast",
+          "gram",
+          "pmrl"
+        ],
+        "dimensions": [
+          32,
+          64,
+          128,
+          512
+        ],
+        "cancel_active_other_seeds": true,
+        "preserve_existing_results": true,
+        "pinned_jobs": {
+          "train/hyp_cone_d32_s50_R1/joint": "2",
+          "train/euc_none_d32_s50_R1/joint": "3",
+          "train/hyp_cone_d128_s50_R1/joint": "4"
+        },
+        "single_gpu_conditions": [
+          "hyp_cone_d32_s50_R1",
+          "euc_none_d32_s50_R1",
+          "hyp_cone_d128_s50_R1"
+        ],
+        "global_batch_unchanged": true,
+        "multiseed_statistics": false,
+        "authorization": "2026-10-23 user requested one single-GPU experiment on each of GPUs2/3/4 and explicitly cancelled multi-seed experiments."
+      }
+    },
+    "seeds": [
+      50
+    ],
+    "multi_seed_cancelled": true
+  },
+  "new_runs": [
+    {
+      "run_id": "20261023T063408-server-b-train-hyp_cone_d32_s50_R1-joint",
+      "pid": 2847813,
+      "devices": [
+        "2"
+      ],
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      },
+      "world_size": 1,
+      "optimizer_event": {
+        "epoch": 1,
+        "step": 25,
+        "batch": 25,
+        "loss": 2.309655390435082,
+        "grad_norm": 7.511704921722412,
+        "gradients": {},
+        "learning_rates": {
+          "vision": 7.18390804597701e-08,
+          "head": 2.8735632183908046e-06,
+          "other": 2.8735632183908046e-06
+        },
+        "seconds_per_batch": 3.5169407417206093,
+        "peak_reserved_gib": 32.23828125
+      }
+    },
+    {
+      "run_id": "20261023T063408-server-b-train-euc_none_d32_s50_R1-joint",
+      "pid": 2847814,
+      "devices": [
+        "3"
+      ],
+      "task": {
+        "method": "euc_none",
+        "dimension": 32,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.0,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      },
+      "world_size": 1,
+      "optimizer_event": {
+        "epoch": 1,
+        "step": 25,
+        "batch": 25,
+        "loss": 2.108925519597325,
+        "grad_norm": 7.486644268035889,
+        "gradients": {},
+        "learning_rates": {
+          "vision": 7.18390804597701e-08,
+          "head": 2.8735632183908046e-06,
+          "other": 2.8735632183908046e-06
+        },
+        "seconds_per_batch": 3.939656652121339,
+        "peak_reserved_gib": 32.23828125
+      }
+    },
+    {
+      "run_id": "20261023T063408-server-b-train-hyp_cone_d128_s50_R1-joint",
+      "pid": 2847815,
+      "devices": [
+        "4"
+      ],
+      "task": {
+        "method": "hyp_cone",
+        "dimension": 128,
+        "seed": 50,
+        "recipe": "R1",
+        "stage": "joint",
+        "epochs": 30,
+        "global_batch": 64,
+        "head_lr": 2e-05,
+        "other_lr": 2e-05,
+        "vision_lr": 5e-07,
+        "warmup_fraction": 0.05,
+        "entailment_weight": 0.1,
+        "temperature": 0.07,
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "grad_clip": 2.0
+      },
+      "world_size": 1,
+      "optimizer_event": {
+        "epoch": 1,
+        "step": 25,
+        "batch": 25,
+        "loss": 2.11346803550394,
+        "grad_norm": 6.275248050689697,
+        "gradients": {},
+        "learning_rates": {
+          "vision": 7.18390804597701e-08,
+          "head": 2.8735632183908046e-06,
+          "other": 2.8735632183908046e-06
+        },
+        "seconds_per_batch": 3.685456098320428,
+        "peak_reserved_gib": 32.2421875
+      }
+    }
+  ],
+  "cancelled_pids_absent": {
+    "3904627": true,
+    "456697": true,
+    "960332": true
+  }
+}

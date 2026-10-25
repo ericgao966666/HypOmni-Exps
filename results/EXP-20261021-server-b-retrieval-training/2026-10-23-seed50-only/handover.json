@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "time": 1792737210.096926,
+  "old_supervisor_pid": 861638,
+  "new_supervisor_pid": 2787945,
+  "retained_worker_pids": [
+    856070
+  ],
+  "cancelled_worker_pids": [
+    3904627,
+    456697,
+    960332
+  ],
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "390b20f8eef0bbae3f29fb8384bbcfef6db8b7d69a9368f21168f8f0cfa12488",
+  "execution_scope": {
+    "schema_version": 1,
+    "seeds": [
+      50
+    ],
+    "methods": [
+      "hyp_cone",
+      "euc_none",
+      "vast",
+      "gram",
+      "pmrl"
+    ],
+    "dimensions": [
+      32,
+      64,
+      128,
+      512
+    ],
+    "cancel_active_other_seeds": true,
+    "preserve_existing_results": true,
+    "pinned_jobs": {
+      "train/hyp_cone_d32_s50_R1/joint": "2",
+      "train/euc_none_d32_s50_R1/joint": "3",
+      "train/hyp_cone_d128_s50_R1/joint": "4"
+    },
+    "single_gpu_conditions": [
+      "hyp_cone_d32_s50_R1",
+      "euc_none_d32_s50_R1",
+      "hyp_cone_d128_s50_R1"
+    ],
+    "global_batch_unchanged": true,
+    "multiseed_statistics": false,
+    "authorization": "2026-10-23 user requested one single-GPU experiment on each of GPUs2/3/4 and explicitly cancelled multi-seed experiments."
+  }
+}

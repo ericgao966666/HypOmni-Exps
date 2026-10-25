@@ -1,0 +1,248 @@
+{
+  "method": "pmrl",
+  "recipe": "R3",
+  "selection_inputs_digest": "c2b58c33c900cffd55614b9f6afd8d51ea7c10f10f5ab86b596aa58b8b5658f0",
+  "rule": "64D seed50 validation R@1, R@5, fewer total updates, R0/R2/R1/R3",
+  "candidates": [
+    {
+      "method": "pmrl",
+      "dimension": 64,
+      "recipe": "R0",
+      "seed": 50,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_finetune_64d_20261020/runs/msrvtt_pmrl_d64_s50",
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 44.2,
+            "R@5": 70.8,
+            "R@10": 80.4,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 43.0,
+            "R@5": 73.0,
+            "R@10": 81.39999999999999,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 12.0,
+            "R@5": 36.199999999999996,
+            "R@10": 47.599999999999994,
+            "median_rank": 12.0
+          },
+          "a2t": {
+            "R@1": 12.6,
+            "R@5": 33.4,
+            "R@10": 48.8,
+            "median_rank": 12.0
+          },
+          "v2a": {
+            "R@1": 22.2,
+            "R@5": 49.4,
+            "R@10": 61.8,
+            "median_rank": 6.0
+          },
+          "a2v": {
+            "R@1": 20.599999999999998,
+            "R@5": 48.199999999999996,
+            "R@10": 60.6,
+            "median_rank": 6.0
+          }
+        },
+        "macro": {
+          "R@1": 25.766666666666666,
+          "R@5": 51.833333333333336,
+          "R@10": 63.43333333333334
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 6,
+      "total_updates": 1160,
+      "world_size": 1,
+      "best_file": "/data0/xiaobo.xia/yuxuan.gao/lowdim_finetune_64d_20261020/runs/msrvtt_pmrl_d64_s50/best_epoch_0006.pt",
+      "best_sha256": "84df1add4cb2f0a6170b73f65819a701cc05fd20037e954a7a5b753f962a5091",
+      "initial_heads_sha256": "7d27d741f328ccc94fb9fb3d3d2c30ecff351dc0b0c8a651539890716d83e7a5",
+      "provenance_files": {
+        "DONE.json": "a7c03acad770403d7af103bfadb238112af67531bc34d06dadf55fa9a0c67b9a",
+        "config.json": "29aa6cbf8f34fe355eb59bfa94a72c2689547b08354986505f4b931a0b9d7f5e",
+        "epochs.jsonl": "23067196ad88b4b499b06cc5dd1cbf58a2c08c5edc3caf4112e65d6264347a4d",
+        "test_metrics.json": "25f29b306c26a9115cc66cf9d1be0b4890d7fb47dbb41249f97b36a55afc493d",
+        "test_features.pt": "3efb3d1a5d8764b05d7de65d8ebecf16c4cc50f4440696acebf43d065c2274a6"
+      },
+      "elapsed": 4759.789816293982
+    },
+    {
+      "method": "pmrl",
+      "dimension": 64,
+      "recipe": "R1",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 44.4,
+            "R@5": 70.19999999999999,
+            "R@10": 82.39999999999999,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 41.8,
+            "R@5": 74.4,
+            "R@10": 82.0,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 12.0,
+            "R@5": 37.2,
+            "R@10": 49.0,
+            "median_rank": 11.0
+          },
+          "a2t": {
+            "R@1": 13.0,
+            "R@5": 36.0,
+            "R@10": 49.4,
+            "median_rank": 11.0
+          },
+          "v2a": {
+            "R@1": 25.2,
+            "R@5": 52.6,
+            "R@10": 66.4,
+            "median_rank": 5.0
+          },
+          "a2v": {
+            "R@1": 21.8,
+            "R@5": 49.6,
+            "R@10": 66.0,
+            "median_rank": 6.0
+          }
+        },
+        "macro": {
+          "R@1": 26.366666666666664,
+          "R@5": 53.33333333333334,
+          "R@10": 65.86666666666666
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 23,
+      "total_updates": 3480,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/pmrl_d64_s50_R1/joint",
+      "best_sha256": "da873861bf642fe2a10bc47d7427b9e909bc63d6a7bc951d500a446bfe79ce56",
+      "done_sha256": "305ceb906c79ebdd7693acab7450a1ee13329269052baa9b7ea22eae05c1dc98"
+    },
+    {
+      "method": "pmrl",
+      "dimension": 64,
+      "recipe": "R2",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 44.800000000000004,
+            "R@5": 70.6,
+            "R@10": 80.60000000000001,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 42.6,
+            "R@5": 73.4,
+            "R@10": 81.2,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 13.200000000000001,
+            "R@5": 37.4,
+            "R@10": 47.4,
+            "median_rank": 12.0
+          },
+          "a2t": {
+            "R@1": 13.4,
+            "R@5": 32.4,
+            "R@10": 48.4,
+            "median_rank": 11.0
+          },
+          "v2a": {
+            "R@1": 22.0,
+            "R@5": 49.6,
+            "R@10": 64.0,
+            "median_rank": 6.0
+          },
+          "a2v": {
+            "R@1": 20.599999999999998,
+            "R@5": 48.4,
+            "R@10": 62.4,
+            "median_rank": 6.0
+          }
+        },
+        "macro": {
+          "R@1": 26.099999999999998,
+          "R@5": 51.96666666666667,
+          "R@10": 64.0
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 6,
+      "total_updates": 1160,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/pmrl_d64_s50_R2/joint",
+      "best_sha256": "7d5ce180916be3b77219013af80185dda4b03bbdb087daceb1e52abcf3654805",
+      "done_sha256": "6acdb5f833b6fb0379584fe81b65c5525e8605595259ddd72a0e6a2a440d957b"
+    },
+    {
+      "method": "pmrl",
+      "dimension": 64,
+      "recipe": "R3",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 44.6,
+            "R@5": 71.6,
+            "R@10": 80.60000000000001,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 42.4,
+            "R@5": 73.0,
+            "R@10": 82.19999999999999,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 15.0,
+            "R@5": 37.4,
+            "R@10": 47.0,
+            "median_rank": 12.0
+          },
+          "a2t": {
+            "R@1": 14.000000000000002,
+            "R@5": 34.599999999999994,
+            "R@10": 47.599999999999994,
+            "median_rank": 12.0
+          },
+          "v2a": {
+            "R@1": 25.6,
+            "R@5": 51.6,
+            "R@10": 64.4,
+            "median_rank": 5.0
+          },
+          "a2v": {
+            "R@1": 23.400000000000002,
+            "R@5": 50.2,
+            "R@10": 63.800000000000004,
+            "median_rank": 5.0
+          }
+        },
+        "macro": {
+          "R@1": 27.5,
+          "R@5": 53.06666666666666,
+          "R@10": 64.26666666666667
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 8,
+      "total_updates": 13396,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/pmrl_d64_s50_R3/joint",
+      "best_sha256": "3cfeaa953d8cddba05f9c17cdd0bdad4be665ba4189e830fa2e0aef5b97820a5",
+      "done_sha256": "ec59f564a7947763ab545a6de396e73d91a8ea7277c86d9ad799ed7e56870759"
+    }
+  ],
+  "locked_at": 1792876839.957051,
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337"
+}

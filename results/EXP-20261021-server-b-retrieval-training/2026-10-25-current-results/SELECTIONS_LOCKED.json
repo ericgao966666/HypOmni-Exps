@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "recipes": {
+    "hyp_cone": "R1",
+    "euc_none": "R1",
+    "vast": "R3",
+    "gram": "R1",
+    "pmrl": "R3"
+  },
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "selection_sha256": {
+    "hyp_cone": "9bd17b4ef9c6375318b46ec950699c8e5e82099452ebaaa92e903598c1db7e82",
+    "euc_none": "aa3d5b412c4a0b79e0ee0e693356d4d2d19603201adba9cc74259a9a5995822f",
+    "vast": "55715c523ab0ec439c09ea50d345b53cb8e714c635f049665665cb89ba91e689",
+    "gram": "a147e5fef90f5f0713d7f509558fcec633a37d9d5b23e03e4d69f7f3e3df12f8",
+    "pmrl": "f806b1f120521a17c297d066a76cbd63ee772a79b46b8b31798f34106ac28607"
+  }
+}

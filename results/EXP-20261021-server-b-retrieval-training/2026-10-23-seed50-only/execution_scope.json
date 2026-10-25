@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "seeds": [
+    50
+  ],
+  "methods": [
+    "hyp_cone",
+    "euc_none",
+    "vast",
+    "gram",
+    "pmrl"
+  ],
+  "dimensions": [
+    32,
+    64,
+    128,
+    512
+  ],
+  "cancel_active_other_seeds": true,
+  "preserve_existing_results": true,
+  "pinned_jobs": {
+    "train/hyp_cone_d32_s50_R1/joint": "2",
+    "train/euc_none_d32_s50_R1/joint": "3",
+    "train/hyp_cone_d128_s50_R1/joint": "4"
+  },
+  "single_gpu_conditions": [
+    "hyp_cone_d32_s50_R1",
+    "euc_none_d32_s50_R1",
+    "hyp_cone_d128_s50_R1"
+  ],
+  "global_batch_unchanged": true,
+  "multiseed_statistics": false,
+  "authorization": "2026-10-23 user requested one single-GPU experiment on each of GPUs2/3/4 and explicitly cancelled multi-seed experiments."
+}

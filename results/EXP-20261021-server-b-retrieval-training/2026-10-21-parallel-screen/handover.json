@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-21T05:50:59.781384+00:00",
+  "passed": true,
+  "old_supervisor_pid": 3261486,
+  "new_supervisor_pid": 4045214,
+  "adopted_worker_pids": [
+    3261489,
+    3261490,
+    3261491,
+    3261492,
+    3261493
+  ],
+  "workers_restarted": false,
+  "training_source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "cec2dc1b75bc4adac65347535e44e77910d3a990a9b37266a8f8df9574d98c7b",
+  "time": 1792561524.4280944,
+  "reason": "User requested parallel use of available GPUs; independent 64D candidates now share one dependency queue."
+}

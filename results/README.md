@@ -4,6 +4,7 @@
 
 | 实验 | 快照目录 |
 |---|---|
+| 64D完整、扩维部分完成；训练中断 | [最新测试表与证据](EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/README.md) · [此前验证集几何](EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/README.md) |
 | 历史零样本基线与方法探索 | [当前完整报告](EXP-001/2026-10-20-server-b/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md) · [旧版报告](EXP-001/2026-10-20/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md) · [协议与零样本结果](EXP-001/2026-10-20/zero_shot/) · [Parent 消融结果](EXP-001/2026-10-20/) |
 | 子集初版后续消融与四张几何审计主图 | [EXP-002](EXP-002/2026-10-20/) · [图与数值](EXP-002/2026-10-20/figures/) |
 | 子集机制、种子复核与头部训练曲线 | [EXP-003](EXP-003/2026-10-20/) · [训练曲线](EXP-003/2026-10-20/paired_training_curves.png) |

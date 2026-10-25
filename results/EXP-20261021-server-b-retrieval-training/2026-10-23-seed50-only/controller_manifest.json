@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-23T06:36:13.810302+00:00",
+  "tests_passed": 12,
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "files": {
+    "plot_seed50.py": "9382f3567167b5a82a4d9c8a0f3278ad3cc4f87b2c8db117f02109faed72575e",
+    "seed50_schedule.py": "390b20f8eef0bbae3f29fb8384bbcfef6db8b7d69a9368f21168f8f0cfa12488",
+    "evaluate_seed50.py": "e58d4bb8ebc80eecb6528f4fc35539f6b44757475d48a2a0a224633443458b7b",
+    "report_seed50.py": "79a0030538d5342235614228a5ffec4a1c808f0f90f3d479f6967b07d3387a80",
+    "train_seed50.py": "4a6617fa77d292f5a4f3c59a8d91c6ff6516abeaa097b375127daed6db103b77",
+    "execution_scope.json": "1e952085777cc48eed046f8c0c6d4138208c36cf8472bc3de408e719dd51b283",
+    "test_seed50.py": "aa713dbc5c86ab91ccc2b0fff0d70ceacb8a9f76703689d7e7f0fb5b920bb243",
+    "README.md": "b7e67bbcf2b45196c162554c9effd3f2320cadf368a19913301bc80ad8bbc3b3",
+    "scope.py": "c0c5ac2f488f8ac49e6ecd1d48e0f1a989ffaeafa621867ffd20e098197a68ec"
+  },
+  "gpu_benchmark_performed": false
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "HoroPCA/geom/minkowski.py",
+    "original_sha256": "f6b1bb7c8e14575a31c722b94fa9bff0961b44150ff8e4a9530711274998f248",
+    "patched_sha256": "9f770626404db01af6b9ae8949da4100d3a98b81d5ec99361fb4c953fe2ca34b"
+  },
+  {
+    "path": "HoroPCA/geom/horo.py",
+    "original_sha256": "f430d5bd72dc467caf1645371c56147cf0796c1a27c51b9e13b980893abb69d5",
+    "patched_sha256": "48834674021f81f47230a947dde339240744f675267d391eeea195d86bcbf4c7"
+  },
+  {
+    "path": "CO-SNE/htsne_impl.py",
+    "original_sha256": "7b66a92a506b3ea292279bf91d890e01b8bf131696c197f1e55a05b3d1d5a654",
+    "patched_sha256": "4a0c3cbfb68f29181213158946fc92d8331f9e919807fea5e9b072bfe00ebfed"
+  }
+]

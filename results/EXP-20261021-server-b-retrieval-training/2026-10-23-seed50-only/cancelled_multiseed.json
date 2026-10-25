@@ -1,0 +1,92 @@
+[
+  {
+    "time": 1792737208.087941,
+    "pid": 3904627,
+    "task": {
+      "method": "hyp_cone",
+      "dimension": 64,
+      "seed": 51,
+      "recipe": "R1",
+      "stage": "joint",
+      "epochs": 30,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.1,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    "run_id": "20261023T043728-server-b-train-hyp_cone_d64_s51_R1-joint",
+    "saved_epoch": 16,
+    "saved_step": 1856,
+    "artifacts_preserved": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/hyp_cone_d64_s51_R1/joint",
+    "reason": "User cancelled multi-seed experiments"
+  },
+  {
+    "time": 1792737208.2892282,
+    "pid": 456697,
+    "task": {
+      "method": "hyp_cone",
+      "dimension": 64,
+      "seed": 52,
+      "recipe": "R1",
+      "stage": "joint",
+      "epochs": 30,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.1,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    "run_id": "20261023T055545-server-b-train-hyp_cone_d64_s52_R1-joint",
+    "saved_epoch": 4,
+    "saved_step": 464,
+    "artifacts_preserved": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/hyp_cone_d64_s52_R1/joint",
+    "reason": "User cancelled multi-seed experiments"
+  },
+  {
+    "time": 1792737209.2916842,
+    "pid": 960332,
+    "task": {
+      "method": "euc_none",
+      "dimension": 64,
+      "seed": 51,
+      "recipe": "R1",
+      "stage": "joint",
+      "epochs": 30,
+      "global_batch": 64,
+      "head_lr": 2e-05,
+      "other_lr": 2e-05,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    "run_id": "20261023T060415-server-b-train-euc_none_d64_s51_R1-joint",
+    "saved_epoch": 3,
+    "saved_step": 348,
+    "artifacts_preserved": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/euc_none_d64_s51_R1/joint",
+    "reason": "User cancelled multi-seed experiments"
+  }
+]

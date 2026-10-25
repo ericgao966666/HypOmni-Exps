@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "old_supervisor_pid": 853499,
+  "new_supervisor_pid": 3804801,
+  "adopted_worker_pids": [
+    856070
+  ],
+  "workers_restarted": false,
+  "policy": {
+    "schema_version": 1,
+    "admission_used_gib": 45.0,
+    "allocation_cap_gib": 40.0,
+    "headroom_gib": 8.0,
+    "one_task_rank_per_gpu": true,
+    "authorization": "2026-10-23 user explicitly requested lowering the disk protection floor to 40 GiB and continuing available experiments; GPU rules remain unchanged.",
+    "disk_reserve_gib": 40.0,
+    "checkpoint_margin_gib": 1.0,
+    "launch_margin_gib": 20.0
+  },
+  "training_source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "627a3d08409f7c7a9443ed41db41084defc33b6bc87879b3b4f4a58e3aa4614e",
+  "time": 1792730173.4040709
+}

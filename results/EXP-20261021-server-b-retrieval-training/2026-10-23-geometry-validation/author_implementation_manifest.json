@@ -1,0 +1,87 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/README.md",
+    "path": "vendor/HoroPCA/README.md",
+    "sha256": "b43d073f668e868559b71e7eddce6188c6354fd791a17d16c4468ccfca1e8a0d"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/requirements.txt",
+    "path": "vendor/HoroPCA/requirements.txt",
+    "sha256": "d42253cc264f7bbe329ac9769ac14b6b8c0829dd937bc51a51a4600419995937"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/geom/__init__.py",
+    "path": "vendor/HoroPCA/geom/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/geom/euclidean.py",
+    "path": "vendor/HoroPCA/geom/euclidean.py",
+    "sha256": "8644283bc12a45ee899b1749c78dc3612e71dec11f24d1501fb423f322b1d6dd"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/geom/horo.py",
+    "path": "vendor/HoroPCA/geom/horo.py",
+    "sha256": "f430d5bd72dc467caf1645371c56147cf0796c1a27c51b9e13b980893abb69d5"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/geom/hyperboloid.py",
+    "path": "vendor/HoroPCA/geom/hyperboloid.py",
+    "sha256": "a1dffec65d4f2f97714c57ebdf96fa5ef88d3cd72084ae5a731121d21a9d6a1b"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/geom/minkowski.py",
+    "path": "vendor/HoroPCA/geom/minkowski.py",
+    "sha256": "f6b1bb7c8e14575a31c722b94fa9bff0961b44150ff8e4a9530711274998f248"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/geom/poincare.py",
+    "path": "vendor/HoroPCA/geom/poincare.py",
+    "sha256": "05a7b6075610fba64ee909b100082ad80fdec1e500fed9862f9fe5d760318c38"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/learning/__init__.py",
+    "path": "vendor/HoroPCA/learning/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/learning/frechet.py",
+    "path": "vendor/HoroPCA/learning/frechet.py",
+    "sha256": "302afa93fec98b26ec393f819ad1970aaeec3c280af2f105ccfb40bb6f642aac"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/learning/pca.py",
+    "path": "vendor/HoroPCA/learning/pca.py",
+    "sha256": "1e90b2f8260bd044aad2c9f5cda79cebd8ede0a5ec6c52c89a5722e1bdd1defb"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yunhuiguo/CO-SNE/796a43b0b83615ce2b02dbf1746fcac0d4531439/README.md",
+    "path": "vendor/CO-SNE/README.md",
+    "sha256": "7171883aa47300f68de1030fed54176335dba8604e96ed520e76fc634132dd57"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yunhuiguo/CO-SNE/796a43b0b83615ce2b02dbf1746fcac0d4531439/htsne_impl.py",
+    "path": "vendor/CO-SNE/htsne_impl.py",
+    "sha256": "7b66a92a506b3ea292279bf91d890e01b8bf131696c197f1e55a05b3d1d5a654"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/utils/__init__.py",
+    "path": "vendor/HoroPCA/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HazyResearch/HoroPCA/c9a99967a62688711f6b63dab3baee53fe2d8430/utils/metrics.py",
+    "path": "vendor/HoroPCA/utils/metrics.py",
+    "sha256": "e68e8939d1c100365638d927aa1b98a72a00abd54d74249e23d1f2b9e33c479e"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yunhuiguo/CO-SNE/796a43b0b83615ce2b02dbf1746fcac0d4531439/hyptorch/__init__.py",
+    "path": "vendor/CO-SNE/hyptorch/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yunhuiguo/CO-SNE/796a43b0b83615ce2b02dbf1746fcac0d4531439/hyptorch/pmath.py",
+    "path": "vendor/CO-SNE/hyptorch/pmath.py",
+    "sha256": "357e931153a219c2a4255751c29ddeaaad18925edbc54541b119723cc4a7809e"
+  }
+]

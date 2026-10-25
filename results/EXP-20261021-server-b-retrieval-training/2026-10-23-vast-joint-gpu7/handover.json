@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "time": 1792753495.0130215,
+  "old_supervisor_pid": 1141660,
+  "new_supervisor_pid": 1753450,
+  "retained_worker_pids": [
+    3798136,
+    1465285
+  ],
+  "paused_expansion_worker_pids": [],
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "e0e44332c5835efc55083ebae1aca4a5ecb98f02d3f86119b1aa4ff204219c44",
+  "execution_scope": {
+    "seeds": [
+      50
+    ],
+    "priority_dimension": 64,
+    "defer_expansion_until_64d_complete": true,
+    "four_gpu_groups": {
+      "vast": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "gram": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "pmrl": [
+        "1",
+        "2",
+        "6",
+        "7"
+      ]
+    },
+    "max_task_ranks_per_gpu": 2,
+    "preserve_existing_results": true,
+    "authorization": "User explicitly requested starting the single-GPU VAST64D R3 MSRVTT fine-tuning on GPU7 while preserving current training.",
+    "single_gpu_override": {
+      "condition": "train/vast_d64_s50_R3/joint",
+      "device": "7",
+      "allowed_peer": "pmrl_d64_s50_R3 four-GPU pretraining"
+    }
+  }
+}

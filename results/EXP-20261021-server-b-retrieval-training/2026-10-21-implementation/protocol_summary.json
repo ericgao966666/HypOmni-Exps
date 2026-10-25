@@ -1,0 +1,115 @@
+{
+  "experiment_id": "EXP-20261021-server-b-retrieval-training",
+  "captured_at": "2026-10-21T04:51:56.001370+00:00",
+  "source_server": "server-b",
+  "methods": [
+    "hyp_cone",
+    "euc_none",
+    "vast",
+    "gram",
+    "pmrl"
+  ],
+  "dimensions": [
+    32,
+    64,
+    128,
+    512
+  ],
+  "pilot_dimension": 64,
+  "seed_coverage": {
+    "64": [
+      50,
+      51,
+      52
+    ],
+    "32": [
+      50
+    ],
+    "128": [
+      50
+    ],
+    "512": [
+      50
+    ]
+  },
+  "recipes": {
+    "R0": {
+      "epochs": 10,
+      "head_lr": 2e-05
+    },
+    "R1": {
+      "epochs": 30,
+      "head_lr": 2e-05
+    },
+    "R2": {
+      "epochs": 10,
+      "head_lr": 0.0001
+    },
+    "R3": {
+      "epochs": 10,
+      "head_lr": 2e-05,
+      "pretraining": {
+        "warmup_epochs": 8,
+        "warmup_lr": 0.0003,
+        "epochs": 30,
+        "lr": 0.0001,
+        "global_batch": 256
+      }
+    }
+  },
+  "optimizer": {
+    "global_batch": 64,
+    "learning_rate": 2e-05,
+    "vision_learning_rate": 5e-07,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.05,
+    "grad_clip": 2.0,
+    "temperature": 0.07,
+    "curvature": 1.0,
+    "radius_min": 0.21,
+    "radius_max": 4.0,
+    "entailment_weight": 0.1
+  },
+  "selection": "64D seed50 validation six-direction macro R@1; tie R@5 then fewer steps then R0/R2/R1/R3.",
+  "resource_policy": {
+    "admission_used_gib": 40,
+    "allocation_cap_gib": 40,
+    "headroom_gib": 8,
+    "disk_reserve_gib": 80,
+    "max_jobs": 8,
+    "native_frozen_world_size": 4
+  },
+  "msrvtt": {
+    "train": "ba439af88a8b3dc2b1e1f5f52f13d94a0d39bef4c363e1dea9dace090d54dfbd",
+    "val": "0bcf10b3b672b5e7bd94a8e859b2e8cec1e5514f1d027cecb49a7ac2032e54eb",
+    "test": "320cb63ab98bb46a40f7ad7b9f90799a9d00c9e37c8d481c10e383bec063e015"
+  },
+  "vast": {
+    "passed": true,
+    "annotations_sha256": "ce83a1b91fce11aed08cdc0080f96f466a668b245ad769610622b9c05a8aa5d9",
+    "counts": {
+      "train": 82608,
+      "val": 2048,
+      "test": 2051
+    },
+    "split_policy": "SHA256(50:source_video), whole groups: val>=2048, then test>=2048, remainder train; IDs sorted per split",
+    "sampling": "two midpoint frames; deterministic midpoint audio window; first vast_cap; 40 text tokens; frozen inputs",
+    "historical_exact_reproduction": false,
+    "files": {
+      "train.json": "e0d5207f27d354e91ae3e6693e6af4871f514346c8ac06854d82d60189017306",
+      "val.json": "a0f8b185c3b46c7942682dfe99239d5861912b7188d2486f3fab43a3bb89801f",
+      "test.json": "3be9fac2b564deb4349505600ba451667ec5e1bc0247d62dea0276a7272a54ca",
+      "token_ids.npy": "fe8601e3bb961cd9f3abc15228dc1593bfa8390115cfed1854e1e7913f855711",
+      "token_mask.npy": "580f331cd1186279d7e6c4944fbe4853811457e5d532e20d52df99dfa5e7ae9c"
+    },
+    "media_signatures": "size and mtime_ns, checked on each streaming read"
+  },
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "protocol_sha256": "a1f26dc4dc2735dc93a462e2123c4426f390efc9546d578fcea4be787eaf58f0",
+  "test_policy": "Selection-locked final evaluation only; historical R0 may be reused after saved feature verification",
+  "single_seed_joint_run_upper_bound_plus_replicates": 44
+}

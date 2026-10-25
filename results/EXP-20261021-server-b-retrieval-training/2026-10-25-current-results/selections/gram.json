@@ -1,0 +1,248 @@
+{
+  "method": "gram",
+  "recipe": "R1",
+  "selection_inputs_digest": "074058be5dd0e34cf9da28e69ed009eedc590b4f5edb9cf6577eb8bd92a819e7",
+  "rule": "64D seed50 validation R@1, R@5, fewer total updates, R0/R2/R1/R3",
+  "candidates": [
+    {
+      "method": "gram",
+      "dimension": 64,
+      "recipe": "R0",
+      "seed": 50,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_finetune_64d_20261020/runs/msrvtt_gram_d64_s50",
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 40.400000000000006,
+            "R@5": 70.6,
+            "R@10": 80.2,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 43.2,
+            "R@5": 73.2,
+            "R@10": 82.19999999999999,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 9.8,
+            "R@5": 27.200000000000003,
+            "R@10": 36.199999999999996,
+            "median_rank": 22.0
+          },
+          "a2t": {
+            "R@1": 11.0,
+            "R@5": 27.400000000000002,
+            "R@10": 37.2,
+            "median_rank": 24.0
+          },
+          "v2a": {
+            "R@1": 13.0,
+            "R@5": 28.999999999999996,
+            "R@10": 37.0,
+            "median_rank": 26.0
+          },
+          "a2v": {
+            "R@1": 9.8,
+            "R@5": 24.0,
+            "R@10": 31.4,
+            "median_rank": 37.0
+          }
+        },
+        "macro": {
+          "R@1": 21.2,
+          "R@5": 41.9,
+          "R@10": 50.69999999999999
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 10,
+      "total_updates": 1160,
+      "world_size": 1,
+      "best_file": "/data0/xiaobo.xia/yuxuan.gao/lowdim_finetune_64d_20261020/runs/msrvtt_gram_d64_s50/best_epoch_0010.pt",
+      "best_sha256": "3ce8daf8b8f9346c9907504908e1754e904d67d68bc3eeeb25b7744c8e9588b3",
+      "initial_heads_sha256": "1d3b909631aa0334eea81c06930b81d43d166ea9d565525fcf8817542a962bae",
+      "provenance_files": {
+        "DONE.json": "fa641705add92a26b9c04235be5f156c2e8be659baeb44162cdd1ba49e3a09d8",
+        "config.json": "08a878d09d90ca426a90e8f80d1797518d3c575a7da5d6dcc36cb9324678d8d9",
+        "epochs.jsonl": "1b959a74cdde89ac3be50dc461c10993a574cbf6ef315599e7d100a87dbf6f04",
+        "test_metrics.json": "feff2c68535146c2fa017e82a7e6d701f31ba8fc9d8849c6cb9400bf5db8a395",
+        "test_features.pt": "ec50ca17c059114c7d7ae51b552addebc1ed937c7c1db702b02a65ab6aa99e55"
+      },
+      "elapsed": 3702.3687059739023
+    },
+    {
+      "method": "gram",
+      "dimension": 64,
+      "recipe": "R1",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 44.2,
+            "R@5": 73.0,
+            "R@10": 81.8,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 43.2,
+            "R@5": 74.2,
+            "R@10": 81.8,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 11.799999999999999,
+            "R@5": 30.2,
+            "R@10": 41.8,
+            "median_rank": 20.0
+          },
+          "a2t": {
+            "R@1": 8.4,
+            "R@5": 23.400000000000002,
+            "R@10": 32.4,
+            "median_rank": 27.0
+          },
+          "v2a": {
+            "R@1": 12.2,
+            "R@5": 27.800000000000004,
+            "R@10": 35.8,
+            "median_rank": 26.0
+          },
+          "a2v": {
+            "R@1": 8.6,
+            "R@5": 21.8,
+            "R@10": 30.0,
+            "median_rank": 39.0
+          }
+        },
+        "macro": {
+          "R@1": 21.400000000000002,
+          "R@5": 41.733333333333334,
+          "R@10": 50.599999999999994
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 7,
+      "total_updates": 3480,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/gram_d64_s50_R1/joint",
+      "best_sha256": "cfc9a791e089853b08ed35655c1ae45d00782115ad8e7c3fc1970062bd289ecb",
+      "done_sha256": "17cb02b0fc155ec82c2858ef9a992fb8fefb7bf65624f62f34fdf646ea8c874d"
+    },
+    {
+      "method": "gram",
+      "dimension": 64,
+      "recipe": "R2",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 38.0,
+            "R@5": 69.6,
+            "R@10": 79.60000000000001,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 42.6,
+            "R@5": 73.6,
+            "R@10": 81.39999999999999,
+            "median_rank": 2.0
+          },
+          "t2a": {
+            "R@1": 8.4,
+            "R@5": 26.8,
+            "R@10": 35.0,
+            "median_rank": 25.0
+          },
+          "a2t": {
+            "R@1": 11.0,
+            "R@5": 27.6,
+            "R@10": 38.2,
+            "median_rank": 24.0
+          },
+          "v2a": {
+            "R@1": 11.799999999999999,
+            "R@5": 28.599999999999998,
+            "R@10": 37.0,
+            "median_rank": 24.0
+          },
+          "a2v": {
+            "R@1": 8.6,
+            "R@5": 23.400000000000002,
+            "R@10": 30.599999999999998,
+            "median_rank": 33.0
+          }
+        },
+        "macro": {
+          "R@1": 20.066666666666666,
+          "R@5": 41.6,
+          "R@10": 50.300000000000004
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 10,
+      "total_updates": 1160,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/gram_d64_s50_R2/joint",
+      "best_sha256": "031123d46edf2cdddf18767b4c4df940b527d493d0c705d8723b85b9054ecc0f",
+      "done_sha256": "1db8991f5897ee72c34bd040a9a87d0a706b0e77819ce98e0b30743dbfb047e6"
+    },
+    {
+      "method": "gram",
+      "dimension": 64,
+      "recipe": "R3",
+      "seed": 50,
+      "validation": {
+        "directions": {
+          "t2v": {
+            "R@1": 39.6,
+            "R@5": 68.0,
+            "R@10": 77.0,
+            "median_rank": 2.0
+          },
+          "v2t": {
+            "R@1": 37.8,
+            "R@5": 65.2,
+            "R@10": 73.8,
+            "median_rank": 3.0
+          },
+          "t2a": {
+            "R@1": 2.6,
+            "R@5": 15.4,
+            "R@10": 24.6,
+            "median_rank": 43.0
+          },
+          "a2t": {
+            "R@1": 1.0,
+            "R@5": 7.000000000000001,
+            "R@10": 13.0,
+            "median_rank": 82.0
+          },
+          "v2a": {
+            "R@1": 1.6,
+            "R@5": 7.3999999999999995,
+            "R@10": 15.8,
+            "median_rank": 61.0
+          },
+          "a2v": {
+            "R@1": 1.2,
+            "R@5": 5.2,
+            "R@10": 9.0,
+            "median_rank": 103.0
+          }
+        },
+        "macro": {
+          "R@1": 13.966666666666667,
+          "R@5": 28.03333333333333,
+          "R@10": 35.53333333333334
+        },
+        "n_candidates": 500
+      },
+      "selected_epoch": 9,
+      "total_updates": 13396,
+      "run": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/gram_d64_s50_R3/joint",
+      "best_sha256": "64685d5e008190bbf5884c80b8a6acb2fdff9007a19bd4c7efb118340ff4957e",
+      "done_sha256": "547f1bceed5be44fe6a80523e3ac9ced8e1d0c92cd546f6e5c7b344232d95ab7"
+    }
+  ],
+  "locked_at": 1792832807.2783282,
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337"
+}

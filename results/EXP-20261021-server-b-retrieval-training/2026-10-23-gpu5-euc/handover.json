@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "old_supervisor_pid": 358303,
+  "new_supervisor_pid": 861638,
+  "adopted_worker_pids": [
+    856070,
+    3904627,
+    456697
+  ],
+  "workers_restarted": false,
+  "policy": {
+    "schema_version": 1,
+    "admission_used_gib": 45.0,
+    "allocation_cap_gib": 40.0,
+    "headroom_gib": 8.0,
+    "one_task_rank_per_gpu": false,
+    "authorization": "2026-10-23 user explicitly requested directly stacking one experiment on GPUs1-4 without a throughput trial; advance the already-selected hyp_cone R1 seed52 replicate.",
+    "disk_reserve_gib": 40.0,
+    "checkpoint_margin_gib": 1.0,
+    "launch_margin_gib": 20.0,
+    "max_task_ranks_per_gpu": 2,
+    "overlap_condition": "train/hyp_cone_d64_s52_R1/joint",
+    "overlap_devices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "overlap_peer": "train/vast_d64_s50_R3/frozen",
+    "pinned_condition": "train/euc_none_d64_s51_R1/joint",
+    "pinned_device": "5",
+    "pinned_authorization": "User explicitly requested one additional planned experiment on GPU5."
+  },
+  "training_source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "96d7fa87101a0b59446e3e9cd0f9e42572de5b5eb3e22bcfcb30f3152dced681",
+  "time": 1792735380.7028198
+}

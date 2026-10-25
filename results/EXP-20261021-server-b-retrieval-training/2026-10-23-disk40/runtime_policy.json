@@ -1,0 +1,34 @@
+{
+  "captured_at": "2026-10-23T03:49:18.993799+00:00",
+  "policy": {
+    "schema_version": 1,
+    "admission_used_gib": 45.0,
+    "allocation_cap_gib": 40.0,
+    "headroom_gib": 8.0,
+    "one_task_rank_per_gpu": true,
+    "authorization": "2026-10-23 user explicitly requested lowering the disk protection floor to 40 GiB and continuing available experiments; GPU rules remain unchanged.",
+    "disk_reserve_gib": 40.0,
+    "checkpoint_margin_gib": 1.0,
+    "launch_margin_gib": 20.0
+  },
+  "tests_passed": 8,
+  "tests": [
+    "GPU policy and existing task queue unchanged",
+    "launch reservation budgets",
+    "training wrapper command",
+    "checkpoint floor, payload margin, atomicity and path boundary",
+    "spawned rank inherits override",
+    "scheduler admits at 62GiB",
+    "scheduler waits below budget",
+    "running task paused below 40GiB"
+  ],
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "files": {
+    "disk_policy.py": "5460dd8825b41c7d8533c133291030f50d61e80079ba0f28636e654d1ddce14c",
+    "train_disk40.py": "466a21e70fa5249f3c58e4a3b227ba50eab4f5191235190a5e9f6874828d43fe",
+    "disk_schedule.py": "815a3b1b007188e6bc518310f87333c58075100ed7a08d72c7acaddda4a5fed4",
+    "test_disk40.py": "95cf50f2453dd37044816b49d2ff20af014139c64cd64c83a81d8088be3bccd2",
+    "resource_policy.json": "03361308498805b0e443f8c7daeeeb8ae91b920c113978a1731c2900cb9f96e9",
+    "README.md": "8883e2330883577c977d990b430accfc3c4c81417768069d59d389625b1e492c"
+  }
+}

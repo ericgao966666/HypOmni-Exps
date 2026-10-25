@@ -1,0 +1,48 @@
+{
+  "captured_at": "2026-10-24T08:16:46.953317+00:00",
+  "tests_passed": 7,
+  "checkpoint": {
+    "task": {
+      "method": "pmrl",
+      "dimension": 64,
+      "seed": 50,
+      "recipe": "R3",
+      "stage": "frozen",
+      "epochs": 30,
+      "global_batch": 256,
+      "head_lr": 0.0001,
+      "other_lr": 0.0001,
+      "vision_lr": 5e-07,
+      "warmup_fraction": 0.05,
+      "entailment_weight": 0.0,
+      "temperature": 0.07,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "weight_decay": 0.01,
+      "grad_clip": 2.0
+    },
+    "saved_epoch": 8,
+    "saved_step": 2576,
+    "world_size": 4,
+    "checkpoint": "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/pmrl_d64_s50_R3/frozen/last.pt",
+    "checkpoint_bytes": 31699191,
+    "zip_directory_readable": true
+  },
+  "retry_policy": {
+    "error": "GPU no longer has 40 GiB allocation plus 8 GiB headroom",
+    "max_retries": 3,
+    "cooldown_seconds": [
+      60,
+      120,
+      300
+    ],
+    "only_current_attempt_log": true
+  },
+  "files": {
+    "test_retry.py": "661043038047d21bc1b88df11584f31aa5dfa8a3382261fc1a52eaa082746879",
+    "README.md": "34c9e90fc47588a5d6547a147e81cf404e482ddd3523252a5d7270bbf68db294",
+    "retry_schedule.py": "d1cd217cdb8dc0fabc21b19867a2e3d1cb1fa6f3a2f99ed21e3831f02098281c"
+  }
+}

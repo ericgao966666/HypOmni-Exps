@@ -1,0 +1,476 @@
+{
+  "captured_at": "2026-10-24T09:09:50.906574+00:00",
+  "status": {
+    "pid": 721837,
+    "phase": "64d_seed50_parallel_pretraining",
+    "time": 1792832988.4751153,
+    "running": [
+      {
+        "pid": 1649042,
+        "start_ticks": "59959578",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "pmrl",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R3",
+            "stage": "frozen",
+            "epochs": 30,
+            "global_batch": 256,
+            "head_lr": 0.0001,
+            "other_lr": 0.0001,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "1",
+          "2",
+          "6",
+          "7"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__pmrl_d64_s50_R3__frozen.log",
+        "run_id": "20261024T081258-server-b-train-pmrl_d64_s50_R3-frozen"
+      }
+    ],
+    "queued": [
+      "train/pmrl_d64_s50_R3/joint"
+    ],
+    "failed": [],
+    "waiting_for_disk": [],
+    "free_disk_gib": 218.68642044067383,
+    "eligible_devices": [
+      "5",
+      "3",
+      "4"
+    ],
+    "controller": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/test_schedule.py",
+    "resource_policy": {
+      "schema_version": 1,
+      "admission_used_gib": 45.0,
+      "allocation_cap_gib": 40.0,
+      "headroom_gib": 8.0,
+      "one_task_rank_per_gpu": false,
+      "authorization": "2026-10-23 user explicitly requested lowering the disk protection floor to 40 GiB and continuing available experiments; GPU rules remain unchanged.",
+      "disk_reserve_gib": 40.0,
+      "checkpoint_margin_gib": 1.0,
+      "launch_margin_gib": 20.0,
+      "scheduling_scope": {
+        "seeds": [
+          50
+        ],
+        "priority_dimension": 64,
+        "defer_expansion_until_64d_complete": true,
+        "four_gpu_groups": {
+          "vast": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "gram": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "pmrl": [
+            "1",
+            "2",
+            "6",
+            "7"
+          ]
+        },
+        "max_task_ranks_per_gpu": 2,
+        "preserve_existing_results": true,
+        "authorization": "User explicitly requested starting the single-GPU VAST64D R3 MSRVTT fine-tuning on GPU7 while preserving current training.",
+        "single_gpu_override": {
+          "condition": "train/vast_d64_s50_R3/joint",
+          "device": "7",
+          "allowed_peer": "pmrl_d64_s50_R3 four-GPU pretraining"
+        },
+        "resource_retry": {
+          "error": "RuntimeError: GPU no longer has 40 GiB allocation plus 8 GiB headroom",
+          "max_retries": 3,
+          "cooldown_seconds": [
+            60,
+            120,
+            300
+          ]
+        },
+        "recovery_authorization": "User requested testing completed models on GPUs with usage below45GiB.",
+        "test_policy": {
+          "authority": "per_method_validation_lock",
+          "seeds": [
+            50
+          ],
+          "inference_cap_gib": 40,
+          "test_rank_per_gpu": 1,
+          "maximum_total_own_ranks_per_gpu": 2,
+          "baseline_controls": "Reuse existing R0 results on CPU",
+          "global_lock_created_only_after_all_methods_ready": true
+        }
+      },
+      "max_task_ranks_per_gpu": 2
+    },
+    "seeds": [
+      50
+    ],
+    "multi_seed_cancelled": true,
+    "expansion_after_64d": true,
+    "resource_retries": {},
+    "method_selections": {
+      "hyp_cone": {
+        "recipe": "R1",
+        "sha256": "9bd17b4ef9c6375318b46ec950699c8e5e82099452ebaaa92e903598c1db7e82"
+      },
+      "euc_none": {
+        "recipe": "R1",
+        "sha256": "aa3d5b412c4a0b79e0ee0e693356d4d2d19603201adba9cc74259a9a5995822f"
+      },
+      "vast": {
+        "recipe": "R3",
+        "sha256": "55715c523ab0ec439c09ea50d345b53cb8e714c635f049665665cb89ba91e689"
+      },
+      "gram": {
+        "recipe": "R1",
+        "sha256": "a147e5fef90f5f0713d7f509558fcec633a37d9d5b23e03e4d69f7f3e3df12f8"
+      }
+    },
+    "method_tests_complete": [
+      "method_test/euc_none_d64_s50_R0/joint",
+      "method_test/euc_none_d64_s50_R1/joint",
+      "method_test/gram_d64_s50_R1/joint",
+      "method_test/hyp_cone_d64_s50_R0/joint",
+      "method_test/hyp_cone_d64_s50_R1/joint",
+      "method_test/vast_d64_s50_R3/joint"
+    ],
+    "method_test_failures": {}
+  },
+  "launches": [
+    {
+      "run_id": "20261024T090647-server-b-method_test-hyp_cone_d64_s50_R1-joint",
+      "pid": 807400,
+      "start_ticks": "60282449",
+      "job": {
+        "kind": "method_test",
+        "task": {
+          "method": "hyp_cone",
+          "dimension": 64,
+          "seed": 50,
+          "recipe": "R1",
+          "stage": "joint",
+          "epochs": 30,
+          "global_batch": 64,
+          "head_lr": 2e-05,
+          "other_lr": 2e-05,
+          "vision_lr": 5e-07,
+          "warmup_fraction": 0.05,
+          "entailment_weight": 0.1,
+          "temperature": 0.07,
+          "betas": [
+            0.9,
+            0.98
+          ],
+          "weight_decay": 0.01,
+          "grad_clip": 2.0
+        }
+      },
+      "devices": [
+        "3"
+      ],
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+        "--method",
+        "hyp_cone",
+        "--dimension",
+        "64",
+        "--seed",
+        "50",
+        "--recipe",
+        "R1",
+        "--device",
+        "3"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__hyp_cone_d64_s50_R1__joint.log",
+      "time": 1792832807.3688862,
+      "port": "file rendezvous",
+      "admission_used_gib": {
+        "3": 3.9111328125
+      }
+    },
+    {
+      "run_id": "20261024T090647-server-b-method_test-hyp_cone_d64_s50_R0-joint",
+      "pid": 807401,
+      "start_ticks": "60282450",
+      "job": {
+        "kind": "method_test",
+        "task": {
+          "method": "hyp_cone",
+          "dimension": 64,
+          "seed": 50,
+          "recipe": "R0",
+          "stage": "joint",
+          "epochs": 10,
+          "global_batch": 64,
+          "head_lr": 2e-05,
+          "other_lr": 2e-05,
+          "vision_lr": 5e-07,
+          "warmup_fraction": 0.05,
+          "entailment_weight": 0.1,
+          "temperature": 0.07,
+          "betas": [
+            0.9,
+            0.98
+          ],
+          "weight_decay": 0.01,
+          "grad_clip": 2.0
+        }
+      },
+      "devices": [],
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+        "--method",
+        "hyp_cone",
+        "--dimension",
+        "64",
+        "--seed",
+        "50",
+        "--recipe",
+        "R0"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__hyp_cone_d64_s50_R0__joint.log",
+      "time": 1792832807.3707218,
+      "port": "file rendezvous",
+      "admission_used_gib": {}
+    },
+    {
+      "run_id": "20261024T090647-server-b-method_test-euc_none_d64_s50_R1-joint",
+      "pid": 807402,
+      "start_ticks": "60282450",
+      "job": {
+        "kind": "method_test",
+        "task": {
+          "method": "euc_none",
+          "dimension": 64,
+          "seed": 50,
+          "recipe": "R1",
+          "stage": "joint",
+          "epochs": 30,
+          "global_batch": 64,
+          "head_lr": 2e-05,
+          "other_lr": 2e-05,
+          "vision_lr": 5e-07,
+          "warmup_fraction": 0.05,
+          "entailment_weight": 0.0,
+          "temperature": 0.07,
+          "betas": [
+            0.9,
+            0.98
+          ],
+          "weight_decay": 0.01,
+          "grad_clip": 2.0
+        }
+      },
+      "devices": [
+        "5"
+      ],
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+        "--method",
+        "euc_none",
+        "--dimension",
+        "64",
+        "--seed",
+        "50",
+        "--recipe",
+        "R1",
+        "--device",
+        "5"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__euc_none_d64_s50_R1__joint.log",
+      "time": 1792832807.3718047,
+      "port": "file rendezvous",
+      "admission_used_gib": {
+        "5": 3.9345703125
+      }
+    },
+    {
+      "run_id": "20261024T090647-server-b-method_test-vast_d64_s50_R3-joint",
+      "pid": 807403,
+      "start_ticks": "60282450",
+      "job": {
+        "kind": "method_test",
+        "task": {
+          "method": "vast",
+          "dimension": 64,
+          "seed": 50,
+          "recipe": "R3",
+          "stage": "joint",
+          "epochs": 10,
+          "global_batch": 64,
+          "head_lr": 2e-05,
+          "other_lr": 2e-05,
+          "vision_lr": 5e-07,
+          "warmup_fraction": 0.05,
+          "entailment_weight": 0.0,
+          "temperature": 0.07,
+          "betas": [
+            0.9,
+            0.98
+          ],
+          "weight_decay": 0.01,
+          "grad_clip": 2.0
+        }
+      },
+      "devices": [
+        "4"
+      ],
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+        "--method",
+        "vast",
+        "--dimension",
+        "64",
+        "--seed",
+        "50",
+        "--recipe",
+        "R3",
+        "--device",
+        "4"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__vast_d64_s50_R3__joint.log",
+      "time": 1792832807.3728933,
+      "port": "file rendezvous",
+      "admission_used_gib": {
+        "4": 24.814453125
+      }
+    },
+    {
+      "run_id": "20261024T090647-server-b-method_test-gram_d64_s50_R1-joint",
+      "pid": 807404,
+      "start_ticks": "60282450",
+      "job": {
+        "kind": "method_test",
+        "task": {
+          "method": "gram",
+          "dimension": 64,
+          "seed": 50,
+          "recipe": "R1",
+          "stage": "joint",
+          "epochs": 30,
+          "global_batch": 64,
+          "head_lr": 2e-05,
+          "other_lr": 2e-05,
+          "vision_lr": 5e-07,
+          "warmup_fraction": 0.05,
+          "entailment_weight": 0.0,
+          "temperature": 0.07,
+          "betas": [
+            0.9,
+            0.98
+          ],
+          "weight_decay": 0.01,
+          "grad_clip": 2.0
+        }
+      },
+      "devices": [
+        "6"
+      ],
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+        "--method",
+        "gram",
+        "--dimension",
+        "64",
+        "--seed",
+        "50",
+        "--recipe",
+        "R1",
+        "--device",
+        "6"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__gram_d64_s50_R1__joint.log",
+      "time": 1792832807.3739727,
+      "port": "file rendezvous",
+      "admission_used_gib": {
+        "6": 29.86328125
+      }
+    },
+    {
+      "run_id": "20261024T090702-server-b-method_test-euc_none_d64_s50_R0-joint",
+      "pid": 824092,
+      "start_ticks": "60283960",
+      "job": {
+        "kind": "method_test",
+        "task": {
+          "method": "euc_none",
+          "dimension": 64,
+          "seed": 50,
+          "recipe": "R0",
+          "stage": "joint",
+          "epochs": 10,
+          "global_batch": 64,
+          "head_lr": 2e-05,
+          "other_lr": 2e-05,
+          "vision_lr": 5e-07,
+          "warmup_fraction": 0.05,
+          "entailment_weight": 0.0,
+          "temperature": 0.07,
+          "betas": [
+            0.9,
+            0.98
+          ],
+          "weight_decay": 0.01,
+          "grad_clip": 2.0
+        }
+      },
+      "devices": [],
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/control/method_tests_20261024/method_evaluate.py",
+        "--method",
+        "euc_none",
+        "--dimension",
+        "64",
+        "--seed",
+        "50",
+        "--recipe",
+        "R0"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/method_test__euc_none_d64_s50_R0__joint.log",
+      "time": 1792832822.4732459,
+      "port": "file rendezvous",
+      "admission_used_gib": {}
+    }
+  ],
+  "global_lock_exists": false,
+  "source_gate_passed": true,
+  "remote_status": "Not verified: automatic approval rejected git fetch; local records only"
+}

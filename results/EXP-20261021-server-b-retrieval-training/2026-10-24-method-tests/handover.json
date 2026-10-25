@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "time": 1792832807.2376456,
+  "old_supervisor_pid": 1648358,
+  "new_supervisor_pid": 721837,
+  "retained_worker_pids": [
+    1649042
+  ],
+  "paused_expansion_worker_pids": [],
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "a4c518a805ce279e7d07377e9a14bf7bc45d24a0594fbe85e477038566a052ac",
+  "execution_scope": {
+    "seeds": [
+      50
+    ],
+    "priority_dimension": 64,
+    "defer_expansion_until_64d_complete": true,
+    "four_gpu_groups": {
+      "vast": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "gram": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "pmrl": [
+        "1",
+        "2",
+        "6",
+        "7"
+      ]
+    },
+    "max_task_ranks_per_gpu": 2,
+    "preserve_existing_results": true,
+    "authorization": "User explicitly requested starting the single-GPU VAST64D R3 MSRVTT fine-tuning on GPU7 while preserving current training.",
+    "single_gpu_override": {
+      "condition": "train/vast_d64_s50_R3/joint",
+      "device": "7",
+      "allowed_peer": "pmrl_d64_s50_R3 four-GPU pretraining"
+    },
+    "resource_retry": {
+      "error": "RuntimeError: GPU no longer has 40 GiB allocation plus 8 GiB headroom",
+      "max_retries": 3,
+      "cooldown_seconds": [
+        60,
+        120,
+        300
+      ]
+    },
+    "recovery_authorization": "User requested testing completed models on GPUs with usage below45GiB.",
+    "test_policy": {
+      "authority": "per_method_validation_lock",
+      "seeds": [
+        50
+      ],
+      "inference_cap_gib": 40,
+      "test_rank_per_gpu": 1,
+      "maximum_total_own_ranks_per_gpu": 2,
+      "baseline_controls": "Reuse existing R0 results on CPU",
+      "global_lock_created_only_after_all_methods_ready": true
+    }
+  }
+}

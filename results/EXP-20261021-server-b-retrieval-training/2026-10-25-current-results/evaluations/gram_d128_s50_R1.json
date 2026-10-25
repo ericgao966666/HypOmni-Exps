@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "task": {
+    "method": "gram",
+    "dimension": 128,
+    "seed": 50,
+    "recipe": "R1",
+    "stage": "joint",
+    "epochs": 30,
+    "global_batch": 64,
+    "head_lr": 2e-05,
+    "other_lr": 2e-05,
+    "vision_lr": 5e-07,
+    "warmup_fraction": 0.05,
+    "entailment_weight": 0.0,
+    "temperature": 0.07,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "weight_decay": 0.01,
+    "grad_clip": 2.0
+  },
+  "metrics": {
+    "directions": {
+      "t2v": {
+        "R@1": 40.158371040723985,
+        "R@5": 69.00452488687783,
+        "R@10": 79.52488687782805,
+        "median_rank": 2.0
+      },
+      "v2t": {
+        "R@1": 41.40271493212669,
+        "R@5": 68.77828054298642,
+        "R@10": 78.16742081447964,
+        "median_rank": 2.0
+      },
+      "t2a": {
+        "R@1": 7.013574660633484,
+        "R@5": 21.71945701357466,
+        "R@10": 30.88235294117647,
+        "median_rank": 31.0
+      },
+      "a2t": {
+        "R@1": 6.334841628959276,
+        "R@5": 17.986425339366516,
+        "R@10": 25.1131221719457,
+        "median_rank": 43.0
+      },
+      "v2a": {
+        "R@1": 6.67420814479638,
+        "R@5": 17.760180995475114,
+        "R@10": 24.20814479638009,
+        "median_rank": 60.0
+      },
+      "a2v": {
+        "R@1": 5.090497737556561,
+        "R@5": 13.914027149321267,
+        "R@10": 19.004524886877828,
+        "median_rank": 70.0
+      }
+    },
+    "macro": {
+      "R@1": 17.779034690799396,
+      "R@5": 34.860482654600304,
+      "R@10": 42.816742081447956
+    },
+    "n_candidates": 884
+  },
+  "selected_epoch": 23,
+  "method_selection_sha256": "a147e5fef90f5f0713d7f509558fcec633a37d9d5b23e03e4d69f7f3e3df12f8",
+  "checkpoint_sha256": "d3805a0caf2401fb76527880af935c43dbb4f860ae8add019d34ca2a2b5c477c",
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "baseline_control": false,
+  "test_authority": "per_method_validation_lock",
+  "test_ids_sha256": "348ab8900141d7cc22c7b20f82f24ba9d451eeac68b89ac7b372581058ec95d4",
+  "features_sha256": "38d41aefc270cd6e370a9f66c32fd36ca6ef40696bc51293de457bfa9addb80c",
+  "historical_evaluation_reused": false,
+  "inference_world_size": 1,
+  "inference_device": "1",
+  "peak_reserved_gib": 7.833984375,
+  "evaluated_at": 1792893653.3550363,
+  "elapsed_seconds": 56.79528784751892
+}

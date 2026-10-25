@@ -1,0 +1,185 @@
+{
+  "captured_at": "2026-10-21T04:51:56.001370+00:00",
+  "supervisor": {
+    "pid": 3261486,
+    "command": [
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+      "-u",
+      "-B",
+      "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/retrieval_schedule.py",
+      "--execute"
+    ],
+    "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/supervisor.log",
+    "status": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/status.json",
+    "started_at": 1792558111.7009773,
+    "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+    "attempt": 2
+  },
+  "state": {
+    "pid": 3261486,
+    "phase": "64d_ours_screen",
+    "time": 1792558308.0638585,
+    "running": [
+      {
+        "pid": 3261489,
+        "start_ticks": "32812911",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "hyp_cone",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R1",
+            "stage": "joint",
+            "epochs": 30,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.1,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "0"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s50_R1__joint.log",
+        "run_id": "20261021T044831-server-b-train-hyp_cone_d64_s50_R1-joint"
+      },
+      {
+        "pid": 3261490,
+        "start_ticks": "32812912",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "hyp_cone",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R2",
+            "stage": "joint",
+            "epochs": 10,
+            "global_batch": 64,
+            "head_lr": 0.0001,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.1,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "1"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__hyp_cone_d64_s50_R2__joint.log",
+        "run_id": "20261021T044831-server-b-train-hyp_cone_d64_s50_R2-joint"
+      },
+      {
+        "pid": 3261491,
+        "start_ticks": "32812912",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "euc_none",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R1",
+            "stage": "joint",
+            "epochs": 30,
+            "global_batch": 64,
+            "head_lr": 2e-05,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "2"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d64_s50_R1__joint.log",
+        "run_id": "20261021T044831-server-b-train-euc_none_d64_s50_R1-joint"
+      },
+      {
+        "pid": 3261492,
+        "start_ticks": "32812912",
+        "job": {
+          "kind": "train",
+          "task": {
+            "method": "euc_none",
+            "dimension": 64,
+            "seed": 50,
+            "recipe": "R2",
+            "stage": "joint",
+            "epochs": 10,
+            "global_batch": 64,
+            "head_lr": 0.0001,
+            "other_lr": 2e-05,
+            "vision_lr": 5e-07,
+            "warmup_fraction": 0.05,
+            "entailment_weight": 0.0,
+            "temperature": 0.07,
+            "betas": [
+              0.9,
+              0.98
+            ],
+            "weight_decay": 0.01,
+            "grad_clip": 2.0
+          }
+        },
+        "devices": [
+          "3"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/train__euc_none_d64_s50_R2__joint.log",
+        "run_id": "20261021T044831-server-b-train-euc_none_d64_s50_R2-joint"
+      },
+      {
+        "pid": 3261493,
+        "start_ticks": "32812912",
+        "job": {
+          "kind": "cache"
+        },
+        "devices": [
+          "4"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/code/logs/lowdim_retrieval_20261021/vast_pooled_cache.log",
+        "run_id": "20261021T044831-server-b-vast_pooled_cache"
+      }
+    ],
+    "queued": [
+      "train/hyp_cone_d64_s50_R3/warmup",
+      "train/hyp_cone_d64_s50_R3/frozen",
+      "train/hyp_cone_d64_s50_R3/joint",
+      "train/euc_none_d64_s50_R3/warmup",
+      "train/euc_none_d64_s50_R3/frozen",
+      "train/euc_none_d64_s50_R3/joint"
+    ],
+    "failed": [],
+    "waiting_for_disk": [],
+    "free_disk_gib": 740.0211181640625,
+    "eligible_devices": [
+      "5",
+      "6",
+      "7"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-22T06:25:03.327169+00:00",
+  "tests_passed": 5,
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "policy": {
+    "schema_version": 1,
+    "admission_used_gib": 45.0,
+    "allocation_cap_gib": 40.0,
+    "headroom_gib": 8.0,
+    "one_task_rank_per_gpu": true,
+    "authorization": "User authorized using remaining GPUs below 45 GiB for other planned experiments; advance only existing R0 seed51/52 controls."
+  },
+  "files": {
+    "early_schedule.py": "3aedc20c56bd5e02b16090a1b7440ff728192031ef0ea832597d84d52b49e550",
+    "test_early.py": "818783ceeaab8cac7a963360ab3949bf2ace9fd68cd6e4d57d50073429c8f49e",
+    "resource_policy.json": "e80ec07058aa8bd27b133dff18f7c6f6e063094d8007ef04c38373237701aaac",
+    "README.md": "0e10a9768ae16256088ed84e8e970b7355165894546ad5e62f160549a705a6e9"
+  }
+}

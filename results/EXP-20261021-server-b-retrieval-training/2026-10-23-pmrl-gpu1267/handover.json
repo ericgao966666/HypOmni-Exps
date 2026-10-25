@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "time": 1792738889.708233,
+  "old_supervisor_pid": 3722291,
+  "new_supervisor_pid": 1141660,
+  "retained_worker_pids": [
+    856070,
+    3798136
+  ],
+  "paused_expansion_worker_pids": [],
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "930994a43f89dfdd8dfd9eb0984296472748d03f9f917646ab521b19c2f5950d",
+  "execution_scope": {
+    "seeds": [
+      50
+    ],
+    "priority_dimension": 64,
+    "defer_expansion_until_64d_complete": true,
+    "four_gpu_groups": {
+      "vast": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "gram": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "pmrl": [
+        "1",
+        "2",
+        "6",
+        "7"
+      ]
+    },
+    "max_task_ranks_per_gpu": 2,
+    "preserve_existing_results": true,
+    "authorization": "User explicitly requested an additional experiment on GPUs1/2/6/7; resume unfinished PMRL64D R3 without restarting VAST or GRAM."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-10-23T04:37:51.148690+00:00",
+  "tests_passed": 8,
+  "added_condition": "hyp_cone_d64_s51_R1/joint",
+  "selection_rule_unchanged": true,
+  "global_selection_lock_created": false,
+  "source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "files": {
+    "selected_schedule.py": "627a3d08409f7c7a9443ed41db41084defc33b6bc87879b3b4f4a58e3aa4614e",
+    "test_selected.py": "f1ca04cc32b882c3fba5415afb5f7b70ec6738ceaa1d217919e73940578b62bd",
+    "README.md": "3d76638df585f2245d73b3c53b2e0a6c53fcec2fd447c0bd7e6def7d388af773"
+  },
+  "resource_policy_source": "control/disk40_20261023/resource_policy.json"
+}

@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-10-21T09:30:46.355713+00:00",
+  "passed": true,
+  "old_supervisor_pid": 4045214,
+  "new_supervisor_pid": 3864909,
+  "adopted_worker_pids": [
+    4045224,
+    1254225
+  ],
+  "workers_restarted": false,
+  "policy": {
+    "schema_version": 1,
+    "admission_used_gib": 45.0,
+    "allocation_cap_gib": 40.0,
+    "headroom_gib": 8.0,
+    "one_task_rank_per_gpu": true,
+    "authorization": "User requested that GPUs with memory usage below 45 GiB may launch tasks."
+  },
+  "training_source_digest": "5c50f53951e21a6350d78ea3b11526e9f5c02abac483909907161375fe420337",
+  "controller_sha256": "329e58320148b8ee0c63ca340cdf34d39687689ddb6a0d3fd7366caa8a3472d8",
+  "time": 1792574879.7321098
+}

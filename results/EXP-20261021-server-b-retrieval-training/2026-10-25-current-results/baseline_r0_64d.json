@@ -1,0 +1,72 @@
+[
+  {
+    "method": "hyp_cone",
+    "dimension": 64,
+    "recipe": "R0",
+    "seed": 50,
+    "selected_epoch": 5,
+    "metrics": {
+      "R@1": 19.683257918552034,
+      "R@5": 42.55279034690799,
+      "R@10": 54.31749622926093
+    },
+    "test_metrics_sha256": "3919ff042d06dfc1207c44d58fab869d596115642b3de0bb94928767cc49dc22",
+    "source_path": "lowdim_finetune_64d_20261020/runs/msrvtt_hyp_cone_d64_s50/test_metrics.json"
+  },
+  {
+    "method": "euc_none",
+    "dimension": 64,
+    "recipe": "R0",
+    "seed": 50,
+    "selected_epoch": 7,
+    "metrics": {
+      "R@1": 19.98491704374057,
+      "R@5": 43.21266968325792,
+      "R@10": 54.71342383107089
+    },
+    "test_metrics_sha256": "0b1aeb0b3dd181dd8613f43a152dc5e0898d65a43d2d5144282593c0a98e2219",
+    "source_path": "lowdim_finetune_64d_20261020/runs/msrvtt_euc_none_d64_s50/test_metrics.json"
+  },
+  {
+    "method": "vast",
+    "dimension": 64,
+    "recipe": "R0",
+    "seed": 50,
+    "selected_epoch": 7,
+    "metrics": {
+      "R@1": 14.913273001508296,
+      "R@5": 34.33257918552036,
+      "R@10": 44.87179487179487
+    },
+    "test_metrics_sha256": "c50627f469363c10813da8ab0404fa89b363ab71dda72932ce453e60bf158a33",
+    "source_path": "lowdim_finetune_64d_20261020/runs/msrvtt_vast_d64_s50/test_metrics.json"
+  },
+  {
+    "method": "gram",
+    "dimension": 64,
+    "recipe": "R0",
+    "seed": 50,
+    "selected_epoch": 10,
+    "metrics": {
+      "R@1": 15.912518853695325,
+      "R@5": 33.76696832579186,
+      "R@10": 42.590497737556554
+    },
+    "test_metrics_sha256": "feff2c68535146c2fa017e82a7e6d701f31ba8fc9d8849c6cb9400bf5db8a395",
+    "source_path": "lowdim_finetune_64d_20261020/runs/msrvtt_gram_d64_s50/test_metrics.json"
+  },
+  {
+    "method": "pmrl",
+    "dimension": 64,
+    "recipe": "R0",
+    "seed": 50,
+    "selected_epoch": 6,
+    "metrics": {
+      "R@1": 20.531674208144796,
+      "R@5": 43.60859728506788,
+      "R@10": 54.67571644042233
+    },
+    "test_metrics_sha256": "25f29b306c26a9115cc66cf9d1be0b4890d7fb47dbb41249f97b36a55afc493d",
+    "source_path": "lowdim_finetune_64d_20261020/runs/msrvtt_pmrl_d64_s50/test_metrics.json"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-10-21T04:57:21.489535+00:00",
+  "sealed_source_files": 170,
+  "parent_source_files_unchanged": 157,
+  "manifest_entries_checked": 126,
+  "manifest_entries_passed": 125,
+  "preexisting_mismatches": [
+    {
+      "path": "results/EXP-009/2026-10-20-server-b-five-methods/README.md",
+      "expected_bytes": 12477,
+      "actual_bytes": 12426,
+      "mtime_utc": "2026-10-20T18:51:22.180788+00:00",
+      "action": "Preserved pre-existing label edits; no changes made by this task."
+    }
+  ],
+  "new_artifact_hashes_passed": true,
+  "local_links_verified": 72
+}
