@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+  "snapshot_version": "2026-10-24-final-seed50",
+  "captured_at": "2026-10-24T21:39:02.222534+08:00",
+  "source_server": "server2",
+  "capture_via_server": "server-a",
+  "source_root": "dataset_root",
+  "output_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50",
+  "completed_at": "2026-10-24T11:05:32.612479+00:00",
+  "scope": "four samplers; seed50 only; one epoch; four development and sixteen test evaluations",
+  "training_source_sha256": "e614af4a075812a56831aff28c02ac821b9a62c6b6b7f1fad1ca1775996fd750",
+  "initial_checkpoint_sha256": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5",
+  "source_manifest_file_sha256": "b58f87040512fd22ccf4cd82812ae8a7bf7eb654cee4ccc683b07ea29a25bd91",
+  "training_manifest_sha256": "5f85117bb8810707fbd30755e91997c840c1f7f54fc5c8c3330d7e8f5b9f0384",
+  "training_rows": 86706,
+  "test_counts": {
+    "msrvtt": 884,
+    "didemo": 995,
+    "activitynet": 3987,
+    "vatex": 1224
+  },
+  "dev_count_per_model": 1000,
+  "training": {
+    "legacy_va": {
+      "final_step": 1354,
+      "applied_updates": 1353,
+      "amp_skips": 1,
+      "job_sha256": "718794076f14c65cb7401b5dc06facaf028c28297a7c636793e2ece2aa6d9667",
+      "worker_complete_sha256": "a17e525b098dc27bc603ab47c0549f1695f9f76970a7b78bb0ab32f79b92e0ba",
+      "run_complete_sha256": "498d1820653f7251b3e39cf2329ce04fa044006b7234e186d5061092615368f2",
+      "config_file_sha256": "033df1467b8dd98219ab5d66ae15a5fbdd123327802c477b2a181efb573140ee",
+      "checkpoint_marker_sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac",
+      "checkpoint_audit": {
+        "step": 1354,
+        "host": "server2",
+        "at": "2026-10-24T07:38:48.583545+00:00",
+        "files": {
+          "model_step_1354.pt": {
+            "bytes": 5587047011,
+            "sha256": "db5e6dbbbceba5752e749fe9ba00e1a741ffbd5a5ea342422930063db663566f"
+          },
+          "optimizer_step_1354.pt": {
+            "bytes": 9940701227,
+            "sha256": "ae0f46ab6b21dc16c7dc1c50b262078c737d33a1f3e0bcade8382109a4940244"
+          },
+          "training_state_step_1354.pt": {
+            "bytes": 73341,
+            "sha256": "23148c102527c12708a2082e7b55432ee5cdfc164f39863d1fc1b381fadbca1e"
+          }
+        },
+        "marker_sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac"
+      }
+    },
+    "tv": {
+      "final_step": 1354,
+      "applied_updates": 1352,
+      "amp_skips": 2,
+      "job_sha256": "6a4e4ca4c3a2b4d606a7a1853b10922d5af440218714c3f8c5a4ab4cae8ac7b0",
+      "worker_complete_sha256": "f3341e91663ab8660fc55c61ff3fe448ea19eafafd9eb4a8e75318050281ee32",
+      "run_complete_sha256": "dcd94e51c0aec8ff635269dac08a357570124d99be734cb591a1cfd78b94fbf1",
+      "config_file_sha256": "664cedd060e40796113ffdcbad63cc1d8a834fa3126c2712b7add19b71ae59a5",
+      "checkpoint_marker_sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac",
+      "checkpoint_audit": {
+        "step": 1354,
+        "host": "server2",
+        "at": "2026-10-24T08:58:20.049625+00:00",
+        "files": {
+          "model_step_1354.pt": {
+            "bytes": 5587047011,
+            "sha256": "7e8a567dd36b916022ad9f864016fa2a236a2e278829cea42a0d2b61f532c897"
+          },
+          "optimizer_step_1354.pt": {
+            "bytes": 9940701227,
+            "sha256": "9531917e0a6f125d6fdb0877997e759a3a91b472187c44b2c935559a87d29a32"
+          },
+          "training_state_step_1354.pt": {
+            "bytes": 73341,
+            "sha256": "e988fa1614c2e428fe297e91fb407e1ba9502c701a1fd0bbccd1e6e19041de40"
+          }
+        },
+        "marker_sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac"
+      }
+    },
+    "mean_tv_ta": {
+      "final_step": 1354,
+      "applied_updates": 1352,
+      "amp_skips": 2,
+      "job_sha256": "e5a040130cf4b03f2ac57ffafbe4738684b32e8d28c71af1fe46afa8f02d722a",
+      "worker_complete_sha256": "415e79d4bd5ce8b5445a1d0b572d63b142d17262d5d9d5389922dadc67be4f62",
+      "run_complete_sha256": "53c94744e356f82250d4e56eb8b456598ac72a6caef6326d5d9961ce0637edb7",
+      "config_file_sha256": "edbce38956284df4487eb36cbe644b58451307da5b22a72dc7fc6de598bab2c4",
+      "checkpoint_marker_sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac",
+      "checkpoint_audit": {
+        "step": 1354,
+        "host": "server2",
+        "at": "2026-10-24T10:11:59.875200+00:00",
+        "files": {
+          "model_step_1354.pt": {
+            "bytes": 5587047011,
+            "sha256": "258d18ab924cd29b0f75b6b35293247380c9912b68da0d1b7ebadbae07b529dc"
+          },
+          "optimizer_step_1354.pt": {
+            "bytes": 9940701227,
+            "sha256": "44f72b1b8366929a531f70e016b1481136d15e9ef1ce6127d3b163cd08b1888a"
+          },
+          "training_state_step_1354.pt": {
+            "bytes": 73341,
+            "sha256": "d118a09e34c070cb4b576984e3f68e3dfc44fd9dab8eed458932eee13cea40f2"
+          }
+        },
+        "marker_sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac"
+      }
+    },
+    "sigma_max": {
+      "final_step": 1354,
+      "applied_updates": 1353,
+      "amp_skips": 1,
+      "job_sha256": "6c18bb892b9076838a02e1def7b8cb0d71d82f88fe2b79daa48b96a22040eb9e",
+      "worker_complete_sha256": "a55952ee27a98583b4224415484ba5e9440b058591467b24286d790b69069b33",
+      "run_complete_sha256": "6963e62cbfcd1d37221714d45ff4925c7145e8b997bc82a17ee5714fbd2ac017",
+      "config_file_sha256": "91ad106ba287fe55c1a6258e39512a08a1ebdd8ab23f3327ba05deb4f71f68a5",
+      "checkpoint_marker_sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac",
+      "checkpoint_audit": {
+        "step": 1354,
+        "host": "server2",
+        "at": "2026-10-24T09:28:21.287445+00:00",
+        "files": {
+          "model_step_1354.pt": {
+            "bytes": 5587047011,
+            "sha256": "b0ef8c3e50639182f3934b51a5737a759b72a7821115b31eaa64d9ba76dcbc35"
+          },
+          "optimizer_step_1354.pt": {
+            "bytes": 9940701227,
+            "sha256": "6b02ce088929e214a4a37fac076657400b6ff9fc57e3b88f10f75fd09e58968b"
+          },
+          "training_state_step_1354.pt": {
+            "bytes": 73341,
+            "sha256": "7fe3eaabe9424cc0f5f3a1c51aea6e8d1b3a0910ac787e587ade85130fcc9cf2"
+          }
+        },
+        "marker_sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac"
+      }
+    }
+  },
+  "evaluations": {
+    "legacy_va/dev": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 1000,
+      "job_fingerprint": "25a40b31f02844779763bf419709cdae69864426ad7d47216f6e037c542bc6ba",
+      "metrics_sha256": "b0202f162d260b872e1e357b2c4193d826a11b2522900565e9093164351b28f2",
+      "config_file_sha256": "aa62f554a7342c56f0cf4dd9d7e225681035c8a23b9c08c452b76a872078deba",
+      "worker_complete_sha256": "077e2f4ca05431a062abf721f8f23329e5f99db596f977efa048be6395ba2805",
+      "finished_at": "2026-10-24T07:49:05.135966+00:00",
+      "checkpoint_sha256": "db5e6dbbbceba5752e749fe9ba00e1a741ffbd5a5ea342422930063db663566f"
+    },
+    "legacy_va/msrvtt": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 884,
+      "job_fingerprint": "9e1239917fb5cd95157812bdf149aa20e280a980fdb03eea371a95de506dfbff",
+      "metrics_sha256": "ebcfd936a0dca784a36eaedddb9e4dfd9de66cf102cbc81a5a13d287b068c963",
+      "config_file_sha256": "cd6187cc61eb5a542886d3d4542c16d645a610cf134d1fb55ba90d62e7b9bd9d",
+      "worker_complete_sha256": "664bc2e3874f2d3e254399155f7b0667024abb69732c131c16d9d50a67229163",
+      "finished_at": "2026-10-24T10:32:19.369922+00:00",
+      "checkpoint_sha256": "db5e6dbbbceba5752e749fe9ba00e1a741ffbd5a5ea342422930063db663566f"
+    },
+    "legacy_va/didemo": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 995,
+      "job_fingerprint": "021860b6d57b096bb86b92a204bfd5d63cc9be77edbe73288c796c83d7be2d34",
+      "metrics_sha256": "8fed71c3a79df4c8591f7eee127a5f7c608f8e0b642d1d7bc4e96b3bffcbbaa6",
+      "config_file_sha256": "642d7c52a0717b241ca270c0ae4de9b599fbbfd7a45d835df1d6f6fce546b606",
+      "worker_complete_sha256": "b2ee6a67a665856364825ef0d692a94737c6194c868ca687dc50602ad2a8f4fe",
+      "finished_at": "2026-10-24T10:22:55.095406+00:00",
+      "checkpoint_sha256": "db5e6dbbbceba5752e749fe9ba00e1a741ffbd5a5ea342422930063db663566f"
+    },
+    "legacy_va/activitynet": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 3987,
+      "job_fingerprint": "c99df3485c4379f71d2f917ea4318fc2134df4de01d2361bda457723e95cefc0",
+      "metrics_sha256": "03398d04c9f25af4baa8d3c5586c8efdcb16b580fa5b821680b8b41044837ad0",
+      "config_file_sha256": "5719c9404fd7b0dcb359c6d6f43d2afce7471b60caf1592c14c4eee5bdfb88dc",
+      "worker_complete_sha256": "9fea451d31f21206a0b444127a124a0e143243be8606b842573e8670e5ef8505",
+      "finished_at": "2026-10-24T10:38:25.314890+00:00",
+      "checkpoint_sha256": "db5e6dbbbceba5752e749fe9ba00e1a741ffbd5a5ea342422930063db663566f"
+    },
+    "legacy_va/vatex": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 1224,
+      "job_fingerprint": "1f711150e7c8c721ee504b45a03c8bfc7988f6f29046f9b63fadf67b28568912",
+      "metrics_sha256": "04a9c7f6a7673cc535c1191244c671c32fb5b13de01e5eb7b0b3637fbd0efdb9",
+      "config_file_sha256": "5e41b913ca0dff08b43e1801e21b7494214cb7c297d4d6231864ef706ed30f42",
+      "worker_complete_sha256": "80c2dced724fc4685532adaf8c32c92edc2b923fdb2290507206f919565a408d",
+      "finished_at": "2026-10-24T10:22:51.177000+00:00",
+      "checkpoint_sha256": "db5e6dbbbceba5752e749fe9ba00e1a741ffbd5a5ea342422930063db663566f"
+    },
+    "tv/dev": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 1000,
+      "job_fingerprint": "6e07090a7c55ea13ce684fa1b0db3d4f7c0305998b6d3f4503063d98ebcb4819",
+      "metrics_sha256": "68d09b62f6424792ce697f08e94fb94f1e604722582680330e4b76da6bf78b80",
+      "config_file_sha256": "f5ed2a4d2f7ebe53ab2cbb7b01999360494165997d9bbffe5657db589cf9a8a3",
+      "worker_complete_sha256": "c1da7129268e79829bf84c6ae2b2e0650d717bb2beb9154eec367b8afcff61a6",
+      "finished_at": "2026-10-24T09:08:19.581994+00:00",
+      "checkpoint_sha256": "7e8a567dd36b916022ad9f864016fa2a236a2e278829cea42a0d2b61f532c897"
+    },
+    "tv/msrvtt": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 884,
+      "job_fingerprint": "c8da59cdba95fd1589eb37696b834f7bd3c1b718d96deb4fa1d77b02310f64c9",
+      "metrics_sha256": "a5c8e92ec6651fcc2cd2575699ec852c9c1cb97c6fd90dedeba9e3c19013ba16",
+      "config_file_sha256": "e81694cfe70d117954bf0b8c96ac69c17d8d377055bf5f08b80000eadc00c999",
+      "worker_complete_sha256": "88fd35ef76ccb81e83d5744a71dab3d766c451c149a3282b0da852953865e168",
+      "finished_at": "2026-10-24T10:50:44.329487+00:00",
+      "checkpoint_sha256": "7e8a567dd36b916022ad9f864016fa2a236a2e278829cea42a0d2b61f532c897"
+    },
+    "tv/didemo": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 995,
+      "job_fingerprint": "7e74f5b9a92b3933420151fe30048c965a9b65e322dec3f2d71231b72aae5361",
+      "metrics_sha256": "6ac4ffe52e2d408cd1edd9f8966ac44c61008752b7fe2f89c2f17d2e4341e96d",
+      "config_file_sha256": "71976f1f454d345b969a6f437af09d6ce4bc6d038be3b1955885eef46acc11d5",
+      "worker_complete_sha256": "b329302af50b8e7e0cb571b30b45d1ed00e82f60b2c8e3de75105414cc337916",
+      "finished_at": "2026-10-24T10:42:05.393175+00:00",
+      "checkpoint_sha256": "7e8a567dd36b916022ad9f864016fa2a236a2e278829cea42a0d2b61f532c897"
+    },
+    "tv/activitynet": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 3987,
+      "job_fingerprint": "0a8014262d1cf02715827a800307cf0d891002f9f372e89b026002eb5e788f51",
+      "metrics_sha256": "4373b542d3d3d06dcaf6776076d7eb8fe2a4b32d3031c6bf150f99e8e6561b10",
+      "config_file_sha256": "ac07fcd2d706b09d0943601aace85d2a896f413c79450870433fbe5c96dc9f79",
+      "worker_complete_sha256": "eebae5015b72f54b8e0415ad36c3b1a7adb2f2f1ce4a1586ab84050683d0efc3",
+      "finished_at": "2026-10-24T10:39:52.342826+00:00",
+      "checkpoint_sha256": "7e8a567dd36b916022ad9f864016fa2a236a2e278829cea42a0d2b61f532c897"
+    },
+    "tv/vatex": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 1224,
+      "job_fingerprint": "eba399a37fbf0e9bcf14a30e950869c43464b64b65cb55d2f9677b5465f16d94",
+      "metrics_sha256": "3b74fd80078d99e407dcb4701e2e9b298cf21604704575486aa6fdcec63b5fcb",
+      "config_file_sha256": "a61d04de0dbc3ffb6c0416fa7987e86030c3b6491320bae6c496912530fb55da",
+      "worker_complete_sha256": "4698786b9682b94f6ea4f6919bb189b826c2a1c2a25e0433535b64be094eb47c",
+      "finished_at": "2026-10-24T10:30:51.117834+00:00",
+      "checkpoint_sha256": "7e8a567dd36b916022ad9f864016fa2a236a2e278829cea42a0d2b61f532c897"
+    },
+    "mean_tv_ta/dev": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 1000,
+      "job_fingerprint": "ee808d32034c2126eff2ca93252d2df5f5f6f61042bcff00558fc4b91767d856",
+      "metrics_sha256": "2955cf22096fd9818bcb24cb5a16a0dba5a3325a9bf77be96051c0031e9faac7",
+      "config_file_sha256": "63124a7d9e89d59404de02cde707ba390ba425f3e48d94c27f2dcc39b42548bb",
+      "worker_complete_sha256": "27d07034daad0449b0cc0a57f156a6c4e6ecf9594b4b44cd19ef2da1c020aa68",
+      "finished_at": "2026-10-24T10:22:40.582906+00:00",
+      "checkpoint_sha256": "258d18ab924cd29b0f75b6b35293247380c9912b68da0d1b7ebadbae07b529dc"
+    },
+    "mean_tv_ta/msrvtt": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 884,
+      "job_fingerprint": "8ac586a636e8cd2cac09bdc90a7b26e807bf52c8ed0ffbe9598c6847cd73d3ba",
+      "metrics_sha256": "5f3abfa64e04a2b43b7dc43987a032a73ec7b95edab013601eb5476c380a862b",
+      "config_file_sha256": "5ce8b37437c79f32ed85e7b9ec1aa69766a6ed7bacba41df60b363d9e1d842f9",
+      "worker_complete_sha256": "e315d0948d063a7b740b5d36b602af18853e37cc3f84db17e7113926e14dc9d3",
+      "finished_at": "2026-10-24T10:53:39.776626+00:00",
+      "checkpoint_sha256": "258d18ab924cd29b0f75b6b35293247380c9912b68da0d1b7ebadbae07b529dc"
+    },
+    "mean_tv_ta/didemo": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 995,
+      "job_fingerprint": "62f0f666ea89db67ca4040777eaba4494139dbeb53f08d76c0db8b994d29f740",
+      "metrics_sha256": "e7735414ed5175d5fd3d73a781653f38c57937d2776e99ea06a471f4a7bbb3c4",
+      "config_file_sha256": "28b71a11890ac7bb87072b48a2f554108f5389d20a45719bbd13dbc6c3a40e6a",
+      "worker_complete_sha256": "4172a75da4bd14e9ae200b1da2d35789926b4ceec952e29d5f0997832987cd91",
+      "finished_at": "2026-10-24T10:52:12.451891+00:00",
+      "checkpoint_sha256": "258d18ab924cd29b0f75b6b35293247380c9912b68da0d1b7ebadbae07b529dc"
+    },
+    "mean_tv_ta/activitynet": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 3987,
+      "job_fingerprint": "b5d19210fe33c7af2b1004528ff60906a026629245a2e31dc95486bb68c6648e",
+      "metrics_sha256": "bb3f09a1339299edb2810cbe33206460a86f2a8a8721a1a19744bc781e074f28",
+      "config_file_sha256": "1690b879043b2a6d8e748bb08829c30880f3837a332d190fee49a4afb823d7fd",
+      "worker_complete_sha256": "4506eb8a2ba6b1c8c4327fdcbcd3f4e26f3d888d5056522c8d374919447b9fde",
+      "finished_at": "2026-10-24T11:05:27.938740+00:00",
+      "checkpoint_sha256": "258d18ab924cd29b0f75b6b35293247380c9912b68da0d1b7ebadbae07b529dc"
+    },
+    "mean_tv_ta/vatex": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 1224,
+      "job_fingerprint": "b4554fbab9be9085cba2f76724dc9823de1a3318f65c69e0cde7816c092cc564",
+      "metrics_sha256": "59450d39801f62c3435428c19a51c5f993699161f548591be90c24e4d82f7954",
+      "config_file_sha256": "0bd94e4949d33786bc00e9932139ac347fed714a648d45c8980d05a98419c47b",
+      "worker_complete_sha256": "ac4594b20ff8c79f49c31661a2bf54484e140366c9368095e523cda81db12a55",
+      "finished_at": "2026-10-24T10:42:44.683043+00:00",
+      "checkpoint_sha256": "258d18ab924cd29b0f75b6b35293247380c9912b68da0d1b7ebadbae07b529dc"
+    },
+    "sigma_max/dev": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 1000,
+      "job_fingerprint": "1528c0a5af2a08990da8525f73caed6cf50c8dd9979914b7834bd400495aabdc",
+      "metrics_sha256": "4d563f03fe03f79f46f80726e16c738b7aa349481be21af9db84defb11b7ffd6",
+      "config_file_sha256": "c2a050f393d895d281c19e1490cfd1fa5c5b9c789174ee2bc7f15c4e46de9637",
+      "worker_complete_sha256": "1f5ee87c2ce3dac06809eb6e904ee5654031c517e84f79ec6761255e7ebf348f",
+      "finished_at": "2026-10-24T09:38:00.482172+00:00",
+      "checkpoint_sha256": "b0ef8c3e50639182f3934b51a5737a759b72a7821115b31eaa64d9ba76dcbc35"
+    },
+    "sigma_max/msrvtt": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 884,
+      "job_fingerprint": "ea79510f0843b14f792081afd22f9b9c0b28e51b0fe67fa0c2a730ad6c3740ca",
+      "metrics_sha256": "acbc947c77e5ba313a58731fa31b1277fcb4e662bc6642010933dceadb88ea6f",
+      "config_file_sha256": "b2a151fbed18df153e7d03b281a76d18b187dd6468a05903dfe1643d661762ae",
+      "worker_complete_sha256": "b2ce6af05535b3a66d698b88e76a265c015057bda6a3860282012835964a5d06",
+      "finished_at": "2026-10-24T10:52:03.709940+00:00",
+      "checkpoint_sha256": "b0ef8c3e50639182f3934b51a5737a759b72a7821115b31eaa64d9ba76dcbc35"
+    },
+    "sigma_max/didemo": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 995,
+      "job_fingerprint": "01a9306ebb5d803be76d0bb4c8f77d7c92b3c8d42e5e92619e891cd9bfdf53d5",
+      "metrics_sha256": "27ad74ad0712892808fa3351c8a0ca9165221fbd75eb493c4c312a35b1542391",
+      "config_file_sha256": "8a8d8982f003d5423c619c33391ee19a3cddb3e28f177fb3c78598c04581c50f",
+      "worker_complete_sha256": "5cb6e3662bec78fa7f05480edff387e58d0c27da415c13bd31096574f5893c03",
+      "finished_at": "2026-10-24T10:42:19.743326+00:00",
+      "checkpoint_sha256": "b0ef8c3e50639182f3934b51a5737a759b72a7821115b31eaa64d9ba76dcbc35"
+    },
+    "sigma_max/activitynet": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 3987,
+      "job_fingerprint": "cca3d85cd3dd44c056985bb78c9866638eccd495ebd9c4c69ba152939f70d6da",
+      "metrics_sha256": "25290baa158f6ec82dabbe874fa436c85673e5348ee5c2937d3d46fdabcc343b",
+      "config_file_sha256": "1bd0c939668f85b95875945b8e67628119af99848062f759be0a9fe6772e7275",
+      "worker_complete_sha256": "97ea2e9df028168a6b256acae1287c2cb946bf612664761271b08ab32438e020",
+      "finished_at": "2026-10-24T10:41:54.893700+00:00",
+      "checkpoint_sha256": "b0ef8c3e50639182f3934b51a5737a759b72a7821115b31eaa64d9ba76dcbc35"
+    },
+    "sigma_max/vatex": {
+      "status": "complete",
+      "host_id": "server2",
+      "sample_count": 1224,
+      "job_fingerprint": "217a56f6d2b79cdaf2df6153001590e2b8f05e74ee71fbfae87b63a24b514840",
+      "metrics_sha256": "81ab89efd7b4d93ade3f4d6530e89fbdd075ebf472992b4b6aabe22dc3641f78",
+      "config_file_sha256": "01e3098c4d301942596fde13c750e2fd8ca1f670523dd10780a013d4733d13ee",
+      "worker_complete_sha256": "745b8b35bf0452bfed6df49e88021d0de4fdbcab3e30f3ca37ca88ed86289f8d",
+      "finished_at": "2026-10-24T10:30:59.345116+00:00",
+      "checkpoint_sha256": "b0ef8c3e50639182f3934b51a5737a759b72a7821115b31eaa64d9ba76dcbc35"
+    }
+  },
+  "single_seed_note": "execution_policy.json supersedes the historical three-seed budget in protocol.json; no seed42/123 runs were required",
+  "uncertainty": "query bootstrap intervals are conditional on one trained seed; training-seed standard deviation is not estimated",
+  "verified_completed_training_jobs": 4,
+  "verified_completed_development_jobs": 4,
+  "verified_completed_test_jobs": 16,
+  "checkpoint_validation_method": "Final payload file sizes match completion markers; all test job checkpoint SHA-256 values match the final recorded training audit. Large model tensors are not copied or rehashed during snapshot capture."
+}

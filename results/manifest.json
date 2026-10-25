@@ -794,7 +794,1253 @@
           "val.macro_R1"
         ]
       }
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/REPORT.md",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/REPORT.md",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 1821,
+      "sha256": "ef6997c54b0e43f721a4a2457c7e4c254cd698a2c295c5242cd0bd001572fb50"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/results.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/results.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 56875,
+      "sha256": "a83a86bc4f6504735a70df4a27925aaa4c3632c51d42b48cbf5bd3450be78ee6"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/results.csv",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/results.csv",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 11215,
+      "sha256": "864c56d32f95cd3efa8a8d79062a186ca4bcf9b8b3370d39cc62615a0752db50"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/selection.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/selection.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 377,
+      "sha256": "e3af0788c26235abe61e321300fa4dd5390065b8942b4699dc7b884e023a67ba"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/candidate_lock.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/candidate_lock.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 122,
+      "sha256": "0502ea239fa2a33f9e813e4091c844dd87cdd643b053499e80029b76c3da8291"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/execution_policy.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/execution_policy.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 240,
+      "sha256": "88d29763327a82a1fb27ed7f589e2de8a1a7e4a488a98227cd982c7704df2d69"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/seed_policy_guard.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/seed_policy_guard.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 229,
+      "sha256": "1f4498b3c50f0b1258f2a6a39e2e7475744e192f9a1a7b5129dd434b39fa39ce"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/protocol.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/protocol.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 392,
+      "sha256": "a4843daf3727959451df20bd81d1aed117c59d107de7652bf91b54cd58087bd4"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/legacy_va/dev.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/dev/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 53117,
+      "sha256": "b0202f162d260b872e1e357b2c4193d826a11b2522900565e9093164351b28f2"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/legacy_va/msrvtt.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/msrvtt/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22957,
+      "sha256": "ebcfd936a0dca784a36eaedddb9e4dfd9de66cf102cbc81a5a13d287b068c963"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/legacy_va/didemo.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22922,
+      "sha256": "8fed71c3a79df4c8591f7eee127a5f7c608f8e0b642d1d7bc4e96b3bffcbbaa6"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/legacy_va/activitynet.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 23010,
+      "sha256": "03398d04c9f25af4baa8d3c5586c8efdcb16b580fa5b821680b8b41044837ad0"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/legacy_va/vatex.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22906,
+      "sha256": "04a9c7f6a7673cc535c1191244c671c32fb5b13de01e5eb7b0b3637fbd0efdb9"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/tv/dev.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/dev/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 53076,
+      "sha256": "68d09b62f6424792ce697f08e94fb94f1e604722582680330e4b76da6bf78b80"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/tv/msrvtt.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/msrvtt/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22903,
+      "sha256": "a5c8e92ec6651fcc2cd2575699ec852c9c1cb97c6fd90dedeba9e3c19013ba16"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/tv/didemo.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22933,
+      "sha256": "6ac4ffe52e2d408cd1edd9f8966ac44c61008752b7fe2f89c2f17d2e4341e96d"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/tv/activitynet.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 23008,
+      "sha256": "4373b542d3d3d06dcaf6776076d7eb8fe2a4b32d3031c6bf150f99e8e6561b10"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/tv/vatex.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22907,
+      "sha256": "3b74fd80078d99e407dcb4701e2e9b298cf21604704575486aa6fdcec63b5fcb"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/mean_tv_ta/dev.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/dev/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 53123,
+      "sha256": "2955cf22096fd9818bcb24cb5a16a0dba5a3325a9bf77be96051c0031e9faac7"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/mean_tv_ta/msrvtt.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22878,
+      "sha256": "5f3abfa64e04a2b43b7dc43987a032a73ec7b95edab013601eb5476c380a862b"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/mean_tv_ta/didemo.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22915,
+      "sha256": "e7735414ed5175d5fd3d73a781653f38c57937d2776e99ea06a471f4a7bbb3c4"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/mean_tv_ta/activitynet.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22993,
+      "sha256": "bb3f09a1339299edb2810cbe33206460a86f2a8a8721a1a19744bc781e074f28"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/mean_tv_ta/vatex.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22885,
+      "sha256": "59450d39801f62c3435428c19a51c5f993699161f548591be90c24e4d82f7954"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/sigma_max/dev.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/dev/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 53060,
+      "sha256": "4d563f03fe03f79f46f80726e16c738b7aa349481be21af9db84defb11b7ffd6"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/sigma_max/msrvtt.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22890,
+      "sha256": "acbc947c77e5ba313a58731fa31b1277fcb4e662bc6642010933dceadb88ea6f"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/sigma_max/didemo.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22966,
+      "sha256": "27ad74ad0712892808fa3351c8a0ca9165221fbd75eb493c4c312a35b1542391"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/sigma_max/activitynet.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 23028,
+      "sha256": "25290baa158f6ec82dabbe874fa436c85673e5348ee5c2937d3d46fdabcc343b"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/sigma_max/vatex.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/metrics.json",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 22874,
+      "sha256": "81ab89efd7b4d93ade3f4d6530e89fbdd075ebf472992b4b6aabe22dc3641f78"
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/verification.json",
+      "source_server": "server2",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 20147,
+      "sha256": "e63104d9b2fe66cad36c37c013a009c3b06eb58a68d22e36401b536234ee5068",
+      "derivation": {
+        "operation": "cross-check completion markers, checkpoint audit and raw metrics",
+        "capture_host": "server-a",
+        "sources": [
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/portable_state.json",
+            "sha256": "dab6cac6fed6cdf7308b1fda5dfa0731f10b544762a90585cdec9822659ee321"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/protocol.json",
+            "sha256": "a4843daf3727959451df20bd81d1aed117c59d107de7652bf91b54cd58087bd4"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/selection.json",
+            "sha256": "e3af0788c26235abe61e321300fa4dd5390065b8942b4699dc7b884e023a67ba"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/candidate_lock.json",
+            "sha256": "0502ea239fa2a33f9e813e4091c844dd87cdd643b053499e80029b76c3da8291"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/execution_policy.json",
+            "sha256": "88d29763327a82a1fb27ed7f589e2de8a1a7e4a488a98227cd982c7704df2d69"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/frozen_data/vast_train_tva.json",
+            "sha256": "5f85117bb8810707fbd30755e91997c840c1f7f54fc5c8c3330d7e8f5b9f0384"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/source/e614af4a075812a56831aff28c02ac821b9a62c6b6b7f1fad1ca1775996fd750/manifest.json",
+            "sha256": "b58f87040512fd22ccf4cd82812ae8a7bf7eb654cee4ccc683b07ea29a25bd91"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/legacy_va/seed-50/job.json",
+            "sha256": "718794076f14c65cb7401b5dc06facaf028c28297a7c636793e2ece2aa6d9667"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/legacy_va/seed-50/run_complete.json",
+            "sha256": "498d1820653f7251b3e39cf2329ce04fa044006b7234e186d5061092615368f2"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/legacy_va/seed-50/worker_complete.json",
+            "sha256": "a17e525b098dc27bc603ab47c0549f1695f9f76970a7b78bb0ab32f79b92e0ba"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/legacy_va/seed-50/config.json",
+            "sha256": "033df1467b8dd98219ab5d66ae15a5fbdd123327802c477b2a181efb573140ee"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/legacy_va/seed-50/checkpoint_audits/step-1354.json",
+            "sha256": "3c81704d78de8cb28855c2f95dcc9da483bf71730f25cc90ac2ff73fb2281498"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/legacy_va/seed-50/ckpt/checkpoint_step_1354.complete.json",
+            "sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/dev/job.json",
+            "sha256": "3ee4f3321ea1e05889739322f3552580e57e3f2ded60388fbb3bdbeba04b163d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/dev/config.json",
+            "sha256": "aa62f554a7342c56f0cf4dd9d7e225681035c8a23b9c08c452b76a872078deba"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/dev/worker_complete.json",
+            "sha256": "077e2f4ca05431a062abf721f8f23329e5f99db596f977efa048be6395ba2805"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/dev/metrics.json",
+            "sha256": "b0202f162d260b872e1e357b2c4193d826a11b2522900565e9093164351b28f2"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/msrvtt/job.json",
+            "sha256": "17b9ecad38b8078580d83a4cd3ab199e786e505f50b49e9f5a8f066d9bff1654"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/msrvtt/config.json",
+            "sha256": "cd6187cc61eb5a542886d3d4542c16d645a610cf134d1fb55ba90d62e7b9bd9d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/msrvtt/worker_complete.json",
+            "sha256": "664bc2e3874f2d3e254399155f7b0667024abb69732c131c16d9d50a67229163"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/msrvtt/metrics.json",
+            "sha256": "ebcfd936a0dca784a36eaedddb9e4dfd9de66cf102cbc81a5a13d287b068c963"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/job.json",
+            "sha256": "2877764d58c1a611d5c3dfaf181380d5c6cbe9c85c9c991b028daea0cc0c5d4e"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/config.json",
+            "sha256": "642d7c52a0717b241ca270c0ae4de9b599fbbfd7a45d835df1d6f6fce546b606"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/worker_complete.json",
+            "sha256": "b2ee6a67a665856364825ef0d692a94737c6194c868ca687dc50602ad2a8f4fe"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/metrics.json",
+            "sha256": "8fed71c3a79df4c8591f7eee127a5f7c608f8e0b642d1d7bc4e96b3bffcbbaa6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/selection_proof.json",
+            "sha256": "4d767e962d3d108d6a8a98875c90f427d67deb07ae850cb06e1bedc09c6a3e7d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/job.json",
+            "sha256": "2f96728b64eb45baf86009fbccfef3c4dc0e4cacce32deb2a6f26b4da426b7ee"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/config.json",
+            "sha256": "5719c9404fd7b0dcb359c6d6f43d2afce7471b60caf1592c14c4eee5bdfb88dc"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/worker_complete.json",
+            "sha256": "9fea451d31f21206a0b444127a124a0e143243be8606b842573e8670e5ef8505"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/metrics.json",
+            "sha256": "03398d04c9f25af4baa8d3c5586c8efdcb16b580fa5b821680b8b41044837ad0"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/selection_proof.json",
+            "sha256": "6dc52403e46ffd3b93d9cc34ac5d91a93444c8248bc78185c05b5f262201a98e"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/job.json",
+            "sha256": "8f0e2d7b7e82dbb419abb696a46700d3a5784cc49d94314755cacfd104557854"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/config.json",
+            "sha256": "5e41b913ca0dff08b43e1801e21b7494214cb7c297d4d6231864ef706ed30f42"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/worker_complete.json",
+            "sha256": "80c2dced724fc4685532adaf8c32c92edc2b923fdb2290507206f919565a408d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/metrics.json",
+            "sha256": "04a9c7f6a7673cc535c1191244c671c32fb5b13de01e5eb7b0b3637fbd0efdb9"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/selection_proof.json",
+            "sha256": "bf20dd12d1679dc966d0710e5276add62c11be551fbb463c7bcba1531f329929"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/tv/seed-50/job.json",
+            "sha256": "6a4e4ca4c3a2b4d606a7a1853b10922d5af440218714c3f8c5a4ab4cae8ac7b0"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/tv/seed-50/run_complete.json",
+            "sha256": "dcd94e51c0aec8ff635269dac08a357570124d99be734cb591a1cfd78b94fbf1"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/tv/seed-50/worker_complete.json",
+            "sha256": "f3341e91663ab8660fc55c61ff3fe448ea19eafafd9eb4a8e75318050281ee32"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/tv/seed-50/config.json",
+            "sha256": "664cedd060e40796113ffdcbad63cc1d8a834fa3126c2712b7add19b71ae59a5"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/tv/seed-50/checkpoint_audits/step-1354.json",
+            "sha256": "1f0e892e4fb54a8677777c5a2e9cc04849c347772afb5d818304abb1c85284a0"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/tv/seed-50/ckpt/checkpoint_step_1354.complete.json",
+            "sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/dev/job.json",
+            "sha256": "6a80b1dfe9b0fd1c2e9fd14630a87114216a20d000c3fbdcac2eb96494369f64"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/dev/config.json",
+            "sha256": "f5ed2a4d2f7ebe53ab2cbb7b01999360494165997d9bbffe5657db589cf9a8a3"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/dev/worker_complete.json",
+            "sha256": "c1da7129268e79829bf84c6ae2b2e0650d717bb2beb9154eec367b8afcff61a6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/dev/metrics.json",
+            "sha256": "68d09b62f6424792ce697f08e94fb94f1e604722582680330e4b76da6bf78b80"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/msrvtt/job.json",
+            "sha256": "85be0870bd41c116573f8c632d5d7f6c442d8305d60b88855ec87771c862b565"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/msrvtt/config.json",
+            "sha256": "e81694cfe70d117954bf0b8c96ac69c17d8d377055bf5f08b80000eadc00c999"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/msrvtt/worker_complete.json",
+            "sha256": "88fd35ef76ccb81e83d5744a71dab3d766c451c149a3282b0da852953865e168"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/msrvtt/metrics.json",
+            "sha256": "a5c8e92ec6651fcc2cd2575699ec852c9c1cb97c6fd90dedeba9e3c19013ba16"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/job.json",
+            "sha256": "0c476424991220341d3474892461ac864656528ac34f7b7488ce81e54dbd5b8f"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/config.json",
+            "sha256": "71976f1f454d345b969a6f437af09d6ce4bc6d038be3b1955885eef46acc11d5"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/worker_complete.json",
+            "sha256": "b329302af50b8e7e0cb571b30b45d1ed00e82f60b2c8e3de75105414cc337916"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/metrics.json",
+            "sha256": "6ac4ffe52e2d408cd1edd9f8966ac44c61008752b7fe2f89c2f17d2e4341e96d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/selection_proof.json",
+            "sha256": "c9dfe12b51639be32af1eebd52c7bc28e6608b40ac199811aa0faa9b2254484c"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/job.json",
+            "sha256": "82270afcb62004514ca2b5a5a9f524e3aa435377639f39e1827cba732dc99265"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/config.json",
+            "sha256": "ac07fcd2d706b09d0943601aace85d2a896f413c79450870433fbe5c96dc9f79"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/worker_complete.json",
+            "sha256": "eebae5015b72f54b8e0415ad36c3b1a7adb2f2f1ce4a1586ab84050683d0efc3"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/metrics.json",
+            "sha256": "4373b542d3d3d06dcaf6776076d7eb8fe2a4b32d3031c6bf150f99e8e6561b10"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/selection_proof.json",
+            "sha256": "8cb746b9b388a83a679145c7108dac24f408f92328fad0119f3835bec7819004"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/job.json",
+            "sha256": "f21079d9f1be1fc6f487fae9a3b04c276bc3152510489c1dd1730d52739d9d59"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/config.json",
+            "sha256": "a61d04de0dbc3ffb6c0416fa7987e86030c3b6491320bae6c496912530fb55da"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/worker_complete.json",
+            "sha256": "4698786b9682b94f6ea4f6919bb189b826c2a1c2a25e0433535b64be094eb47c"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/metrics.json",
+            "sha256": "3b74fd80078d99e407dcb4701e2e9b298cf21604704575486aa6fdcec63b5fcb"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/selection_proof.json",
+            "sha256": "7dcd99aa7c161dc5186962f8f8c4b47e24aae50ccff3686f4b32b118f20f0c30"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/mean_tv_ta/seed-50/job.json",
+            "sha256": "e5a040130cf4b03f2ac57ffafbe4738684b32e8d28c71af1fe46afa8f02d722a"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/mean_tv_ta/seed-50/run_complete.json",
+            "sha256": "53c94744e356f82250d4e56eb8b456598ac72a6caef6326d5d9961ce0637edb7"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/mean_tv_ta/seed-50/worker_complete.json",
+            "sha256": "415e79d4bd5ce8b5445a1d0b572d63b142d17262d5d9d5389922dadc67be4f62"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/mean_tv_ta/seed-50/config.json",
+            "sha256": "edbce38956284df4487eb36cbe644b58451307da5b22a72dc7fc6de598bab2c4"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/mean_tv_ta/seed-50/checkpoint_audits/step-1354.json",
+            "sha256": "dcaa1d86a10097cdd9d138f4260d3f8c2e1429b4a9b23a0aceac08141e656ec4"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/mean_tv_ta/seed-50/ckpt/checkpoint_step_1354.complete.json",
+            "sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/dev/job.json",
+            "sha256": "ff4593bbb88ed205fcf352d4c06de63aac25d6d4c12d6dc3c4f03579a7c8520a"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/dev/config.json",
+            "sha256": "63124a7d9e89d59404de02cde707ba390ba425f3e48d94c27f2dcc39b42548bb"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/dev/worker_complete.json",
+            "sha256": "27d07034daad0449b0cc0a57f156a6c4e6ecf9594b4b44cd19ef2da1c020aa68"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/dev/metrics.json",
+            "sha256": "2955cf22096fd9818bcb24cb5a16a0dba5a3325a9bf77be96051c0031e9faac7"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/job.json",
+            "sha256": "f2bf49f1e664c7bf258424d647777497766f02837f08c2b386acf4b640b5b7c5"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/config.json",
+            "sha256": "5ce8b37437c79f32ed85e7b9ec1aa69766a6ed7bacba41df60b363d9e1d842f9"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/worker_complete.json",
+            "sha256": "e315d0948d063a7b740b5d36b602af18853e37cc3f84db17e7113926e14dc9d3"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/metrics.json",
+            "sha256": "5f3abfa64e04a2b43b7dc43987a032a73ec7b95edab013601eb5476c380a862b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/selection_proof.json",
+            "sha256": "381af6dc04ea313c41e2fc78d75eaf8379e1a978d4f7f196d7c6887b3adc8514"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/job.json",
+            "sha256": "12b74b0ef4c1b2049d050f52d3f7ffca97d01e4ab4bca359592498e54c805aec"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/config.json",
+            "sha256": "28b71a11890ac7bb87072b48a2f554108f5389d20a45719bbd13dbc6c3a40e6a"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/worker_complete.json",
+            "sha256": "4172a75da4bd14e9ae200b1da2d35789926b4ceec952e29d5f0997832987cd91"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/metrics.json",
+            "sha256": "e7735414ed5175d5fd3d73a781653f38c57937d2776e99ea06a471f4a7bbb3c4"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/selection_proof.json",
+            "sha256": "dfce51b4affc2027b793c2116853fb034b07e1bdf61cf1d33919c98f2986192a"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/job.json",
+            "sha256": "824cdab94f5cbb7cb818c667ddf50f5a7860e4db3507a92dd82e706d78ed2b1d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/config.json",
+            "sha256": "1690b879043b2a6d8e748bb08829c30880f3837a332d190fee49a4afb823d7fd"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/worker_complete.json",
+            "sha256": "4506eb8a2ba6b1c8c4327fdcbcd3f4e26f3d888d5056522c8d374919447b9fde"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/metrics.json",
+            "sha256": "bb3f09a1339299edb2810cbe33206460a86f2a8a8721a1a19744bc781e074f28"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/selection_proof.json",
+            "sha256": "cf95c85060bbde76cbe8721da44c005d2c2bd6f9ffc6c1e885ba2599ce8d576c"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/job.json",
+            "sha256": "39508c2b1ca92e0476f22385791bb2fd3e8416d6aaf979806bb26e3c1cb96409"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/config.json",
+            "sha256": "0bd94e4949d33786bc00e9932139ac347fed714a648d45c8980d05a98419c47b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/worker_complete.json",
+            "sha256": "ac4594b20ff8c79f49c31661a2bf54484e140366c9368095e523cda81db12a55"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/metrics.json",
+            "sha256": "59450d39801f62c3435428c19a51c5f993699161f548591be90c24e4d82f7954"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/selection_proof.json",
+            "sha256": "d22472a01ca0c2ecefff90125bf6525097d9b0c15f7e9555e150226104df3812"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/sigma_max/seed-50/job.json",
+            "sha256": "6c18bb892b9076838a02e1def7b8cb0d71d82f88fe2b79daa48b96a22040eb9e"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/sigma_max/seed-50/run_complete.json",
+            "sha256": "6963e62cbfcd1d37221714d45ff4925c7145e8b997bc82a17ee5714fbd2ac017"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/sigma_max/seed-50/worker_complete.json",
+            "sha256": "a55952ee27a98583b4224415484ba5e9440b058591467b24286d790b69069b33"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/sigma_max/seed-50/config.json",
+            "sha256": "91ad106ba287fe55c1a6258e39512a08a1ebdd8ab23f3327ba05deb4f71f68a5"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/sigma_max/seed-50/checkpoint_audits/step-1354.json",
+            "sha256": "1a691f2b4a113d1326b7db295fdd93f1d229bc59952b83924f6d715895eabbb7"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/train/sigma_max/seed-50/ckpt/checkpoint_step_1354.complete.json",
+            "sha256": "801f23d7f30e74a7366485534d7065ae3154160b7d3be8062db531a2a3a557ac"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/dev/job.json",
+            "sha256": "fb7a19c8f211dc661c062502ca9a0fc52a3828713b74bd0dba8532403f8a6cca"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/dev/config.json",
+            "sha256": "c2a050f393d895d281c19e1490cfd1fa5c5b9c789174ee2bc7f15c4e46de9637"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/dev/worker_complete.json",
+            "sha256": "1f5ee87c2ce3dac06809eb6e904ee5654031c517e84f79ec6761255e7ebf348f"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/dev/metrics.json",
+            "sha256": "4d563f03fe03f79f46f80726e16c738b7aa349481be21af9db84defb11b7ffd6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/job.json",
+            "sha256": "d1bcf2aa1a2f9fef081c058ae3e13edb0e29c0036550ff72d8b66f197203c1c3"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/config.json",
+            "sha256": "b2a151fbed18df153e7d03b281a76d18b187dd6468a05903dfe1643d661762ae"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/worker_complete.json",
+            "sha256": "b2ce6af05535b3a66d698b88e76a265c015057bda6a3860282012835964a5d06"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/metrics.json",
+            "sha256": "acbc947c77e5ba313a58731fa31b1277fcb4e662bc6642010933dceadb88ea6f"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/selection_proof.json",
+            "sha256": "2feae46ca3cee840ea50dfd29ba6d2e0bc8c6801f3a601e315c0c4408d6e997c"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/job.json",
+            "sha256": "150428ccc6f1718375e90177f8029e1a49ea5cfb614d4a40554cd49b8f524806"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/config.json",
+            "sha256": "8a8d8982f003d5423c619c33391ee19a3cddb3e28f177fb3c78598c04581c50f"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/worker_complete.json",
+            "sha256": "5cb6e3662bec78fa7f05480edff387e58d0c27da415c13bd31096574f5893c03"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/metrics.json",
+            "sha256": "27ad74ad0712892808fa3351c8a0ca9165221fbd75eb493c4c312a35b1542391"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/selection_proof.json",
+            "sha256": "b695150a1299b57f91ff2c296f6609e8b870a3784ffbc63b60119012dd23792b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/job.json",
+            "sha256": "1663ae0a95975e794f8ace53f05a0974285c70c85396fee7bc43d0ac737f3805"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/config.json",
+            "sha256": "1bd0c939668f85b95875945b8e67628119af99848062f759be0a9fe6772e7275"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/worker_complete.json",
+            "sha256": "97ea2e9df028168a6b256acae1287c2cb946bf612664761271b08ab32438e020"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/metrics.json",
+            "sha256": "25290baa158f6ec82dabbe874fa436c85673e5348ee5c2937d3d46fdabcc343b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/selection_proof.json",
+            "sha256": "5d19ffb1e0edd94b57e1f90148cf2d5475bff3f301d7b479d9e20fa39c6ff999"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/job.json",
+            "sha256": "4806303925f98dbb037d0e0aa5a093af039cbd5ce401ae29e02e14b339870fb8"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/config.json",
+            "sha256": "01e3098c4d301942596fde13c750e2fd8ca1f670523dd10780a013d4733d13ee"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/worker_complete.json",
+            "sha256": "745b8b35bf0452bfed6df49e88021d0de4fdbcab3e30f3ca37ca88ed86289f8d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/metrics.json",
+            "sha256": "81ab89efd7b4d93ade3f4d6530e89fbdd075ebf472992b4b6aabe22dc3641f78"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/selection_proof.json",
+            "sha256": "ee1f28697b1080d2d800540d4a194d7b1b55a8dd041752d9688d547b3f59807f"
+          }
+        ]
+      }
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/summary.json",
+      "source_server": "server2",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 2885,
+      "sha256": "f48ed32a8d7f966557b946cc482936d125464b1e22890c771ec207fab1906fa0",
+      "derivation": {
+        "operation": "extract common-TV Top50 alpha0 and dev-selected alpha1 metrics",
+        "capture_host": "server-a",
+        "sources": [
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/results.json",
+            "sha256": "a83a86bc4f6504735a70df4a27925aaa4c3632c51d42b48cbf5bd3450be78ee6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/selection.json",
+            "sha256": "e3af0788c26235abe61e321300fa4dd5390065b8942b4699dc7b884e023a67ba"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/execution_policy.json",
+            "sha256": "88d29763327a82a1fb27ed7f589e2de8a1a7e4a488a98227cd982c7704df2d69"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/msrvtt/metrics.json",
+            "sha256": "ebcfd936a0dca784a36eaedddb9e4dfd9de66cf102cbc81a5a13d287b068c963"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/metrics.json",
+            "sha256": "8fed71c3a79df4c8591f7eee127a5f7c608f8e0b642d1d7bc4e96b3bffcbbaa6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/metrics.json",
+            "sha256": "03398d04c9f25af4baa8d3c5586c8efdcb16b580fa5b821680b8b41044837ad0"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/metrics.json",
+            "sha256": "04a9c7f6a7673cc535c1191244c671c32fb5b13de01e5eb7b0b3637fbd0efdb9"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/msrvtt/metrics.json",
+            "sha256": "a5c8e92ec6651fcc2cd2575699ec852c9c1cb97c6fd90dedeba9e3c19013ba16"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/metrics.json",
+            "sha256": "6ac4ffe52e2d408cd1edd9f8966ac44c61008752b7fe2f89c2f17d2e4341e96d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/metrics.json",
+            "sha256": "4373b542d3d3d06dcaf6776076d7eb8fe2a4b32d3031c6bf150f99e8e6561b10"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/metrics.json",
+            "sha256": "3b74fd80078d99e407dcb4701e2e9b298cf21604704575486aa6fdcec63b5fcb"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/metrics.json",
+            "sha256": "5f3abfa64e04a2b43b7dc43987a032a73ec7b95edab013601eb5476c380a862b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/metrics.json",
+            "sha256": "e7735414ed5175d5fd3d73a781653f38c57937d2776e99ea06a471f4a7bbb3c4"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/metrics.json",
+            "sha256": "bb3f09a1339299edb2810cbe33206460a86f2a8a8721a1a19744bc781e074f28"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/metrics.json",
+            "sha256": "59450d39801f62c3435428c19a51c5f993699161f548591be90c24e4d82f7954"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/metrics.json",
+            "sha256": "acbc947c77e5ba313a58731fa31b1277fcb4e662bc6642010933dceadb88ea6f"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/metrics.json",
+            "sha256": "27ad74ad0712892808fa3351c8a0ca9165221fbd75eb493c4c312a35b1542391"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/metrics.json",
+            "sha256": "25290baa158f6ec82dabbe874fa436c85673e5348ee5c2937d3d46fdabcc343b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/metrics.json",
+            "sha256": "81ab89efd7b4d93ade3f4d6530e89fbdd075ebf472992b4b6aabe22dc3641f78"
+          }
+        ]
+      }
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/summary.csv",
+      "source_server": "server2",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 1145,
+      "sha256": "c36662c3eb593a368fa45236b3e6434e57fa4c44f046e5e37472d2ac5b74b73b",
+      "derivation": {
+        "operation": "render summary.json without rounding numerical data",
+        "capture_host": "server-a",
+        "sources": [
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/results.json",
+            "sha256": "a83a86bc4f6504735a70df4a27925aaa4c3632c51d42b48cbf5bd3450be78ee6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/selection.json",
+            "sha256": "e3af0788c26235abe61e321300fa4dd5390065b8942b4699dc7b884e023a67ba"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/execution_policy.json",
+            "sha256": "88d29763327a82a1fb27ed7f589e2de8a1a7e4a488a98227cd982c7704df2d69"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/msrvtt/metrics.json",
+            "sha256": "ebcfd936a0dca784a36eaedddb9e4dfd9de66cf102cbc81a5a13d287b068c963"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/metrics.json",
+            "sha256": "8fed71c3a79df4c8591f7eee127a5f7c608f8e0b642d1d7bc4e96b3bffcbbaa6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/metrics.json",
+            "sha256": "03398d04c9f25af4baa8d3c5586c8efdcb16b580fa5b821680b8b41044837ad0"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/metrics.json",
+            "sha256": "04a9c7f6a7673cc535c1191244c671c32fb5b13de01e5eb7b0b3637fbd0efdb9"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/msrvtt/metrics.json",
+            "sha256": "a5c8e92ec6651fcc2cd2575699ec852c9c1cb97c6fd90dedeba9e3c19013ba16"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/metrics.json",
+            "sha256": "6ac4ffe52e2d408cd1edd9f8966ac44c61008752b7fe2f89c2f17d2e4341e96d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/metrics.json",
+            "sha256": "4373b542d3d3d06dcaf6776076d7eb8fe2a4b32d3031c6bf150f99e8e6561b10"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/metrics.json",
+            "sha256": "3b74fd80078d99e407dcb4701e2e9b298cf21604704575486aa6fdcec63b5fcb"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/metrics.json",
+            "sha256": "5f3abfa64e04a2b43b7dc43987a032a73ec7b95edab013601eb5476c380a862b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/metrics.json",
+            "sha256": "e7735414ed5175d5fd3d73a781653f38c57937d2776e99ea06a471f4a7bbb3c4"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/metrics.json",
+            "sha256": "bb3f09a1339299edb2810cbe33206460a86f2a8a8721a1a19744bc781e074f28"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/metrics.json",
+            "sha256": "59450d39801f62c3435428c19a51c5f993699161f548591be90c24e4d82f7954"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/metrics.json",
+            "sha256": "acbc947c77e5ba313a58731fa31b1277fcb4e662bc6642010933dceadb88ea6f"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/metrics.json",
+            "sha256": "27ad74ad0712892808fa3351c8a0ca9165221fbd75eb493c4c312a35b1542391"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/metrics.json",
+            "sha256": "25290baa158f6ec82dabbe874fa436c85673e5348ee5c2937d3d46fdabcc343b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/metrics.json",
+            "sha256": "81ab89efd7b4d93ade3f4d6530e89fbdd075ebf472992b4b6aabe22dc3641f78"
+          }
+        ]
+      }
+    },
+    {
+      "experiment_id": "EXP-20261021-server-a-pmrl-itm-alignment",
+      "path": "results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/summary.md",
+      "source_server": "server2",
+      "captured_at": "2026-10-24T21:39:02.222534+08:00",
+      "bytes": 4461,
+      "sha256": "50639ce39e1a76f32066c77e0c6bac5dc83a3acca65abe964f18b7fc099d01ec",
+      "derivation": {
+        "operation": "render raw metrics to four decimals; rank best/second by displayed precision",
+        "capture_host": "server-a",
+        "sources": [
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/results.json",
+            "sha256": "a83a86bc4f6504735a70df4a27925aaa4c3632c51d42b48cbf5bd3450be78ee6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/selection.json",
+            "sha256": "e3af0788c26235abe61e321300fa4dd5390065b8942b4699dc7b884e023a67ba"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/execution_policy.json",
+            "sha256": "88d29763327a82a1fb27ed7f589e2de8a1a7e4a488a98227cd982c7704df2d69"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/msrvtt/metrics.json",
+            "sha256": "ebcfd936a0dca784a36eaedddb9e4dfd9de66cf102cbc81a5a13d287b068c963"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/didemo/metrics.json",
+            "sha256": "8fed71c3a79df4c8591f7eee127a5f7c608f8e0b642d1d7bc4e96b3bffcbbaa6"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/activitynet/metrics.json",
+            "sha256": "03398d04c9f25af4baa8d3c5586c8efdcb16b580fa5b821680b8b41044837ad0"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/legacy_va/seed-50/vatex/metrics.json",
+            "sha256": "04a9c7f6a7673cc535c1191244c671c32fb5b13de01e5eb7b0b3637fbd0efdb9"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/msrvtt/metrics.json",
+            "sha256": "a5c8e92ec6651fcc2cd2575699ec852c9c1cb97c6fd90dedeba9e3c19013ba16"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/didemo/metrics.json",
+            "sha256": "6ac4ffe52e2d408cd1edd9f8966ac44c61008752b7fe2f89c2f17d2e4341e96d"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/activitynet/metrics.json",
+            "sha256": "4373b542d3d3d06dcaf6776076d7eb8fe2a4b32d3031c6bf150f99e8e6561b10"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/tv/seed-50/vatex/metrics.json",
+            "sha256": "3b74fd80078d99e407dcb4701e2e9b298cf21604704575486aa6fdcec63b5fcb"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/msrvtt/metrics.json",
+            "sha256": "5f3abfa64e04a2b43b7dc43987a032a73ec7b95edab013601eb5476c380a862b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/didemo/metrics.json",
+            "sha256": "e7735414ed5175d5fd3d73a781653f38c57937d2776e99ea06a471f4a7bbb3c4"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/activitynet/metrics.json",
+            "sha256": "bb3f09a1339299edb2810cbe33206460a86f2a8a8721a1a19744bc781e074f28"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/mean_tv_ta/seed-50/vatex/metrics.json",
+            "sha256": "59450d39801f62c3435428c19a51c5f993699161f548591be90c24e4d82f7954"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/msrvtt/metrics.json",
+            "sha256": "acbc947c77e5ba313a58731fa31b1277fcb4e662bc6642010933dceadb88ea6f"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/didemo/metrics.json",
+            "sha256": "27ad74ad0712892808fa3351c8a0ca9165221fbd75eb493c4c312a35b1542391"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/activitynet/metrics.json",
+            "sha256": "25290baa158f6ec82dabbe874fa436c85673e5348ee5c2937d3d46fdabcc343b"
+          },
+          {
+            "source_root": "dataset_root",
+            "source_path": "PMRL-ITM/outputs/20261022T170008-server-a-itm-filtered-recovery-seed50/eval/sigma_max/seed-50/vatex/metrics.json",
+            "sha256": "81ab89efd7b4d93ade3f4d6530e89fbdd075ebf472992b4b6aabe22dc3641f78"
+          }
+        ]
+      }
     }
   ],
-  "updated_at": "2026-10-20T17:50:56.263826+00:00"
+  "updated_at": "2026-10-24T21:39:02.222534+08:00"
 }

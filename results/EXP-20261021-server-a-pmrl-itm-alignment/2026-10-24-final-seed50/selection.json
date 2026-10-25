@@ -1,0 +1,16 @@
+{
+  "candidate_score": "tv",
+  "best_sampler": "sigma_max",
+  "sampler_gain_pp": 0.9499996900558472,
+  "inference_gain_pp": 1.4500007033348083,
+  "promoted": [],
+  "fusion_weights": {
+    "legacy_va": 1.0,
+    "tv": 1.0,
+    "mean_tv_ta": 1.0,
+    "sigma_max": 1.0
+  },
+  "threshold_pp": 0.5,
+  "selection_dataset": "dev",
+  "selected_at": "2026-10-24T10:22:45.423629+00:00"
+}

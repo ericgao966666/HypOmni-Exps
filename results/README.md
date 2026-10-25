@@ -11,6 +11,7 @@
 | 迁移退化诊断与逐轮曲线 | [EXP-005](EXP-005/2026-10-20/) · [迁移曲线](EXP-005/2026-10-20/transfer_curves.png) |
 | MSRVTT 微调、训练曲线与关键分析图 | [EXP-006](EXP-006/2026-10-20/) · [训练对比图](EXP-006/2026-10-20/training_comparison.png) · [微调前来源记录](EXP-006/2026-10-20/provenance/) |
 | 欧氏双曲几何对照 v2 | [EXP-007](EXP-007/2026-10-20/) |
+| PMRL–ITM 对齐：单seed训练与完整四测试集 | [最终汇总](EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/summary.md) · [原始JSON](EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/results.json) · [完成与来源核验](EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/verification.json) |
 
 [manifest.json](manifest.json) 保存来源服务器别名、原始相对路径、采集时间、文件大小及 SHA-256。`source_root` 未填写或为 `workspace` 时，原始路径相对源工作区；为 `dataset_root` 时，相对源机器的数据根目录，具体路径见本机配置。原始产物按字节复制，保留原有 CSV 换行；显示预览或元数据摘录以 `derivation` 记录生成方法及源文件哈希，多源审计在其中列出全部输入来源。所有条目的 `sha256` 均校验所保存文件本身。历史 JSON 中的绝对路径是来源记录，不能假设另一台机器可直接访问。
 

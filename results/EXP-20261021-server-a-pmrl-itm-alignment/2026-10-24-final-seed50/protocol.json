@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP-20261021-server-a-pmrl-itm-alignment",
+  "source_sha256": "e614af4a075812a56831aff28c02ac821b9a62c6b6b7f1fad1ca1775996fd750",
+  "assets_sha256": "915cec39509b4a9449a4623e89053c677c406ceffb27b30f7683595934f3b0c3",
+  "initial_checkpoint_sha256": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5",
+  "epoch": 1,
+  "seeds": [
+    50,
+    42,
+    123
+  ]
+}

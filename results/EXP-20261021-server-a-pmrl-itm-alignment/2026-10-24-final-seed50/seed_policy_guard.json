@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "at": "2026-10-24T10:22:45.961307+00:00",
+  "seeds": [
+    50
+  ],
+  "original_promoted": [
+    "legacy_va",
+    "sigma_max"
+  ],
+  "effective_promoted": [],
+  "candidate_and_fusion_unchanged": true
+}

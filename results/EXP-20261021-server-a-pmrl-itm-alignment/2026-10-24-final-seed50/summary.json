@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "seed": 50,
+  "candidate_score": "tv",
+  "top_k": 50,
+  "aggregation": "4 datasets x 2 directions, equal weight R@1 percent",
+  "dataset_order": [
+    "msrvtt",
+    "didemo",
+    "activitynet",
+    "vatex"
+  ],
+  "dev_selected_sampler": "sigma_max",
+  "dev_selected_fusion_weights": {
+    "legacy_va": 1.0,
+    "tv": 1.0,
+    "mean_tv_ta": 1.0,
+    "sigma_max": 1.0
+  },
+  "pure_itm": {
+    "legacy_va": {
+      "per_dataset": {
+        "msrvtt": 49.60407316684723,
+        "didemo": 51.2060284614563,
+        "activitynet": 52.67118215560913,
+        "vatex": 76.8382340669632
+      },
+      "mean_r1": 57.579879462718964,
+      "delta_vs_same_candidate_baseline_pp": 0.0
+    },
+    "tv": {
+      "per_dataset": {
+        "msrvtt": 49.6606320142746,
+        "didemo": 51.25628113746643,
+        "activitynet": 52.19463407993317,
+        "vatex": 77.04248130321503
+      },
+      "mean_r1": 57.538507133722305,
+      "delta_vs_same_candidate_baseline_pp": -0.041372328996658325
+    },
+    "mean_tv_ta": {
+      "per_dataset": {
+        "msrvtt": 50.84841847419739,
+        "didemo": 51.70854032039642,
+        "activitynet": 52.182091772556305,
+        "vatex": 77.36928164958954
+      },
+      "mean_r1": 58.027083054184914,
+      "delta_vs_same_candidate_baseline_pp": 0.44720359146595
+    },
+    "sigma_max": {
+      "per_dataset": {
+        "msrvtt": 50.96153914928436,
+        "didemo": 51.557791233062744,
+        "activitynet": 52.26987600326538,
+        "vatex": 77.16503143310547
+      },
+      "mean_r1": 57.98855945467949,
+      "delta_vs_same_candidate_baseline_pp": 0.4086799919605255
+    }
+  },
+  "dev_selected_fusion": {
+    "legacy_va": {
+      "per_dataset": {
+        "msrvtt": 50.22624284029007,
+        "didemo": 43.869346380233765,
+        "activitynet": 41.25909209251404,
+        "vatex": 71.11928164958954
+      },
+      "mean_r1": 51.61849074065685,
+      "delta_vs_same_candidate_baseline_pp": 0.0
+    },
+    "tv": {
+      "per_dataset": {
+        "msrvtt": 50.84841549396515,
+        "didemo": 44.4221094250679,
+        "activitynet": 41.34687781333923,
+        "vatex": 71.07842862606049
+      },
+      "mean_r1": 51.92395783960819,
+      "delta_vs_same_candidate_baseline_pp": 0.3054670989513397
+    },
+    "mean_tv_ta": {
+      "per_dataset": {
+        "msrvtt": 50.39592683315277,
+        "didemo": 44.321608543395996,
+        "activitynet": 41.48482531309128,
+        "vatex": 71.16013169288635
+      },
+      "mean_r1": 51.8406230956316,
+      "delta_vs_same_candidate_baseline_pp": 0.2221323549747467
+    },
+    "sigma_max": {
+      "per_dataset": {
+        "msrvtt": 49.94343966245651,
+        "didemo": 43.31658333539963,
+        "activitynet": 41.44720286130905,
+        "vatex": 71.20098173618317
+      },
+      "mean_r1": 51.47705189883709,
+      "delta_vs_same_candidate_baseline_pp": -0.14143884181976318
+    }
+  }
+}
