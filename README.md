@@ -10,7 +10,8 @@
 
 ## 当前关注
 
-- **64D完整、扩维训练中断**：[本轮检索训练方案](experiments/EXP-20261021-server-b-retrieval-training.md)：14/20选定条件测试完成；[最新表格与证据](results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/README.md)。64D双曲略优，其他三维度欧氏更好；剩余VAST/PMRL扩维待恢复。
+- **低维双曲优势不稳定**：[64D与扩维检索](experiments/EXP-20261021-server-b-retrieval-training.md)：64D双曲R@1 22.13%，比欧氏高0.32pp；32/128/512D欧氏更好，严格包含率仍0%。已完成14/20个选定条件，VAST/PMRL扩维缺失。
+- **PMRL–ITM采样收益较小，融合退化**：[四数据集单seed对照](experiments/EXP-20261021-server-a-pmrl-itm-alignment.md)：事前预选sigma_max的共同候选纯ITM增益+0.4087pp，未达0.5pp门槛；开发集选定融合在测试中下降。
 
 - **已观察到的收益**：[MSRVTT 端到端微调](experiments/EXP-006-msrvtt-finetune.md)六方向平均 R@1 达到 24.87%，超过本轮最强基线 VAST 3.88 个百分点，主要来自视频与音频方向。
 - **尚未解决的问题**：[子集层级机制](experiments/EXP-003-subset-mechanisms.md)与[几何对照](experiments/EXP-007-coco-geometry.md)仍未证明严格层级包含的成功；[音频迁移](experiments/EXP-005-transfer-diagnostics.md)随头部训练下降。
@@ -23,9 +24,9 @@
 | EXP-001 | [历史零样本基线与方法探索](experiments/EXP-001-zero-shot-baselines.md) | PMRL-minimal-hyperbolic / Hyperbolic-Omnimodal | 08–10；报告 10-15；同步 10-20 | 历史评估、MERU 配对及 HyperGRAM pure 探索完成；Parent 仅验证 | 历史视频 Top-50 均值持平，音频 direct 下降；已补 MERU、纯双曲与调参，按协议分组 |
 | EXP-002 | [子集配对数量与约束强度](experiments/EXP-002-subset-pilot.md) | Hyperbolic-Omnimodal | 10-16 | 初版停止；后续消融完成 | 9 对弱约束检索较好，未解决严格包含；已附四张几何审计图 |
 | EXP-003 | [温度与训练机制能否兼顾检索和层级](experiments/EXP-003-subset-mechanisms.md) | Hyperbolic-Omnimodal | 10-16 | 已完成 | 57 次正式运行，未通过双目标验收 |
-| EXP-004 | [官方权重与本地模型的冻结迁移能力](experiments/EXP-004-frozen-transfer.md) | Hyperbolic-Omnimodal | 10-16 至 10-17；10-21 核对 | 已完成 | 完整六方向结果；已标明训练预算及 VAST/MSRVTT checkpoint 版本差异 |
+| EXP-004 | [官方权重与本地模型的冻结迁移能力](experiments/EXP-004-frozen-transfer.md) | Hyperbolic-Omnimodal | 10-16 至 10-17；10-21 核对 | 已完成 | VAST视听方向强，音频文本跨域退化；两组Ours checkpoint不同 |
 | EXP-005 | [音频迁移下降发生在哪个阶段](experiments/EXP-005-transfer-diagnostics.md) | Hyperbolic-Omnimodal | 10-17 | 已完成探索性诊断 | 第一轮已下降，多种目标均受影响 |
-| EXP-006 | [统一微调预算下的 MSRVTT 表现](experiments/EXP-006-msrvtt-finetune.md) | Hyperbolic-Omnimodal | 10-17 | 已完成含续跑 | 已列微调前后完整六方向结果及初始化来源；Ours 平均 R@1 为 24.87% |
+| EXP-006 | [统一微调预算下的 MSRVTT 表现](experiments/EXP-006-msrvtt-finetune.md) | Hyperbolic-Omnimodal | 10-17 | 已完成含续跑 | Ours R@1 24.87%，高于VAST 3.88pp；严格包含仍失败 |
 | EXP-007 | [负曲率是否带来额外层级能力](experiments/EXP-007-coco-geometry.md) | meru-width-coco | 10-17 | 已完成并修正读出 | 小幅检索收益，无明确层级优势 |
 | EXP-008 | [区域监督下的欧氏与双曲对照](experiments/EXP-008-region-geometry.md) | meru-width-coco | 10-19 | 已交接；目标状态待核实 | 数据准备完成，尚无本机正式结果 |
 | EXP-009 | [低维空间是否放大几何差异](experiments/EXP-009-lowdim-finetune.md) | Hyperbolic-Omnimodal | 10-19 | 已交接；目标状态待核实 | 56 次运行协议完成，尚无正式结果 |
@@ -48,8 +49,8 @@
 
 1. **开始新实验**：从[模板](templates/experiment.md)建卡；保留已有 EXP 编号，跨服务器新增时使用 `EXP-YYYYMMDD-server-a-名称` 等含服务器别名的唯一编号，避免双方取到同一个序号。写清问题、基线、唯一变量、数据划分、选择规则和预算，再更新目录。
 2. **开始运行**：按 [run 模板](templates/run.md)新增独立记录，补上精确 run ID、服务器、协议与配置、源码版本或快照、输出目录，以及记录命令/PID/GPU/日志的运行清单。不要把凭据或带凭据的命令复制进卡片。
-3. **运行变化**：在同一卡片追加失败、重试、续跑和交接记录。修改数据、目标函数或评测协议时登记新版本；若研究问题也改变，另建关联卡片。
-4. **结束实验**：核对完成标记和结果表，写主要指标、结论、局限、下一步；状态与目录同步更新。负结果同样保留。
+3. **运行变化**：失败、重试、续跑和交接写入 `runs/`，主卡不追加普通进度播报。数据、预算、目标或选模变化影响结果解释时，在主卡概括并链接完整版本证据。
+4. **有新结果**：按[实验模板](templates/experiment.md)更新开头结论、关键数字、比较表/图和局限，不以运行完成代替研究判断。负结果、完整指标及来源保留；详细来源审计或旧过程移入可追溯附录。
 5. **周度整理**：按请求或本次实验工作需要更新周报，链接实验卡，避免维护多份完整结果表。这里没有后台自动监控或定时更新任务。
 
 总览中，已有短编号可直接展示；使用长编号的新实验展示简短名称，完整唯一编号保留在实验卡、文件名及运行关联中。
