@@ -1,0 +1,563 @@
+{
+  "at": "2026-10-26T12:01:32.066242+00:00",
+  "protocol_sha256": "f5f4ce2170abab2b3476152e889da49a6fa70308e304a8198ab92f2c0726f133",
+  "rows": [
+    {
+      "stage": "direct",
+      "dataset": "msrvtt",
+      "direction": "t2v",
+      "metric": "R@1",
+      "old": 44.230769230769226,
+      "expanded": 43.77828054298642,
+      "delta_pp": -0.4524886877828038,
+      "samples": 884
+    },
+    {
+      "stage": "direct",
+      "dataset": "msrvtt",
+      "direction": "t2v",
+      "metric": "R@5",
+      "old": 72.51131221719457,
+      "expanded": 72.62443438914026,
+      "delta_pp": 0.1131221719456903,
+      "samples": 884
+    },
+    {
+      "stage": "direct",
+      "dataset": "msrvtt",
+      "direction": "t2v",
+      "metric": "R@10",
+      "old": 81.90045248868778,
+      "expanded": 81.78733031674209,
+      "delta_pp": -0.1131221719456903,
+      "samples": 884
+    },
+    {
+      "stage": "direct",
+      "dataset": "msrvtt",
+      "direction": "v2t",
+      "metric": "R@1",
+      "old": 42.081447963800905,
+      "expanded": 42.873303167420815,
+      "delta_pp": 0.7918552036199102,
+      "samples": 884
+    },
+    {
+      "stage": "direct",
+      "dataset": "msrvtt",
+      "direction": "v2t",
+      "metric": "R@5",
+      "old": 70.47511312217195,
+      "expanded": 70.81447963800905,
+      "delta_pp": 0.3393665158370993,
+      "samples": 884
+    },
+    {
+      "stage": "direct",
+      "dataset": "msrvtt",
+      "direction": "v2t",
+      "metric": "R@10",
+      "old": 79.52488687782805,
+      "expanded": 78.95927601809954,
+      "delta_pp": -0.5656108597285083,
+      "samples": 884
+    },
+    {
+      "stage": "direct",
+      "dataset": "didemo",
+      "direction": "t2v",
+      "metric": "R@1",
+      "old": 34.37185929648241,
+      "expanded": 33.46733668341709,
+      "delta_pp": -0.9045226130653248,
+      "samples": 995
+    },
+    {
+      "stage": "direct",
+      "dataset": "didemo",
+      "direction": "t2v",
+      "metric": "R@5",
+      "old": 61.005025125628144,
+      "expanded": 60.402010050251256,
+      "delta_pp": -0.6030150753768879,
+      "samples": 995
+    },
+    {
+      "stage": "direct",
+      "dataset": "didemo",
+      "direction": "t2v",
+      "metric": "R@10",
+      "old": 71.35678391959799,
+      "expanded": 69.34673366834171,
+      "delta_pp": -2.010050251256274,
+      "samples": 995
+    },
+    {
+      "stage": "direct",
+      "dataset": "didemo",
+      "direction": "v2t",
+      "metric": "R@1",
+      "old": 36.68341708542713,
+      "expanded": 35.47738693467337,
+      "delta_pp": -1.2060301507537616,
+      "samples": 995
+    },
+    {
+      "stage": "direct",
+      "dataset": "didemo",
+      "direction": "v2t",
+      "metric": "R@5",
+      "old": 61.80904522613066,
+      "expanded": 62.311557788944725,
+      "delta_pp": 0.5025125628140685,
+      "samples": 995
+    },
+    {
+      "stage": "direct",
+      "dataset": "didemo",
+      "direction": "v2t",
+      "metric": "R@10",
+      "old": 71.75879396984925,
+      "expanded": 72.26130653266331,
+      "delta_pp": 0.5025125628140614,
+      "samples": 995
+    },
+    {
+      "stage": "direct",
+      "dataset": "activitynet",
+      "direction": "t2v",
+      "metric": "R@1",
+      "old": 39.9799347880612,
+      "expanded": 40.0050163029847,
+      "delta_pp": 0.025081514923499526,
+      "samples": 3987
+    },
+    {
+      "stage": "direct",
+      "dataset": "activitynet",
+      "direction": "t2v",
+      "metric": "R@5",
+      "old": 69.70152997241034,
+      "expanded": 68.84875846501129,
+      "delta_pp": -0.8527715073990549,
+      "samples": 3987
+    },
+    {
+      "stage": "direct",
+      "dataset": "activitynet",
+      "direction": "t2v",
+      "metric": "R@10",
+      "old": 80.93804865813895,
+      "expanded": 80.88788562829194,
+      "delta_pp": -0.05016302984701326,
+      "samples": 3987
+    },
+    {
+      "stage": "direct",
+      "dataset": "activitynet",
+      "direction": "v2t",
+      "metric": "R@1",
+      "old": 34.963631803360926,
+      "expanded": 34.963631803360926,
+      "delta_pp": 0.0,
+      "samples": 3987
+    },
+    {
+      "stage": "direct",
+      "dataset": "activitynet",
+      "direction": "v2t",
+      "metric": "R@5",
+      "old": 65.88913970403813,
+      "expanded": 65.06144971156257,
+      "delta_pp": -0.8276899924755554,
+      "samples": 3987
+    },
+    {
+      "stage": "direct",
+      "dataset": "activitynet",
+      "direction": "v2t",
+      "metric": "R@10",
+      "old": 77.80285929270127,
+      "expanded": 77.67745171808377,
+      "delta_pp": -0.12540757461749763,
+      "samples": 3987
+    },
+    {
+      "stage": "direct",
+      "dataset": "vatex",
+      "direction": "t2v",
+      "metric": "R@1",
+      "old": 68.13725490196079,
+      "expanded": 68.87254901960785,
+      "delta_pp": 0.735294117647058,
+      "samples": 1224
+    },
+    {
+      "stage": "direct",
+      "dataset": "vatex",
+      "direction": "t2v",
+      "metric": "R@5",
+      "old": 93.21895424836602,
+      "expanded": 93.05555555555556,
+      "delta_pp": -0.1633986928104605,
+      "samples": 1224
+    },
+    {
+      "stage": "direct",
+      "dataset": "vatex",
+      "direction": "t2v",
+      "metric": "R@10",
+      "old": 96.40522875816994,
+      "expanded": 96.24183006535948,
+      "delta_pp": -0.1633986928104605,
+      "samples": 1224
+    },
+    {
+      "stage": "direct",
+      "dataset": "vatex",
+      "direction": "v2t",
+      "metric": "R@1",
+      "old": 64.05228758169935,
+      "expanded": 64.29738562091504,
+      "delta_pp": 0.24509803921569073,
+      "samples": 1224
+    },
+    {
+      "stage": "direct",
+      "dataset": "vatex",
+      "direction": "v2t",
+      "metric": "R@5",
+      "old": 91.99346405228758,
+      "expanded": 91.99346405228758,
+      "delta_pp": 0.0,
+      "samples": 1224
+    },
+    {
+      "stage": "direct",
+      "dataset": "vatex",
+      "direction": "v2t",
+      "metric": "R@10",
+      "old": 96.24183006535948,
+      "expanded": 95.83333333333334,
+      "delta_pp": -0.408496732026137,
+      "samples": 1224
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "msrvtt",
+      "direction": "t2v",
+      "metric": "R@1",
+      "old": 55.09049773755657,
+      "expanded": 55.203619909502265,
+      "delta_pp": 0.1131221719456974,
+      "samples": 884
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "msrvtt",
+      "direction": "t2v",
+      "metric": "R@5",
+      "old": 73.7556561085973,
+      "expanded": 73.7556561085973,
+      "delta_pp": 0.0,
+      "samples": 884
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "msrvtt",
+      "direction": "t2v",
+      "metric": "R@10",
+      "old": 80.88235294117648,
+      "expanded": 80.88235294117648,
+      "delta_pp": 0.0,
+      "samples": 884
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "msrvtt",
+      "direction": "v2t",
+      "metric": "R@1",
+      "old": 52.71493212669684,
+      "expanded": 53.619909502262445,
+      "delta_pp": 0.9049773755656076,
+      "samples": 884
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "msrvtt",
+      "direction": "v2t",
+      "metric": "R@5",
+      "old": 76.13122171945702,
+      "expanded": 75.4524886877828,
+      "delta_pp": -0.6787330316742128,
+      "samples": 884
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "msrvtt",
+      "direction": "v2t",
+      "metric": "R@10",
+      "old": 82.9185520361991,
+      "expanded": 82.23981900452489,
+      "delta_pp": -0.6787330316742128,
+      "samples": 884
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "didemo",
+      "direction": "t2v",
+      "metric": "R@1",
+      "old": 53.46733668341709,
+      "expanded": 52.8643216080402,
+      "delta_pp": -0.6030150753768879,
+      "samples": 995
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "didemo",
+      "direction": "t2v",
+      "metric": "R@5",
+      "old": 74.9748743718593,
+      "expanded": 75.47738693467336,
+      "delta_pp": 0.5025125628140614,
+      "samples": 995
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "didemo",
+      "direction": "t2v",
+      "metric": "R@10",
+      "old": 80.40201005025126,
+      "expanded": 81.10552763819095,
+      "delta_pp": 0.703517587939686,
+      "samples": 995
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "didemo",
+      "direction": "v2t",
+      "metric": "R@1",
+      "old": 50.753768844221106,
+      "expanded": 52.663316582914575,
+      "delta_pp": 1.909547738693469,
+      "samples": 995
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "didemo",
+      "direction": "v2t",
+      "metric": "R@5",
+      "old": 74.17085427135677,
+      "expanded": 75.57788944723617,
+      "delta_pp": 1.4070351758794004,
+      "samples": 995
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "didemo",
+      "direction": "v2t",
+      "metric": "R@10",
+      "old": 80.90452261306532,
+      "expanded": 81.60804020100502,
+      "delta_pp": 0.7035175879397002,
+      "samples": 995
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "activitynet",
+      "direction": "t2v",
+      "metric": "R@1",
+      "old": 55.93177827940807,
+      "expanded": 55.90669676448458,
+      "delta_pp": -0.02508151492349242,
+      "samples": 3987
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "activitynet",
+      "direction": "t2v",
+      "metric": "R@5",
+      "old": 81.7155756207675,
+      "expanded": 81.18886380737396,
+      "delta_pp": -0.5267118133935327,
+      "samples": 3987
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "activitynet",
+      "direction": "t2v",
+      "metric": "R@10",
+      "old": 89.11462252320041,
+      "expanded": 89.34035615751192,
+      "delta_pp": 0.22573363431150995,
+      "samples": 3987
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "activitynet",
+      "direction": "v2t",
+      "metric": "R@1",
+      "old": 49.887133182844245,
+      "expanded": 50.41384499623778,
+      "delta_pp": 0.5267118133935327,
+      "samples": 3987
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "activitynet",
+      "direction": "v2t",
+      "metric": "R@5",
+      "old": 76.02207173313268,
+      "expanded": 76.67419112114372,
+      "delta_pp": 0.6521193880110445,
+      "samples": 3987
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "activitynet",
+      "direction": "v2t",
+      "metric": "R@10",
+      "old": 85.55304740406321,
+      "expanded": 85.47780285929271,
+      "delta_pp": -0.07524454477049858,
+      "samples": 3987
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "vatex",
+      "direction": "t2v",
+      "metric": "R@1",
+      "old": 79.90196078431373,
+      "expanded": 79.33006535947712,
+      "delta_pp": -0.5718954248366117,
+      "samples": 1224
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "vatex",
+      "direction": "t2v",
+      "metric": "R@5",
+      "old": 97.22222222222221,
+      "expanded": 97.05882352941177,
+      "delta_pp": -0.16339869281044628,
+      "samples": 1224
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "vatex",
+      "direction": "t2v",
+      "metric": "R@10",
+      "old": 98.36601307189542,
+      "expanded": 98.36601307189542,
+      "delta_pp": 0.0,
+      "samples": 1224
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "vatex",
+      "direction": "v2t",
+      "metric": "R@1",
+      "old": 74.83660130718954,
+      "expanded": 75.49019607843137,
+      "delta_pp": 0.6535947712418277,
+      "samples": 1224
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "vatex",
+      "direction": "v2t",
+      "metric": "R@5",
+      "old": 94.77124183006535,
+      "expanded": 95.58823529411765,
+      "delta_pp": 0.8169934640523024,
+      "samples": 1224
+    },
+    {
+      "stage": "itm_top50",
+      "dataset": "vatex",
+      "direction": "v2t",
+      "metric": "R@10",
+      "old": 97.30392156862744,
+      "expanded": 97.22222222222221,
+      "delta_pp": -0.08169934640523024,
+      "samples": 1224
+    }
+  ],
+  "summaries": {
+    "direct/msrvtt": {
+      "delta_pp": 0.16968325791855204,
+      "ci95_pp": [
+        -0.6787330316742082,
+        1.0180995475113122
+      ]
+    },
+    "direct/didemo": {
+      "delta_pp": -1.0552763819095476,
+      "ci95_pp": [
+        -2.0100502512562812,
+        -0.20100502512562815
+      ]
+    },
+    "direct/activitynet": {
+      "delta_pp": 0.01254075746175069,
+      "ci95_pp": [
+        -0.5141710559317783,
+        0.5144845748683203
+      ]
+    },
+    "direct/vatex": {
+      "delta_pp": 0.49019607843137253,
+      "ci95_pp": [
+        -0.28594771241830064,
+        1.2663398692810457
+      ]
+    },
+    "direct/mean": {
+      "old": 45.562575331445245,
+      "expanded": 45.466861259420774,
+      "delta_pp": -0.09571407202446809,
+      "ci95_pp": [
+        -0.4827034506282393,
+        0.2739947166145823
+      ]
+    },
+    "itm_top50/msrvtt": {
+      "delta_pp": 0.5090497737556561,
+      "ci95_pp": [
+        -0.45248868778280543,
+        1.5271493212669682
+      ]
+    },
+    "itm_top50/didemo": {
+      "delta_pp": 0.6532663316582915,
+      "ci95_pp": [
+        -0.45226130653266333,
+        1.8090452261306533
+      ]
+    },
+    "itm_top50/activitynet": {
+      "delta_pp": 0.2508151492350138,
+      "ci95_pp": [
+        -0.3511412089290193,
+        0.8280035114120876
+      ]
+    },
+    "itm_top50/vatex": {
+      "delta_pp": 0.04084967320261438,
+      "ci95_pp": [
+        -0.8169934640522876,
+        0.8986928104575164
+      ]
+    },
+    "itm_top50/mean": {
+      "old": 59.073001118205894,
+      "expanded": 59.43649635016879,
+      "delta_pp": 0.36349523196289396,
+      "ci95_pp": [
+        -0.08720450909736871,
+        0.8111655087478248
+      ]
+    }
+  },
+  "limitation": "Single seed; sample bootstrap conditional on trained models and fixed galleries. Equal epochs entail different update budgets."
+}

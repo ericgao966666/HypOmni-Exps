@@ -10,6 +10,7 @@
 
 ## 当前关注
 
+- **VAST扩充收益有限**：[PMRL数据量对照](experiments/EXP-20261026-server2-pmrl-data-scale.md)：数据+21.5%，Top-50平均R@1仅+0.36pp，直接检索−0.10pp；单seed且主指标样本区间跨0。
 - **低维双曲优势不稳定**：[64D与扩维检索](experiments/EXP-20261021-server-b-retrieval-training.md)：64D双曲R@1 22.13%，比欧氏高0.32pp；32/128/512D欧氏更好，严格包含率仍0%。已完成14/20个选定条件，VAST/PMRL扩维缺失。
 - **PMRL–ITM采样收益较小，融合退化**：[四数据集单seed对照](experiments/EXP-20261021-server-a-pmrl-itm-alignment.md)：事前预选sigma_max的共同候选纯ITM增益+0.4087pp，未达0.5pp门槛；开发集选定融合在测试中下降。
 
@@ -32,6 +33,7 @@
 | EXP-009 | [低维空间是否放大几何差异](experiments/EXP-009-lowdim-finetune.md) | Hyperbolic-Omnimodal | 10-19 | 已交接；目标状态待核实 | 56 次运行协议完成，尚无正式结果 |
 | PMRL–ITM 对齐 | [PMRL 对齐评分能否改善 ITM](experiments/EXP-20261021-server-a-pmrl-itm-alignment.md) | PMRL-ITM | 10-24 19:05完成；10-24 21:39核对 | 已完成4组单seed训练、开发集与16项测试 | 共同候选采样增益约+0.41～0.45pp；融合测试退化；[最终结果](results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/summary.md) |
 | 64D检索方案 | [64D优先训练方案](experiments/EXP-20261021-server-b-retrieval-training.md) | Hyperbolic-Omnimodal | 10-25 | 64D全完成；14/20测试，扩维已中断 | 单seed；64D双曲略优，其他三维度欧氏更好；严格包含仍0% |
+| PMRL 数据扩充 | [扩充VAST是否改善单轮检索](experiments/EXP-20261026-server2-pmrl-data-scale.md) | PMRL-minimal-hyperbolic / server2 | 10-26 20:01完成；20:18核对 | 已完成2组单seed训练与8项测试 | Top-50 R@1 59.07→59.44%（+0.36pp），direct −0.10pp；主区间跨0，稳定收益未证实 |
 
 “已完成”指卡内声明的运行与评估完成，不代表假设成立，也不代表证明收敛。运行预算、验证集结果、测试集结果分别记录。
 

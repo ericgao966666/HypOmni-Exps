@@ -3368,8 +3368,487 @@
           "sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1"
         }
       ]
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/results/results.json",
+      "sha256": "13577d4bcec3b16ab954d392a656264e2640c9d98bca94aa36b0bd052931c5b0",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/results.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 13736,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/results/results.csv",
+      "sha256": "21df66a179cd77aa02430eda182da4b34c512f2d21988f0603c6ed2eac019a19",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/results.csv",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 4115,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/results/summary.md",
+      "sha256": "59eb0ef5155c8cc4625d69e76c2d3a305fe0004e06ef9d1a27e38ee12d1d2936",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/summary.md",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 2342,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/protocol.json",
+      "sha256": "f5f4ce2170abab2b3476152e889da49a6fa70308e304a8198ab92f2c0726f133",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/protocol.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 3606,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/freeze.json",
+      "sha256": "f355d430784b798da2f25b441691c35731e4e79550349a2b5068b1bf27f7b5f1",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/freeze.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 925,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/eval/old/msrvtt/native_metrics.json",
+      "sha256": "50f1e18df0c5f1c692a23062dd1bc0f50a9b12e82058521dbe6686d49ca313bf",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/old-msrvtt.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 1173,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/eval/old/didemo/native_metrics.json",
+      "sha256": "18041452936ffeb7bdb5211298d9a4d35ea7d930b02fa8fc7ac812e9f1f81742",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/old-didemo.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 1168,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/eval/old/activitynet/native_metrics.json",
+      "sha256": "cc0bcc9c69a8c39688c4c4d1375929d894b8a4ec4e9cc3d39a002ca428c8b384",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/old-activitynet.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 1214,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/eval/old/vatex/native_metrics.json",
+      "sha256": "51bb7f5335bf53c3d8df0f04269a18fe8d0103c44bfd0b2ec3eace148050dcbe",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/old-vatex.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 1168,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/msrvtt/native_metrics.json",
+      "sha256": "5a941e65dc2d23446b093d2f4c6950e7460df4d78ab85924caeb167141918a2f",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/expanded-msrvtt.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 1172,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/didemo/native_metrics.json",
+      "sha256": "cd1b057aff58bc7ba1a062de9fb985a06099874146870546643d00862c1b8a99",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/expanded-didemo.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 1169,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/activitynet/native_metrics.json",
+      "sha256": "ffb8ace302d9f0cec7bb48b49e302f1eee64c4a40321df494638a174146554c3",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/expanded-activitynet.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 1215,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/vatex/native_metrics.json",
+      "sha256": "fe00caedb5321d64fdd47d3607f1e160341ee246f7be33b1f597a9fdd23abc97",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/expanded-vatex.json",
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "bytes": 1167,
+      "captured_at": "2026-10-26T12:18:09.802533+00:00"
+    },
+    {
+      "experiment_id": "EXP-20261026-server2-pmrl-data-scale",
+      "path": "results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/verification.json",
+      "source_server": "server2",
+      "source_root": "dataset_root",
+      "source_path": "PMRL/outputs/data-scale-20261026",
+      "bytes": 21573,
+      "sha256": "42741c9039952c44ac6154dd7361e25ad558c2036922367f13299bf9264aae49",
+      "captured_at": "2026-10-26T12:18:09.802533+00:00",
+      "derivation": "Read-only verification of protocol/config fingerprints, both training completions and checkpoint payload sizes, eight evaluation exits and 48 metric rows against per-query ranks and native metrics. No model payload hash or remote process-liveness claim.",
+      "inputs": [
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/state.json",
+          "sha256": "696cede3ed346dfdb05afe5ec59052f71da83ca0546f100c4f220d254f62640a"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/protocol.json",
+          "sha256": "f5f4ce2170abab2b3476152e889da49a6fa70308e304a8198ab92f2c0726f133"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/results/results.json",
+          "sha256": "13577d4bcec3b16ab954d392a656264e2640c9d98bca94aa36b0bd052931c5b0"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/results/results.csv",
+          "sha256": "21df66a179cd77aa02430eda182da4b34c512f2d21988f0603c6ed2eac019a19"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/old/run_complete.json",
+          "sha256": "31097ca2ccaa31affce4fd145f57a5428397f11016946b10b4b40c78dbce668f"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/old/worker_complete.json",
+          "sha256": "628053474fcc2cf37790feea7aaa8fbaec77b4300e567000cb5ed20e2e50a908"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/old/initialization.json",
+          "sha256": "4b3f4495275394a52c42b48f2427af213300dc5bf2b62ecccda45506f55c27a1"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/old/launch-1793004017653431931.json",
+          "sha256": "986795eebb02d749edc6e60ce2754cf9c31e3c4f3a4b4247e581a3e8d4efa5f3"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/old/ckpt/checkpoint_step_1354.complete.json",
+          "sha256": "5f1c8c0e495f7b7933f4891f33b670ba69df292f3819ca0b15bc0a2de0e9da7f"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/old.json",
+          "sha256": "b5cf8fb4ab2173602ccf7c60d1069c5ea0cee23a43afed19cd63a1f051782814"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/msrvtt/worker_complete.json",
+          "sha256": "7034a84c624c843d8c2398ebccfb11e91aa9b715c7ad7fe80bbdbe2b10dd3e02"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/msrvtt/launch-1793007807775293236.json",
+          "sha256": "0beb0d57ac13d7ab1c3bf7a654defd037a3aed064806161717689872c354b59f"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/msrvtt/native_metrics.json",
+          "sha256": "50f1e18df0c5f1c692a23062dd1bc0f50a9b12e82058521dbe6686d49ca313bf"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/msrvtt/queries.json",
+          "sha256": "3414ce3c339421af5869ccf727e5518d06d696ed5da55d500f490ca777bb05a9"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/old-msrvtt-eval.json",
+          "sha256": "d68f50d926ae672122214bbcb4e70a9b2749ad1896de2ca019cf68e2b11ba87b"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/didemo/worker_complete.json",
+          "sha256": "7bbeca3121d3771cbc41abb37bd1353d8507d50617483dce345184bc31198961"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/didemo/launch-1793008108630989324.json",
+          "sha256": "44b9d431af41066e9c8d76c0301a43be5b0a20fbf851026bf88059a982ada062"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/didemo/native_metrics.json",
+          "sha256": "18041452936ffeb7bdb5211298d9a4d35ea7d930b02fa8fc7ac812e9f1f81742"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/didemo/queries.json",
+          "sha256": "b537acbbe9f5fab3f1d7479be938d14cc6779880073d5a25bc80ee190390267b"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/old-didemo-eval.json",
+          "sha256": "865908aaf50046709334fe5a120d0065664505ee77037d19ac46716a047a6ac5"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/activitynet/worker_complete.json",
+          "sha256": "e7071030ffdacce7180386136c307e564ac52c9ce15e8a9614253628c4931724"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/activitynet/launch-1793008362382171295.json",
+          "sha256": "025d8f5d45f2feb39fd560efaa5bbe9f377cca9cf62fb2bbe76e1b7b9208dff0"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/activitynet/native_metrics.json",
+          "sha256": "cc0bcc9c69a8c39688c4c4d1375929d894b8a4ec4e9cc3d39a002ca428c8b384"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/activitynet/queries.json",
+          "sha256": "3ced02f9bedc91ed26a5b3ef2a915c8df736139f36b018558e715d65a9a7f867"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/old-activitynet-eval.json",
+          "sha256": "18d4eb8d234e6eebb210bcc3c5caa40f75b40309c76f818ffbdf418ba269dc28"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/vatex/worker_complete.json",
+          "sha256": "a0ad5a83ede2dde238cdf2e62a64331c25f20424dc75aba1aba0735415b41d1a"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/vatex/launch-1793009438891504808.json",
+          "sha256": "086bf4d056a25c9dee14327712e765cd17455582e2f11f1ac4c6f9a2c192058a"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/vatex/native_metrics.json",
+          "sha256": "51bb7f5335bf53c3d8df0f04269a18fe8d0103c44bfd0b2ec3eace148050dcbe"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/old/vatex/queries.json",
+          "sha256": "b507ed871707abc8ef982c563538b7aa12dfc445e028734c299c8df17738812b"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/old-vatex-eval.json",
+          "sha256": "821ed1d0ea6f2bb5d7f18ed64afde48f699a49f83d095f6360c46fd6349f3659"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/expanded/run_complete.json",
+          "sha256": "316561611eb02f60fb2d0519a63b46014f5e5af4221a8c6e4cd72c602e7d54e3"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/expanded/worker_complete.json",
+          "sha256": "0db593d6bb8c912e6c0bc97883647db2e1f6052387257bd61d623b28113391bf"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/expanded/initialization.json",
+          "sha256": "4b3f4495275394a52c42b48f2427af213300dc5bf2b62ecccda45506f55c27a1"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/expanded/launch-1793010025499870350.json",
+          "sha256": "f4b88c4d3c8713bb1cdb37c67d53e885390eec6e4655daa31fa0b4631f10cd8d"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/train/expanded/ckpt/checkpoint_step_1646.complete.json",
+          "sha256": "16c3f818643527767fbf09d5ac6463dc2556de82bac094f15cd7a2f4eadb9a7c"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/expanded.json",
+          "sha256": "cd376c5084a96eaaa6c3fc39cd26b9c01a95d745839d07474d3e0efcace8fc88"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/msrvtt/worker_complete.json",
+          "sha256": "f22f03c033269dc56001480514726a0fd762b2841612ed9bb34a8d1250337bd1"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/msrvtt/launch-1793014065626307548.json",
+          "sha256": "6dfd4e9536e3272ddf91f751101a896f03c6209b3d398dd8f2323e23475147b0"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/msrvtt/native_metrics.json",
+          "sha256": "5a941e65dc2d23446b093d2f4c6950e7460df4d78ab85924caeb167141918a2f"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/msrvtt/queries.json",
+          "sha256": "14473b59ea738fae95764404673e73b012bdae95122c948ef0d1d7bc95f7e38a"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/expanded-msrvtt-eval.json",
+          "sha256": "8e1e18058418881d66be20a2bb0091db68be2fa6dfddf9c9ab731d3a6df4b0a4"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/didemo/worker_complete.json",
+          "sha256": "ef22411a85820cb8825a385a5c0054cb1f66aa70d6b1bf95253cfe389e59fd3e"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/didemo/launch-1793014357735671855.json",
+          "sha256": "a2cec7ee7c6d6e85240e4b97df2efdd2a130ae2b5e0861ce37145e78b5b8a1fe"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/didemo/native_metrics.json",
+          "sha256": "cd1b057aff58bc7ba1a062de9fb985a06099874146870546643d00862c1b8a99"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/didemo/queries.json",
+          "sha256": "0c1c78870dff93698c4db51bb08736ec2bfda201cce6a082a7169a73fe2d704f"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/expanded-didemo-eval.json",
+          "sha256": "5b17a720722d4f0225ac4d71c9aefc2f23eebb43532897ba82842c34c04d93c5"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/activitynet/worker_complete.json",
+          "sha256": "00b98cba375f4236868b8666a6598ab0e970168f9d6c8fc862008451d475ffa9"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/activitynet/launch-1793014680266082942.json",
+          "sha256": "e1df93a8982a9c9b22ace179c01d15d731aa7bc9b3863d1c96dba1c6c378a004"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/activitynet/native_metrics.json",
+          "sha256": "ffb8ace302d9f0cec7bb48b49e302f1eee64c4a40321df494638a174146554c3"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/activitynet/queries.json",
+          "sha256": "9ed943d8b1b13e002a242db8d6b775147ebbec7401be36d50b8f8fcf7851ee0c"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/expanded-activitynet-eval.json",
+          "sha256": "2a008f858d4ac2ab9f8e7e427f87498e6b8a9064945a755026e15c0528af5ebd"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/vatex/worker_complete.json",
+          "sha256": "55b99c5c6a5446e1ac86c4e63c648d6792c1534d5ba9d59840fe88679cde2d9a"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/vatex/launch-1793015517133228332.json",
+          "sha256": "9f6d9704c98bf8960c1d4d595dc5b8f36411d09afccba50c339a541598c80648"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/vatex/native_metrics.json",
+          "sha256": "fe00caedb5321d64fdd47d3607f1e160341ee246f7be33b1f597a9fdd23abc97"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/eval/expanded/vatex/queries.json",
+          "sha256": "d49264ad5fb89fb84513d460722795e732d2b4a25fea50cecbadf0b27997f992"
+        },
+        {
+          "source_server": "server2",
+          "source_root": "dataset_root",
+          "source_path": "PMRL/outputs/data-scale-20261026/configs/expanded-vatex-eval.json",
+          "sha256": "3efeddbba94cd2a4e6307dccc16b24c5475d1a3c21c09096be54b69eefa98a6e"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-24T21:39:02.222534+08:00",
+  "updated_at": "2026-10-26T12:18:09.802533+00:00",
   "last_updated_at": "2026-10-25T07:22:03.941622+00:00"
 }

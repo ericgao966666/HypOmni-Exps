@@ -1,0 +1,47 @@
+{
+  "ret%tva--didemo_ret": {
+    "didemo_ret_eigenvalue_max": {
+      "value": 1.243452787399292
+    },
+    "didemo_ret_eigenvector_uniformity": {
+      "value": 0.2143370509147644
+    },
+    "didemo_ret_cosine_TV": {
+      "forward_r1": 34.4,
+      "forward_recall": "34.4/61.0/71.4",
+      "forward_ravg": 55.6
+    },
+    "didemo_ret_cosine_VT": {
+      "forward_r1": 36.7,
+      "forward_recall": "36.7/61.8/71.8",
+      "forward_ravg": 56.8
+    },
+    "didemo_ret_cosine_TA": {
+      "forward_r1": 4.9,
+      "forward_recall": "4.9/14.6/21.4",
+      "forward_ravg": 13.6
+    },
+    "didemo_ret_cosine_AT": {
+      "forward_r1": 5.2,
+      "forward_recall": "5.2/15.6/23.7",
+      "forward_ravg": 14.8
+    },
+    "didemo_ret_ret_itc_tva": {
+      "video_r1": 34.4,
+      "video_recall": "34.4/61.0/71.4",
+      "video_ravg": 55.6,
+      "txt_r1": 36.7,
+      "txt_recall": "36.7/61.8/71.8",
+      "txt_ravg": 56.8,
+      "mean_recall": 56.2
+    },
+    "didemo_ret_ret_itm_tva": {
+      "video_r1": 53.5,
+      "video_recall": "53.5/75.0/80.4",
+      "video_ravg": 69.6,
+      "txt_r1": 50.8,
+      "txt_recall": "50.8/74.2/80.9",
+      "txt_ravg": 68.6
+    }
+  }
+}

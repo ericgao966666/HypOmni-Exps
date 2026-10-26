@@ -1,0 +1,47 @@
+{
+  "ret%tvas--vatex_ret": {
+    "vatex_ret_eigenvalue_max": {
+      "value": 1.3063043355941772
+    },
+    "vatex_ret_eigenvector_uniformity": {
+      "value": 0.16285479068756104
+    },
+    "vatex_ret_cosine_TV": {
+      "forward_r1": 68.1,
+      "forward_recall": "68.1/93.2/96.4",
+      "forward_ravg": 85.9
+    },
+    "vatex_ret_cosine_VT": {
+      "forward_r1": 64.1,
+      "forward_recall": "64.1/92.0/96.2",
+      "forward_ravg": 84.1
+    },
+    "vatex_ret_cosine_TA": {
+      "forward_r1": 10.8,
+      "forward_recall": "10.8/26.1/34.2",
+      "forward_ravg": 23.7
+    },
+    "vatex_ret_cosine_AT": {
+      "forward_r1": 10.7,
+      "forward_recall": "10.7/25.2/34.8",
+      "forward_ravg": 23.6
+    },
+    "vatex_ret_ret_itc_tvas": {
+      "video_r1": 68.1,
+      "video_recall": "68.1/93.2/96.4",
+      "video_ravg": 85.9,
+      "txt_r1": 64.1,
+      "txt_recall": "64.1/92.0/96.2",
+      "txt_ravg": 84.1,
+      "mean_recall": 85.0
+    },
+    "vatex_ret_ret_itm_tvas": {
+      "video_r1": 79.9,
+      "video_recall": "79.9/97.2/98.4",
+      "video_ravg": 91.8,
+      "txt_r1": 74.8,
+      "txt_recall": "74.8/94.8/97.3",
+      "txt_ravg": 89.0
+    }
+  }
+}

@@ -8,6 +8,8 @@
 
 - [server-b 64D方案与扩维运行](EXP-20261021-server-b-retrieval-training/README.md)：2026-10-25核对，14/20选定条件测试完成，训练中断。
 
+- [server2 PMRL数据扩充配对运行](EXP-20261026-server2-pmrl-data-scale/20261026T153907-server2-data-scale-seed50.md)：2026-10-26已完成两组训练与8项测试，正式结果已手工回填。
+
 ## 运行历史与来源审计
 
 详细过程与结果正文分开维护。重写前的运行历史保留在以下入口，结论以链接的当前实验卡为准。

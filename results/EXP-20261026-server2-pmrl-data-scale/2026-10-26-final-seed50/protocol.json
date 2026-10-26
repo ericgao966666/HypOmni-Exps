@@ -1,0 +1,85 @@
+{
+  "experiment": "EXP-20261026-server2-pmrl-data-scale",
+  "at": "2026-10-26T08:40:03.367238+00:00",
+  "host": "server2",
+  "gpus": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "readiness": "formal_ready",
+  "seeds": [
+    50
+  ],
+  "initialization": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/models/model_weights/pretrain_vast/ckpt/model_step_204994.pt",
+  "initialization_sha256": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5",
+  "source_sha256": "1df35143b7e055b502af156e679baa03649edc379edd9e4f465ee937d39d03d4",
+  "freeze": {
+    "at": "2026-10-26T07:39:07.963460+00:00",
+    "raw_count": 105709,
+    "raw_manifest_sha256": "0bd7f540e8afc54b2aa1b609d48b2f5d3129ac9e9f4901cfe62550b356acdb12",
+    "old_count": 86706,
+    "expanded_candidate_count": 105369,
+    "added_candidates": 18663,
+    "old_source": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/minimal_causal_assets_20260820/vast150k/VASTannotations150k.accepted.json",
+    "old_source_sha256": "ce83a1b91fce11aed08cdc0080f96f466a668b245ad769610622b9c05a8aa5d9",
+    "candidate_sha256": "25fe529dc0b6d820591a04586c82c2175813fdee46f6a985c1282dc70a6a387e",
+    "repair_manifest": "/data-nfs/xiaoboxia/YuxuanGao/PMRL-ITM/media_repairs/20261024T145826-cLeZEBIFYHo21-lossless/overlay_manifest.json",
+    "repair_manifest_sha256": "800096a1da47a4d4027af7b1503d0583d92218078ec71bb47258d30a6ef24943",
+    "input_paths": 224918,
+    "eval_counts": {
+      "msrvtt": 884,
+      "didemo": 995,
+      "activitynet": 3987,
+      "vatex": 1224
+    }
+  },
+  "data": {
+    "old": {
+      "samples": 86706,
+      "manifest_path": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/outputs/data-scale-20261026/assets/old.json",
+      "sha256": "a38cec1508131b4479788f8907971abd9efff91db3a7004e13f1cea86e350d95",
+      "batches": 1354
+    },
+    "expanded": {
+      "samples": 105369,
+      "manifest_path": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/outputs/data-scale-20261026/assets/expanded.json",
+      "sha256": "25fe529dc0b6d820591a04586c82c2175813fdee46f6a985c1282dc70a6a387e",
+      "batches": 1646
+    }
+  },
+  "configs": {
+    "old-msrvtt-eval.json": "d68f50d926ae672122214bbcb4e70a9b2749ad1896de2ca019cf68e2b11ba87b",
+    "old-didemo-eval.json": "865908aaf50046709334fe5a120d0065664505ee77037d19ac46716a047a6ac5",
+    "expanded-vatex-eval.json": "3efeddbba94cd2a4e6307dccc16b24c5475d1a3c21c09096be54b69eefa98a6e",
+    "smoke.json": "c47e08596a54243da0a1f5220f0e4436bac55832580c7d5a2b72868722fa0de0",
+    "old-activitynet-eval.json": "18d4eb8d234e6eebb210bcc3c5caa40f75b40309c76f818ffbdf418ba269dc28",
+    "expanded-msrvtt-eval.json": "8e1e18058418881d66be20a2bb0091db68be2fa6dfddf9c9ab731d3a6df4b0a4",
+    "expanded-didemo-eval.json": "5b17a720722d4f0225ac4d71c9aefc2f23eebb43532897ba82842c34c04d93c5",
+    "old.json": "b5cf8fb4ab2173602ccf7c60d1069c5ea0cee23a43afed19cd63a1f051782814",
+    "expanded.json": "cd376c5084a96eaaa6c3fc39cd26b9c01a95d745839d07474d3e0efcace8fc88",
+    "expanded-activitynet-eval.json": "2a008f858d4ac2ab9f8e7e427f87498e6b8a9064945a755026e15c0528af5ebd",
+    "old-vatex-eval.json": "821ed1d0ea6f2bb5d7f18ed64afde48f699a49f83d095f6360c46fd6349f3659",
+    "smoke-eval-msrvtt.json": "dc90b273847b22fbd3e64406cde54ab60bbaa6a79f0d5d63308dd5618511a5a8"
+  },
+  "evaluation": {
+    "counts": {
+      "msrvtt": 884,
+      "didemo": 995,
+      "activitynet": 3987,
+      "vatex": 1224
+    },
+    "caption": "first",
+    "candidate": "TV cosine",
+    "itm_topk": 50,
+    "checkpoint": "final",
+    "native_task_modalities": true
+  },
+  "bootstrap": {
+    "samples": 2000,
+    "seed": 50,
+    "unit": "paired video within dataset",
+    "gallery": "fixed"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-26T07:39:07.963460+00:00",
+  "raw_count": 105709,
+  "raw_manifest_sha256": "0bd7f540e8afc54b2aa1b609d48b2f5d3129ac9e9f4901cfe62550b356acdb12",
+  "old_count": 86706,
+  "expanded_candidate_count": 105369,
+  "added_candidates": 18663,
+  "old_source": "/data-nfs/xiaoboxia/YuxuanGao/PMRL/minimal_causal_assets_20260820/vast150k/VASTannotations150k.accepted.json",
+  "old_source_sha256": "ce83a1b91fce11aed08cdc0080f96f466a668b245ad769610622b9c05a8aa5d9",
+  "candidate_sha256": "25fe529dc0b6d820591a04586c82c2175813fdee46f6a985c1282dc70a6a387e",
+  "repair_manifest": "/data-nfs/xiaoboxia/YuxuanGao/PMRL-ITM/media_repairs/20261024T145826-cLeZEBIFYHo21-lossless/overlay_manifest.json",
+  "repair_manifest_sha256": "800096a1da47a4d4027af7b1503d0583d92218078ec71bb47258d30a6ef24943",
+  "input_paths": 224918,
+  "eval_counts": {
+    "msrvtt": 884,
+    "didemo": 995,
+    "activitynet": 3987,
+    "vatex": 1224
+  }
+}
