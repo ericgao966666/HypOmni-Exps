@@ -114,3 +114,8 @@
 - [20261025T023056-server-b-method_test-gram_d32_s50_R1-joint](20261025T023056-server-b-method_test-gram_d32_s50_R1-joint.md)
 - [20261025T023111-server-b-train-vast_d32_s50_R3-warmup](20261025T023111-server-b-train-vast_d32_s50_R3-warmup.md)
 - [20261025T034851-server-b-method_test-gram_d512_s50_R1-joint](20261025T034851-server-b-method_test-gram_d512_s50_R1-joint.md)
+
+## 本地补充索引（合并保留）
+
+- [合并前本地过程全文](history-local-before-reconciliation-20261028.md)
+- [10月28日R3学习温度/曲率候选](20261028T123204-server-b-r3-d64-lambda02-learnct-seed50.md)

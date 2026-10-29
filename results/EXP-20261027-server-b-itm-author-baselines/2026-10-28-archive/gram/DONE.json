@@ -1,0 +1,16 @@
+{
+  "pid": 1269535,
+  "gpu": "3",
+  "method": "gram",
+  "started_unix": 1793106323.273731,
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_author_baselines_20261027/benchmark.py",
+    "--method",
+    "gram",
+    "--device",
+    "3"
+  ],
+  "passed": true,
+  "result_sha256": "90439ce04bf78573fa289b6d945df1f539c91b3070be661670ca1839e34d241a",
+  "finished_unix": 1793107298.663641
+}

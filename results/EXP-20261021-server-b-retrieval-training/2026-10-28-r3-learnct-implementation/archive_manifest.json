@@ -1,0 +1,27 @@
+{
+  "source_server": "server-b",
+  "captured_at": "2026-10-28T12:35:21.919534+00:00",
+  "files": [
+    {
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-28-r3-learnct-implementation/launch.json",
+      "sha256": "b9dd182d9cb6e27f66be34dc4929511a91ccac085f164f4b5d421558d8c7a804",
+      "bytes": 489
+    },
+    {
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-28-r3-learnct-implementation/protocol.json",
+      "sha256": "d7e3be5efad6d8369c768f01b7711ce303d02fd2a721c5ea1f86a5fbbe8c4808",
+      "bytes": 6844
+    },
+    {
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-28-r3-learnct-implementation/preparation.json",
+      "sha256": "09203e9578ebd9de4bfa0b4b521385b53d88268862a757d92d5b2462d306a58f",
+      "bytes": 1567
+    },
+    {
+      "path": "results/EXP-20261021-server-b-retrieval-training/2026-10-28-r3-learnct-implementation/README.md",
+      "sha256": "d0e84b0bdb8d8fee89860afcb63d567ad63e250b28df5bb361e752baab5ae5d2",
+      "bytes": 2370
+    }
+  ],
+  "integration_note": "Concurrent repository merge replaced shared experiment/index/manifest edits during this task. Unique run and snapshot files preserved; integrate these entries after the other merge completes. This task did not initiate or resolve that merge."
+}

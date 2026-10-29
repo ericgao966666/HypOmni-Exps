@@ -1,0 +1,15 @@
+{
+  "pid": 3072388,
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+    "-u",
+    "-B",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/r3_64d_learned_ct_lambda02_20261028/schedule.py",
+    "--device",
+    "2"
+  ],
+  "gpu": "2",
+  "port": null,
+  "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/r3_64d_learned_ct_lambda02_20261028/logs/scheduler.log",
+  "started_utc": "2026-10-28T12:32:04.027346+00:00"
+}

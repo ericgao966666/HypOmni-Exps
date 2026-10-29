@@ -1,0 +1,544 @@
+{
+  "updated_at": "2026-10-26T14:32:39.076954+00:00",
+  "pid": 1863665,
+  "active": [
+    {
+      "condition": "C0",
+      "device": 4,
+      "pid": 1863671,
+      "start_ticks": 79487192,
+      "run_id": "20261026T142734-server-b-C0-seed50-798158",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "C0",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T142734-server-b-C0-seed50-798158"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142734-server-b-C0-seed50-798158.log",
+      "started_unix": 1793024854.7999237,
+      "started_at": "2026-10-26T14:27:34.799929+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 4,
+        "used": 0.0009765625,
+        "free": 94.970703125,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M00_g1",
+      "device": 1,
+      "pid": 1863674,
+      "start_ticks": 79487200,
+      "run_id": "20261026T142734-server-b-M00_g1-seed50-859926",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M00_g1",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T142734-server-b-M00_g1-seed50-859926"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142734-server-b-M00_g1-seed50-859926.log",
+      "started_unix": 1793024854.8803039,
+      "started_at": "2026-10-26T14:27:34.880309+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 1,
+        "used": 2.6611328125,
+        "free": 92.310546875,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M01_g1",
+      "device": 5,
+      "pid": 1863678,
+      "start_ticks": 79487209,
+      "run_id": "20261026T142734-server-b-M01_g1-seed50-26608",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M01_g1",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T142734-server-b-M01_g1-seed50-26608"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142734-server-b-M01_g1-seed50-26608.log",
+      "started_unix": 1793024854.9661531,
+      "started_at": "2026-10-26T14:27:34.966157+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 5,
+        "used": 5.404296875,
+        "free": 89.5673828125,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M10_g1",
+      "device": 3,
+      "pid": 1863681,
+      "start_ticks": 79487217,
+      "run_id": "20261026T142735-server-b-M10_g1-seed50-865551",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M10_g1",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T142735-server-b-M10_g1-seed50-865551"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142735-server-b-M10_g1-seed50-865551.log",
+      "started_unix": 1793024855.0500476,
+      "started_at": "2026-10-26T14:27:35.050052+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 3,
+        "used": 6.671875,
+        "free": 88.2998046875,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M11_g1",
+      "device": 2,
+      "pid": 1863684,
+      "start_ticks": 79487226,
+      "run_id": "20261026T142735-server-b-M11_g1-seed50-286594",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M11_g1",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T142735-server-b-M11_g1-seed50-286594"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142735-server-b-M11_g1-seed50-286594.log",
+      "started_unix": 1793024855.1335783,
+      "started_at": "2026-10-26T14:27:35.133583+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 2,
+        "used": 9.3466796875,
+        "free": 85.625,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M00_g05",
+      "device": 6,
+      "pid": 1863687,
+      "start_ticks": 79487235,
+      "run_id": "20261026T142735-server-b-M00_g05-seed50-753232",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M00_g05",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T142735-server-b-M00_g05-seed50-753232"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142735-server-b-M00_g05-seed50-753232.log",
+      "started_unix": 1793024855.2244668,
+      "started_at": "2026-10-26T14:27:35.224474+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 6,
+        "used": 10.8330078125,
+        "free": 84.138671875,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M01_g05",
+      "device": 7,
+      "pid": 1863690,
+      "start_ticks": 79487244,
+      "run_id": "20261026T142735-server-b-M01_g05-seed50-931648",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M01_g05",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T142735-server-b-M01_g05-seed50-931648"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142735-server-b-M01_g05-seed50-931648.log",
+      "started_unix": 1793024855.3142574,
+      "started_at": "2026-10-26T14:27:35.314263+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 7,
+        "used": 11.8671875,
+        "free": 83.1044921875,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M10_g05",
+      "device": 0,
+      "pid": 1863693,
+      "start_ticks": 79487252,
+      "run_id": "20261026T142735-server-b-M10_g05-seed50-500928",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M10_g05",
+        "--device",
+        "0",
+        "--run-id",
+        "20261026T142735-server-b-M10_g05-seed50-500928"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142735-server-b-M10_g05-seed50-500928.log",
+      "started_unix": 1793024855.3987727,
+      "started_at": "2026-10-26T14:27:35.398776+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 0,
+        "used": 26.5087890625,
+        "free": 68.462890625,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M11_g05",
+      "device": 4,
+      "pid": 1864468,
+      "start_ticks": 79489295,
+      "run_id": "20261026T142755-server-b-M11_g05-seed50-154479",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M11_g05",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T142755-server-b-M11_g05-seed50-154479"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142755-server-b-M11_g05-seed50-154479.log",
+      "started_unix": 1793024875.8280838,
+      "started_at": "2026-10-26T14:27:55.828093+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 4,
+        "used": 0.8193359375,
+        "free": 94.15234375,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M00_g2",
+      "device": 1,
+      "pid": 1864479,
+      "start_ticks": 79489304,
+      "run_id": "20261026T142755-server-b-M00_g2-seed50-946552",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M00_g2",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T142755-server-b-M00_g2-seed50-946552"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142755-server-b-M00_g2-seed50-946552.log",
+      "started_unix": 1793024875.9179916,
+      "started_at": "2026-10-26T14:27:55.917996+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 1,
+        "used": 3.6181640625,
+        "free": 91.3525390625,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M01_g2",
+      "device": 5,
+      "pid": 1864486,
+      "start_ticks": 79489312,
+      "run_id": "20261026T142755-server-b-M01_g2-seed50-905804",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M01_g2",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T142755-server-b-M01_g2-seed50-905804"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142755-server-b-M01_g2-seed50-905804.log",
+      "started_unix": 1793024875.9987543,
+      "started_at": "2026-10-26T14:27:55.998757+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 5,
+        "used": 6.359375,
+        "free": 88.611328125,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M10_g2",
+      "device": 3,
+      "pid": 1864490,
+      "start_ticks": 79489322,
+      "run_id": "20261026T142756-server-b-M10_g2-seed50-66637",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M10_g2",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T142756-server-b-M10_g2-seed50-66637"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142756-server-b-M10_g2-seed50-66637.log",
+      "started_unix": 1793024876.094136,
+      "started_at": "2026-10-26T14:27:56.094139+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 3,
+        "used": 7.4951171875,
+        "free": 87.4755859375,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M11_g2",
+      "device": 2,
+      "pid": 1864497,
+      "start_ticks": 79489330,
+      "run_id": "20261026T142756-server-b-M11_g2-seed50-894668",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M11_g2",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T142756-server-b-M11_g2-seed50-894668"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142756-server-b-M11_g2-seed50-894668.log",
+      "started_unix": 1793024876.1780345,
+      "started_at": "2026-10-26T14:27:56.178038+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 2,
+        "used": 10.171875,
+        "free": 84.7998046875,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M00_g4",
+      "device": 6,
+      "pid": 1864506,
+      "start_ticks": 79489340,
+      "run_id": "20261026T142756-server-b-M00_g4-seed50-849742",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M00_g4",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T142756-server-b-M00_g4-seed50-849742"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142756-server-b-M00_g4-seed50-849742.log",
+      "started_unix": 1793024876.2707686,
+      "started_at": "2026-10-26T14:27:56.270784+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 6,
+        "used": 11.65234375,
+        "free": 83.3193359375,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M01_g4",
+      "device": 7,
+      "pid": 1864509,
+      "start_ticks": 79489349,
+      "run_id": "20261026T142756-server-b-M01_g4-seed50-481754",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M01_g4",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T142756-server-b-M01_g4-seed50-481754"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142756-server-b-M01_g4-seed50-481754.log",
+      "started_unix": 1793024876.3656833,
+      "started_at": "2026-10-26T14:27:56.365687+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 7,
+        "used": 12.822265625,
+        "free": 82.1494140625,
+        "total": 95.5927734375
+      }
+    },
+    {
+      "condition": "M10_g4",
+      "device": 0,
+      "pid": 1864515,
+      "start_ticks": 79489358,
+      "run_id": "20261026T142756-server-b-M10_g4-seed50-787059",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/train.py",
+        "--condition",
+        "M10_g4",
+        "--device",
+        "0",
+        "--run-id",
+        "20261026T142756-server-b-M10_g4-seed50-787059"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/20261026T142756-server-b-M10_g4-seed50-787059.log",
+      "started_unix": 1793024876.4511526,
+      "started_at": "2026-10-26T14:27:56.451156+00:00",
+      "overlay_ready": true,
+      "admission": {
+        "index": 0,
+        "used": 27.33203125,
+        "free": 67.6396484375,
+        "total": 95.5927734375
+      }
+    }
+  ],
+  "conditions": {
+    "C0": "running",
+    "M00_g05": "running",
+    "M01_g05": "running",
+    "M10_g05": "running",
+    "M11_g05": "running",
+    "M00_g1": "running",
+    "M01_g1": "running",
+    "M10_g1": "running",
+    "M11_g1": "running",
+    "M00_g2": "running",
+    "M01_g2": "running",
+    "M10_g2": "running",
+    "M11_g2": "running",
+    "M00_g4": "running",
+    "M01_g4": "running",
+    "M10_g4": "running",
+    "M11_g4": "queued"
+  },
+  "cards": [
+    {
+      "index": 0,
+      "used": 28.15625,
+      "free": 66.8154296875,
+      "total": 95.5927734375
+    },
+    {
+      "index": 1,
+      "used": 4.1708984375,
+      "free": 90.80078125,
+      "total": 95.5927734375
+    },
+    {
+      "index": 2,
+      "used": 10.998046875,
+      "free": 83.9736328125,
+      "total": 95.5927734375
+    },
+    {
+      "index": 3,
+      "used": 8.3193359375,
+      "free": 86.65234375,
+      "total": 95.5927734375
+    },
+    {
+      "index": 4,
+      "used": 1.64453125,
+      "free": 93.3271484375,
+      "total": 95.5927734375
+    },
+    {
+      "index": 5,
+      "used": 7.3115234375,
+      "free": 87.66015625,
+      "total": 95.5927734375
+    },
+    {
+      "index": 6,
+      "used": 12.341796875,
+      "free": 82.62890625,
+      "total": 95.5927734375
+    },
+    {
+      "index": 7,
+      "used": 13.509765625,
+      "free": 81.4619140625,
+      "total": 95.5927734375
+    }
+  ],
+  "data_free_gib": 439.35568618774414,
+  "stopping": false,
+  "completed": 0,
+  "failed": 0,
+  "queued": 1
+}

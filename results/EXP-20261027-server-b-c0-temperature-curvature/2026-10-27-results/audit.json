@@ -1,0 +1,609 @@
+{
+  "passed": true,
+  "audited_at": "2026-10-27T09:27:03.799834+00:00",
+  "source_digest": "9ab393f119fb7fcb5939931f5e83a8dd53aeb54e6322bb33c918a84f636e7af1",
+  "code_unchanged": true,
+  "legacy_source_unchanged": true,
+  "input_stats_unchanged": true,
+  "tests_passed": 23,
+  "one_factor_comparisons": 117,
+  "completed": 65,
+  "failed": 0,
+  "total_updates": 627900,
+  "planned_updates": 627900,
+  "artifacts_hash_checked": 2925,
+  "bytes_hash_checked": 59724607943,
+  "final_and_selected_feature_geometry_recomputed": true,
+  "retrieval_from_saved_exact_ranks_verified": true,
+  "best_selection_verified": true,
+  "actual_projection_dtype": "float16",
+  "actual_geometry_dtype": "float32",
+  "launch_count": 65,
+  "all_registered_pids_exited": true,
+  "peak_concurrent": 32,
+  "peak_concurrent_per_card": {
+    "0": 4,
+    "1": 4,
+    "5": 4,
+    "3": 4,
+    "6": 4,
+    "2": 4,
+    "7": 4,
+    "4": 4
+  },
+  "admission_boundaries_verified": true,
+  "runtime_memory_scope": "Runtime guard in sealed code; admission records and final status verified, not a continuous hardware trace",
+  "diagnostic_errors": [],
+  "nonfinite_probe_points": [],
+  "baseline_reproduction": [
+    {
+      "lambda_value": 0.0,
+      "weights_bitwise_equal": true,
+      "max_parameter_difference": 0.0,
+      "retrieval_equal": true,
+      "geometry_equal": true,
+      "R1": 18.84765625,
+      "legal_S": 0.0
+    },
+    {
+      "lambda_value": 0.1,
+      "weights_bitwise_equal": true,
+      "max_parameter_difference": 0.0,
+      "retrieval_equal": true,
+      "geometry_equal": true,
+      "R1": 18.660481770833332,
+      "legal_S": 0.0
+    },
+    {
+      "lambda_value": 0.5,
+      "weights_bitwise_equal": true,
+      "max_parameter_difference": 0.0,
+      "retrieval_equal": true,
+      "geometry_equal": true,
+      "R1": 16.145833333333332,
+      "legal_S": 0.0
+    },
+    {
+      "lambda_value": 1.0,
+      "weights_bitwise_equal": true,
+      "max_parameter_difference": 0.0,
+      "retrieval_equal": true,
+      "geometry_equal": true,
+      "R1": 13.18359375,
+      "legal_S": 1.3617621527777777
+    },
+    {
+      "lambda_value": 2.0,
+      "weights_bitwise_equal": true,
+      "max_parameter_difference": 0.0,
+      "retrieval_equal": true,
+      "geometry_equal": true,
+      "R1": 10.294596354166666,
+      "legal_S": 27.571614583333332
+    }
+  ],
+  "readiness_timestamps_verified": true,
+  "scale_matched_auxiliary_pairs": 20,
+  "runs": [
+    {
+      "condition": "C0_l0__T_t002",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__T_t0035",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__T_t007dsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__T_t007",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__T_t007xsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__T_t014",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__C_c025",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__C_c05",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__C_c2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__C_c4",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l0__L_c0t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.271484375
+    },
+    {
+      "condition": "C0_l0__L_c1t0",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.275390625
+    },
+    {
+      "condition": "C0_l0__L_c1t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.27734375
+    },
+    {
+      "condition": "C0_l01__T_t002",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__T_t0035",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__T_t007dsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__T_t007",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__T_t007xsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__T_t014",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__C_c025",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__C_c05",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__C_c2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__C_c4",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l01__L_c0t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.271484375
+    },
+    {
+      "condition": "C0_l01__L_c1t0",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.275390625
+    },
+    {
+      "condition": "C0_l01__L_c1t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.27734375
+    },
+    {
+      "condition": "C0_l05__T_t002",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__T_t0035",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__T_t007dsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__T_t007",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__T_t007xsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__T_t014",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__C_c025",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__C_c05",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__C_c2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__C_c4",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l05__L_c0t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.271484375
+    },
+    {
+      "condition": "C0_l05__L_c1t0",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.275390625
+    },
+    {
+      "condition": "C0_l05__L_c1t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.27734375
+    },
+    {
+      "condition": "C0_l1__T_t002",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__T_t0035",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__T_t007dsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__T_t007",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__T_t007xsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__T_t014",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__C_c025",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__C_c05",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__C_c2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__C_c4",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l1__L_c0t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.271484375
+    },
+    {
+      "condition": "C0_l1__L_c1t0",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.275390625
+    },
+    {
+      "condition": "C0_l1__L_c1t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.27734375
+    },
+    {
+      "condition": "C0_l2__T_t002",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__T_t0035",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__T_t007dsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__T_t007",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__T_t007xsqrt2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__T_t014",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__C_c025",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__C_c05",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__C_c2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__C_c4",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.26953125
+    },
+    {
+      "condition": "C0_l2__L_c0t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.271484375
+    },
+    {
+      "condition": "C0_l2__L_c1t0",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.275390625
+    },
+    {
+      "condition": "C0_l2__L_c1t1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.27734375
+    }
+  ]
+}

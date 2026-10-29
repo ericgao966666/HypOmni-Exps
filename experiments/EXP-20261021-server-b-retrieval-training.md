@@ -1,6 +1,6 @@
 # 低维检索：64D双曲略优，跨维度优势尚不稳定
 
-[返回实验总览](../README.md) · `EXP-20261021-server-b-retrieval-training` · 结果核对：2026-10-25 07:22 UTC；文档整理：2026-10-26
+[返回实验总览](../README.md) · `EXP-20261021-server-b-retrieval-training` · 结果汇总：2026-10-25；完成范围重新核对：2026-10-28 UTC
 
 **64D双曲有锥R@1为22.13%，比欧氏高0.32个百分点，比PMRL高0.34个百分点；32/128/512D均是欧氏更好。严格锥包含率仍为0%。** 五方法64D结果完整，跨维度共14/20个选定条件有最终测试，另有2个历史R0对照。
 
@@ -70,3 +70,13 @@
 [完整结果说明](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/README.md) · [汇总CSV](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/test_macro.csv) · [六方向CSV](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/test_directions.csv) · [原始测试JSON](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/) · [全体选择锁](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/SELECTIONS_LOCKED.json) · [R0对照](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/baseline_r0_64d.json)。
 
 [运行索引](../runs/EXP-20261021-server-b-retrieval-training/README.md)及历史快照保留数据、源码和检查点来源；结果依据记录中的实际运行源码快照，不以当前代码HEAD替代。
+
+## 2026-10-28记录核对与补充对照
+
+本机method_evaluations仍为14个选定条件加2个历史R0结果，VAST/PMRL的32/128/512D共6项缺失。[重新核对清单](../results/EXP-20261021-server-b-retrieval-training/2026-10-28-status-audit/evaluation_inventory.json)按文件存在和哈希核验，不把历史中断原因或PID当作当前监控。
+
+10月27日补充的[五方法完整测试展示](../results/EXP-20261021-server-b-retrieval-training/2026-10-27-five-method-tests/README.md)、[同方案与半径对照](../results/EXP-20261021-server-b-retrieval-training/2026-10-27-matched-recipes/README.md)、[独立半径纵轴图](../results/EXP-20261021-server-b-retrieval-training/2026-10-27-baseline-radius-axis/README.md)一并保留。
+
+10月28日新增64D R3 λ=.2、c/τ均可学习的单seed候选，预算为8轮warmup＋30轮冻结＋10轮微调；目前只有运行记录，不能替代原验证锁定方案或宣称产生新收益。与同R3欧氏比较时，欧氏温度固定，因此不是纯曲率消融。[运行与协议](../runs/EXP-20261021-server-b-retrieval-training/20261028T123204-server-b-r3-d64-lambda02-learnct-seed50.md)。
+
+合并前本地卡片的完整过程与负结果保留在[本地历史附录](../runs/EXP-20261021-server-b-retrieval-training/history-local-before-reconciliation-20261028.md)，远端旧过程附录亦保留。

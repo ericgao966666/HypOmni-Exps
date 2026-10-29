@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "settings": {
+    "vision_frames": 2,
+    "audio_windows": 1,
+    "max_caption_len": 40
+  },
+  "cache_settings": {
+    "version": 1,
+    "candidate_frames": 32,
+    "short_edge": 256,
+    "resize": "bilinear",
+    "audio_melbins": 64,
+    "audio_target_length": 1024,
+    "audio_mean": 15.41663,
+    "audio_std": 6.55582,
+    "sample_rate": 16000,
+    "frame_length": 25,
+    "frame_shift": 10,
+    "vision_mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "vision_std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ]
+  },
+  "counts": {
+    "train": 7427,
+    "val": 500,
+    "test": 884
+  },
+  "candidate_counts": {
+    "train": 7427,
+    "val": 500,
+    "test": 884
+  },
+  "excluded": 0,
+  "manifest_hashes": {
+    "train": "ba439af88a8b3dc2b1e1f5f52f13d94a0d39bef4c363e1dea9dace090d54dfbd",
+    "val": "0bcf10b3b672b5e7bd94a8e859b2e8cec1e5514f1d027cecb49a7ac2032e54eb",
+    "test": "320cb63ab98bb46a40f7ad7b9f90799a9d00c9e37c8d481c10e383bec063e015"
+  },
+  "token_ids_sha256": "6822af9420c4802eccf4c6107498111d70b5f7be5d76beb2f528dc2415fe20e5",
+  "token_mask_sha256": "d4aba192ce1858c0491dc933292a6cf7c4b79eda7e5d4d32cd956d2e1c05d5ea",
+  "sources": {
+    "video": {
+      "root": "data",
+      "path": "PMRL/datasets/MSRVTT/videos/videos"
+    },
+    "audio": {
+      "root": "data",
+      "path": "PMRL/datasets/MSRVTT/audios"
+    },
+    "audio_extension": "mp3"
+  }
+}

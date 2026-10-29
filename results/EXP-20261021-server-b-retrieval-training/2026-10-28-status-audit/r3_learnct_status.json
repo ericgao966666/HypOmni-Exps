@@ -1,0 +1,27 @@
+{
+  "stage": "joint",
+  "pid": 3085780,
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+    "-u",
+    "-B",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/r3_64d_learned_ct_lambda02_20261028/train.py",
+    "--method",
+    "hyp_cone",
+    "--dimension",
+    "64",
+    "--seed",
+    "50",
+    "--recipe",
+    "R3",
+    "--stage",
+    "joint",
+    "--devices",
+    "2"
+  ],
+  "gpu": "2",
+  "port": null,
+  "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/r3_64d_learned_ct_lambda02_20261028/logs/joint_1793191358166427688.log",
+  "started": "2026-10-28T12:42:38.167166+00:00",
+  "status": "running"
+}

@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-28T12:38:07.289516+00:00",
+  "selected_condition_count": 14,
+  "historical_R0_count": 2,
+  "files": [
+    {
+      "name": "euc_none_d128_s50_R1.json",
+      "sha256": "beb7eca0fc591e39f089396fbccbf78042408a8513b317b6de51be9d5dbff3f0"
+    },
+    {
+      "name": "euc_none_d32_s50_R1.json",
+      "sha256": "8ba86bee8d459d54f9508978304073766ddef593f1994a9720e3bf83b15190ce"
+    },
+    {
+      "name": "euc_none_d512_s50_R1.json",
+      "sha256": "8387804deaee2f8089a0618fc1b8f08d42db7f24e96f8f1d78a8879cf3c39e9a"
+    },
+    {
+      "name": "euc_none_d64_s50_R0.json",
+      "sha256": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03"
+    },
+    {
+      "name": "euc_none_d64_s50_R1.json",
+      "sha256": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd"
+    },
+    {
+      "name": "gram_d128_s50_R1.json",
+      "sha256": "a62dfd2f3ed04602e17405cce98f9b9a6ecdc383763fb5e87d3fd4c37fef82e1"
+    },
+    {
+      "name": "gram_d32_s50_R1.json",
+      "sha256": "6b00eca4c237d7114e994176576e56c3f27c8712dfbb75884e1ac1c59a1b58b7"
+    },
+    {
+      "name": "gram_d512_s50_R1.json",
+      "sha256": "ff0027ef69bd1cb5a58399d563d56faffd1930de89e8cd26dffedd164f586234"
+    },
+    {
+      "name": "gram_d64_s50_R1.json",
+      "sha256": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f"
+    },
+    {
+      "name": "hyp_cone_d128_s50_R1.json",
+      "sha256": "ec2d5f689651cf9978eedec5d8f92a674feb878102681db0a937b07f6bc42cde"
+    },
+    {
+      "name": "hyp_cone_d32_s50_R1.json",
+      "sha256": "bd143e5c707bfd2e1a48d4b8116bd470fc77165b6ebad81b8c82795938aae516"
+    },
+    {
+      "name": "hyp_cone_d512_s50_R1.json",
+      "sha256": "92e329043f220701d4831ff3e9b62170dc9f5770016be07dc031b8b3117e3d90"
+    },
+    {
+      "name": "hyp_cone_d64_s50_R0.json",
+      "sha256": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722"
+    },
+    {
+      "name": "hyp_cone_d64_s50_R1.json",
+      "sha256": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db"
+    },
+    {
+      "name": "pmrl_d64_s50_R3.json",
+      "sha256": "9ffa71228730b9815ae54fbc80223f5998bc90234829c6c314d6dc017dccaee8"
+    },
+    {
+      "name": "vast_d64_s50_R3.json",
+      "sha256": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1"
+    }
+  ],
+  "missing_selected_conditions": [
+    "vast_d32_s50_R3",
+    "vast_d128_s50_R3",
+    "vast_d512_s50_R3",
+    "pmrl_d32_s50_R3",
+    "pmrl_d128_s50_R3",
+    "pmrl_d512_s50_R3"
+  ]
+}

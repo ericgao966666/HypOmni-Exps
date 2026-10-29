@@ -1,0 +1,8 @@
+{
+  "horopca_objective_abs_error": 0.0,
+  "horopca_gradient_max_error": 1.8214596497756474e-17,
+  "lorentz_ball_distance_max_error": 5.051514762044462e-15,
+  "cosne_interior_updates_exact_agreement": true,
+  "radial_boundary_projection_inside_ball": true,
+  "native_edge_metrics_max_error": 0.0
+}

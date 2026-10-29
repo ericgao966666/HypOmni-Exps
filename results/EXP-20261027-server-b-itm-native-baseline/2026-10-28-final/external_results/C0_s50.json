@@ -1,0 +1,69 @@
+{
+  "pid": 2459295,
+  "gpu": "2",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_native_baseline_v2/external_eval.py",
+    "--run-id",
+    "C0_s50",
+    "--device",
+    "2"
+  ],
+  "started_unix": 1793159304.4403772,
+  "passed": true,
+  "selection_sha256": "79a7312a36f5df16c34a07d4c64069b024fa2f0a1ad3a387c0e2d5d4e835d4e2",
+  "model": {
+    "path": "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/runs/cal_lr1e5_s50/step_2000.pt",
+    "sha256": "55a4f00277f7efa5c048a0e4069ec1f1bdaa2daf72ce9434b27d5ac4a1c9c69a",
+    "step": 2000
+  },
+  "metrics": {
+    "msrvtt": {
+      "t2va": {
+        "R@1": 46.94570004940033,
+        "R@5": 69.45701241493225,
+        "R@10": 78.05429697036743,
+        "query_count": 884,
+        "candidate_count": 884,
+        "candidate_recall": 83.93665313720703
+      },
+      "va2t": {
+        "R@1": 45.02262473106384,
+        "R@5": 67.08144545555115,
+        "R@10": 75.11312365531921,
+        "query_count": 884,
+        "candidate_count": 884,
+        "candidate_recall": 82.01358032226562
+      },
+      "main_mean": {
+        "R@1": 45.984162390232086,
+        "R@5": 68.2692289352417,
+        "R@10": 76.58371031284332
+      }
+    },
+    "vatex": {
+      "t2va": {
+        "R@1": 72.72058725357056,
+        "R@5": 93.22712421417236,
+        "R@10": 95.84967494010925,
+        "query_count": 12240,
+        "candidate_count": 1224,
+        "candidate_recall": 96.76470947265625
+      },
+      "va2t": {
+        "R@1": 85.45751571655273,
+        "R@5": 97.30392098426819,
+        "R@10": 98.3660101890564,
+        "query_count": 1224,
+        "candidate_count": 12240,
+        "candidate_recall": 99.10130310058594
+      },
+      "main_mean": {
+        "R@1": 79.08905148506165,
+        "R@5": 95.26552259922028,
+        "R@10": 97.10784256458282
+      }
+    }
+  },
+  "finished_unix": 1793160909.0699077,
+  "external_cache_sha256": "c3d5de8f3085423f58474c97945717a6a3238af95658747949d5625c1a0d5251"
+}

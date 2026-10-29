@@ -1,0 +1,13 @@
+{
+  "pid": 1764758,
+  "gpu": "4",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_native_baseline_v2/runner.py",
+    "--spec",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/specs/N_t_s50.json",
+    "--device",
+    "4"
+  ],
+  "started_unix": 1793123605.491277,
+  "execution_source_digest": "440d0a582c01543938f180274240cfff0773130833d525c9f943b9ee49042147"
+}

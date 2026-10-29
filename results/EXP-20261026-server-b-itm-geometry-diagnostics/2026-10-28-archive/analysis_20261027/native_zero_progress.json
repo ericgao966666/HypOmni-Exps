@@ -1,0 +1,1 @@
+{"pid": 818757, "gpu": 1, "started_unix": 1793082560.3220375, "purpose": "zero-update native VAST matcher; VAST validation only", "batches": 16384, "total_batches": 16384, "elapsed_seconds": 545.9807597969193}

@@ -1,0 +1,14 @@
+{
+  "lorentz.py": {
+    "url": "https://raw.githubusercontent.com/facebookresearch/meru/6d4430055f58354539f68668175135256f99d47f/meru/lorentz.py",
+    "revision": "6d4430055f58354539f68668175135256f99d47f",
+    "sha256": "bd02210a14a4ca84c9eb24e7aad9b07ad42df5369d68124cf44d5ae07ba496f1",
+    "bytes": 7672
+  },
+  "MERU_LICENSE": {
+    "url": "https://raw.githubusercontent.com/facebookresearch/meru/6d4430055f58354539f68668175135256f99d47f/LICENSE",
+    "revision": "6d4430055f58354539f68668175135256f99d47f",
+    "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "bytes": 19346
+  }
+}

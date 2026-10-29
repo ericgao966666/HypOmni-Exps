@@ -1,0 +1,20 @@
+{
+  "metrics": {
+    "i2t_r1": 14.86,
+    "i2t_r10": 39.78,
+    "i2t_r5": 31.46,
+    "mean_r5": 30.7,
+    "t2i_r1": 13.9,
+    "t2i_r10": 39.14,
+    "t2i_r5": 29.94
+  },
+  "step": 5000,
+  "arm": "hycoclip_native_hyperbolic_s1_w0.2",
+  "stage": "frozen",
+  "status": {
+    "convergence_claim": false,
+    "fixed_budget_complete": true,
+    "protocol": "79c718455a90d7d2256aba76d54b84085c1be108e4c360796e32727231a650a3",
+    "step": 5000
+  }
+}

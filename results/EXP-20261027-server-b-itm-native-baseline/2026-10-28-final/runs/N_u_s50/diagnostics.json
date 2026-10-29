@@ -1,0 +1,52 @@
+{
+  "uniform": {
+    "heads": {
+      "tva": {
+        "AUROC": 0.9829425811767578,
+        "positive_count": 512,
+        "negative_count": 512
+      },
+      "tv": {
+        "AUROC": 0.9900166392326355,
+        "positive_count": 640,
+        "negative_count": 384
+      },
+      "ta": {
+        "AUROC": 0.8825337290763855,
+        "positive_count": 640,
+        "negative_count": 384
+      }
+    },
+    "tva_by_pattern": {
+      "112": 0.9590225219726562,
+      "121": 0.9930038452148438,
+      "122": 0.982666015625,
+      "123": 0.9970779418945312
+    }
+  },
+  "hard": {
+    "heads": {
+      "tva": {
+        "AUROC": 0.7861156463623047,
+        "positive_count": 512,
+        "negative_count": 512
+      },
+      "tv": {
+        "AUROC": 0.844158947467804,
+        "positive_count": 640,
+        "negative_count": 384
+      },
+      "ta": {
+        "AUROC": 0.70599365234375,
+        "positive_count": 640,
+        "negative_count": 384
+      }
+    },
+    "tva_by_pattern": {
+      "112": 0.6338272094726562,
+      "121": 0.7329483032226562,
+      "122": 0.780609130859375,
+      "123": 0.9970779418945312
+    }
+  }
+}

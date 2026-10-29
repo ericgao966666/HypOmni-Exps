@@ -1,0 +1,36 @@
+{
+  "pid": 818757,
+  "gpu": 1,
+  "started_unix": 1793082560.3220375,
+  "purpose": "zero-update native VAST matcher; VAST validation only",
+  "metrics": {
+    "t2va": {
+      "R@1": 35.986328125,
+      "R@5": 59.423828125,
+      "R@10": 69.53125,
+      "candidate_recall": 84.27734375
+    },
+    "va2t": {
+      "R@1": 27.197265625,
+      "R@5": 50.09765625,
+      "R@10": 64.892578125,
+      "candidate_recall": 84.27734375
+    },
+    "main_mean": {
+      "R@1": 31.591796875,
+      "R@5": 54.7607421875,
+      "R@10": 67.2119140625
+    }
+  },
+  "updates": 0,
+  "checkpoint_sha256": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5",
+  "candidates_sha256": "28d4b11e8bb7715c05f4ab8bb9aab3f99eca234e3925074465f882dd2f024a7b",
+  "source_sha256": {
+    "native_matcher.py": "b4aae61de0b65e2efed9b9ae5a7badf08ca62d796c482cbc88834208b944b18a",
+    "evaluate_matcher.py": "54f550782e2fb8ecb1bc62e9644d4787d08cca334929b00efa5e4f5a1d4f20c0",
+    "cache_reader.py": "6de3ebf48e2e3ed87bc7468493555d985cf9c6cf6d7d8cff77b9be057cb021e2"
+  },
+  "elapsed_seconds": 546.0409566999879,
+  "finished_unix": 1793083106.3629918,
+  "peak_reserved_gib": 1.1171875
+}

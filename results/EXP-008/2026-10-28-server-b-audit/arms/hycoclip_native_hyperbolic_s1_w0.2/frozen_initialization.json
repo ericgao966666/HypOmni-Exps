@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "id": "hycoclip_native_hyperbolic_s1_w0.2",
+    "role": "main",
+    "schedule_sha256": "a4fd04172bb4f1209bb18fcc6ccda4a286f975ecb1a6e935d495093c15fb8a50",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 1,
+      "width": 512
+    }
+  },
+  "parameters": 655364,
+  "projection_sha256": "23a1c577c28acb1258af0f457c80237383af9b0cd7cb283104128b9e3ac0d9ce",
+  "stage": "frozen"
+}

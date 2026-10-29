@@ -1,0 +1,9 @@
+control,treatment,factor,label,phi_reduction,psi_widening,gap_reduction
+original,lambda01_tau035,temperature_initial,"Lower tau .07 -> .035
+at lambda=.1, c=1",10.193038940429688,3.4257569313049316,13.618751525878906
+original,lambda02_tau007,cone_weight,"Raise lambda .1 -> .2
+at tau=.07, c=1",30.741249084472656,1.9345827102661133,32.675811767578125
+lambda01_tau035,current_fixed,cone_weight,"Raise lambda .1 -> .2
+at tau=.035, c=1",27.342628479003906,2.3546900749206543,29.69733428955078
+lambda01_joint,current_learned,cone_weight,"Raise lambda .1 -> .2
+with both c and tau learned",27.6771240234375,2.9791812896728516,30.65630340576172

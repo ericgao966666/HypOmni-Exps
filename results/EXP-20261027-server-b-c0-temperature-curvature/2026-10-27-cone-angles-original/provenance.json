@@ -1,0 +1,212 @@
+{
+  "created_at": "2026-10-27T14:19:41.087915+00:00",
+  "script": "analysis/cone_angles_original_20261027/plot_cone_angles.py",
+  "script_sha256": "84250cac29fe01fb279eda11e9edb03fd5e43f4ff83eb7e0f69f5c9451e42948",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim16_geometry_20261020/.venv/bin/python",
+    "outputs/c0_temperature_curvature_lambda02_20261027/analysis/cone_angles_original_20261027/plot_cone_angles.py"
+  ],
+  "pid": 1523018,
+  "no_gpu_used": true,
+  "source_digest": "7f45a6d35589b8192fc9623fe01ca12c464e31c4d761bbd67fb3420a9bdc28cd",
+  "sources": [
+    {
+      "kind": "DONE.json",
+      "path": "meru512_scale_pretrain_20261026/runs/C0/DONE.json",
+      "sha256": "e954be08cff947c861d780cb99e2f951e5bc249c00894b2267a1f3d1323bd515"
+    },
+    {
+      "kind": "config.json",
+      "path": "meru512_scale_pretrain_20261026/runs/C0/config.json",
+      "sha256": "70ad802d8e18b4a2382c62d3af4cd354fb7be41a785feb7fe36564ab884034c3"
+    },
+    {
+      "kind": "final_metrics.json",
+      "path": "meru512_scale_pretrain_20261026/runs/C0/final_metrics.json",
+      "sha256": "58a97a5c2f2929a7b5b7987ac8bc43a5e1c38f785d5bab2e4921c08076afce46"
+    },
+    {
+      "kind": "final_features.pt",
+      "path": "meru512_scale_pretrain_20261026/runs/C0/final_features.pt",
+      "sha256": "213fcf54ac75583f3e8bea482fa9a48ea1bc2d1a71a7fd4541f06358ef2b5ded"
+    },
+    {
+      "kind": "DONE.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__T_t007/DONE.json",
+      "sha256": "f0571e70d24261f9d28f362d3c748b5c0bf9f2739f16cf4a88dff0b0fdded9c8"
+    },
+    {
+      "kind": "config.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__T_t007/config.json",
+      "sha256": "b175fab0835d1420ac279207b3751bff336a89e7f2b6627dbe16653bf660fb0e"
+    },
+    {
+      "kind": "final_metrics.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__T_t007/final_metrics.json",
+      "sha256": "cbb1ef5ae63a5adae2c10d1706a788896c2b191139bd10c3d7ccd623862161d8"
+    },
+    {
+      "kind": "final_features.pt",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__T_t007/final_features.pt",
+      "sha256": "df32f9adc7680834d87efe4caa14edbc4a4e6531d880ddf12e355fdb36e4a402"
+    },
+    {
+      "kind": "DONE.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__T_t0035/DONE.json",
+      "sha256": "4c40e53736c3b803e41c8b0c41fc2055169a05e21a7abbdab5ae63ac7a4c50c0"
+    },
+    {
+      "kind": "config.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__T_t0035/config.json",
+      "sha256": "cb6f75aa42a6fc614a806efcdc8b8320f9fca068f562ef8f758a16f688bebcd1"
+    },
+    {
+      "kind": "final_metrics.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__T_t0035/final_metrics.json",
+      "sha256": "9c424beb8acc5a8a37d571688aab2287e7fc8fc7619e0b38d9add977ac68bb02"
+    },
+    {
+      "kind": "final_features.pt",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__T_t0035/final_features.pt",
+      "sha256": "7ea26ae138558d070da05dcf7a1838ee73ab6ef14472d8db5ca5c3201e4635b1"
+    },
+    {
+      "kind": "DONE.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t007/DONE.json",
+      "sha256": "afe1523911d9f47c7766ea1cc9067b4307e712af4790efa940520842c79562e5"
+    },
+    {
+      "kind": "config.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t007/config.json",
+      "sha256": "922b531d43b8a63ee58fe1a328ea2fbf707ee644b18e4d93d33f509e0b1ed723"
+    },
+    {
+      "kind": "final_metrics.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t007/final_metrics.json",
+      "sha256": "9710b7bfeee58bfb109b5c989164bdafa1ffd5a4ae965ed0eb218040849d52fc"
+    },
+    {
+      "kind": "final_features.pt",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t007/final_features.pt",
+      "sha256": "9cea6ea41f7e8c7196607389018ec8b4832e8be07aeac10e67e67f85a9c923cd"
+    },
+    {
+      "kind": "DONE.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t0035/DONE.json",
+      "sha256": "bbeb8ab940444fbc2332e016891a21d0b8887ac116226fc18b4846298fafd3c8"
+    },
+    {
+      "kind": "config.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t0035/config.json",
+      "sha256": "ee203dc342a877a7d3dd8c02492d40145671fd86c49243fbcaf5f22a8bbe07b9"
+    },
+    {
+      "kind": "final_metrics.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t0035/final_metrics.json",
+      "sha256": "18b628319bc3c1505e9e061976f7a871a81c72b004aa22bca11b2c9fc0274425"
+    },
+    {
+      "kind": "final_features.pt",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t0035/final_features.pt",
+      "sha256": "3f24210676a3f439b86db0cb3f160ead6ca7da5f411014573a21079727d76dfe"
+    },
+    {
+      "kind": "DONE.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__L_c1t1/DONE.json",
+      "sha256": "946544dde547c4b72f1ca960adfd9fff85a8d42fcdaeb299fc9a0b704544c7f0"
+    },
+    {
+      "kind": "config.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__L_c1t1/config.json",
+      "sha256": "49807d01f4ae9d162d530923b4e73757a17c4d92183776450aea87bbb1c87025"
+    },
+    {
+      "kind": "final_metrics.json",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__L_c1t1/final_metrics.json",
+      "sha256": "e42545464c30a12d6d0524abae3faaf43d7585387b753a2bbc2e52fd39c2c6bc"
+    },
+    {
+      "kind": "final_features.pt",
+      "path": "c0_temperature_curvature_20261027/runs/C0_l01__L_c1t1/final_features.pt",
+      "sha256": "2257f68e62b2891dea3fcb64d50cb882df01b9bcd3cf05d5631fda5ddc0b997b"
+    },
+    {
+      "kind": "DONE.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__L_c1t1/DONE.json",
+      "sha256": "a2609456407855f774f24bcf51bd51fd5b6237b0ae32693dc4054acc08d0c2d9"
+    },
+    {
+      "kind": "config.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__L_c1t1/config.json",
+      "sha256": "9712a7d6a59fa32429213f981f1468ad1314438dcf34bbd02e80a441ff51e2bd"
+    },
+    {
+      "kind": "final_metrics.json",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__L_c1t1/final_metrics.json",
+      "sha256": "61fb79f7c7da2a040b4f5570c6b034b4903e0119659eca147c27858bc62342ab"
+    },
+    {
+      "kind": "final_features.pt",
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__L_c1t1/final_features.pt",
+      "sha256": "5fb616899644f95d48a48a706816544541d1453391f8a249a62d62bd37f954a3"
+    }
+  ],
+  "original_baseline_verification": {
+    "features_bitwise_equal": true,
+    "ids_equal": true,
+    "geometry_equal": true,
+    "retrieval_equal": true,
+    "original_run": "meru512_scale_pretrain_20261026/runs/C0",
+    "reproduced_run": "c0_temperature_curvature_20261027/runs/C0_l01__T_t007"
+  },
+  "readout": "epoch30, seed50, VAST validation2048, 512D, 18432 edges per configuration",
+  "case_labels": {
+    "original": "Original C0\nlambda=.1, c=1, tau=.07",
+    "lambda01_tau035": "lambda=.1, c=1, tau=.035",
+    "lambda02_tau007": "lambda=.2, c=1, tau=.07",
+    "current_fixed": "Current fixed\nlambda=.2, c=1, tau=.035",
+    "lambda01_joint": "lambda=.1, learned c and tau",
+    "current_learned": "Current learned\nlambda=.2, c=.6171, tau=.04365"
+  },
+  "single_factor_checks": [
+    {
+      "control": "original",
+      "treatment": "lambda01_tau035",
+      "factor": "temperature_initial",
+      "label": "Lower tau .07 -> .035\nat lambda=.1, c=1",
+      "phi_reduction": 10.193038940429688,
+      "psi_widening": 3.4257569313049316,
+      "gap_reduction": 13.618751525878906
+    },
+    {
+      "control": "original",
+      "treatment": "lambda02_tau007",
+      "factor": "cone_weight",
+      "label": "Raise lambda .1 -> .2\nat tau=.07, c=1",
+      "phi_reduction": 30.741249084472656,
+      "psi_widening": 1.9345827102661133,
+      "gap_reduction": 32.675811767578125
+    },
+    {
+      "control": "lambda01_tau035",
+      "treatment": "current_fixed",
+      "factor": "cone_weight",
+      "label": "Raise lambda .1 -> .2\nat tau=.035, c=1",
+      "phi_reduction": 27.342628479003906,
+      "psi_widening": 2.3546900749206543,
+      "gap_reduction": 29.69733428955078
+    },
+    {
+      "control": "lambda01_joint",
+      "treatment": "current_learned",
+      "factor": "cone_weight",
+      "label": "Raise lambda .1 -> .2\nwith both c and tau learned",
+      "phi_reduction": 27.6771240234375,
+      "psi_widening": 2.9791812896728516,
+      "gap_reduction": 30.65630340576172
+    }
+  ],
+  "main_comparison": "Original trained C0 endpoint versus two current trained endpoints; multiple factors differ",
+  "schematic_note": "Mean local-angle schematic at parent; arbitrary arrow lengths; not actual sample positions or a low-dimensional embedding projection",
+  "distribution_note": "Intervals are P5-P95 across edges, not confidence intervals; density panels use all 18432 angle pairs and common binning/count normalization"
+}

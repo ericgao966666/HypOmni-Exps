@@ -1,0 +1,16 @@
+{
+  "pid": 1269534,
+  "gpu": "2",
+  "method": "vast",
+  "started_unix": 1793106323.6618295,
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_author_baselines_20261027/benchmark.py",
+    "--method",
+    "vast",
+    "--device",
+    "2"
+  ],
+  "passed": true,
+  "result_sha256": "d5dfe224d64254059d01b612226b241176213bb9d029dad39b75a3c5e6b2b822",
+  "finished_unix": 1793107388.6459866
+}

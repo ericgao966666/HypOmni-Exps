@@ -1,0 +1,253 @@
+{
+  "schema_version": 2,
+  "datasets": {
+    "msrvtt": {
+      "vision_frames": 2,
+      "audio_windows": 1,
+      "max_caption_len": 40
+    },
+    "activitynet": {
+      "vision_frames": 8,
+      "audio_windows": 2,
+      "max_caption_len": 160
+    }
+  },
+  "methods": [
+    "hyp_cone"
+  ],
+  "dimensions": [
+    64
+  ],
+  "seed": 50,
+  "epochs": 10,
+  "global_batch": 64,
+  "learning_rate": 2e-05,
+  "vision_learning_rate": 5e-07,
+  "betas": [
+    0.9,
+    0.98
+  ],
+  "weight_decay": 0.01,
+  "warmup_fraction": 0.05,
+  "grad_clip": 2.0,
+  "cache": {
+    "version": 1,
+    "candidate_frames": 32,
+    "short_edge": 256,
+    "resize": "bilinear",
+    "audio_melbins": 64,
+    "audio_target_length": 1024,
+    "audio_mean": 15.41663,
+    "audio_std": 6.55582,
+    "sample_rate": 16000,
+    "frame_length": 25,
+    "frame_shift": 10,
+    "vision_mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "vision_std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ]
+  },
+  "temperature": 0.07,
+  "curvature": 1.0,
+  "hyperbolic_K": 0.1,
+  "euclidean_K": 0.2,
+  "radius_min": 0.21,
+  "radius_max": 4.0,
+  "entailment_weight": 0.2,
+  "pair_mode": "minimal9",
+  "early_stopping": false,
+  "selection": "Preselected R3 only. Warmup final -> VAST validation best -> MSRVTT validation best; fixed epoch budgets, strict R@1 improvement as parent.",
+  "initialization": "Pretrained encoders; train-only nested PCA; identical VAST-initialized seven heads and radius=1 for all four geometry arms.",
+  "inference": "Six directions, no ITM: native cosine / hyperbolic geodesic / Euclidean distance.",
+  "execution_policy": "Direct authorized GPUs with used memory <40 GiB, no profiling or GPU preflight",
+  "model_cfg": {
+    "model_type": "lorentz_omnimodal",
+    "itm_ratio": 0.1,
+    "frozen_vision": false,
+    "frozen_audio": false,
+    "checkpointing": true,
+    "max_caption_len": 40,
+    "max_omni_caption_len": 70,
+    "max_subtitle_len": 70,
+    "contra_dim": 512,
+    "inherit_keys": [
+      "vision_encoder_type",
+      "audio_encoder_type",
+      "audio_melbins",
+      "audio_target_length"
+    ],
+    "frame_embedding_type": "adaptive",
+    "vision_resolution": 224,
+    "vision_encoder_type": "evaclip01_giant",
+    "audio_encoder_type": "beats",
+    "audio_melbins": 64,
+    "audio_target_length": 1024,
+    "beam_size": 3,
+    "captioner_mode": false,
+    "generate_nums": 1,
+    "ret_bidirection_evaluation": false,
+    "itm_rerank_num": 50,
+    "evaluation_type": "evaluation_mm",
+    "tau1": 0.5,
+    "tau2": 0.1,
+    "lambda_itm": 0.1,
+    "hyperbolic_spectral_temperature": 0.02,
+    "hyperbolic_spectral_anchor": "text",
+    "hyperbolic_entailment_weight": 0.0,
+    "hyperbolic_entailment_min_radius": 0.1,
+    "hyperbolic_entailment_edges": [],
+    "hyperbolic_mapping": "direction_radius",
+    "hyperbolic_score": "spectral",
+    "hyperbolic_score_transform": "distance",
+    "hyperbolic_contrast": "text_vs_va",
+    "hyperbolic_temperature": 0.03,
+    "hyperbolic_curvature_init": 1.0,
+    "hyperbolic_learn_curvature": true,
+    "hyperbolic_scale_multiplier": 1,
+    "hyperbolic_consensus_weight": 0.0,
+    "hyperbolic_entailment_parent": "modality_edges",
+    "hyperbolic_parent_contraction": 1.0,
+    "hyperbolic_parent_floor_margin": 0.001,
+    "ret_pairwise_stage1_train": false,
+    "hyperbolic_subset_seed": 50
+  },
+  "input_dims": {
+    "t": 768,
+    "v": 1408,
+    "a": 768
+  },
+  "checkpoints": {
+    "vast": {
+      "root": "data",
+      "path": "PMRL/models/model_weights/pretrain_vast/ckpt/model_step_204994.pt"
+    },
+    "gram": {
+      "root": "data",
+      "path": "lowdim_resources_20261019/weights/gram_model_step_459.pt"
+    },
+    "pmrl": {
+      "root": "data",
+      "path": "lowdim_resources_20261019/weights/pmrl_base.pt"
+    }
+  },
+  "assets": {
+    "root": "data",
+    "path": "PMRL/models/pretrained_weights"
+  },
+  "gram_hps": {
+    "model_cfg": {
+      "model_type": "vast",
+      "itm_ratio": 0.1,
+      "frozen_vision": false,
+      "frozen_audio": false,
+      "checkpointing": true,
+      "max_caption_len": 40,
+      "max_omni_caption_len": 70,
+      "max_subtitle_len": 70,
+      "contra_dim": 512,
+      "inherit_keys": [
+        "vision_encoder_type",
+        "audio_encoder_type",
+        "audio_melbins",
+        "audio_target_length"
+      ],
+      "frame_embedding_type": "adaptive",
+      "vision_resolution": 224,
+      "vision_encoder_type": "evaclip01_giant",
+      "audio_encoder_type": "beats",
+      "audio_melbins": 64,
+      "audio_target_length": 1024,
+      "beam_size": 3,
+      "captioner_mode": false,
+      "generate_nums": 1,
+      "ret_bidirection_evaluation": true,
+      "itm_rerank_num": 50,
+      "evaluation_type": "evaluation_mm",
+      "max_vision_sample_num": 8,
+      "max_audio_sample_num": 1
+    }
+  },
+  "author_sources": {
+    "vast": {
+      "root": "authors",
+      "path": "VAST"
+    },
+    "gram": {
+      "root": "authors",
+      "path": "GRAM"
+    }
+  },
+  "checkpoint_sha256": {
+    "vast": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5",
+    "gram": "070c4b25a12f0a2861ced77d9bbe871e649f9be5b390e680e6049114a51b99d5",
+    "pmrl": "78ab07cf45f9465fcd1cb0a01b7c32ec83a467e642338a67bd6079bdb21b8836"
+  },
+  "seeds": [
+    50
+  ],
+  "pilot_dimension": 64,
+  "replicate_dimensions": [
+    64
+  ],
+  "recipes": {
+    "R0": {
+      "epochs": 10,
+      "head_lr": 2e-05
+    },
+    "R1": {
+      "epochs": 30,
+      "head_lr": 2e-05
+    },
+    "R2": {
+      "epochs": 10,
+      "head_lr": 0.0001
+    },
+    "R3": {
+      "epochs": 10,
+      "head_lr": 2e-05,
+      "pretraining": {
+        "warmup_epochs": 8,
+        "warmup_lr": 0.0003,
+        "epochs": 30,
+        "lr": 0.0001,
+        "global_batch": 256
+      }
+    }
+  },
+  "resource_policy": {
+    "allocation_cap_gib": 40,
+    "headroom_gib": 8,
+    "disk_reserve_gib": 40,
+    "max_jobs": 1
+  },
+  "legacy_suites": {
+    "64": "/data0/xiaobo.xia/yuxuan.gao/lowdim_finetune_64d_20261020",
+    "default": "/data0/xiaobo.xia/yuxuan.gao/lowdim_finetune_20261019"
+  },
+  "sampling_seed_policy": "Train augmentation/shuffle/dropout use run seed; evaluation augmentation remains seed50.",
+  "learn_curvature": true,
+  "learn_temperature": true,
+  "experiment": "64D R3 lambda=.2 learned curvature and temperature",
+  "scalar_optimizer": {
+    "lr": "same stage head LR",
+    "weight_decay": 0.0,
+    "curvature_bounds": [
+      0.1,
+      10.0
+    ],
+    "temperature_min": 0.01,
+    "active_stages": [
+      "warmup",
+      "frozen",
+      "joint"
+    ]
+  },
+  "comparison": "Existing R3 euc_none and hyp_cone seed50, same validation IDs and budgets. Historical Euclidean temperature fixed at .07; this is a recipe comparison, not a pure curvature ablation.",
+  "parent_protocol_sha256": "a1f26dc4dc2735dc93a462e2123c4426f390efc9546d578fcea4be787eaf58f0"
+}

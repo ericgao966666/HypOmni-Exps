@@ -1,0 +1,16 @@
+{
+  "pid": 1269536,
+  "gpu": "6",
+  "method": "pmrl",
+  "started_unix": 1793106324.2418303,
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_author_baselines_20261027/benchmark.py",
+    "--method",
+    "pmrl",
+    "--device",
+    "6"
+  ],
+  "passed": true,
+  "result_sha256": "0588a74572bf0c70e6ad5dcb4d604165c362e9baf7d0586208e47742d7c59905",
+  "finished_unix": 1793107163.8732781
+}

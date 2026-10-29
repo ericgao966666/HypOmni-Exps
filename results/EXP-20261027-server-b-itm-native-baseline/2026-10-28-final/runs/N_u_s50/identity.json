@@ -1,0 +1,45 @@
+{
+  "spec": {
+    "family": "N_u",
+    "lr": 1e-05,
+    "steps": 2000,
+    "seed": 50,
+    "source": "E1-u",
+    "weights": {
+      "tva": 1.0
+    },
+    "rho": 0.0,
+    "parent": "C0",
+    "single_change": "negative provenance quotas",
+    "stage": "screen",
+    "tuple_batch": 96,
+    "microbatch": 8,
+    "tva_views_per_update": 96,
+    "total_views_per_update": 96,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "weight_decay": 0.01,
+    "checkpoint_every": 100,
+    "validation_every": 500,
+    "inference": "tva logit only; fixed top32",
+    "geometry_input": false,
+    "geometry_loss": false,
+    "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+  },
+  "source_digest": "440d0a582c01543938f180274240cfff0773130833d525c9f943b9ee49042147",
+  "inputs": {
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/raw_tokens_v1/READY.json": "d673ace8b3f810544287a17f9b5f5e119a1ae8f097d27a781e28c2aef72e6b36",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/raw_tokens_v1/identity.json": "e9556279a3a348150e0ba831bac89fcbd5e38594b0f87e4e773ab213e2ddcf9a",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/itc_nodes_v1/READY.json": "225130cc932e0268b1ad81cf54cd2f2bfe1c4e17d3a4d15f1588501d6386a3fb",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/itc_nodes_v1/identity.json": "927af9f3789fddc7fd335416c09167d4ffe746b9965358984d05f1d732b9ce80",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/frozen_trunk_v1/lock.json": "a7f25302f514a72f72fd797a53168284766f33862af0e5d2669b34603d34017e",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/frozen_trunk_v1/val_candidates.pt": "28d4b11e8bb7715c05f4ab8bb9aab3f99eca234e3925074465f882dd2f024a7b",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_hierarchy/uniform_diagnostics.json": "0002afa1e1e723c52fd75a42e22b0793d2ec54c67a15dacaf3cded2a65acfbfe",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_hierarchy/hard_diagnostics.json": "2cf00d88a9e68791ea7a1ddbcff5b5a06326079b5a094630373a4003544cf6fa",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_hierarchy/analysis_20261027/native_zero_validation.json": "d4573c457e00484cdd423ee5499acc76a56d81a491889271eeedb0f8621ff8f3"
+  },
+  "reference": null
+}

@@ -1,0 +1,1006 @@
+{
+  "launches": [
+    {
+      "condition": "C0_l02__T_t007",
+      "device": 2,
+      "pid": 1192609,
+      "start_ticks": 87225772,
+      "run_id": "20261027T115720-server-b-C0_l02__T_t007-142837",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__T_t007",
+        "--device",
+        "2",
+        "--run-id",
+        "20261027T115720-server-b-C0_l02__T_t007-142837"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115720-server-b-C0_l02__T_t007-142837.log",
+      "started_unix": 1793102240.5926948,
+      "started_at": "2026-10-27T11:57:20.592703+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 9.3466796875,
+        "free": 85.625,
+        "total": 95.5927734375,
+        "utilization": 31.0
+      }
+    },
+    {
+      "condition": "C0_l02__T_t002",
+      "device": 7,
+      "pid": 1192759,
+      "start_ticks": 87227865,
+      "run_id": "20261027T115741-server-b-C0_l02__T_t002-609052",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__T_t002",
+        "--device",
+        "7",
+        "--run-id",
+        "20261027T115741-server-b-C0_l02__T_t002-609052"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t002-609052.log",
+      "started_unix": 1793102261.5292244,
+      "started_at": "2026-10-27T11:57:41.529233+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 10.474609375,
+        "free": 84.4970703125,
+        "total": 95.5927734375,
+        "utilization": 84.0
+      }
+    },
+    {
+      "condition": "C0_l02__T_t0035",
+      "device": 3,
+      "pid": 1192762,
+      "start_ticks": 87227876,
+      "run_id": "20261027T115741-server-b-C0_l02__T_t0035-943536",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__T_t0035",
+        "--device",
+        "3",
+        "--run-id",
+        "20261027T115741-server-b-C0_l02__T_t0035-943536"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t0035-943536.log",
+      "started_unix": 1793102261.6301463,
+      "started_at": "2026-10-27T11:57:41.630155+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 6.671875,
+        "free": 88.2998046875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "C0_l02__T_t007dsqrt2",
+      "device": 0,
+      "pid": 1192765,
+      "start_ticks": 87227886,
+      "run_id": "20261027T115741-server-b-C0_l02__T_t007dsqrt2-911910",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__T_t007dsqrt2",
+        "--device",
+        "0",
+        "--run-id",
+        "20261027T115741-server-b-C0_l02__T_t007dsqrt2-911910"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t007dsqrt2-911910.log",
+      "started_unix": 1793102261.7392116,
+      "started_at": "2026-10-27T11:57:41.739216+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 0,
+        "used": 22.1865234375,
+        "free": 72.7841796875,
+        "total": 95.5927734375,
+        "utilization": 88.0
+      }
+    },
+    {
+      "condition": "C0_l02__T_t007xsqrt2",
+      "device": 6,
+      "pid": 1192768,
+      "start_ticks": 87227898,
+      "run_id": "20261027T115741-server-b-C0_l02__T_t007xsqrt2-247612",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__T_t007xsqrt2",
+        "--device",
+        "6",
+        "--run-id",
+        "20261027T115741-server-b-C0_l02__T_t007xsqrt2-247612"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t007xsqrt2-247612.log",
+      "started_unix": 1793102261.8586605,
+      "started_at": "2026-10-27T11:57:41.858666+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 9.5859375,
+        "free": 85.384765625,
+        "total": 95.5927734375,
+        "utilization": 94.0
+      }
+    },
+    {
+      "condition": "C0_l02__T_t014",
+      "device": 1,
+      "pid": 1192771,
+      "start_ticks": 87227910,
+      "run_id": "20261027T115741-server-b-C0_l02__T_t014-15897",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__T_t014",
+        "--device",
+        "1",
+        "--run-id",
+        "20261027T115741-server-b-C0_l02__T_t014-15897"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t014-15897.log",
+      "started_unix": 1793102261.9793015,
+      "started_at": "2026-10-27T11:57:41.979305+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 8.8525390625,
+        "free": 86.1181640625,
+        "total": 95.5927734375,
+        "utilization": 99.0
+      }
+    },
+    {
+      "condition": "C0_l02__C_c025",
+      "device": 5,
+      "pid": 1192774,
+      "start_ticks": 87227922,
+      "run_id": "20261027T115742-server-b-C0_l02__C_c025-536508",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__C_c025",
+        "--device",
+        "5",
+        "--run-id",
+        "20261027T115742-server-b-C0_l02__C_c025-536508"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115742-server-b-C0_l02__C_c025-536508.log",
+      "started_unix": 1793102262.0997772,
+      "started_at": "2026-10-27T11:57:42.099785+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 22.388671875,
+        "free": 72.5830078125,
+        "total": 95.5927734375,
+        "utilization": 99.0
+      }
+    },
+    {
+      "condition": "C0_l02__C_c05",
+      "device": 4,
+      "pid": 1192807,
+      "start_ticks": 87227934,
+      "run_id": "20261027T115742-server-b-C0_l02__C_c05-443899",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__C_c05",
+        "--device",
+        "4",
+        "--run-id",
+        "20261027T115742-server-b-C0_l02__C_c05-443899"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115742-server-b-C0_l02__C_c05-443899.log",
+      "started_unix": 1793102262.2196867,
+      "started_at": "2026-10-27T11:57:42.219692+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 4.2119140625,
+        "free": 90.759765625,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "C0_l02__C_c2",
+      "device": 2,
+      "pid": 1192842,
+      "start_ticks": 87227946,
+      "run_id": "20261027T115742-server-b-C0_l02__C_c2-698666",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__C_c2",
+        "--device",
+        "2",
+        "--run-id",
+        "20261027T115742-server-b-C0_l02__C_c2-698666"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115742-server-b-C0_l02__C_c2-698666.log",
+      "started_unix": 1793102262.3337352,
+      "started_at": "2026-10-27T11:57:42.333740+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.044921875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 10.1875,
+        "free": 84.7841796875,
+        "total": 95.5927734375,
+        "utilization": 100.0
+      }
+    },
+    {
+      "condition": "C0_l02__C_c4",
+      "device": 3,
+      "pid": 1193158,
+      "start_ticks": 87229554,
+      "run_id": "20261027T115758-server-b-C0_l02__C_c4-167034",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__C_c4",
+        "--device",
+        "3",
+        "--run-id",
+        "20261027T115758-server-b-C0_l02__C_c4-167034"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115758-server-b-C0_l02__C_c4-167034.log",
+      "started_unix": 1793102278.415615,
+      "started_at": "2026-10-27T11:57:58.415621+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.044921875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 7.5126953125,
+        "free": 87.4580078125,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "C0_l02__L_c0t1",
+      "device": 7,
+      "pid": 1193163,
+      "start_ticks": 87229566,
+      "run_id": "20261027T115758-server-b-C0_l02__L_c0t1-580842",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__L_c0t1",
+        "--device",
+        "7",
+        "--run-id",
+        "20261027T115758-server-b-C0_l02__L_c0t1-580842"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115758-server-b-C0_l02__L_c0t1-580842.log",
+      "started_unix": 1793102278.5324526,
+      "started_at": "2026-10-27T11:57:58.532458+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.044921875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 11.3154296875,
+        "free": 83.6552734375,
+        "total": 95.5927734375,
+        "utilization": 97.0
+      }
+    },
+    {
+      "condition": "C0_l02__L_c1t0",
+      "device": 6,
+      "pid": 1193330,
+      "start_ticks": 87230113,
+      "run_id": "20261027T115804-server-b-C0_l02__L_c1t0-438940",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__L_c1t0",
+        "--device",
+        "6",
+        "--run-id",
+        "20261027T115804-server-b-C0_l02__L_c1t0-438940"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115804-server-b-C0_l02__L_c1t0-438940.log",
+      "started_unix": 1793102284.0091763,
+      "started_at": "2026-10-27T11:58:04.009181+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.044921875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 10.427734375,
+        "free": 84.5439453125,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "C0_l02__L_c1t1",
+      "device": 4,
+      "pid": 1193333,
+      "start_ticks": 87230125,
+      "run_id": "20261027T115804-server-b-C0_l02__L_c1t1-136421",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+        "--condition",
+        "C0_l02__L_c1t1",
+        "--device",
+        "4",
+        "--run-id",
+        "20261027T115804-server-b-C0_l02__L_c1t1-136421"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115804-server-b-C0_l02__L_c1t1-136421.log",
+      "started_unix": 1793102284.1262763,
+      "started_at": "2026-10-27T11:58:04.126281+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.044921875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 5.052734375,
+        "free": 89.9189453125,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    }
+  ],
+  "exits": [
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__C_c4",
+        "device": 3,
+        "pid": 1193158,
+        "start_ticks": 87229554,
+        "run_id": "20261027T115758-server-b-C0_l02__C_c4-167034",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__C_c4",
+          "--device",
+          "3",
+          "--run-id",
+          "20261027T115758-server-b-C0_l02__C_c4-167034"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115758-server-b-C0_l02__C_c4-167034.log",
+        "started_unix": 1793102278.415615,
+        "started_at": "2026-10-27T11:57:58.415621+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.044921875,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 3,
+          "used": 7.5126953125,
+          "free": 87.4580078125,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:15:15.807220+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__T_t0035",
+        "device": 3,
+        "pid": 1192762,
+        "start_ticks": 87227876,
+        "run_id": "20261027T115741-server-b-C0_l02__T_t0035-943536",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__T_t0035",
+          "--device",
+          "3",
+          "--run-id",
+          "20261027T115741-server-b-C0_l02__T_t0035-943536"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t0035-943536.log",
+        "started_unix": 1793102261.6301463,
+        "started_at": "2026-10-27T11:57:41.630155+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 3,
+          "used": 6.671875,
+          "free": 88.2998046875,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:15:26.218301+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__T_t007xsqrt2",
+        "device": 6,
+        "pid": 1192768,
+        "start_ticks": 87227898,
+        "run_id": "20261027T115741-server-b-C0_l02__T_t007xsqrt2-247612",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__T_t007xsqrt2",
+          "--device",
+          "6",
+          "--run-id",
+          "20261027T115741-server-b-C0_l02__T_t007xsqrt2-247612"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t007xsqrt2-247612.log",
+        "started_unix": 1793102261.8586605,
+        "started_at": "2026-10-27T11:57:41.858666+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 6,
+          "used": 9.5859375,
+          "free": 85.384765625,
+          "total": 95.5927734375,
+          "utilization": 94.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:16:13.088734+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__T_t007",
+        "device": 2,
+        "pid": 1192609,
+        "start_ticks": 87225772,
+        "run_id": "20261027T115720-server-b-C0_l02__T_t007-142837",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__T_t007",
+          "--device",
+          "2",
+          "--run-id",
+          "20261027T115720-server-b-C0_l02__T_t007-142837"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115720-server-b-C0_l02__T_t007-142837.log",
+        "started_unix": 1793102240.5926948,
+        "started_at": "2026-10-27T11:57:20.592703+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 2,
+          "used": 9.3466796875,
+          "free": 85.625,
+          "total": 95.5927734375,
+          "utilization": 31.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:16:59.891329+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__C_c2",
+        "device": 2,
+        "pid": 1192842,
+        "start_ticks": 87227946,
+        "run_id": "20261027T115742-server-b-C0_l02__C_c2-698666",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__C_c2",
+          "--device",
+          "2",
+          "--run-id",
+          "20261027T115742-server-b-C0_l02__C_c2-698666"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115742-server-b-C0_l02__C_c2-698666.log",
+        "started_unix": 1793102262.3337352,
+        "started_at": "2026-10-27T11:57:42.333740+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.044921875,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 2,
+          "used": 10.1875,
+          "free": 84.7841796875,
+          "total": 95.5927734375,
+          "utilization": 100.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:17:31.068905+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__T_t002",
+        "device": 7,
+        "pid": 1192759,
+        "start_ticks": 87227865,
+        "run_id": "20261027T115741-server-b-C0_l02__T_t002-609052",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__T_t002",
+          "--device",
+          "7",
+          "--run-id",
+          "20261027T115741-server-b-C0_l02__T_t002-609052"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t002-609052.log",
+        "started_unix": 1793102261.5292244,
+        "started_at": "2026-10-27T11:57:41.529233+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 7,
+          "used": 10.474609375,
+          "free": 84.4970703125,
+          "total": 95.5927734375,
+          "utilization": 84.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:17:46.671664+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__L_c1t0",
+        "device": 6,
+        "pid": 1193330,
+        "start_ticks": 87230113,
+        "run_id": "20261027T115804-server-b-C0_l02__L_c1t0-438940",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__L_c1t0",
+          "--device",
+          "6",
+          "--run-id",
+          "20261027T115804-server-b-C0_l02__L_c1t0-438940"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115804-server-b-C0_l02__L_c1t0-438940.log",
+        "started_unix": 1793102284.0091763,
+        "started_at": "2026-10-27T11:58:04.009181+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.044921875,
+        "observed_gpu_gib": 0.919921875,
+        "admission": {
+          "index": 6,
+          "used": 10.427734375,
+          "free": 84.5439453125,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:17:57.108727+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__L_c0t1",
+        "device": 7,
+        "pid": 1193163,
+        "start_ticks": 87229566,
+        "run_id": "20261027T115758-server-b-C0_l02__L_c0t1-580842",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__L_c0t1",
+          "--device",
+          "7",
+          "--run-id",
+          "20261027T115758-server-b-C0_l02__L_c0t1-580842"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115758-server-b-C0_l02__L_c0t1-580842.log",
+        "started_unix": 1793102278.5324526,
+        "started_at": "2026-10-27T11:57:58.532458+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.044921875,
+        "observed_gpu_gib": 0.916015625,
+        "admission": {
+          "index": 7,
+          "used": 11.3154296875,
+          "free": 83.6552734375,
+          "total": 95.5927734375,
+          "utilization": 97.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:18:07.498093+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__C_c05",
+        "device": 4,
+        "pid": 1192807,
+        "start_ticks": 87227934,
+        "run_id": "20261027T115742-server-b-C0_l02__C_c05-443899",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__C_c05",
+          "--device",
+          "4",
+          "--run-id",
+          "20261027T115742-server-b-C0_l02__C_c05-443899"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115742-server-b-C0_l02__C_c05-443899.log",
+        "started_unix": 1793102262.2196867,
+        "started_at": "2026-10-27T11:57:42.219692+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 4,
+          "used": 4.2119140625,
+          "free": 90.759765625,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:20:43.280353+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__L_c1t1",
+        "device": 4,
+        "pid": 1193333,
+        "start_ticks": 87230125,
+        "run_id": "20261027T115804-server-b-C0_l02__L_c1t1-136421",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__L_c1t1",
+          "--device",
+          "4",
+          "--run-id",
+          "20261027T115804-server-b-C0_l02__L_c1t1-136421"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115804-server-b-C0_l02__L_c1t1-136421.log",
+        "started_unix": 1793102284.1262763,
+        "started_at": "2026-10-27T11:58:04.126281+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.044921875,
+        "observed_gpu_gib": 0.921875,
+        "admission": {
+          "index": 4,
+          "used": 5.052734375,
+          "free": 89.9189453125,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:23:29.435120+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__T_t014",
+        "device": 1,
+        "pid": 1192771,
+        "start_ticks": 87227910,
+        "run_id": "20261027T115741-server-b-C0_l02__T_t014-15897",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__T_t014",
+          "--device",
+          "1",
+          "--run-id",
+          "20261027T115741-server-b-C0_l02__T_t014-15897"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t014-15897.log",
+        "started_unix": 1793102261.9793015,
+        "started_at": "2026-10-27T11:57:41.979305+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 1,
+          "used": 8.8525390625,
+          "free": 86.1181640625,
+          "total": 95.5927734375,
+          "utilization": 99.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:26:36.366360+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__T_t007dsqrt2",
+        "device": 0,
+        "pid": 1192765,
+        "start_ticks": 87227886,
+        "run_id": "20261027T115741-server-b-C0_l02__T_t007dsqrt2-911910",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__T_t007dsqrt2",
+          "--device",
+          "0",
+          "--run-id",
+          "20261027T115741-server-b-C0_l02__T_t007dsqrt2-911910"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115741-server-b-C0_l02__T_t007dsqrt2-911910.log",
+        "started_unix": 1793102261.7392116,
+        "started_at": "2026-10-27T11:57:41.739216+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 0,
+          "used": 22.1865234375,
+          "free": 72.7841796875,
+          "total": 95.5927734375,
+          "utilization": 88.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:39:51.089850+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0_l02__C_c025",
+        "device": 5,
+        "pid": 1192774,
+        "start_ticks": 87227922,
+        "run_id": "20261027T115742-server-b-C0_l02__C_c025-536508",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/train.py",
+          "--condition",
+          "C0_l02__C_c025",
+          "--device",
+          "5",
+          "--run-id",
+          "20261027T115742-server-b-C0_l02__C_c025-536508"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027/logs/20261027T115742-server-b-C0_l02__C_c025-536508.log",
+        "started_unix": 1793102262.0997772,
+        "started_at": "2026-10-27T11:57:42.099785+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.9140625,
+        "admission": {
+          "index": 5,
+          "used": 22.388671875,
+          "free": 72.5830078125,
+          "total": 95.5927734375,
+          "utilization": 99.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-27T12:41:50.589590+00:00"
+    }
+  ],
+  "coordinator": {
+    "pid": 1192599,
+    "start_ticks": 87225732,
+    "started_at": "2026-10-27T11:57:20.299605+00:00",
+    "source_digest": "7f45a6d35589b8192fc9623fe01ca12c464e31c4d761bbd67fb3420a9bdc28cd",
+    "adopted_pids": []
+  },
+  "status": {
+    "updated_at": "2026-10-27T12:41:50.772018+00:00",
+    "pid": 1192599,
+    "active": [],
+    "conditions": {
+      "C0_l02__T_t002": "completed",
+      "C0_l02__T_t0035": "completed",
+      "C0_l02__T_t007dsqrt2": "completed",
+      "C0_l02__T_t007": "completed",
+      "C0_l02__T_t007xsqrt2": "completed",
+      "C0_l02__T_t014": "completed",
+      "C0_l02__C_c025": "completed",
+      "C0_l02__C_c05": "completed",
+      "C0_l02__C_c2": "completed",
+      "C0_l02__C_c4": "completed",
+      "C0_l02__L_c0t1": "completed",
+      "C0_l02__L_c1t0": "completed",
+      "C0_l02__L_c1t1": "completed"
+    },
+    "cards": [
+      {
+        "index": 0,
+        "used": 22.1875,
+        "free": 72.7841796875,
+        "total": 95.5927734375,
+        "utilization": 99.0
+      },
+      {
+        "index": 1,
+        "used": 8.498046875,
+        "free": 86.47265625,
+        "total": 95.5927734375,
+        "utilization": 100.0
+      },
+      {
+        "index": 2,
+        "used": 9.3466796875,
+        "free": 85.625,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      },
+      {
+        "index": 3,
+        "used": 6.671875,
+        "free": 88.2998046875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      },
+      {
+        "index": 4,
+        "used": 13.921875,
+        "free": 81.0498046875,
+        "total": 95.5927734375,
+        "utilization": 100.0
+      },
+      {
+        "index": 5,
+        "used": 22.939453125,
+        "free": 72.0322265625,
+        "total": 95.5927734375,
+        "utilization": 99.0
+      },
+      {
+        "index": 6,
+        "used": 9.306640625,
+        "free": 85.6640625,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      },
+      {
+        "index": 7,
+        "used": 12.2919921875,
+        "free": 82.6796875,
+        "total": 95.5927734375,
+        "utilization": 95.0
+      }
+    ],
+    "data_free_gib": 148.08802795410156,
+    "stopping": false,
+    "completed": 13,
+    "failed": 0,
+    "queued": 0
+  }
+}

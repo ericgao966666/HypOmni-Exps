@@ -1,0 +1,23 @@
+{
+  "run_id": "20261028T122522-server-b-C0_l03__L_c1t1-seed50",
+  "pid": 3062210,
+  "gpu": 2,
+  "port": null,
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+    "-u",
+    "-B",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda03_20261028/train.py",
+    "--condition",
+    "C0_l03__L_c1t1",
+    "--device",
+    "2",
+    "--run-id",
+    "20261028T122522-server-b-C0_l03__L_c1t1-seed50"
+  ],
+  "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda03_20261028/logs/20261028T122522-server-b-C0_l03__L_c1t1-seed50.log",
+  "started_at": "2026-10-28T12:25:22.164491+00:00",
+  "status": "completed",
+  "verified_at": "2026-10-28T12:32:06.715629+00:00",
+  "completed_at": "2026-10-28T12:31:43.934441+00:00"
+}

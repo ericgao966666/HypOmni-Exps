@@ -1,0 +1,28 @@
+{
+  "phase": "selected_seeds_complete",
+  "controller_pid": 2549974,
+  "time": 1792476782.3710556,
+  "running": [],
+  "pending": [],
+  "completed_stages": 24,
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "protocol": "79c718455a90d7d2256aba76d54b84085c1be108e4c360796e32727231a650a3",
+  "error": null,
+  "selected_seeds": [
+    0
+  ],
+  "deferred_seeds": [
+    1,
+    2
+  ],
+  "note": "training_status.json is the last writer only; use this aggregate status for concurrency"
+}

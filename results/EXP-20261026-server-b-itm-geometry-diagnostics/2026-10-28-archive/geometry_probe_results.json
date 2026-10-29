@@ -1,0 +1,168 @@
+{
+  "distance_only": {
+    "pattern_AUROC": {
+      "112": 0.9424591064453125,
+      "121": 0.979461669921875,
+      "122": 0.956268310546875,
+      "123": 0.996734619140625
+    },
+    "fixed_candidates": {
+      "t2va": {
+        "R@1": 15.087890625,
+        "R@5": 35.3515625,
+        "R@10": 50.341796875
+      },
+      "va2t": {
+        "R@1": 24.0234375,
+        "R@5": 50.390625,
+        "R@10": 61.9140625
+      }
+    },
+    "training_curve": [
+      {
+        "variant": "distance_only",
+        "step": 100,
+        "loss": 0.24525325000286102,
+        "elapsed_seconds": 37.3033276849892
+      },
+      {
+        "variant": "distance_only",
+        "step": 200,
+        "loss": 0.22490409016609192,
+        "elapsed_seconds": 76.84781720291357
+      },
+      {
+        "variant": "distance_only",
+        "step": 300,
+        "loss": 0.18703219294548035,
+        "elapsed_seconds": 109.47608198598027
+      },
+      {
+        "variant": "distance_only",
+        "step": 400,
+        "loss": 0.241790771484375,
+        "elapsed_seconds": 143.3237715739524
+      },
+      {
+        "variant": "distance_only",
+        "step": 500,
+        "loss": 0.23640349507331848,
+        "elapsed_seconds": 172.96477974101435
+      },
+      {
+        "variant": "distance_only",
+        "step": 600,
+        "loss": 0.19806137681007385,
+        "elapsed_seconds": 200.37527682993095
+      },
+      {
+        "variant": "distance_only",
+        "step": 700,
+        "loss": 0.15868595242500305,
+        "elapsed_seconds": 226.0986433000071
+      },
+      {
+        "variant": "distance_only",
+        "step": 800,
+        "loss": 0.1636475771665573,
+        "elapsed_seconds": 248.62714360293467
+      },
+      {
+        "variant": "distance_only",
+        "step": 900,
+        "loss": 0.13423842191696167,
+        "elapsed_seconds": 270.9349386799149
+      },
+      {
+        "variant": "distance_only",
+        "step": 1000,
+        "loss": 0.21286261081695557,
+        "elapsed_seconds": 291.4459269649815
+      }
+    ],
+    "peak_reserved_gib": 0.064453125
+  },
+  "full_geometry": {
+    "pattern_AUROC": {
+      "112": 0.951263427734375,
+      "121": 0.9827117919921875,
+      "122": 0.9616546630859375,
+      "123": 0.9967498779296875
+    },
+    "fixed_candidates": {
+      "t2va": {
+        "R@1": 18.45703125,
+        "R@5": 41.650390625,
+        "R@10": 54.638671875
+      },
+      "va2t": {
+        "R@1": 24.072265625,
+        "R@5": 49.51171875,
+        "R@10": 61.767578125
+      }
+    },
+    "training_curve": [
+      {
+        "variant": "full_geometry",
+        "step": 100,
+        "loss": 0.21024872362613678,
+        "elapsed_seconds": 25.667574604041874
+      },
+      {
+        "variant": "full_geometry",
+        "step": 200,
+        "loss": 0.21318048238754272,
+        "elapsed_seconds": 48.03048530896194
+      },
+      {
+        "variant": "full_geometry",
+        "step": 300,
+        "loss": 0.15141792595386505,
+        "elapsed_seconds": 70.42834965197835
+      },
+      {
+        "variant": "full_geometry",
+        "step": 400,
+        "loss": 0.2311851680278778,
+        "elapsed_seconds": 92.57582656794693
+      },
+      {
+        "variant": "full_geometry",
+        "step": 500,
+        "loss": 0.21219922602176666,
+        "elapsed_seconds": 115.61129123193678
+      },
+      {
+        "variant": "full_geometry",
+        "step": 600,
+        "loss": 0.16278737783432007,
+        "elapsed_seconds": 136.2505403639516
+      },
+      {
+        "variant": "full_geometry",
+        "step": 700,
+        "loss": 0.15005671977996826,
+        "elapsed_seconds": 157.21525193902198
+      },
+      {
+        "variant": "full_geometry",
+        "step": 800,
+        "loss": 0.18652978539466858,
+        "elapsed_seconds": 177.54848152399063
+      },
+      {
+        "variant": "full_geometry",
+        "step": 900,
+        "loss": 0.10660959780216217,
+        "elapsed_seconds": 197.62945652497
+      },
+      {
+        "variant": "full_geometry",
+        "step": 1000,
+        "loss": 0.18673253059387207,
+        "elapsed_seconds": 219.8217371859355
+      }
+    ],
+    "peak_reserved_gib": 0.064453125
+  }
+}

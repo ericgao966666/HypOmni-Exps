@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "id": "uncha_native_euclidean_s0_w0.2",
+    "role": "main",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.023184753907258538,
+      "geometry": "euclidean",
+      "global_beta": 14.286650748904114,
+      "global_local_beta": 16.667820932813456,
+      "local_beta": 14.286647606840855,
+      "method": "uncha",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  "parameters": 149619973,
+  "projection_sha256": "9dfdbec4e8abd580268da39990ed6ad5b0839da751a621cfd3256f9c711d15c2",
+  "stage": "joint"
+}

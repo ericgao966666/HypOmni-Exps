@@ -1,0 +1,143 @@
+{
+  "data": "VAST source-video split; same reused C0 epoch30 checkpoint",
+  "node_identity_sha256": "927af9f3789fddc7fd335416c09167d4ffe746b9965358984d05f1d732b9ce80",
+  "splits": {
+    "train": {
+      "n": 82608,
+      "edges": {
+        "t->tv": {
+          "radial_order_percent": 78.88461165988767,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 124.28697204589844
+        },
+        "t->ta": {
+          "radial_order_percent": 98.40330234359868,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 111.30337524414062
+        },
+        "v->tv": {
+          "radial_order_percent": 6.011524307573117,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 123.2853775024414
+        },
+        "v->va": {
+          "radial_order_percent": 99.96368390470657,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 111.04122924804688
+        },
+        "a->ta": {
+          "radial_order_percent": 91.22361030408678,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 125.59683990478516
+        },
+        "a->va": {
+          "radial_order_percent": 99.87652527600233,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 128.92578125
+        },
+        "tv->tva": {
+          "radial_order_percent": 100.0,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 38.09835433959961
+        },
+        "ta->tva": {
+          "radial_order_percent": 100.0,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 103.65390014648438
+        },
+        "va->tva": {
+          "radial_order_percent": 100.0,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 118.37702941894531
+        }
+      }
+    },
+    "val": {
+      "n": 2048,
+      "edges": {
+        "t->tv": {
+          "radial_order_percent": 78.173828125,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 126.193359375
+        },
+        "t->ta": {
+          "radial_order_percent": 98.681640625,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 113.34310913085938
+        },
+        "v->tv": {
+          "radial_order_percent": 5.95703125,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 126.56623077392578
+        },
+        "v->va": {
+          "radial_order_percent": 100.0,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 112.84616088867188
+        },
+        "a->ta": {
+          "radial_order_percent": 91.11328125,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 128.1739501953125
+        },
+        "a->va": {
+          "radial_order_percent": 99.8046875,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 131.83966064453125
+        },
+        "tv->tva": {
+          "radial_order_percent": 100.0,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 41.531158447265625
+        },
+        "ta->tva": {
+          "radial_order_percent": 100.0,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 112.35848999023438
+        },
+        "va->tva": {
+          "radial_order_percent": 100.0,
+          "strict_cone_percent": 0.0,
+          "strict_count": 0,
+          "legal_percent": 100.0,
+          "min_excess_deg": 121.45552062988281
+        }
+      }
+    }
+  },
+  "source_sha256": "d1ea0874a1b7cb0b872f52474896b09b861e639c90a8b4523c75509d3312390a"
+}

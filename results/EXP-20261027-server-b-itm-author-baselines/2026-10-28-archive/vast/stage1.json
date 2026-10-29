@@ -1,0 +1,32 @@
+{
+  "method": "vast",
+  "ITC": {
+    "t2va": {
+      "R@1": 14.501953125,
+      "R@5": 28.173828125,
+      "R@10": 37.060546875,
+      "candidate_R@32": 51.220703125
+    },
+    "va2t": {
+      "R@1": 8.837890625,
+      "R@5": 22.16796875,
+      "R@10": 30.810546875,
+      "candidate_R@32": 46.337890625
+    }
+  },
+  "ITC_mean": {
+    "R@1": 11.669921875,
+    "R@5": 25.1708984375,
+    "R@10": 33.935546875
+  },
+  "ITM": {},
+  "checks": {
+    "native_matcher_path_exact": true,
+    "VAST_raw_cache_max_abs_difference": {
+      "v": 0.0,
+      "a": 0.0
+    }
+  },
+  "protocol_sha256": "e746fd9c6b8566ef5bdde5569aa6a1adae1f4725999e6fa66a0c046b167d88e6",
+  "checkpoint_sha256": "9005d283ea0de99549efbedeb7d21c8e25bea8fa41c0f6570296b0e7a055a6c5"
+}

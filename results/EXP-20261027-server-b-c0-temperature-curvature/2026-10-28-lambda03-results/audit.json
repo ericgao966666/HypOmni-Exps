@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "time": "2026-10-28T12:32:06.718246+00:00",
+  "artifacts_verified": 45,
+  "updates": 9660,
+  "epochs": 30,
+  "all_three_selected_feature_metrics_recomputed": true,
+  "exact_ranks_verified": true,
+  "selected_checkpoints_verified": true,
+  "source_unchanged": true,
+  "inputs_metadata_unchanged": true,
+  "worker_exited": true
+}

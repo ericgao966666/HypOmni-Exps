@@ -1,0 +1,51 @@
+{
+  "selected_family": "C0",
+  "sigma_A": 0.41885121199406805,
+  "comparisons": {
+    "H_C0": {
+      "vs_C0": {
+        "differences": [
+          -5.029296875,
+          -5.3466796875,
+          -6.298828125
+        ],
+        "mean_gain": -5.558268229166667,
+        "threshold": 0.8377024239881361,
+        "supported": false
+      },
+      "vs_parent": {
+        "differences": [
+          -5.029296875,
+          -5.3466796875,
+          -6.298828125
+        ],
+        "mean_gain": -5.558268229166667,
+        "threshold": 0.8377024239881361,
+        "supported": false
+      },
+      "supported": false
+    }
+  },
+  "models": {
+    "C0_s50": {
+      "family": "C0",
+      "seed": 50,
+      "model_record_sha256": "32186bb0ec107204ac724cc36d4dc317f1c45eb71eaf9593a07c2169e41b31f2",
+      "validation_sha256": "d64efaf2c31bc757099404112ad15c329ef713bf47f39b3a067b8cd8c5b3d16b"
+    },
+    "C0_s51": {
+      "family": "C0",
+      "seed": 51,
+      "model_record_sha256": "f37826b55ebfa7852562ccaec94ac14d6b06bc58fb4f657693a0f949049f8efb",
+      "validation_sha256": "7e0fe53b7415c8e33168b34bb9dfd632c53a9d08138169e05b98615f2b28951c"
+    },
+    "C0_s52": {
+      "family": "C0",
+      "seed": 52,
+      "model_record_sha256": "38d0788939944e602d270d2f72ca778f70e9b32a04353dd23e860c0f5dd31a4e",
+      "validation_sha256": "e05d7bdb4b1ec009f4eb4b57e509dff3e9e29ce23373cb834a7b4325a008ea26"
+    }
+  },
+  "gate_source_digest": "440d0a582c01543938f180274240cfff0773130833d525c9f943b9ee49042147",
+  "rule": "positive mean gain>2sigma and all3 paired deltas positive; no test-set selection"
+}

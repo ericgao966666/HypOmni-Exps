@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "tests_run": 23,
+  "failures": 0,
+  "errors": 0,
+  "output": "test_01_matrix_counts_budgets (__main__.Suite.test_01_matrix_counts_budgets) ... ok\ntest_02_single_factor_and_matched_pair_labels (__main__.Suite.test_02_single_factor_and_matched_pair_labels) ... ok\ntest_03_baseline_output_loss_gradient_parity (__main__.Suite.test_03_baseline_output_loss_gradient_parity) ... ok\ntest_04_exact_shared_projection_initialization (__main__.Suite.test_04_exact_shared_projection_initialization) ... ok\ntest_05_initial_physical_radius_all_curvatures (__main__.Suite.test_05_initial_physical_radius_all_curvatures) ... ok\ntest_06_mapping_and_curvature_domain_boundaries (__main__.Suite.test_06_mapping_and_curvature_domain_boundaries) ... ok\ntest_07_learning_switches_and_optimizer_groups (__main__.Suite.test_07_learning_switches_and_optimizer_groups) ... ok\ntest_08_scalar_bounds (__main__.Suite.test_08_scalar_bounds) ... ok\ntest_09_scalar_gradient_finite_difference (__main__.Suite.test_09_scalar_gradient_finite_difference) ... ok\ntest_10_temperature_does_not_change_fixed_embeddings (__main__.Suite.test_10_temperature_does_not_change_fixed_embeddings) ... ok\ntest_11_curvature_score_scaling_identity (__main__.Suite.test_11_curvature_score_scaling_identity) ... ok\ntest_12_zero_cone_no_hidden_gradient (__main__.Suite.test_12_zero_cone_no_hidden_gradient) ... ok\ntest_13_constant_lambda_and_warmup (__main__.Suite.test_13_constant_lambda_and_warmup) ... ok\ntest_14_probe_preserves_rng_and_parameters (__main__.Suite.test_14_probe_preserves_rng_and_parameters) ... ok\ntest_15_radial_probe_derivative_matches_difference (__main__.Suite.test_15_radial_probe_derivative_matches_difference) ... ok\ntest_16_legal_denominators_and_u (__main__.Suite.test_16_legal_denominators_and_u) ... ok\ntest_17_official_formula_and_singular_endpoint_unchanged (__main__.Suite.test_17_official_formula_and_singular_endpoint_unchanged) ... ok\ntest_18_actual_model_optimizer_scalar_rng_resume (__main__.Suite.test_18_actual_model_optimizer_scalar_rng_resume) ... ok\ntest_19_probe_sampling_and_order (__main__.Suite.test_19_probe_sampling_and_order) ... ok\ntest_20_memory_admission_reserves_context (__main__.Suite.test_20_memory_admission_reserves_context) ... ok\ntest_21_overlay_and_concurrency (__main__.Suite.test_21_overlay_and_concurrency) ... ok\ntest_22_resource_pause_and_pid_ownership (__main__.Suite.test_22_resource_pause_and_pid_ownership) ... ok\ntest_23_safe_paths_and_checkpoint_selection (__main__.Suite.test_23_safe_paths_and_checkpoint_selection) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 6.898s\n\nOK\n",
+  "source": {
+    "bootstrap.py": "e89b518f87048edb46bb7213d8a0747ae192a835322aa87b7e31210f4b6f0cc8",
+    "common.py": "ee48ce30a1999bbb18e4e263939fd23add67241b21b97f37ef5c856f004b5c44",
+    "diagnostics.py": "86c0cd3c6cbf948e8f2ca12b72400bcc1a22ff1a13b8d6d450f9308d53ded6de",
+    "metrics.py": "2fa25abbe2182781c4b5453baea537f30ab1869172b34f4cee8e8768ae224cc8",
+    "model.py": "9377158439c24aba1a7ec215ed58697fa0656b7ef8c87b137be65c1489617615",
+    "schedule.py": "07aeca731d5400d55fdb917fe6b03e6ad697774ef977620639f6990f3e3aa836",
+    "tests/test_suite.py": "81e45049f9b2e75c43da807fd190db2c72c688fa2169b146854268af56b28971",
+    "train.py": "97dfa754acac8f0175b18d7d3e9b2de9665f8f2f3f826f7b64d5a91ae4c8a4f6",
+    "vendor/MERU_LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "vendor/lorentz.py": "bd02210a14a4ca84c9eb24e7aad9b07ad42df5369d68124cf44d5ae07ba496f1",
+    "vendor/manifest.json": "5ee59858902b8949027fb54ee0e4dc9db850f4f28b7106c3b03406172279ec3e"
+  },
+  "completed_at": "2026-10-27T08:28:40.259788+00:00"
+}

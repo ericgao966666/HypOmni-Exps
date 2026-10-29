@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "tests_run": 18,
+  "failures": 0,
+  "errors": 0,
+  "output": "test_01_matrix_budget_and_scope (__main__.Tests.test_01_matrix_budget_and_scope) ... ok\ntest_02_exact_common_initialization (__main__.Tests.test_02_exact_common_initialization) ... ok\ntest_03_c0_constant_initial_radius (__main__.Tests.test_03_c0_constant_initial_radius) ... ok\ntest_04_curvature_distance_analytic (__main__.Tests.test_04_curvature_distance_analytic) ... ok\ntest_05_curvature_gradient_finite_difference (__main__.Tests.test_05_curvature_gradient_finite_difference) ... ok\ntest_06_official_boundary_remains_unmodified (__main__.Tests.test_06_official_boundary_remains_unmodified) ... ok\ntest_07_flags_optimizer_and_real_cpu_update (__main__.Tests.test_07_flags_optimizer_and_real_cpu_update) ... ok\ntest_08_sampler_and_rng (__main__.Tests.test_08_sampler_and_rng) ... ok\ntest_09_membership_denominators (__main__.Tests.test_09_membership_denominators) ... ok\ntest_10_positive_control_and_tie_ranks (__main__.Tests.test_10_positive_control_and_tie_ranks) ... ok\ntest_11_resume_restores_rng_optimizer_and_cursor (__main__.Tests.test_11_resume_restores_rng_optimizer_and_cursor) ... ok\ntest_12_atomic_save_keeps_previous_on_error (__main__.Tests.test_12_atomic_save_keeps_previous_on_error) ... ok\ntest_13_best_checkpoint_order (__main__.Tests.test_13_best_checkpoint_order) ... ok\ntest_14_overlay_boundaries_and_pending_slots (__main__.Tests.test_14_overlay_boundaries_and_pending_slots) ... ok\ntest_15_pause_youngest_and_disk (__main__.Tests.test_15_pause_youngest_and_disk) ... ok\ntest_16_process_identity_checks_only_own_pid (__main__.Tests.test_16_process_identity_checks_only_own_pid) ... ok\ntest_17_cache_identity_and_shapes (__main__.Tests.test_17_cache_identity_and_shapes) ... ok\ntest_18_failure_json_preserves_nonfinite_observation (__main__.Tests.test_18_failure_json_preserves_nonfinite_observation) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 6.703s\n\nOK\n",
+  "source": {
+    "bootstrap.py": "298a45ce80cb005bd931f95e9946f8356df29dbdb8fa7c69bdc07e12e0a9cf85",
+    "common.py": "1f2a5cbb6123b38faa27cb8ebd8dfcbb8f76f4184e33507f47f289a3c81b7a07",
+    "metrics.py": "2fa25abbe2182781c4b5453baea537f30ab1869172b34f4cee8e8768ae224cc8",
+    "model.py": "9b9c3d025c89ab13c201556a56d4a6bf35ee49bd52c2ba1742640c3226433e41",
+    "report.py": "ff5f8a0aab608456e04a61a6e1714a98c010c023be74436c2b2afaca629b3c43",
+    "schedule.py": "70c93448f5c22f43dfcc9cce51470a41553542a69e06f8c4a37abaab35982e54",
+    "tests/test_reporting.py": "bdb2d703dd83b0e9c940939878fc1df729bac720a047c1ea938eacedfb25da94",
+    "tests/test_suite.py": "4fa223980772c17b7e1f6749ab9e1c40ddc3b3f0aeb808a9d96d9a75a269eefd",
+    "train.py": "e2e93dd45c396675a524c5dee63abfabdda24b737d1b7ec8473568a7094d42d1",
+    "vendor/MERU_LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "vendor/lorentz.py": "bd02210a14a4ca84c9eb24e7aad9b07ad42df5369d68124cf44d5ae07ba496f1",
+    "vendor/manifest.json": "5ee59858902b8949027fb54ee0e4dc9db850f4f28b7106c3b03406172279ec3e"
+  },
+  "completed_at": "2026-10-26T14:26:13.072410+00:00",
+  "official_fp32_boundary_nonfinite_expected": true,
+  "no_gpu_tests": true
+}

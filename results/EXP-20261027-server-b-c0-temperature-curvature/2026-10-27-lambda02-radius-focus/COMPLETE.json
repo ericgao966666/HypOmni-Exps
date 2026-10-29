@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "time": "2026-10-27T13:35:31.645171+00:00",
+  "recomputed_feature_heads": 14,
+  "observations_per_head": 2048,
+  "matched_saved_statistics": true,
+  "all_radii_positive": true,
+  "recorded_norms_nonnegative": true,
+  "old_sources_unchanged": true,
+  "files": {
+    "README.md": "e8a07a959a5963284fd634d43a9049ffa9b6c404d7745b109aab73da83335335",
+    "gradient_endpoints.csv": "d086a55d1c542a49d11fb80ceeb343c0207fb7b895e26fa762efc46cc354ad75",
+    "provenance.json": "9f448f172187f68ad3e4c8c606ce3b53c21465739a08f9f55177e202b104c74f",
+    "radius_fixed_tau0035_c1_lambda02.pdf": "4c24876a48e6f78afe00ceb8a3f794d032212c8f62892e7f1381524d71776b95",
+    "radius_fixed_tau0035_c1_lambda02.png": "bf6076fc1ca4563d7176c5d781ada78f80dd6a4a5824325db25de64de4a94e15",
+    "radius_learned_c_tau_lambda02.pdf": "288126bb80f1a8b85c2906c150d32675cf20ebf8737f798fe0d32243eace4c2d",
+    "radius_learned_c_tau_lambda02.png": "40f5ef39f130c427b4869bfe9384b00bf7e4e98cbc0730903dc80d31260ce8f2",
+    "radius_statistics.csv": "5895bb8f0b1e4dcd9e7af023e5bdbe59277a59faa51f8550633e6a1d17cacab2"
+  }
+}

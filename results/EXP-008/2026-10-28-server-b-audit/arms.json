@@ -1,0 +1,342 @@
+[
+  {
+    "id": "hycoclip_native_euclidean_s0_w0.2",
+    "role": "main",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.02319413110165743,
+      "geometry": "euclidean",
+      "global_beta": 14.286670501786503,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_native_hyperbolic_s0_w0.2",
+    "role": "main",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_native_euclidean_s0_w0",
+    "role": "no_entailment",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.0,
+      "euclidean_k": 0.02319413110165743,
+      "geometry": "euclidean",
+      "global_beta": 14.286670501786503,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_native_hyperbolic_s0_w0",
+    "role": "no_entailment",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.0,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_matched_euclidean_s0_w0.2",
+    "role": "legal_diagnostic",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "matched",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.19965920379602542,
+      "geometry": "euclidean",
+      "global_beta": 14.231558603593434,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_matched_hyperbolic_s0_w0.2",
+    "role": "legal_diagnostic",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "matched",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_native_euclidean_s0_w0.2",
+    "role": "main",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.023184753907258538,
+      "geometry": "euclidean",
+      "global_beta": 14.286650748904114,
+      "global_local_beta": 16.667820932813456,
+      "local_beta": 14.286647606840855,
+      "method": "uncha",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_native_hyperbolic_s0_w0.2",
+    "role": "main",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "uncha",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_native_euclidean_s0_w0",
+    "role": "no_entailment",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.0,
+      "euclidean_k": 0.023184753907258538,
+      "geometry": "euclidean",
+      "global_beta": 14.286650748904114,
+      "global_local_beta": 16.667820932813456,
+      "local_beta": 14.286647606840855,
+      "method": "uncha",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_native_hyperbolic_s0_w0",
+    "role": "no_entailment",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.0,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "uncha",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_matched_euclidean_s0_w0.2",
+    "role": "legal_diagnostic",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "matched",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.1996593547044665,
+      "geometry": "euclidean",
+      "global_beta": 14.231133679018853,
+      "global_local_beta": 16.6044823608135,
+      "local_beta": 14.231640680438876,
+      "method": "uncha",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_matched_hyperbolic_s0_w0.2",
+    "role": "legal_diagnostic",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "matched",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "uncha",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_native_euclidean_s1_w0.2",
+    "role": "main",
+    "schedule_sha256": "a4fd04172bb4f1209bb18fcc6ccda4a286f975ecb1a6e935d495093c15fb8a50",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.02327505615682721,
+      "geometry": "euclidean",
+      "global_beta": 14.28670843825639,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 1,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_native_hyperbolic_s1_w0.2",
+    "role": "main",
+    "schedule_sha256": "a4fd04172bb4f1209bb18fcc6ccda4a286f975ecb1a6e935d495093c15fb8a50",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 1,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_native_euclidean_s1_w0.2",
+    "role": "main",
+    "schedule_sha256": "a4fd04172bb4f1209bb18fcc6ccda4a286f975ecb1a6e935d495093c15fb8a50",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.023280841512326223,
+      "geometry": "euclidean",
+      "global_beta": 14.286665888956728,
+      "global_local_beta": 16.6678841106272,
+      "local_beta": 14.286715050988198,
+      "method": "uncha",
+      "seed": 1,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_native_hyperbolic_s1_w0.2",
+    "role": "main",
+    "schedule_sha256": "a4fd04172bb4f1209bb18fcc6ccda4a286f975ecb1a6e935d495093c15fb8a50",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "uncha",
+      "seed": 1,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_native_euclidean_s2_w0.2",
+    "role": "main",
+    "schedule_sha256": "47d89334da6ed220c45c7413b5b41934816bfb5acfe0b46af61207215ddf67c7",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.023107308423460027,
+      "geometry": "euclidean",
+      "global_beta": 14.28666686358923,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 2,
+      "width": 512
+    }
+  },
+  {
+    "id": "hycoclip_native_hyperbolic_s2_w0.2",
+    "role": "main",
+    "schedule_sha256": "47d89334da6ed220c45c7413b5b41934816bfb5acfe0b46af61207215ddf67c7",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 2,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_native_euclidean_s2_w0.2",
+    "role": "main",
+    "schedule_sha256": "47d89334da6ed220c45c7413b5b41934816bfb5acfe0b46af61207215ddf67c7",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.02310714913565665,
+      "geometry": "euclidean",
+      "global_beta": 14.286659294204833,
+      "global_local_beta": 16.667804107543454,
+      "local_beta": 14.286613978950369,
+      "method": "uncha",
+      "seed": 2,
+      "width": 512
+    }
+  },
+  {
+    "id": "uncha_native_hyperbolic_s2_w0.2",
+    "role": "main",
+    "schedule_sha256": "47d89334da6ed220c45c7413b5b41934816bfb5acfe0b46af61207215ddf67c7",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "uncha",
+      "seed": 2,
+      "width": 512
+    }
+  }
+]

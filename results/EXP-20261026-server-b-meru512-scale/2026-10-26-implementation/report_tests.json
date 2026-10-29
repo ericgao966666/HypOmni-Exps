@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "tests_run": 3,
+  "output": "test_complete_fixed_order_even_without_results (__main__.ReportingTests.test_complete_fixed_order_even_without_results) ... ok\ntest_failed_readout_enrichment_is_fp32_and_cached (__main__.ReportingTests.test_failed_readout_enrichment_is_fp32_and_cached) ... ok\ntest_report_never_invents_missing_final_epoch (__main__.ReportingTests.test_report_never_invents_missing_final_epoch) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.084s\n\nOK\n",
+  "source": {
+    "bootstrap.py": "298a45ce80cb005bd931f95e9946f8356df29dbdb8fa7c69bdc07e12e0a9cf85",
+    "common.py": "1f2a5cbb6123b38faa27cb8ebd8dfcbb8f76f4184e33507f47f289a3c81b7a07",
+    "metrics.py": "2fa25abbe2182781c4b5453baea537f30ab1869172b34f4cee8e8768ae224cc8",
+    "model.py": "9b9c3d025c89ab13c201556a56d4a6bf35ee49bd52c2ba1742640c3226433e41",
+    "report.py": "ff5f8a0aab608456e04a61a6e1714a98c010c023be74436c2b2afaca629b3c43",
+    "schedule.py": "70c93448f5c22f43dfcc9cce51470a41553542a69e06f8c4a37abaab35982e54",
+    "tests/test_reporting.py": "bdb2d703dd83b0e9c940939878fc1df729bac720a047c1ea938eacedfb25da94",
+    "tests/test_suite.py": "4fa223980772c17b7e1f6749ab9e1c40ddc3b3f0aeb808a9d96d9a75a269eefd",
+    "train.py": "e2e93dd45c396675a524c5dee63abfabdda24b737d1b7ec8473568a7094d42d1",
+    "vendor/MERU_LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "vendor/lorentz.py": "bd02210a14a4ca84c9eb24e7aad9b07ad42df5369d68124cf44d5ae07ba496f1",
+    "vendor/manifest.json": "5ee59858902b8949027fb54ee0e4dc9db850f4f28b7106c3b03406172279ec3e"
+  },
+  "completed_at": "2026-10-26T14:25:29.324074+00:00",
+  "no_gpu_tests": true
+}

@@ -1,0 +1,36 @@
+{
+  "captured_at": "2026-10-27T18:09:19.284358+00:00",
+  "source_root": "dataset_root",
+  "source_directory": "lowdim_retrieval_20261021",
+  "input_sha256": {
+    "selections/hyp_cone.json": "9bd17b4ef9c6375318b46ec950699c8e5e82099452ebaaa92e903598c1db7e82",
+    "selections/euc_none.json": "aa3d5b412c4a0b79e0ee0e693356d4d2d19603201adba9cc74259a9a5995822f",
+    "selections/pmrl.json": "f806b1f120521a17c297d066a76cbd63ee772a79b46b8b31798f34106ac28607",
+    "selections/vast.json": "55715c523ab0ec439c09ea50d345b53cb8e714c635f049665665cb89ba91e689",
+    "selections/gram.json": "a147e5fef90f5f0713d7f509558fcec633a37d9d5b23e03e4d69f7f3e3df12f8",
+    "SELECTIONS_LOCKED.json": "32f730576dfe841221540935db30a6d7654226c69947bb1dec561e46841fe08c",
+    "runs/hyp_cone_d64_s50_R1/joint/DONE.json": "d7d3e3bd64c7b46f798c1dc2b0902106f4176b6474c612db84b9f82a191f2f66",
+    "runs/hyp_cone_d64_s50_R1/joint/validation_metrics.json": "5d32fd173c33f89871dbb4cf33485952cc454c23adf082b16e946cebad50f299",
+    "runs/hyp_cone_d64_s50_R1/joint/validation_features.pt": "a0855b1f6d5d285f5b7073c6926ec63e8b58f31590d7a187bcc2521df2e6b12a",
+    "runs/hyp_cone_d64_s50_R3/joint/DONE.json": "ba9b642b83e80dd973d415098364273b465c7085ef947c4f3eee0bdb97c7ac6e",
+    "runs/hyp_cone_d64_s50_R3/joint/validation_metrics.json": "07b1d45d7f1e6a92d068263e599d72fe93b5b484389d2b93e92df3d028c5c600",
+    "runs/hyp_cone_d64_s50_R3/joint/validation_features.pt": "0c169121e224aee2a6f9bc4cf287853523e9d5a2df062228fdce55dde55b28d5",
+    "runs/euc_none_d64_s50_R1/joint/DONE.json": "a697ceddaed58835ef4d970875fb8de4f0ddc21f49fdbb15ff39b300d9027c4a",
+    "runs/euc_none_d64_s50_R1/joint/validation_metrics.json": "7945e76df9efa44e06416de467dcc4c1bf9c528a78848e4dbe57e3ebacc16d58",
+    "runs/euc_none_d64_s50_R1/joint/validation_features.pt": "371130650ce585a90e3c5ffc03d43f22b1efbf7daf11bca0781f7b5b6672fa66",
+    "runs/euc_none_d64_s50_R3/joint/DONE.json": "9c59e35ee99ebb099631c0f39b977870d4af6ba9a3585a5bdbfa4f421e50a669",
+    "runs/euc_none_d64_s50_R3/joint/validation_metrics.json": "0ba2660df4065e2188a20bdb84139a70fce30ec65b883c1b9fd99a67866c32ad",
+    "runs/euc_none_d64_s50_R3/joint/validation_features.pt": "9d15a139a9756bd6b160f95934833ddb9dc726bef0dcb66be93522a047f2fc56",
+    "method_evaluations/hyp_cone_d64_s50_R1.json": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db",
+    "method_evaluations/euc_none_d64_s50_R1.json": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd"
+  },
+  "script_sha256": "2c9d9ad57c415259c6cca24a488302c7e95220d3c2998ad4d6fb0dc9c3ff66c3",
+  "checks": {
+    "selection_hashes": true,
+    "checkpoint_metadata": true,
+    "matching_validation_ids": 500,
+    "recomputed_native_radius_mean_p05_p95": true,
+    "r1_test_candidates": 884
+  },
+  "no_training_or_test_inference": true
+}

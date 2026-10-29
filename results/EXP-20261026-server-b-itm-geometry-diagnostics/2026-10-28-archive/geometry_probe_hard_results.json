@@ -1,0 +1,43 @@
+{
+  "purpose": "diagnostic only; no retraining and no test-set metrics",
+  "results": {
+    "uniform": {
+      "distance_only": {
+        "112": 0.9424591064453125,
+        "121": 0.979461669921875,
+        "122": 0.956268310546875,
+        "123": 0.996734619140625
+      },
+      "full_geometry": {
+        "112": 0.951263427734375,
+        "121": 0.9827117919921875,
+        "122": 0.9616546630859375,
+        "123": 0.9967498779296875
+      }
+    },
+    "hard": {
+      "distance_only": {
+        "112": 0.5496978759765625,
+        "121": 0.6535491943359375,
+        "122": 0.56536865234375,
+        "123": 0.996734619140625
+      },
+      "full_geometry": {
+        "112": 0.551300048828125,
+        "121": 0.68939208984375,
+        "122": 0.5785369873046875,
+        "123": 0.9967498779296875
+      }
+    }
+  },
+  "maximum_uniform_reproduction_AUROC_difference": 0.0,
+  "source_sha256": "fe64e41f069ad9ff2e11bf3bdb70a22e9e2749de2bc96249dc7967ae9c88aa04",
+  "input_sha256": {
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_hierarchy/uniform_diagnostics.json": "0002afa1e1e723c52fd75a42e22b0793d2ec54c67a15dacaf3cded2a65acfbfe",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_hierarchy/hard_diagnostics.json": "2cf00d88a9e68791ea7a1ddbcff5b5a06326079b5a094630373a4003544cf6fa",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/geometry_probe_v1/protocol.json": "7ba3ab13f60e846583cf674fbdb78d45ee296edaa2e080fa0edcddd9538a2163",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/geometry_probe_v1/normalization.pt": "c2f8248ddeb9afbc2c49055d6e6292e5c7e9d08ff3704f42ce3fd4b573d477a4",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/geometry_probe_v1/distance_only.pt": "3a0c3d29aa2f7308fa98cb459a794242daeb987a5c28a19748ec6b3b35313943",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_hierarchy_20261026/geometry_probe_v1/full_geometry.pt": "3b0b0e5a5366881f77fca7a544af93b4b912a7854a8ec4cf502aa9b316357132"
+  }
+}

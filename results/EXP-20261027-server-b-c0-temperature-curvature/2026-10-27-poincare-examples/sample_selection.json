@@ -1,0 +1,19 @@
+{
+  "seed": 50,
+  "method": "numpy.default_rng(50).choice(2048,3,replace=False), then sorted; independent of geometry and performance",
+  "validation_indices": [
+    1463,
+    1598,
+    1611
+  ],
+  "sample_id_sha256": {
+    "1463": "016fb3b215429d11375dd3f7538b4fd1ca01b2be1605c7a9a04f4a111164ae5f",
+    "1598": "d1e8a2074e04137dc386c8b283c48f44176840ae2c5b2199eb968cc03b97699c",
+    "1611": "69dbd6065c4b9c0535d0a481f107ac89835130705bb17438a4dea6c34b9465df"
+  },
+  "edges": [
+    "t->tv",
+    "tv->tva"
+  ],
+  "same_ids_across_cases": true
+}

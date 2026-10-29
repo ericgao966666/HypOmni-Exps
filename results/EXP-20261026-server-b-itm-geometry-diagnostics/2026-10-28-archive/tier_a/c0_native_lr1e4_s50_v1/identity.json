@@ -1,0 +1,95 @@
+{
+  "spec": {
+    "variant": "C0",
+    "architecture": "native",
+    "seed": 50,
+    "source_variant": "C0",
+    "quota_units": 8,
+    "active_tasks": [
+      "tva"
+    ],
+    "fusion_views_per_update": 96,
+    "learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "weight_decay": 0.01,
+    "schedule": "constant, no warmup or ramp in Tier A",
+    "score": "S1 tva logit (same ranking as log sigmoid)",
+    "train_precision": "bfloat16 autocast; FP32 losses and optimizer parameters",
+    "deterministic_cuda_algorithms": true,
+    "cublas_workspace_config": ":4096:8",
+    "rerank_top_k": 32,
+    "selection": "mean t2va/va2t validation R@1; ties R@5 then earlier step",
+    "parent": null,
+    "single_change": "none (C0 baseline)",
+    "notes": [
+      "E2 reduces tva supervised views from96 to24 per update; report this allocation explicitly.",
+      "All comparisons fork from the same frozen trunk; no model continuation between variants.",
+      "Do not launch both E2 parents without choosing E1 from held-out results."
+    ]
+  },
+  "arguments": {
+    "variant": "C0",
+    "architecture": "native",
+    "seed": 50,
+    "lr": 0.0001,
+    "steps": 2000,
+    "eval_every": 500,
+    "microbatch": 8,
+    "device": "1",
+    "run_id": "c0_native_lr1e4_s50_v1"
+  },
+  "code": {
+    "core.py": "742dfe70f1b3911e8a5b339e3a42af4f2562040786cdcc877bd67ed8e50c337d",
+    "cache_reader.py": "6de3ebf48e2e3ed87bc7468493555d985cf9c6cf6d7d8cff77b9be057cb021e2",
+    "training_protocol.py": "309db2eb6b0cdb0ec95b8c3ed66e596ef63a1b9436068b256c1269f5d1374ef1",
+    "evaluate_matcher.py": "54f550782e2fb8ecb1bc62e9644d4787d08cca334929b00efa5e4f5a1d4f20c0",
+    "native_matcher.py": "b4aae61de0b65e2efed9b9ae5a7badf08ca62d796c482cbc88834208b944b18a",
+    "training_step.py": "459f35f37482f68623e231d6d38c4460150cb5bf21d1449ec337bdb6cdb47de9",
+    "checkpointing.py": "0a8fee476f3cd374b0893ee4e546399779eab92fc1a47778bfaa64b94b5b500d",
+    "train_tier_a.py": "4cf99c20af9018b84e1ad5f73c92d89e030538b6cfcbd7a6204d6c607afdf338"
+  },
+  "frozen_trunk": {
+    "trunk": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/C0/final.pt",
+    "trunk_sha256": "908b907c4ee1acc27674a1a571d5ff58b9c94cfd3988e437535543822681a318",
+    "validation_features_sha256": "213fcf54ac75583f3e8bea482fa9a48ea1bc2d1a71a7fd4541f06358ef2b5ded",
+    "historical_identity": {
+      "condition": {
+        "name": "C0",
+        "mode": "C0",
+        "gamma": null,
+        "dimension": 512,
+        "seed": 50,
+        "head_type": "independent_radius",
+        "learn_curvature": false,
+        "learn_temperature": false
+      },
+      "source_digest": "e55adfdb597052cd0866f9c2aed661737c9096eb00c018cd8fb2396edb2ca5a4",
+      "protocol_sha256": "067da2610ad494904622ad00812c80aa4087765051f9e2321ecce2aaa325c19d",
+      "initial_projection_sha256": "3f57840fdf7f1e69354e23e6935169713ca22d42ef68436aebc251f6a14e271d"
+    },
+    "fork_epoch": 30,
+    "fork_step": 9660,
+    "choice": "original independent-radius 9-pair/9-edge terminal trunk, chosen before ITM results; no search over MERU variants",
+    "candidates": "FP32 negative Lorentz distance; stable ties by validation row index; top32",
+    "primary_positives": "exact clip identity; never remove queries missing positives from candidate pool",
+    "auxiliary_positives": "same source video; reported separately, not a replacement for exact-clip metric",
+    "split_sha256": {
+      "train": "e0d5207f27d354e91ae3e6693e6af4871f514346c8ac06854d82d60189017306",
+      "val": "a0f8b185c3b46c7942682dfe99239d5861912b7188d2486f3fab43a3bb89801f"
+    },
+    "timestamp_unix": 1793033930.6873114,
+    "script_sha256": "1dcec8eb10ce0b562c6dff38d2a86bbf3ae422e5250efd475e3069f51ba0daf6",
+    "limitations": [
+      "Existing trunk updated only seven heads, not VAST encoders.",
+      "End-point fork does not establish earliest stable fork or satisfy new every-1k checkpoint schedule.",
+      "Positive entailment training does not prove valid cone containment."
+    ],
+    "candidates_sha256": "28d4b11e8bb7715c05f4ab8bb9aab3f99eca234e3925074465f882dd2f024a7b"
+  },
+  "cache_identity_sha256": "e9556279a3a348150e0ba831bac89fcbd5e38594b0f87e4e773ab213e2ddcf9a",
+  "cuda_recovery_check_sha256": "f0966f3f3e0272b3333a357054be59e54884e52f38ac573ce11994f14ec26744"
+}

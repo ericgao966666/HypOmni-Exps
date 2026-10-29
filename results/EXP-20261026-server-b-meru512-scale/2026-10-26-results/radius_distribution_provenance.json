@@ -1,0 +1,461 @@
+{
+  "source_results_sha256": "d5b673b7e96328487850ba8c63455b3675d359c5e23c15275fa0d197993f4ff0",
+  "generator_sha256": "fbbb7051019629f8d877bf0d08087156fe3667aed779414fa409dd04c60cb355",
+  "sample_count": 2048,
+  "conditions": [
+    "C0",
+    "M00_g05",
+    "M01_g05",
+    "M10_g05",
+    "M11_g05",
+    "M00_g1",
+    "M01_g1",
+    "M10_g1",
+    "M11_g1",
+    "M00_g2",
+    "M01_g2",
+    "M10_g2",
+    "M11_g2",
+    "M00_g4",
+    "M01_g4",
+    "M10_g4",
+    "M11_g4"
+  ],
+  "subsets": [
+    "t",
+    "v",
+    "a",
+    "tv",
+    "ta",
+    "va",
+    "tva"
+  ],
+  "roles": [
+    "final",
+    "best",
+    "initial"
+  ],
+  "statistics_rows": 1071,
+  "geometry_dtype": "torch.float32",
+  "population_std": true,
+  "quartiles": "torch.quantile, linear interpolation",
+  "ids_sha256": "efafa8cfb5992e71496491cc1cf6d7da5c568ea48fe6376c70908440f552f566",
+  "cached_radius_and_q_max_abs_difference": 0.0,
+  "sources": [
+    {
+      "role": "final",
+      "condition": "C0",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/C0/final_features.pt",
+      "features_sha256": "213fcf54ac75583f3e8bea482fa9a48ea1bc2d1a71a7fd4541f06358ef2b5ded",
+      "metrics_sha256": "58a97a5c2f2929a7b5b7987ac8bc43a5e1c38f785d5bab2e4921c08076afce46"
+    },
+    {
+      "role": "final",
+      "condition": "M00_g05",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g05/final_features.pt",
+      "features_sha256": "745dc4f0fb5e52cd37e1f57dd701b8805058e22782f73e6437b16b0251591341",
+      "metrics_sha256": "309b78e219213024b12882c512d650a463d8c1d00299d385fad7d79228f28472"
+    },
+    {
+      "role": "final",
+      "condition": "M01_g05",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g05/final_features.pt",
+      "features_sha256": "36f2da478bea99daa7ab732d2b4daaed1c7c5fb7cfa0186cb036fee63477bb2e",
+      "metrics_sha256": "8721bd6cf2362103d85eff5a055c3e0e12e7f67e8bcab9aafd435cbac16612bb"
+    },
+    {
+      "role": "final",
+      "condition": "M10_g05",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g05/final_features.pt",
+      "features_sha256": "fd4c5684a9d353696d7e7d10dbd80d8dcbad8789ac0e54f6f170348a1ba1ed17",
+      "metrics_sha256": "fe2337325aae8435d7bbe9704a4a03b0435d98f9b72b2304a9757f38611c4ffd"
+    },
+    {
+      "role": "final",
+      "condition": "M11_g05",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g05/final_features.pt",
+      "features_sha256": "d51deabf870bc16d775573cd3e88f576e1e1a89c10b37cf84cbea95aa5f873e6",
+      "metrics_sha256": "116e9da26807390eb3798bd31876d03ad5733f606d71c5b3ba8486bfa7cbb31b"
+    },
+    {
+      "role": "final",
+      "condition": "M00_g1",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g1/final_features.pt",
+      "features_sha256": "33e11dbd0cdbf320b8dee2eeb87d9393099256d25f06b999482bc8ae763c35f5",
+      "metrics_sha256": "24d790402f753c1444ad32c32a475d47f30b3aed91cac2aa7fa7066ab9ab494c"
+    },
+    {
+      "role": "final",
+      "condition": "M01_g1",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g1/final_features.pt",
+      "features_sha256": "e46e9f3320ae5195186db8103fae7214d8405f86d500e2fea3603920d5711c77",
+      "metrics_sha256": "951d35b5758ab058327000c0b87364f294e73f5a7cab87879855d59b569cab56"
+    },
+    {
+      "role": "final",
+      "condition": "M10_g1",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g1/final_features.pt",
+      "features_sha256": "45c0002b2319756851ebba052daabc17fa642dac7db72bcee84aa4e0cde5e8a6",
+      "metrics_sha256": "5c457a8afe32aa029e58177da0f1d86c4184120e83c0b5a2c1762eadb7b5c72c"
+    },
+    {
+      "role": "final",
+      "condition": "M11_g1",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g1/final_features.pt",
+      "features_sha256": "90685154ef52a686e092be93f0e12035088e59a75d0e00b44df5209cafbd69c9",
+      "metrics_sha256": "103695b4ea1af5dc276f89466e5a63324e814a616af074b63ce37b8e0957395f"
+    },
+    {
+      "role": "final",
+      "condition": "M00_g2",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g2/final_features.pt",
+      "features_sha256": "467a1555ee69d0224b68b619e287eb0c996c05c57c2fbd260bda0bb019687cfd",
+      "metrics_sha256": "13d065c792ded5be0111f5f5a26c764cf23c1016e52b5093c09e68f44cef0e4d"
+    },
+    {
+      "role": "final",
+      "condition": "M01_g2",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g2/final_features.pt",
+      "features_sha256": "caff12813c3e99bc453a94f42f278fdbd476996e7979eb56f8f7763617d88238",
+      "metrics_sha256": "8970a8d9f5cef99e9eb6f6825e2c857ac40d5e1be1cd27890df0a395b0a18d80"
+    },
+    {
+      "role": "final",
+      "condition": "M10_g2",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g2/final_features.pt",
+      "features_sha256": "d9c8b473f900047b7dbb5d0b75a0d756a66821da9b1df5cd97fdf231dfc97947",
+      "metrics_sha256": "1a47bd385c9ae325565461b49286cbeae523d0e58c32d5cd92eb920f86f852b3"
+    },
+    {
+      "role": "final",
+      "condition": "M11_g2",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g2/final_features.pt",
+      "features_sha256": "66b2cb4e2f147deed5874f9155b12afb8a3c871044db9d2ea023f1c4df5ad451",
+      "metrics_sha256": "5de1af36709b929460fe6d530bccd4c7bcd73856661554ccc13d2f0a6982bdf2"
+    },
+    {
+      "role": "final",
+      "condition": "M00_g4",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g4/final_features.pt",
+      "features_sha256": "bdb115b6a684f4d6a51c98d4fd3ba91070a554aee9e7ed43e1ed0a3b65640202",
+      "metrics_sha256": "f1af0d39abbb0c01964494fbbeb5ef6add80709eed5f822cf812982991ddf2af"
+    },
+    {
+      "role": "final",
+      "condition": "M01_g4",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g4/final_features.pt",
+      "features_sha256": "00ec3e7b3735a754d8920c81851fbb42e25fc436bec561b8c82cbf871f2bd4ab",
+      "metrics_sha256": "1d61e3bad8e66e5e7dffa120af6c2815ec5f79e791ed6401ea1381c92a32ece4"
+    },
+    {
+      "role": "final",
+      "condition": "M10_g4",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g4/final_features.pt",
+      "features_sha256": "33af7e158c7133174ff7d910c869e511b382cde290c91a9dd396803776aaa5c2",
+      "metrics_sha256": "879bf535b224506f852ff9b7be3edfb972247ea8ee0e6d78a711404add973da6"
+    },
+    {
+      "role": "final",
+      "condition": "M11_g4",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g4/final_features.pt",
+      "features_sha256": "c34b25c98323d432474daa21df63b4bb0cd836856055d66674ca355ccb6d0579",
+      "metrics_sha256": "ea36ff3b89b5bf5b920487bbefdfb4db9a731608d0605ba2e9b89ea9796d574a"
+    },
+    {
+      "role": "best",
+      "condition": "C0",
+      "epoch": 26,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/C0/best_features.pt",
+      "features_sha256": "86f23b8d4a9a61983a10062368620bf15aee7e983aaa8e250d30f44401499f9d",
+      "metrics_sha256": "e5339ecd87bbf59c52d29ff59f05ef38e32777f03ce4e5a8889fc3070363dc18"
+    },
+    {
+      "role": "best",
+      "condition": "M00_g05",
+      "epoch": 26,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g05/best_features.pt",
+      "features_sha256": "ebd070d3322ba762e19737b835ff44d3f368490bee596b1f003e39353357270d",
+      "metrics_sha256": "07b9dd0990ce58e81fea7dfef9c70db1c29a7cbbcfcd1bb2df0d73b56f922225"
+    },
+    {
+      "role": "best",
+      "condition": "M01_g05",
+      "epoch": 26,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g05/best_features.pt",
+      "features_sha256": "b28fc7488cfa09bf842a9897c7d4b8fff21865bb647063f4a2db1daf0c9cf21c",
+      "metrics_sha256": "acf712905b8131fab788548de50d1b000a220e925577ee422f33ce4ecd121fec"
+    },
+    {
+      "role": "best",
+      "condition": "M10_g05",
+      "epoch": 29,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g05/best_features.pt",
+      "features_sha256": "d82b31f6f431cf5cf95365235fad8fa314eef903f36b7b9621299da4042507e2",
+      "metrics_sha256": "c92e8fbe51b87aa4b2fcdae810aa54b62b2c732fcbb31cbbc5cc4aa2311931b6"
+    },
+    {
+      "role": "best",
+      "condition": "M11_g05",
+      "epoch": 27,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g05/best_features.pt",
+      "features_sha256": "b9aa6be9c820f851bbf3e750b67b87f96d2f13b5e14077dcf2f496a69beb1dcf",
+      "metrics_sha256": "4ddef9a1a466009c8707fd1a06480db77605996e93c1bb9a18c6a55c1b637edb"
+    },
+    {
+      "role": "best",
+      "condition": "M00_g1",
+      "epoch": 27,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g1/best_features.pt",
+      "features_sha256": "1cc5c99eef9359aeef79e1d37dc2ed484d195d08df2fb1a454b38a9d78a84251",
+      "metrics_sha256": "72dd8661bca1f11f451f2189f9c178cb8c2257560fc5886a997b201645fd2843"
+    },
+    {
+      "role": "best",
+      "condition": "M01_g1",
+      "epoch": 28,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g1/best_features.pt",
+      "features_sha256": "e2ab3a31ad3d57450538950f697e7b3092af4ec39b717252e181e50bafba6434",
+      "metrics_sha256": "e1cdf8f9a9c5f7be1727d314b42b75ba53e2cb7facaa6c33e2ae5748eaa19c66"
+    },
+    {
+      "role": "best",
+      "condition": "M10_g1",
+      "epoch": 29,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g1/best_features.pt",
+      "features_sha256": "f9364909f85c00b7511446bada0327b19c0f294a45979ef6e6bc4a40c361eff2",
+      "metrics_sha256": "cdfcbed35175533deb682bcb12e599ee09623fd401e849f8748232d69f15091e"
+    },
+    {
+      "role": "best",
+      "condition": "M11_g1",
+      "epoch": 23,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g1/best_features.pt",
+      "features_sha256": "4d7b042399d433d0c6bdbdf1493a4137e7fbc2928b1cbc98280a3c48b6ac8803",
+      "metrics_sha256": "0aa0a52189aeb9af01ac3c1ef01ee5d53e46a2dc0e7ddce98098a120cde2248b"
+    },
+    {
+      "role": "best",
+      "condition": "M00_g2",
+      "epoch": 27,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g2/best_features.pt",
+      "features_sha256": "bca7fe7342eeb6ac8f637f06349443805ca5266230a1502e6652428c20fa8f95",
+      "metrics_sha256": "bb52a434f264f3cad262054cb8276c7033d0ce77080b4b34ddf321ddc3952cac"
+    },
+    {
+      "role": "best",
+      "condition": "M01_g2",
+      "epoch": 20,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g2/best_features.pt",
+      "features_sha256": "3ddadd88562392ef5bb194625cf667e2b8c3b9341be709b36cc2c942b9346a6e",
+      "metrics_sha256": "359649767a5710f0e3a4c46f96acec2947f786039cd477e4727b98b45981654a"
+    },
+    {
+      "role": "best",
+      "condition": "M10_g2",
+      "epoch": 27,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g2/best_features.pt",
+      "features_sha256": "6ba8b4848b47227ae80bb0e51283ab4f753457d9e57b74cde9c3aa8ef76c1c85",
+      "metrics_sha256": "727e85e1fb8d5ec300ef2e0e239c9c6dbf26457f7492a61fe80eca93107274f1"
+    },
+    {
+      "role": "best",
+      "condition": "M11_g2",
+      "epoch": 23,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g2/best_features.pt",
+      "features_sha256": "73a7acc240c673f20f24e188f04a7cf8b76728942c112dbf9a52b6f93b1d78f8",
+      "metrics_sha256": "e5c20740532a674a3ae1597821ede4106d73cbf8797b6bfd956de4e7d710f6bd"
+    },
+    {
+      "role": "best",
+      "condition": "M00_g4",
+      "epoch": 24,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g4/best_features.pt",
+      "features_sha256": "3de7cd2c372e41c5758502a83b7a75eb464b1687a8b0f993f46b4e9e84588032",
+      "metrics_sha256": "e91f6f11bed9aa6274ad4f426afce4ccd19d6425fc0978a19632ffd4986ed038"
+    },
+    {
+      "role": "best",
+      "condition": "M01_g4",
+      "epoch": 28,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g4/best_features.pt",
+      "features_sha256": "df0f56bc171e5a34c3f646de0429c4078ba1293269646654a0d4ea9653d946a4",
+      "metrics_sha256": "33d2cfe019284d8e2699042f9226756a4add7f26e4879861f8cd88a9826a5d25"
+    },
+    {
+      "role": "best",
+      "condition": "M10_g4",
+      "epoch": 20,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g4/best_features.pt",
+      "features_sha256": "ec85c62c61d1e8e995ab9c32041d2b22c07962cb7bbdbc5bb276a672906c4096",
+      "metrics_sha256": "621693473b125d76dd59d42b16a23c74d09b94bbe07d6ac69929cd7b1738c0d1"
+    },
+    {
+      "role": "best",
+      "condition": "M11_g4",
+      "epoch": 30,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g4/best_features.pt",
+      "features_sha256": "24a17f5f6d2369e026c1d05a8c6302f141a81fd182df21b5aefa2955167a1c9c",
+      "metrics_sha256": "ea36ff3b89b5bf5b920487bbefdfb4db9a731608d0605ba2e9b89ea9796d574a"
+    },
+    {
+      "role": "initial",
+      "condition": "C0",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/C0/initial_features.pt",
+      "features_sha256": "3067865e12303c10798cf46d5bc66f8ea88350862d95bef466af29124eece075",
+      "metrics_sha256": "1e21bc1b5e5902ca029746ac84fd898a7193dd98a2413163adb9315949be955d"
+    },
+    {
+      "role": "initial",
+      "condition": "M00_g05",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g05/initial_features.pt",
+      "features_sha256": "1a41f3fadcf6f6467e740fdeb7597e6da1f7df3516d8ed19ba2fd38473a24025",
+      "metrics_sha256": "5088a4ea7ad43f5fe1ab084ffe941155023c97b62f9641a7316cb8e19661a280"
+    },
+    {
+      "role": "initial",
+      "condition": "M01_g05",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g05/initial_features.pt",
+      "features_sha256": "2e5c23f37fb8f7108130bc0c1e9b7626a66f2ae391430c4dd93e54478d8a7e69",
+      "metrics_sha256": "c608a95d2927c5e1b9f157f62b2c5c2de1afaa0e42206f2c8d50f2d71fe1b04b"
+    },
+    {
+      "role": "initial",
+      "condition": "M10_g05",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g05/initial_features.pt",
+      "features_sha256": "809b7e807191084addc0f27e841f28517668b1653dddac7ad1ce624e78b87743",
+      "metrics_sha256": "a1696c6ea3bcbc2463d96745d2b0d41da16c71c02de684dc1f549745f74fab99"
+    },
+    {
+      "role": "initial",
+      "condition": "M11_g05",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g05/initial_features.pt",
+      "features_sha256": "439c03371b9375c27addc571d4d1f22bc055d6ddf92601de9823614a45aec348",
+      "metrics_sha256": "8c9efbab928864fddb28e36ba35a303a635cb27486dc33d1898f2d4a3081bd9a"
+    },
+    {
+      "role": "initial",
+      "condition": "M00_g1",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g1/initial_features.pt",
+      "features_sha256": "f0473a5896f35bf0edbb85520c53c8feec09d2ddb33113753e7b7fe9bf6bc796",
+      "metrics_sha256": "bcb17a9bccdc6c15fef8f43bd1dc77ab83787726b3b08c465816ae9f3c4f21d5"
+    },
+    {
+      "role": "initial",
+      "condition": "M01_g1",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g1/initial_features.pt",
+      "features_sha256": "69668ef79ca30080740d525c0ae42e3ea0b4c4420816373efa8de9361a78ceac",
+      "metrics_sha256": "95a8bb005230a694c44e654646635a31c2e8bcb46a69c8b8c8718ca43c3a92a7"
+    },
+    {
+      "role": "initial",
+      "condition": "M10_g1",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g1/initial_features.pt",
+      "features_sha256": "aced3ddf70e02512e9d43003953d6e468cc6d99f86ebb48292a8fa5125ca6e10",
+      "metrics_sha256": "8a0e0e97d1edd0fe669efc6c69a4fde020628a98c6b701c2fb1477cf74d57aea"
+    },
+    {
+      "role": "initial",
+      "condition": "M11_g1",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g1/initial_features.pt",
+      "features_sha256": "b6a7f1fcc6ecfbb6553f883b5b53c400a214d2a7e9e33a6c71b7d41a57e50d73",
+      "metrics_sha256": "01505f0cb409dde431e8f8d709a6547abda67d1cc99ee59487e2a21ce2803b6a"
+    },
+    {
+      "role": "initial",
+      "condition": "M00_g2",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g2/initial_features.pt",
+      "features_sha256": "48503079b419083685c4d7b7325d9a770470df1dad91cf0a74b1a2b07838f0d5",
+      "metrics_sha256": "3f722251a0a74983fd07f04370adcecc304d3301b54db7bc34eace0db70e21a0"
+    },
+    {
+      "role": "initial",
+      "condition": "M01_g2",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g2/initial_features.pt",
+      "features_sha256": "3063a590aded07cc7e00ea64f0308b80b418d69883c3204e9f26a221a10a6f42",
+      "metrics_sha256": "2f0d1945b929f92d15cb56693d9ca3334f016e666be4b4c998195faf4323ea40"
+    },
+    {
+      "role": "initial",
+      "condition": "M10_g2",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g2/initial_features.pt",
+      "features_sha256": "e4198a552dbb78de4da3ea1e26a0db19d68b76239abc80c674f016ecfda98ea7",
+      "metrics_sha256": "f328be725c45a8c34a6ba70eab6f370ec76cc1840c3f3b7956511f570d1ccfbb"
+    },
+    {
+      "role": "initial",
+      "condition": "M11_g2",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g2/initial_features.pt",
+      "features_sha256": "f6bb110dd45950318474669198e5022852fd231fa6e87fd24598344a42216df2",
+      "metrics_sha256": "e93723582a0e3b946336f07d080bd9935baac03b33cd3de5b7616b73b2e04f2f"
+    },
+    {
+      "role": "initial",
+      "condition": "M00_g4",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M00_g4/initial_features.pt",
+      "features_sha256": "26a287ed94e3c3a6438700dd72753f23cf457cac93ee75d09f9ac2f443c67d7b",
+      "metrics_sha256": "883181a159cf06f2887431c7ed1dcf0be959d3e83c7451e289e7197fb26dea6e"
+    },
+    {
+      "role": "initial",
+      "condition": "M01_g4",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M01_g4/initial_features.pt",
+      "features_sha256": "f0dd6961c11083dbcd8c2f92f530782174ca70c858d84a4bdc513d79a6e2e14e",
+      "metrics_sha256": "9477782cdfb12ba4b6497af4be291634ad306c6769dbeec0300be7a87718613e"
+    },
+    {
+      "role": "initial",
+      "condition": "M10_g4",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M10_g4/initial_features.pt",
+      "features_sha256": "9a5bec72e0e8ba1dfb8962b8ca4d239c029410918340326a9bfc054117ee83d0",
+      "metrics_sha256": "c913fc60880aef000f98ee8fe00ac59ba725dd9780ef8927e11ead90fa1b9728"
+    },
+    {
+      "role": "initial",
+      "condition": "M11_g4",
+      "epoch": 0,
+      "features_path": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/M11_g4/initial_features.pt",
+      "features_sha256": "9ec6c090be8fc575e6e3bd97495e9a336e538fb1893cab13c18251ce312f33e5",
+      "metrics_sha256": "40c462d05c141748c06f043e91b0193d55b908c85cb78a4884e42bb168532d18"
+    }
+  ],
+  "final_and_best_native_radius_ylim": [
+    0,
+    9.0
+  ],
+  "no_training": true,
+  "no_model_inference": true,
+  "explanation": "Quantiles describe variation across validation videos; they are not confidence intervals or seed uncertainty."
+}

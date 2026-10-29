@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-10-27T17:59:09.437732+00:00",
+  "source_root": "dataset_root",
+  "source_directory": "lowdim_retrieval_20261021",
+  "source_sha256": {
+    "SELECTIONS_LOCKED.json": "32f730576dfe841221540935db30a6d7654226c69947bb1dec561e46841fe08c",
+    "selections/hyp_cone.json": "9bd17b4ef9c6375318b46ec950699c8e5e82099452ebaaa92e903598c1db7e82",
+    "method_evaluations/hyp_cone_d64_s50_R1.json": "b6772f8734d05db5bb5486293eca6c050c4d7f4680762bdc673ebb7e80e9d4db",
+    "selections/euc_none.json": "aa3d5b412c4a0b79e0ee0e693356d4d2d19603201adba9cc74259a9a5995822f",
+    "method_evaluations/euc_none_d64_s50_R1.json": "adf6eedcac2fddb341380bb87d2b3099d9782d1a91007d8b6ef9bb748ea2b4cd",
+    "selections/pmrl.json": "f806b1f120521a17c297d066a76cbd63ee772a79b46b8b31798f34106ac28607",
+    "method_evaluations/pmrl_d64_s50_R3.json": "9ffa71228730b9815ae54fbc80223f5998bc90234829c6c314d6dc017dccaee8",
+    "selections/vast.json": "55715c523ab0ec439c09ea50d345b53cb8e714c635f049665665cb89ba91e689",
+    "method_evaluations/vast_d64_s50_R3.json": "0ea39ba2426c13f03b9d7f2b3907e0fb579b7678477687c20925e0a7f0c19ad1",
+    "selections/gram.json": "a147e5fef90f5f0713d7f509558fcec633a37d9d5b23e03e4d69f7f3e3df12f8",
+    "method_evaluations/gram_d64_s50_R1.json": "9967fead23e1a97a96ac3e8006cd4e4642ba33eb9f8f3ec374bd3d413b97e27f",
+    "method_evaluations/hyp_cone_d64_s50_R0.json": "8dd0ecb48ba08c560cd0afc001679c1e1dcf828fb832e507d78d396a5c839722",
+    "method_evaluations/euc_none_d64_s50_R0.json": "997b26b91e59675e1cbe3017df3b0fe416860fab24642258d199425bcb6a7b03"
+  },
+  "checks": {
+    "selection_hashes": true,
+    "selected_checkpoint_metadata": true,
+    "common_test_ids": true,
+    "test_candidates": 884,
+    "macro_recomputed_from_six_directions": true
+  },
+  "scope": "Existing 64D seed50 final tests only; no training or inference performed."
+}

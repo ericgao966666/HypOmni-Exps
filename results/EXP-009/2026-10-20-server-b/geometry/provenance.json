@@ -1,0 +1,451 @@
+{
+  "dimensions": [
+    8,
+    16,
+    32,
+    64,
+    128,
+    512
+  ],
+  "training_seed": 50,
+  "projection_seed": 50,
+  "entailment_weight": 0.1,
+  "n_full_test": 884,
+  "n_projection_videos": 48,
+  "n_projection_points": 336,
+  "sample_ids_sha256": "76b74962e0c9b7df9f3e725cca198f25589f69aa1dcb1d2fb6ac4efeb394879c",
+  "sampling": "np.random.default_rng(50).choice(884,48,replace=False), sorted indices; same videos across widths.",
+  "input_hashes": [
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d8_s50/test_features.pt",
+      "sha256": "415262ebef4fedd1d11d3c0b5c03379fe589e03b844e462698c130ea4143c08f"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d8_s50/test_metrics.json",
+      "sha256": "1f41b69caddfe7318872f8d8d9cb802d3506507ed861111730ab7711952393a7"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d8_s50/DONE.json",
+      "sha256": "0be71cb3a82cfb462e78a8ca2490e77909743ef26265f2ffcef4d784cafdc3f2"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_16d_20261020/runs/msrvtt_hyp_cone_d16_s50/test_features.pt",
+      "sha256": "b2039745b1a2e9547b9eafd62a4561fbc04347c5ba53e5e436c04f6dbdca450e"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_16d_20261020/runs/msrvtt_hyp_cone_d16_s50/test_metrics.json",
+      "sha256": "088794120e8ec21d6474c9e1c5e0764f494e57291486a2e4f45f9969defb930b"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_16d_20261020/runs/msrvtt_hyp_cone_d16_s50/DONE.json",
+      "sha256": "c1369d2e4036b5c438951c33a388d9d278de172a7776647c348b17512a06e6c8"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d32_s50/test_features.pt",
+      "sha256": "3dd3d44932687f87198feb33d877c8e878052e2e0bfd8248c6bd053a9956f881"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d32_s50/test_metrics.json",
+      "sha256": "3f40d25bf42ca0b036bc536cb7b3cd656b54d75cfa830d5e57a2248b4f366c66"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d32_s50/DONE.json",
+      "sha256": "1206ef12a1276ce8b1cfcd1abf30de8c769792c95091b17529da76d6e80735a6"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_64d_20261020/runs/msrvtt_hyp_cone_d64_s50/test_features.pt",
+      "sha256": "966ecd804c61a29b3cc1f2c80eb54363d70db7cc0d49027a7102bb486ba896f6"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_64d_20261020/runs/msrvtt_hyp_cone_d64_s50/test_metrics.json",
+      "sha256": "3919ff042d06dfc1207c44d58fab869d596115642b3de0bb94928767cc49dc22"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_64d_20261020/runs/msrvtt_hyp_cone_d64_s50/DONE.json",
+      "sha256": "8acab53e3583771c01bf964bb1d53ee7f87e29025f0811b536058fbe35a6513f"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d128_s50/test_features.pt",
+      "sha256": "a490f008cc7765c5b8834d1858e9b601928a43fbac807104017058a54d941a05"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d128_s50/test_metrics.json",
+      "sha256": "7adaa122ab9d08616590a3302aadecc3f8e97228bd5008f88e2baa9a9584bff0"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d128_s50/DONE.json",
+      "sha256": "43ee3ae4bfd5645ceaa22a6999d3914dc7514b431096eea6b0167994bb8e6bdb"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d512_s50/test_features.pt",
+      "sha256": "38533f1a67569522085940ac24bde796bbd2a7a6bdb5f885732172e04ce5f087"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d512_s50/test_metrics.json",
+      "sha256": "f95af05dd534c407a77a8b2741fedd4d98107a11e744a8540c8caf38ac3feb11"
+    },
+    {
+      "source_root": "dataset_root",
+      "source_path": "lowdim_finetune_20261019/runs/msrvtt_hyp_cone_d512_s50/DONE.json",
+      "sha256": "139efc75e2dd88c968bbbc41c17b2fc1e876bb8022bc754a7348d9b5038a9076"
+    }
+  ],
+  "projection_details": {
+    "8": {
+      "horo": {
+        "details": {
+          "projection_seed": 50,
+          "steps": 500,
+          "learning_rate": 0.05,
+          "frechet_centering": true,
+          "frechet_converged": true,
+          "projected_original_origin": [
+            [
+              0.04506698807826561,
+              -0.12583446821507976
+            ]
+          ],
+          "origin_realignment": "Isometric Mobius translation; no radial rescaling",
+          "loss_initial": -0.4303649905227447,
+          "loss_final": -0.6527590496614851,
+          "seconds": 6.107430575997569
+        },
+        "quality": {
+          "distance_spearman": 0.7122223320003385,
+          "knn10_retention": 0.40059523809523817,
+          "radial_spearman": 0.2782889283974363,
+          "radial_rmse": 0.5083000562902964,
+          "optimally_scaled_distance_stress": 0.3256949801775991,
+          "max_ball_norm": 0.45385949995079417
+        }
+      },
+      "cosne": {
+        "details": {
+          "seconds": 28.559328717994504,
+          "steps": 1000,
+          "learning_rate": 5.0,
+          "origin_loss_learning_rate": 0.1,
+          "perplexity": 20,
+          "cauchy_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "centering": false,
+          "reported_objective": 2.335431850865106
+        },
+        "quality": {
+          "distance_spearman": 0.08149847422791957,
+          "knn10_retention": 0.23511904761904762,
+          "radial_spearman": -0.1293473066030039,
+          "radial_rmse": 1.5293430589767598,
+          "optimally_scaled_distance_stress": 0.8022247809468743,
+          "max_ball_norm": 0.9999900000000002
+        }
+      }
+    },
+    "16": {
+      "horo": {
+        "details": {
+          "seconds": 5.782910328998696,
+          "steps": 500,
+          "learning_rate": 0.05,
+          "frechet_centering": true,
+          "frechet_converged": true,
+          "center": [
+            [
+              -0.20409649130861698,
+              -0.045669959831118614,
+              0.06163393052675018,
+              -0.03138364925064092,
+              0.0781775729636804,
+              -0.036955791241986204,
+              0.037334210344962246,
+              0.020624957203184885,
+              0.03425559167529028,
+              -0.017567121540949075,
+              0.011761373987366625,
+              0.0011030405949897198,
+              0.003779610292682755,
+              0.02309386213880131,
+              0.006264056088199445,
+              -0.020868709515180866
+            ]
+          ],
+          "projected_original_origin": [
+            [
+              -0.11558344535607956,
+              -0.03244473573970327
+            ]
+          ],
+          "origin_realignment": "Isometric Mobius translation; no radial rescaling",
+          "loss_initial": -0.15761179146317914,
+          "loss_final": -0.49371096220975497,
+          "reused_identical_input_and_seed": true
+        },
+        "quality": {
+          "distance_spearman": 0.5319346994770107,
+          "knn10_retention": 0.2988095238095238,
+          "radial_spearman": 0.16500477687864198,
+          "radial_rmse": 0.5577297635412876,
+          "optimally_scaled_distance_stress": 0.41301955327057716,
+          "max_ball_norm": 0.4318776350115747
+        }
+      },
+      "cosne": {
+        "details": {
+          "seconds": 28.525571108970325,
+          "steps": 1000,
+          "learning_rate": 5.0,
+          "origin_loss_learning_rate": 0.1,
+          "perplexity": 20,
+          "cauchy_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "centering": false,
+          "reported_objective": 2.8785915420218346,
+          "reused_identical_input_and_seed": true
+        },
+        "quality": {
+          "distance_spearman": 0.020438864257862642,
+          "knn10_retention": 0.16904761904761909,
+          "radial_spearman": -0.30098890878376244,
+          "radial_rmse": 1.0892933089850834,
+          "optimally_scaled_distance_stress": 0.8396658867080666,
+          "max_ball_norm": 0.9999900000000002
+        }
+      }
+    },
+    "32": {
+      "horo": {
+        "details": {
+          "projection_seed": 50,
+          "steps": 500,
+          "learning_rate": 0.05,
+          "frechet_centering": true,
+          "frechet_converged": true,
+          "projected_original_origin": [
+            [
+              -0.024123480208166816,
+              -0.029069215393245976
+            ]
+          ],
+          "origin_realignment": "Isometric Mobius translation; no radial rescaling",
+          "loss_initial": -0.09429527071651762,
+          "loss_final": -0.38603081510721177,
+          "seconds": 3.161555672006216
+        },
+        "quality": {
+          "distance_spearman": 0.349658578374235,
+          "knn10_retention": 0.26517857142857143,
+          "radial_spearman": 0.09162685934465022,
+          "radial_rmse": 0.4973486113398276,
+          "optimally_scaled_distance_stress": 0.5245270307802585,
+          "max_ball_norm": 0.4187594512438653
+        }
+      },
+      "cosne": {
+        "details": {
+          "seconds": 28.769662842038088,
+          "steps": 1000,
+          "learning_rate": 5.0,
+          "origin_loss_learning_rate": 0.1,
+          "perplexity": 20,
+          "cauchy_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "centering": false,
+          "reported_objective": 2.884746433887253
+        },
+        "quality": {
+          "distance_spearman": 0.04810216783196171,
+          "knn10_retention": 0.1660714285714286,
+          "radial_spearman": -0.13720808842603432,
+          "radial_rmse": 0.6520310412387293,
+          "optimally_scaled_distance_stress": 0.5411403085866752,
+          "max_ball_norm": 0.5051662673184184
+        }
+      }
+    },
+    "64": {
+      "horo": {
+        "details": {
+          "projection_seed": 50,
+          "steps": 500,
+          "learning_rate": 0.05,
+          "frechet_centering": true,
+          "frechet_converged": true,
+          "projected_original_origin": [
+            [
+              0.0487878950197831,
+              0.007213326802736027
+            ]
+          ],
+          "origin_realignment": "Isometric Mobius translation; no radial rescaling",
+          "loss_initial": -0.04260546092555087,
+          "loss_final": -0.36824565780040824,
+          "seconds": 3.4563180099939927
+        },
+        "quality": {
+          "distance_spearman": 0.35696186022435467,
+          "knn10_retention": 0.27708333333333335,
+          "radial_spearman": 0.051466596647959856,
+          "radial_rmse": 0.47992778496389316,
+          "optimally_scaled_distance_stress": 0.5162327964730147,
+          "max_ball_norm": 0.42250302282339275
+        }
+      },
+      "cosne": {
+        "details": {
+          "seconds": 28.55503308796324,
+          "steps": 1000,
+          "learning_rate": 5.0,
+          "origin_loss_learning_rate": 0.1,
+          "perplexity": 20,
+          "cauchy_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "centering": false,
+          "reported_objective": 2.8838306509012397
+        },
+        "quality": {
+          "distance_spearman": 0.01111356387276694,
+          "knn10_retention": 0.13988095238095238,
+          "radial_spearman": -0.20620614603961962,
+          "radial_rmse": 0.6055208716330844,
+          "optimally_scaled_distance_stress": 0.5113821016433769,
+          "max_ball_norm": 0.5433485751345483
+        }
+      }
+    },
+    "128": {
+      "horo": {
+        "details": {
+          "projection_seed": 50,
+          "steps": 500,
+          "learning_rate": 0.05,
+          "frechet_centering": true,
+          "frechet_converged": true,
+          "projected_original_origin": [
+            [
+              0.040614055874914755,
+              0.01033567926026749
+            ]
+          ],
+          "origin_realignment": "Isometric Mobius translation; no radial rescaling",
+          "loss_initial": -0.017591056872314707,
+          "loss_final": -0.3360481616213298,
+          "seconds": 3.717638601025101
+        },
+        "quality": {
+          "distance_spearman": 0.352973605046916,
+          "knn10_retention": 0.27767857142857144,
+          "radial_spearman": -0.04176953300475157,
+          "radial_rmse": 0.47268276402869175,
+          "optimally_scaled_distance_stress": 0.5407456005760867,
+          "max_ball_norm": 0.4081578376576141
+        }
+      },
+      "cosne": {
+        "details": {
+          "seconds": 26.062199665000662,
+          "steps": 1000,
+          "learning_rate": 5.0,
+          "origin_loss_learning_rate": 0.1,
+          "perplexity": 20,
+          "cauchy_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "centering": false,
+          "reported_objective": 2.9141260031414267
+        },
+        "quality": {
+          "distance_spearman": 0.011001455506575714,
+          "knn10_retention": 0.15178571428571427,
+          "radial_spearman": -0.19126590447508116,
+          "radial_rmse": 0.65503060186838,
+          "optimally_scaled_distance_stress": 0.541252776330946,
+          "max_ball_norm": 0.5131073308118057
+        }
+      }
+    },
+    "512": {
+      "horo": {
+        "details": {
+          "projection_seed": 50,
+          "steps": 500,
+          "learning_rate": 0.05,
+          "frechet_centering": true,
+          "frechet_converged": true,
+          "projected_original_origin": [
+            [
+              -0.0007784343978848991,
+              -0.010852518427344453
+            ]
+          ],
+          "origin_realignment": "Isometric Mobius translation; no radial rescaling",
+          "loss_initial": -0.007850554468407754,
+          "loss_final": -0.3639128350184787,
+          "seconds": 6.976436598051805
+        },
+        "quality": {
+          "distance_spearman": 0.3458467075805702,
+          "knn10_retention": 0.24761904761904763,
+          "radial_spearman": 0.0793929884279324,
+          "radial_rmse": 0.4249977254332669,
+          "optimally_scaled_distance_stress": 0.5785251550610006,
+          "max_ball_norm": 0.4113702777273
+        }
+      },
+      "cosne": {
+        "details": {
+          "seconds": 26.031416748010088,
+          "steps": 1000,
+          "learning_rate": 5.0,
+          "origin_loss_learning_rate": 0.1,
+          "perplexity": 20,
+          "cauchy_gamma": 0.1,
+          "early_exaggeration": 1.0,
+          "centering": false,
+          "reported_objective": 2.8042739182769005
+        },
+        "quality": {
+          "distance_spearman": 0.05557057786877012,
+          "knn10_retention": 0.16011904761904766,
+          "radial_spearman": -0.07478314236363752,
+          "radial_rmse": 0.5751191941482995,
+          "optimally_scaled_distance_stress": 0.4842120234366617,
+          "max_ball_norm": 0.5442438282866752
+        }
+      }
+    }
+  },
+  "limitations": [
+    "One training seed and one projection seed per dimension.",
+    "Retrieval and entailment share the embedding dimension.",
+    "D64 uses world size 1; the other four-arm runs use their recorded layouts; global batch remains 64.",
+    "CO-SNE radial patterns can be projection artifacts; native metrics are authoritative.",
+    "Lambda=1.0 is a separate completed ablation and is not included in these lambda=0.1 figures."
+  ],
+  "analysis_script": {
+    "source_root": "workspace",
+    "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim_geometry_allwidths_20261020/analyze_widths.py"
+  },
+  "analysis_script_sha256": "51947879966efe751d03462769968f74fb164011baa85c7d711d1cecbbd6dbeb",
+  "implementation_reference": {
+    "source_root": "workspace",
+    "source_path": "Hyperbolic-Omnimodal/code/outputs/lowdim16_geometry_20261020"
+  },
+  "original_three_projection_seeds_note": "An earlier D16 exploratory analysis tried projection seeds 50/51/52; no extra model training occurred. This all-width report uses only projection seed 50.",
+  "original_analysis_completed_at_utc": "2026-10-20T16:52:37.349966+00:00"
+}

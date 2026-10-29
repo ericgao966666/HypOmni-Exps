@@ -1,0 +1,526 @@
+{
+  "passed": true,
+  "audited_at": "2026-10-26T17:37:04.796828+00:00",
+  "source_digest": "1466d94778086865158c563fb99ba91a0d2a6ec655c81cd7c09b4f351c9fc662",
+  "code_unchanged": true,
+  "legacy_source_unchanged": true,
+  "input_stats_unchanged": true,
+  "tests_passed": 22,
+  "one_factor_comparisons": 70,
+  "completed": 56,
+  "failed": 2,
+  "total_updates": 284110,
+  "planned_updates": 284520,
+  "artifacts_hash_checked": 1444,
+  "bytes_hash_checked": 22947095312,
+  "final_and_selected_feature_geometry_recomputed": true,
+  "retrieval_from_saved_exact_ranks_verified": true,
+  "best_selection_verified": true,
+  "actual_projection_dtype": "float16",
+  "actual_geometry_dtype": "float32",
+  "launch_count": 58,
+  "all_registered_pids_exited": true,
+  "peak_concurrent": 32,
+  "peak_concurrent_per_card": {
+    "0": 4,
+    "5": 4,
+    "7": 4,
+    "3": 4,
+    "6": 4,
+    "4": 4,
+    "2": 4,
+    "1": 4
+  },
+  "admission_boundaries_verified": true,
+  "runtime_memory_scope": "Runtime guard in sealed code; admission records and final status verified, not a continuous hardware trace",
+  "diagnostic_errors": [],
+  "nonfinite_probe_points": [],
+  "baseline_reproduction": [
+    {
+      "route": "C0",
+      "weights_bitwise_equal": true,
+      "max_parameter_difference": 0.0,
+      "retrieval_equal": true,
+      "geometry_equal": true,
+      "R1": 18.660481770833332
+    },
+    {
+      "route": "M11_g2",
+      "weights_bitwise_equal": true,
+      "max_parameter_difference": 0.0,
+      "retrieval_equal": true,
+      "geometry_equal": true,
+      "R1": 15.950520833333334
+    }
+  ],
+  "runs": [
+    {
+      "condition": "C0__A_l0",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__A_l005",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__A_l01",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__A_l02",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__A_l05",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__A_l1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__A_l2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__B_linear",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__B_delayed",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__C_lr02",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__C_lr5",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.263671875
+    },
+    {
+      "condition": "C0__D_g1_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.2109375
+    },
+    {
+      "condition": "C0__D_g1_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.15234375
+    },
+    {
+      "condition": "C0__D_g2_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.2109375
+    },
+    {
+      "condition": "C0__D_g2_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.19140625
+    },
+    {
+      "condition": "C0__D_g3_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.23046875
+    },
+    {
+      "condition": "C0__D_g3_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.19140625
+    },
+    {
+      "condition": "C0__D_g4_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.23046875
+    },
+    {
+      "condition": "C0__D_g4_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.2109375
+    },
+    {
+      "condition": "C0__D_g5_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.23046875
+    },
+    {
+      "condition": "C0__D_g5_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.2109375
+    },
+    {
+      "condition": "C0__D_g6_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25
+    },
+    {
+      "condition": "C0__D_g6_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25
+    },
+    {
+      "condition": "C0__D_g7_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25
+    },
+    {
+      "condition": "C0__D_g7_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25
+    },
+    {
+      "condition": "C0__D_g8_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25
+    },
+    {
+      "condition": "C0__D_g8_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25
+    },
+    {
+      "condition": "C0__D_g9_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25
+    },
+    {
+      "condition": "C0__D_g9_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25
+    },
+    {
+      "condition": "M11_g2__A_l0",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__A_l005",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__A_l01",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__A_l02",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__A_l05",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__A_l1",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__A_l2",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__B_linear",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__B_delayed",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__C_lr02",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__C_lr5",
+      "status": "completed",
+      "step": 9660,
+      "evaluations": 30,
+      "probe_points": 31,
+      "peak_torch_reserved_gib": 0.2734375
+    },
+    {
+      "condition": "M11_g2__D_g1_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.21484375
+    },
+    {
+      "condition": "M11_g2__D_g1_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.15625
+    },
+    {
+      "condition": "M11_g2__D_g2_joint",
+      "status": "failed",
+      "step": 1971,
+      "error": "FloatingPointError('Nonfinite unscaled gradients')",
+      "failure_checkpoint_sha256": "c453edb6b34614163f942d395ec2ad2d5374e18164642aa2217b73f44bf1cf3a",
+      "probe_points": 20,
+      "evaluations": 19,
+      "recovery_state_preserved": true
+    },
+    {
+      "condition": "M11_g2__D_g2_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.1953125
+    },
+    {
+      "condition": "M11_g2__D_g3_joint",
+      "status": "failed",
+      "step": 1619,
+      "error": "FloatingPointError('Nonfinite unscaled gradients')",
+      "failure_checkpoint_sha256": "c99ebbdb425022963ed4153be90ca78e1f446f1bc68f234ea983a5b1ea23242e",
+      "probe_points": 17,
+      "evaluations": 16,
+      "recovery_state_preserved": true
+    },
+    {
+      "condition": "M11_g2__D_g3_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.1953125
+    },
+    {
+      "condition": "M11_g2__D_g4_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.234375
+    },
+    {
+      "condition": "M11_g2__D_g4_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.21484375
+    },
+    {
+      "condition": "M11_g2__D_g5_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.234375
+    },
+    {
+      "condition": "M11_g2__D_g5_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.21484375
+    },
+    {
+      "condition": "M11_g2__D_g6_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25390625
+    },
+    {
+      "condition": "M11_g2__D_g6_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25390625
+    },
+    {
+      "condition": "M11_g2__D_g7_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25390625
+    },
+    {
+      "condition": "M11_g2__D_g7_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25390625
+    },
+    {
+      "condition": "M11_g2__D_g8_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25390625
+    },
+    {
+      "condition": "M11_g2__D_g8_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25390625
+    },
+    {
+      "condition": "M11_g2__D_g9_joint",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25390625
+    },
+    {
+      "condition": "M11_g2__D_g9_cone",
+      "status": "completed",
+      "step": 2000,
+      "evaluations": 20,
+      "probe_points": 21,
+      "peak_torch_reserved_gib": 0.25390625
+    }
+  ]
+}

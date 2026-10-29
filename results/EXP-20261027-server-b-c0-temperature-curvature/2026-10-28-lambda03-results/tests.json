@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": [
+    "Unchanged computation: train.py",
+    "Unchanged computation: model.py",
+    "Unchanged computation: metrics.py",
+    "Unchanged computation: diagnostics.py",
+    "Only numerical intervention is lambda: C0_l02__L_c1t1",
+    "Only numerical intervention is lambda: C0_l05__L_c1t1",
+    "Exact initialization and probe sample match",
+    "Single condition, same budget and learnable scalars",
+    "Constant lambda and original epoch ordering"
+  ],
+  "source": {
+    "bootstrap.py": "bef273a66104b847447a7533118a5b1193464d08a081637fb378db7ff8a4d638",
+    "common.py": "5a610740c9634021eab687862a54c1003cfb3c3b8bfc65cc1b19fc62c9cbc08f",
+    "diagnostics.py": "86c0cd3c6cbf948e8f2ca12b72400bcc1a22ff1a13b8d6d450f9308d53ded6de",
+    "metrics.py": "2fa25abbe2182781c4b5453baea537f30ab1869172b34f4cee8e8768ae224cc8",
+    "model.py": "9377158439c24aba1a7ec215ed58697fa0656b7ef8c87b137be65c1489617615",
+    "tests/verify.py": "7319493a9aa3b79bd6f505a71839875c086930e0f088523fb4448241dbe62795",
+    "train.py": "97dfa754acac8f0175b18d7d3e9b2de9665f8f2f3f826f7b64d5a91ae4c8a4f6",
+    "vendor/MERU_LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "vendor/lorentz.py": "bd02210a14a4ca84c9eb24e7aad9b07ad42df5369d68124cf44d5ae07ba496f1",
+    "vendor/manifest.json": "5ee59858902b8949027fb54ee0e4dc9db850f4f28b7106c3b03406172279ec3e"
+  },
+  "time": "2026-10-28T12:24:49.360212+00:00"
+}

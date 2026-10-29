@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-28T12:46:25.740921+00:00",
+  "manifest_entries": 851,
+  "manifest_missing_or_mismatched": 0,
+  "json_files": 542,
+  "jsonl_syntax": "passed",
+  "internal_links": 2776,
+  "broken_internal_links": 0,
+  "external_source_links": 68,
+  "external_source_links_note": "Historical cross-server paths are provenance, not guaranteed mounted on this machine. Two missing historical report originals have explicit navigation notices. OPS-001 remains unverified remotely.",
+  "itm_done_metric_bindings": 16,
+  "external_selection_bindings": 3,
+  "region_completed_stage_records": 24,
+  "credential_patterns": "none",
+  "forbidden_large_artifact_types": "none",
+  "publish_file_count": 907,
+  "publish_bytes": 51617614,
+  "preservation": "Full original repo backup and named Git stash retained; local overlapping card preserved in runs; remote history retained."
+}

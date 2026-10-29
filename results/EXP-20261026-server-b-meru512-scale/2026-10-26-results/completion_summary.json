@@ -1,0 +1,31 @@
+{
+  "completed_at": "2026-10-26T14:43:59.160853+00:00",
+  "conditions": 17,
+  "completed": 17,
+  "failed": 0,
+  "epochs_per_condition": 30,
+  "updates_per_condition": 9660,
+  "total_updates": 164220,
+  "validation_videos": 2048,
+  "dimension": 512,
+  "seed": 50,
+  "source_digest": "e55adfdb597052cd0866f9c2aed661737c9096eb00c018cd8fb2396edb2ca5a4",
+  "peak_pytorch_reserved_gib": {
+    "min": 0.166015625,
+    "max": 0.17578125
+  },
+  "all_training_processes_exited": true,
+  "coordinator_exited": true,
+  "final_report_contains_all_conditions": true,
+  "no_msrvtt_finetuning": true,
+  "no_test_evaluation": true,
+  "initialization_audit_scope": "4096 deterministic training samples",
+  "cpu_checks": 18,
+  "report_checks": 3,
+  "last_condition_launch": {
+    "condition": "M11_g4",
+    "gpu": 1,
+    "time": "2026-10-26T14:35:10.576966+00:00",
+    "note": "Automatically dispatched before the requested one-off placement; no duplicate or migration."
+  }
+}

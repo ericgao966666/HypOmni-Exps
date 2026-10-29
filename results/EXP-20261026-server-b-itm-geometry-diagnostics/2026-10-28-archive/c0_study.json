@@ -1,0 +1,18 @@
+{
+  "stage": "Tier A C0 structure control and one-variable learning-rate scan",
+  "steps": 2000,
+  "eval_every": 500,
+  "microbatch": 8,
+  "seed": 50,
+  "variant": "C0",
+  "trials": [
+    {"run_id": "c0_native_lr1e4_s50_v1", "architecture": "native", "lr": 0.0001, "reference": "c0_local_lr1e4_s50_v1", "single_change": "matcher architecture only"},
+    {"run_id": "c0_local_lr1e4_s50_v1", "architecture": "local", "lr": 0.0001, "reference": null, "single_change": "reference"},
+    {"run_id": "c0_local_lr3e4_s50_v1", "architecture": "local", "lr": 0.0003, "reference": "c0_local_lr1e4_s50_v1", "single_change": "learning rate only"},
+    {"run_id": "c0_local_lr1e3_s50_v1", "architecture": "local", "lr": 0.001, "reference": "c0_local_lr1e4_s50_v1", "single_change": "learning rate only"}
+  ],
+  "selection": "mean of exact-clip t2va and va2t validation R@1; ties R@5 then earlier step; no test-set selection",
+  "follow_up": "After all four finish, inspect structure gap and C0 curves. Select LR on held-out validation and run two additional C0 seeds before judging E1/E2 improvements. Do not compare native LR1e-4 against another local LR as an architecture-only contrast.",
+  "scheduling": {"devices": [1, 2], "maximum_concurrent": 2, "one_task_per_device": true, "minimum_gpu_free_gib": 48, "minimum_disk_free_gib": 48, "poll_seconds": 30},
+  "precondition": "Full raw-token READY plus current CUDA recovery evidence required. No partial-cache formal training. Any failure stops new launches; running tasks remain observable. No implicit restart."
+}

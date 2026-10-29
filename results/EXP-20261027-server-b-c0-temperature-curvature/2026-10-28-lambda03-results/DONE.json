@@ -1,0 +1,83 @@
+{
+  "condition": "C0_l03__L_c1t1",
+  "run_id": "20261028T122522-server-b-C0_l03__L_c1t1-seed50",
+  "pid": 3062210,
+  "device": 2,
+  "started_at": "2026-10-28T12:25:24.827881+00:00",
+  "status": "completed",
+  "step": 9660,
+  "expected_updates": 9660,
+  "cohort": "full",
+  "evaluations": 30,
+  "expected_evaluations": 30,
+  "best": {
+    "retrieval": {
+      "key": [
+        18.123372395833332,
+        36.319986979166664,
+        -8694
+      ],
+      "step": 8694,
+      "epoch": 27
+    },
+    "legal": {
+      "key": [
+        0.0,
+        18.123372395833332,
+        -8694
+      ],
+      "step": 8694,
+      "epoch": 27
+    }
+  },
+  "source_digest": "01276fb4e40248b340f1e2ec35eb4f18ddf36b5841099d845da58118c8c83466",
+  "hashes": {
+    "final_metrics.json": "5bb9b2ff3e1d17de8ec94e69d5b1c6fd1acccdb59db725d191178e22239b2346",
+    "best_legal_features.pt": "aad15e7eb9c41e92c70412cf0531b2384dd24d4811d1669adccd6aefeb6a1c3e",
+    "history.json": "9503afc03b82addc03e58d657e4dd8bd632078fe823f0a479188e5d5047d57b6",
+    "epoch_0029.pt": "5c20224bc6ec535b8bfe48248d8a20656bc06e356015749a62e0216154e36809",
+    "epoch_0018.pt": "1ecec45e6d2130201114877fb99c5ca81a99afabeaf7b5aebeb075aa2c1fd4d3",
+    "epoch_0012.pt": "0388b1ead4a955ce38687a3a42833e4aac295758e39306b75a9705ff12ddee3f",
+    "epoch_0014.pt": "f92fcdfa3497b5fa96d9961b6f65d1fabbd5587de98bede0f801f3de26e287a2",
+    "epoch_0002.pt": "5e4e10bc32b28c78b51f203f965906658b0f1a1221c69c3501d95d4f1ed5c60d",
+    "epoch_0006.pt": "ae51084a70276627ec7edc55ec784e86a86b26ac1dc59d13b83ab4aaa32f82c0",
+    "epoch_0026.pt": "54fdc005e0d0f59374f5e9e60ba11b77816c4bf5eb277a44e9b502d7fd0c6d24",
+    "epoch_0020.pt": "59ef78c899857c079f25ed032f1402e8ed0f30a6467b91357a8f03a59e50e39d",
+    "epoch_0016.pt": "85e3df93b8f849b6ec6d330d31a9724b34ef9963c86abd34829a53f9bdc814b9",
+    "readiness_history.jsonl": "6d9a874a586cd7466da87f68e25fb27c27091a2f9edd4b5fa732ea51ba728b61",
+    "gradient_probes.jsonl": "e7fe27818dd81b937243db595844cfa777f1037ef194d07e1f483c9420ad2a74",
+    "epoch_0022.pt": "3ee0cdfa3705daebc3924033fa88ad77e2cd4ca6410b409d26473b02f99fc25e",
+    "epoch_0027.pt": "374755f11565ba051087a1d344538d2339b19e037b448886587c46962bd25bf0",
+    "epoch_0007.pt": "bb72acf65f1c739bd1b758980fb6d512589a07a57de74d72642bc65df5b559ff",
+    "config.json": "d474b5a73168c183265e1262c4761e8e644483b46a97a7d44384e0762930ef1b",
+    "final_features.pt": "3dfa6491787ed753aa98791d0fcee5894cb99673a0848b28662229b8b1b7eacc",
+    "epoch_0005.pt": "4ec72ab2f23933d45f0da27a94123e6bac40c19259967340ed76906a418df3f2",
+    "epoch_0023.pt": "bcd3d536de868d82ecadf861d31fa5c69ac3b21a4238e03d6fa3dd7af0efabc0",
+    "epoch_0001.pt": "cdc0ad77d31cbad553b01bc789b50aa695e7c985f2b1ff4cad4d7357eccdaf14",
+    "final.pt": "3e369260656fee723222ec13395a2572583773cc7aee86111b51c8655ab72641",
+    "best_legal_metrics.json": "c3b2abcd514e13794bb735f1d2594fdcae1a179bcbf95b23ec33ccfad839a91e",
+    "epoch_0011.pt": "5472a842f42bc5379abe8cd607d2d3008d667df9ca416230205c304c850845e6",
+    "epoch_0010.pt": "7235e25437d629d43aa2d18c5797e05481af9e6da46cb224c74a976a264dce8f",
+    "best_retrieval_metrics.json": "c3b2abcd514e13794bb735f1d2594fdcae1a179bcbf95b23ec33ccfad839a91e",
+    "epoch_0025.pt": "fa5dd09d45761faf606925344421c4e744dda4700486fcd4c8357989cb0a7dd0",
+    "best_retrieval.pt": "687843fa954377fa80c1b47e88b6a646cae95210328207ec77d21572e55bfa06",
+    "epoch_0024.pt": "fa53e85a69690c4a938d9216bd415f29fc4e8ec21a83a1a34f1b1c54a8ddf380",
+    "epoch_0028.pt": "7b4be2ffe5233bbcbc1ee2053048fd8d8aa0c97d6645ee1663f9d9821699a880",
+    "epoch_0013.pt": "6d7a7d828df218421695652f7d520420c118e6d49227fe39d4ed088110b6c04f",
+    "epoch_0021.pt": "1849a5bc953e9fb86129a15a71e490ce9a1cf1f2a0f8926ac4e90bf7dc9dbde9",
+    "initial_metrics.json": "3c2fd29b575fe824340ef9a45fc7190ddef090bea5b5350f442027763a8dd028",
+    "best_retrieval_features.pt": "3e4e2abeed259fae7a3aa0d6eac4c4733915b721b8e4024b403f11a723e02e09",
+    "epoch_0009.pt": "dc6fad32148750d8aa3c696a8168ab36edbd1f8c758e0fbebb09ea3624872234",
+    "best_legal.pt": "8340286b5f3cbf8bc086e2f9beeb3aed0f2cfecb37bef759e97df117ccb505f3",
+    "epoch_0019.pt": "f95a524648f56587ca96636add49a3616a9534543314905f71e346c78abc1629",
+    "epoch_0030.pt": "d2ab10a625a66c69534e679f844dad3f6cd48d02a5cf79e12fb099c71f0676ad",
+    "epoch_0004.pt": "5d98d676fb89af36a880bfbd704a1dad9362784dbd33aac7bbe27c52db1e27cb",
+    "initial_features.pt": "33f35267312e231a85fb78371f79b92bca23f2656b49f05ec409f03b01efab69",
+    "epoch_0008.pt": "1e703dd781fc35dd2a8cea1c6561289b21d52acb619a4e23483eb119602cb7d6",
+    "epoch_0017.pt": "2bc2334b17fe9a4622f7842cca143eecce16aee528fa9bff57e67902b262e650",
+    "epoch_0003.pt": "f24e3d0e2dcf544057194f7cc00ee21b803818db5b363dbb7092aff9ac32ad8e",
+    "epoch_0015.pt": "0ee406138d4ab1073a92d58e6a946b0035b22a51ce5765024785b3ba047acf0d"
+  },
+  "peak_torch_reserved_gib": 0.27734375,
+  "time": "2026-10-28T12:31:43.934441+00:00"
+}

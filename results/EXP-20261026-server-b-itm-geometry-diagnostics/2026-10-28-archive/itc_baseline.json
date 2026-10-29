@@ -1,0 +1,126 @@
+{
+  "signature": {
+    "trunk": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/C0/final.pt",
+    "trunk_sha256": "908b907c4ee1acc27674a1a571d5ff58b9c94cfd3988e437535543822681a318",
+    "validation_features_sha256": "213fcf54ac75583f3e8bea482fa9a48ea1bc2d1a71a7fd4541f06358ef2b5ded",
+    "historical_identity": {
+      "condition": {
+        "name": "C0",
+        "mode": "C0",
+        "gamma": null,
+        "dimension": 512,
+        "seed": 50,
+        "head_type": "independent_radius",
+        "learn_curvature": false,
+        "learn_temperature": false
+      },
+      "source_digest": "e55adfdb597052cd0866f9c2aed661737c9096eb00c018cd8fb2396edb2ca5a4",
+      "protocol_sha256": "067da2610ad494904622ad00812c80aa4087765051f9e2321ecce2aaa325c19d",
+      "initial_projection_sha256": "3f57840fdf7f1e69354e23e6935169713ca22d42ef68436aebc251f6a14e271d"
+    },
+    "fork_epoch": 30,
+    "fork_step": 9660,
+    "choice": "original independent-radius 9-pair/9-edge terminal trunk, chosen before ITM results; no search over MERU variants",
+    "candidates": "FP32 negative Lorentz distance; stable ties by validation row index; top32",
+    "primary_positives": "exact clip identity; never remove queries missing positives from candidate pool",
+    "auxiliary_positives": "same source video; reported separately, not a replacement for exact-clip metric",
+    "split_sha256": {
+      "train": "e0d5207f27d354e91ae3e6693e6af4871f514346c8ac06854d82d60189017306",
+      "val": "a0f8b185c3b46c7942682dfe99239d5861912b7188d2486f3fab43a3bb89801f"
+    },
+    "timestamp_unix": 1793033930.6873114,
+    "script_sha256": "1dcec8eb10ce0b562c6dff38d2a86bbf3ae422e5250efd475e3069f51ba0daf6",
+    "limitations": [
+      "Existing trunk updated only seven heads, not VAST encoders.",
+      "End-point fork does not establish earliest stable fork or satisfy new every-1k checkpoint schedule.",
+      "Positive entailment training does not prove valid cone containment."
+    ],
+    "candidates_sha256": "28d4b11e8bb7715c05f4ab8bb9aab3f99eca234e3925074465f882dd2f024a7b"
+  },
+  "metrics": {
+    "t2va": {
+      "exact_clip": {
+        "R@1": 37.255859375,
+        "R@5": 62.158203125,
+        "R@10": 71.044921875,
+        "R@32": 84.27734375
+      },
+      "same_source_video_auxiliary": {
+        "R@1": 38.0859375,
+        "R@5": 62.59765625,
+        "R@10": 71.484375,
+        "R@32": 84.765625
+      }
+    },
+    "va2t": {
+      "exact_clip": {
+        "R@1": 37.060546875,
+        "R@5": 61.865234375,
+        "R@10": 71.142578125,
+        "R@32": 84.27734375
+      },
+      "same_source_video_auxiliary": {
+        "R@1": 38.427734375,
+        "R@5": 63.232421875,
+        "R@10": 72.412109375,
+        "R@32": 85.3515625
+      }
+    },
+    "v2ta": {
+      "exact_clip": {
+        "R@1": 48.681640625,
+        "R@5": 75.29296875,
+        "R@10": 84.033203125,
+        "R@32": 93.115234375
+      },
+      "same_source_video_auxiliary": {
+        "R@1": 50.390625,
+        "R@5": 76.220703125,
+        "R@10": 84.86328125,
+        "R@32": 93.359375
+      }
+    },
+    "ta2v": {
+      "exact_clip": {
+        "R@1": 49.072265625,
+        "R@5": 75.048828125,
+        "R@10": 83.69140625,
+        "R@32": 93.06640625
+      },
+      "same_source_video_auxiliary": {
+        "R@1": 50.634765625,
+        "R@5": 75.78125,
+        "R@10": 84.375,
+        "R@32": 93.45703125
+      }
+    },
+    "a2tv": {
+      "exact_clip": {
+        "R@1": 18.603515625,
+        "R@5": 42.48046875,
+        "R@10": 54.052734375,
+        "R@32": 73.388671875
+      },
+      "same_source_video_auxiliary": {
+        "R@1": 19.482421875,
+        "R@5": 43.75,
+        "R@10": 55.2734375,
+        "R@32": 74.70703125
+      }
+    },
+    "tv2a": {
+      "exact_clip": {
+        "R@1": 19.53125,
+        "R@5": 42.333984375,
+        "R@10": 53.271484375,
+        "R@32": 74.0234375
+      },
+      "same_source_video_auxiliary": {
+        "R@1": 20.41015625,
+        "R@5": 44.091796875,
+        "R@10": 54.78515625,
+        "R@32": 75.146484375
+      }
+    }
+  }
+}

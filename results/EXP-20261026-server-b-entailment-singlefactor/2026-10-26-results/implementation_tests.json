@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "tests_run": 22,
+  "failures": 0,
+  "errors": 0,
+  "output": "test_01_counts_and_budgets (__main__.Suite.test_01_counts_and_budgets) ... ok\ntest_02_exactly_one_factor (__main__.Suite.test_02_exactly_one_factor) ... ok\ntest_03_identical_initialization (__main__.Suite.test_03_identical_initialization) ... ok\ntest_04_legacy_forward_loss_gradients (__main__.Suite.test_04_legacy_forward_loss_gradients) ... ok\ntest_05_fixed_edge_coefficient (__main__.Suite.test_05_fixed_edge_coefficient) ... ok\ntest_06_schedules_same_mass (__main__.Suite.test_06_schedules_same_mass) ... ok\ntest_07_radial_scalar_groups_only (__main__.Suite.test_07_radial_scalar_groups_only) ... ok\ntest_08_fixed_scalars (__main__.Suite.test_08_fixed_scalars) ... ok\ntest_09_zero_cone_does_not_backpropagate_it (__main__.Suite.test_09_zero_cone_does_not_backpropagate_it) ... ok\ntest_10_cone_only_removes_contrastive (__main__.Suite.test_10_cone_only_removes_contrastive) ... ok\ntest_11_probe_no_parameter_or_rng_side_effects (__main__.Suite.test_11_probe_no_parameter_or_rng_side_effects) ... ok\ntest_12_membership_denominators (__main__.Suite.test_12_membership_denominators) ... ok\ntest_13_active_and_all_graph_counts (__main__.Suite.test_13_active_and_all_graph_counts) ... ok\ntest_14_official_source_and_endpoint (__main__.Suite.test_14_official_source_and_endpoint) ... ok\ntest_15_exact_rng_optimizer_resume (__main__.Suite.test_15_exact_rng_optimizer_resume) ... ok\ntest_16_deterministic_train_probe (__main__.Suite.test_16_deterministic_train_probe) ... ok\ntest_17_memory_admission_includes_new_context (__main__.Suite.test_17_memory_admission_includes_new_context) ... ok\ntest_18_warmup_and_concurrency_bounds (__main__.Suite.test_18_warmup_and_concurrency_bounds) ... ok\ntest_19_pause_newest_owned_job (__main__.Suite.test_19_pause_newest_owned_job) ... ok\ntest_20_path_escape_rejected (__main__.Suite.test_20_path_escape_rejected) ... ok\ntest_21_pid_identity_rejects_mismatch (__main__.Suite.test_21_pid_identity_rejects_mismatch) ... ok\ntest_22_selected_checkpoint_order (__main__.Suite.test_22_selected_checkpoint_order) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 6.123s\n\nOK\n",
+  "source": {
+    "bootstrap.py": "b9044309544d56127706dccb002468767073c0d47baa981d430cf2a12d555488",
+    "common.py": "4c15753bca702ce4b4521013554bd7f886792773ba9d81219d213658f593c387",
+    "diagnostics.py": "acf66415e2c356961779031afb35e132407b4d48bd40f846aa8fab1c33bec25c",
+    "metrics.py": "2fa25abbe2182781c4b5453baea537f30ab1869172b34f4cee8e8768ae224cc8",
+    "model.py": "6127d976267bbdf07f32bebdb955cdaf546f747ac155433c910aea95dfdcc603",
+    "schedule.py": "b3fa21f68417674b85593fba7f7b5f888952b10869e36dcf9bc86edbdf8f51ba",
+    "tests/test_suite.py": "b8eb6e86361f929222e50c4ef3ee949c9e76e4254843afcc8cb94877fb27fae7",
+    "train.py": "5fa89e53c7594e970241048eb4962b194408070700544b3dccd16279a13bc3be",
+    "vendor/MERU_LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "vendor/lorentz.py": "bd02210a14a4ca84c9eb24e7aad9b07ad42df5369d68124cf44d5ae07ba496f1",
+    "vendor/manifest.json": "5ee59858902b8949027fb54ee0e4dc9db850f4f28b7106c3b03406172279ec3e"
+  },
+  "completed_at": "2026-10-26T16:58:52.704050+00:00"
+}

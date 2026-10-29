@@ -1,0 +1,27 @@
+{
+  "pid": 964660,
+  "start_ticks": 85994609,
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+    "-u",
+    "-B",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_20261027/schedule.py",
+    "--execute"
+  ],
+  "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_20261027/logs/coordinator.log",
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "ports": [],
+  "source_digest": "9ab393f119fb7fcb5939931f5e83a8dd53aeb54e6322bb33c918a84f636e7af1",
+  "started_at": "2026-10-27T08:32:08.965580+00:00",
+  "conditions": 65,
+  "planned_updates": 627900
+}

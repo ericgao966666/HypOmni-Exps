@@ -1,0 +1,49 @@
+{
+  "pid": 2389612,
+  "gpu": "4",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_native_baseline_v2/runner.py",
+    "--spec",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/specs/H_C0_s51.json",
+    "--device",
+    "4"
+  ],
+  "started_unix": 1793153097.2789505,
+  "execution_source_digest": "440d0a582c01543938f180274240cfff0773130833d525c9f943b9ee49042147",
+  "steps": 2000,
+  "spec": {
+    "family": "H_C0",
+    "lr": 1e-05,
+    "steps": 2000,
+    "seed": 51,
+    "source": "C0",
+    "weights": {
+      "tva": 1.0
+    },
+    "rho": 0.5,
+    "parent": "C0",
+    "single_change": "hard donor mixture rho0->0.5",
+    "stage": "paired",
+    "tuple_batch": 96,
+    "microbatch": 8,
+    "tva_views_per_update": 96,
+    "total_views_per_update": 96,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "weight_decay": 0.01,
+    "checkpoint_every": 100,
+    "validation_every": 500,
+    "inference": "tva logit only; fixed top32",
+    "geometry_input": false,
+    "geometry_loss": false,
+    "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+  },
+  "completed_unix": 1793159179.3109546,
+  "final_metrics_sha256": "9ca082f64fd4210b386bdc36f8eaacd747aef3cd4dbc69254cb027ff68b2255b",
+  "identity_sha256": "f40e2e1e025dcaa2709014458c5667f1ecda49f0392e3a8f06d8084a8893931e",
+  "elapsed_seconds": 6082.031485905056,
+  "peak_reserved_gib": 5.83203125
+}

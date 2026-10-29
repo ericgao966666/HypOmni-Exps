@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-10-27T12:46:18.112303+00:00",
+  "files": [
+    {
+      "path": "LAMBDA_COMPARISON.md",
+      "bytes": 4714,
+      "sha256": "9e3dcc460d0b7e936bd53e9102a726d6d1244d3456ce57d707c500c32df6eb12"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 14729,
+      "sha256": "b09e105a103dd81bab69ede4a00e2a3beb892c6d596a06d5a080852836490184"
+    },
+    {
+      "path": "angular_tradeoff.pdf",
+      "bytes": 14089,
+      "sha256": "f3428d8c1e2dbda195586e692b5a806a42ce0889345af710ee7ed4e98ca66f79"
+    },
+    {
+      "path": "angular_tradeoff.png",
+      "bytes": 43641,
+      "sha256": "529913d480ad87c90f1d612f108c9b6f6add03135d3fbbce06ddb1660442fea0"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 4035,
+      "sha256": "2739b4095b9bcd4494c71d1b3778a2399f5fa08cc8c69bc9b7c1c96c7b048e52"
+    },
+    {
+      "path": "checkpoint_readouts.csv",
+      "bytes": 33717,
+      "sha256": "a45077b23191cddc8e01103e23460e95585542b62971248bccfa602379dfa03a"
+    },
+    {
+      "path": "combined_78_final.csv",
+      "bytes": 56855,
+      "sha256": "bc00706fd69454ce121c6f15c36d876d9ef60126b39175f9b236304919dff651"
+    },
+    {
+      "path": "combined_78_pareto.pdf",
+      "bytes": 17727,
+      "sha256": "3fb254b35e37582bd3e43fc57bb7f643fcd261a6bfc650f2381ac6fefdceb958"
+    },
+    {
+      "path": "combined_78_pareto.png",
+      "bytes": 71714,
+      "sha256": "4d45c39a388648feede1bf522ef94bc0291e098e017039be9fecbbd917fc1390"
+    },
+    {
+      "path": "curvature_matrix.pdf",
+      "bytes": 23449,
+      "sha256": "0bb9eb09a363436732713d18f3173adc2fc9510c546e0a0bbcf3b3041fc8b350"
+    },
+    {
+      "path": "curvature_matrix.png",
+      "bytes": 88502,
+      "sha256": "32a8ef3c4842706920f80053bcb6810c5ef0020f775bef9a6efdad1318646616"
+    },
+    {
+      "path": "distributions_q.pdf",
+      "bytes": 28392,
+      "sha256": "5f457a78385db3b0a399a2719f742b3d0096f1f2588eef2b25b094dcb6419c5c"
+    },
+    {
+      "path": "distributions_q.png",
+      "bytes": 86141,
+      "sha256": "c2f120c6f89b1aa7568d24e0ef4e2a558177a5a30578b6e0117ebd8b6fea1ffc"
+    },
+    {
+      "path": "distributions_r.pdf",
+      "bytes": 28316,
+      "sha256": "ef698a34a12f61be85a855a54760c3c9b5c6c06737fa6f88c0b81dbb26841461"
+    },
+    {
+      "path": "distributions_r.png",
+      "bytes": 116215,
+      "sha256": "8c499bde39bdd9fbe6e0071656938763325e053df075643208c1142997e4c15d"
+    },
+    {
+      "path": "distributions_u.pdf",
+      "bytes": 28770,
+      "sha256": "4914f44471668778b827784dc73f7b5a478e389d6b1efec8773e771db91cc24d"
+    },
+    {
+      "path": "distributions_u.png",
+      "bytes": 107702,
+      "sha256": "697f9cc03704266aa3a65034609fa47351a9b0df47677cd5517ca7b9d1925f8c"
+    },
+    {
+      "path": "edge_deltas.csv",
+      "bytes": 12990,
+      "sha256": "4e9db086d8ef5335ba67aac927778b66059dc5035d1cf46f885b60f03bcf8625"
+    },
+    {
+      "path": "edge_metrics.csv",
+      "bytes": 85623,
+      "sha256": "da20634988231123e1e7b0eabc725229f529df2e659882638547c737fbbdb4d5"
+    },
+    {
+      "path": "failures.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "full_final.csv",
+      "bytes": 9195,
+      "sha256": "fef6abd26b6236cc8d16e8b4bfbc3aa45e73a1c6b60dadd9c84ea74577c62051"
+    },
+    {
+      "path": "gradient_norms.pdf",
+      "bytes": 25592,
+      "sha256": "f26e050a7e47fb37752c82686f0a5ee8ac1755889391c6ba95c9a2752fa4a45e"
+    },
+    {
+      "path": "gradient_norms.png",
+      "bytes": 283542,
+      "sha256": "2eaf993a275faa3854a5155920dc54659c5545d601a57a9517f17242951ed993"
+    },
+    {
+      "path": "gradient_probes.csv",
+      "bytes": 578707,
+      "sha256": "8d4dab72cfd734adc95a968387c3cfcc79f74d2f583f6b5d6b8443fd3fca3d7c"
+    },
+    {
+      "path": "gradient_trajectories.pdf",
+      "bytes": 27104,
+      "sha256": "0947c6e2293acc73fd37aee5ff2e92b600ebb4c69022b984d6535bfaafd861ae"
+    },
+    {
+      "path": "gradient_trajectories.png",
+      "bytes": 324192,
+      "sha256": "ee7e1366eadb1da7750e388c55da77ab0336ad0a6c040d018b83ca1e105828d4"
+    },
+    {
+      "path": "lambda01_vs_lambda02.csv",
+      "bytes": 2669,
+      "sha256": "a6ee40ef3373ee17382e05990e21a7ede121103dcdffe13b00f9f2f59a02ae6d"
+    },
+    {
+      "path": "learning_curves.csv",
+      "bytes": 262931,
+      "sha256": "6022f5d4ce3ebc9f492cf0d5af8fe5fd004a950afc9242f4b8b1ade9ea410f09"
+    },
+    {
+      "path": "learning_curves.pdf",
+      "bytes": 19287,
+      "sha256": "3dc26a2226fdb186c06f657c59231980ab2e705a4107b779e5edc2937b61fef3"
+    },
+    {
+      "path": "learning_curves.png",
+      "bytes": 179638,
+      "sha256": "5f5b1529e8130c822a12824f2dc72dd866a0c8a341e621dd82202b8dc9fc97f8"
+    },
+    {
+      "path": "learning_switches_matrix.pdf",
+      "bytes": 22503,
+      "sha256": "6688f8b4f79e0226e9914c70f292a1155d9f69b917f80b5b3f64bdf3649dd75d"
+    },
+    {
+      "path": "learning_switches_matrix.png",
+      "bytes": 87032,
+      "sha256": "41d0b65adac24696673115471cfba3c7f2155b0df3d9ddb92ccd8d486dfeacd9"
+    },
+    {
+      "path": "neighbor_deltas.csv",
+      "bytes": 8261,
+      "sha256": "18510ced27ab9e327a5da341311a60074290e7ab00634cc34d1bc12880c2db5c"
+    },
+    {
+      "path": "neighbor_temperature.pdf",
+      "bytes": 19718,
+      "sha256": "3921bfb62952db09cea8219a51a3b40453b7ec589b23cb0b9333130179cb730b"
+    },
+    {
+      "path": "neighbor_temperature.png",
+      "bytes": 165204,
+      "sha256": "a25b598d2e389fa773c8f7392f5dab56c63e12fcaab837d6714117c91c860f6a"
+    },
+    {
+      "path": "neighbor_tradeoffs.pdf",
+      "bytes": 18129,
+      "sha256": "5103c23a2b5d5220ed6e79b1a02c70b5d4bb5b630a47c4bf4da21fd90df6c437"
+    },
+    {
+      "path": "neighbor_tradeoffs.png",
+      "bytes": 76708,
+      "sha256": "61fdb1a25d15208206033166333728277c36abd7a9a2b2d3518a335670053ede"
+    },
+    {
+      "path": "neighbors.csv",
+      "bytes": 28523,
+      "sha256": "dc3c225300e11eafb62f188eb947c88ca9984494817d80ed38df1eb9f3431466"
+    },
+    {
+      "path": "neighbors.json",
+      "bytes": 296992,
+      "sha256": "f8d83d927937e52be7d15b2bbc55977b415dddc0e1cf65d15c1870357846e3fe"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 11143,
+      "sha256": "bebc552bb8c350b11df980931839831a55725e277b980aa4f8a5bdcad6b8aa62"
+    },
+    {
+      "path": "radius_history.csv",
+      "bytes": 698394,
+      "sha256": "6418d0997759bab8656732c9fed3bfed83e3d26acd39387ca32f51e3efcb00b2"
+    },
+    {
+      "path": "radius_statistics.csv",
+      "bytes": 182565,
+      "sha256": "fc486275599165eadb6e610f17f84ff1d519f9f00c031fbec94ac47edf3e3c27"
+    },
+    {
+      "path": "radius_trajectories.pdf",
+      "bytes": 21909,
+      "sha256": "2ddfdfaf243cd8f087019db3df613588b826de121d8774d1162b7876f9f7fded"
+    },
+    {
+      "path": "radius_trajectories.png",
+      "bytes": 236286,
+      "sha256": "ce6b9f0a94074d7ae607257dba10d069c839419534f6d7737adad550b156dbd5"
+    },
+    {
+      "path": "scalar_training_gradients.csv",
+      "bytes": 83031,
+      "sha256": "87db42504d21d22e74f8ec15d72401fec2d5cfaaa6c33955a8cfb6f9a6495a83"
+    },
+    {
+      "path": "scalar_trajectories.pdf",
+      "bytes": 17429,
+      "sha256": "8d60e48d946fd417b51b8b0ab98884b1d0235c0fb590b7741444564455595b06"
+    },
+    {
+      "path": "scalar_trajectories.png",
+      "bytes": 86024,
+      "sha256": "7d354a4d74a5d8068ac40b3be9bae396dcf4e5bd54e5ab0ba7ee4f2f8fc95c55"
+    },
+    {
+      "path": "scale_matched_auxiliary.csv",
+      "bytes": 1759,
+      "sha256": "da83d8257a2bbabc0d184504436c2b96eb38df72092fb1b5366f73ba1152671e"
+    },
+    {
+      "path": "single_factor_deltas.csv",
+      "bytes": 3873,
+      "sha256": "2a567b858bed1681a05cba83a973db89c445ea2b3494b1c605403d358902ca69"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 151485,
+      "sha256": "816cf0a498e976126a45abb7f9d94c245ad124ab5648ef9a72f5f7b204e247c3"
+    },
+    {
+      "path": "temperature_matrix.pdf",
+      "bytes": 23508,
+      "sha256": "880c1d46d4d894018e62e525f9e86d9b1a6a5156d7c9dd8102827d9a5de1372e"
+    },
+    {
+      "path": "temperature_matrix.png",
+      "bytes": 102031,
+      "sha256": "cb98a53dcaf525cc58e9cecbd3a7e3a99c103596161ddd702ce9226747c8072a"
+    },
+    {
+      "path": "tradeoffs.pdf",
+      "bytes": 19801,
+      "sha256": "40f99220ada09e721bb13e2055778200f5e05eec5ebd30829b6606b22372f0df"
+    },
+    {
+      "path": "tradeoffs.png",
+      "bytes": 67994,
+      "sha256": "a9bbde0d624aed79c71694fd4c225b5e8b880f6b138ded90f5f720efc2024a09"
+    },
+    {
+      "path": "uniform_radius_gradients.csv",
+      "bytes": 94241,
+      "sha256": "e635dedd5691e8ea9d4d8d57944b20e5f56addeb944671bd3e81c2a53346c6f3"
+    },
+    {
+      "path": "uniform_radius_gradients.pdf",
+      "bytes": 22220,
+      "sha256": "66f8f9700f826912731ad02a7b29a4abbfd173947498b12c04a18041956c17f8"
+    },
+    {
+      "path": "uniform_radius_gradients.png",
+      "bytes": 196187,
+      "sha256": "f1c07d23064337ebc0cf524102ac5d7254b722b2fb9bfda01f84f198e642d441"
+    }
+  ]
+}

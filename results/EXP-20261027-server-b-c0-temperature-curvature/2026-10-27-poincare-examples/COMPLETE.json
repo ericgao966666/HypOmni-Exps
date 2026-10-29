@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "time": "2026-10-27T15:37:58.453779+00:00",
+  "sample_count": 3,
+  "model_count": 3,
+  "edge_types": 2,
+  "pairs_verified": 18,
+  "checks": {
+    "max_hyperbolic_distance_error": 1.199040866595169e-14,
+    "max_distance_difference_vs_official_fp32": 1.9545821112743056e-06,
+    "max_radius_difference_vs_saved_fp32": 2.659677997840504e-07,
+    "max_angle_difference_vs_official_fp32_degrees": 0.00027969327130794537,
+    "max_cone_boundary_angle_error_radians": 5.689893001203927e-16,
+    "max_boundary_orthogonal_circle_residual": 1.0658141036401503e-14,
+    "max_geodesic_constant_speed_error": 2.4424906541753444e-15,
+    "membership_agreement": true
+  },
+  "source_unchanged": true,
+  "files": {
+    "README.md": "ff0def43d89bd907ee39c87bd094e9ce9100fe005707829ba0b0d3a43074dbb9",
+    "poincare_t_to_tv_examples.pdf": "c3e3340d1fbc2512f930d03dbd7be3d35f798f8a04bf74ceb6887b787435df1e",
+    "poincare_t_to_tv_examples.png": "216909a174b66a5dceafc97be27b4943a466b15b97a57b54fef389018b549ec1",
+    "poincare_tv_to_tva_examples.pdf": "30baf7ea3187359bcd915e7a33396ea368932ca808dbfcde766df3b99545e377",
+    "poincare_tv_to_tva_examples.png": "fb8fc3d4b22870e96ad5da73881d1ad7feac2dd810073bbe02328bc06c5b9e54",
+    "provenance.json": "622883ebf229a09146773f8dca11f7b94c5db2e7baf0303285eaedc68d197804",
+    "sample_geometry.csv": "175916c426425270bf03b1b9be3d90b5eea9009dcf7d51b883b6b1453349a60c",
+    "sample_selection.json": "a298b8791fe88507dbc2eb673ab56a55634f3fba79ae6a27a394e4b5a4fddcc0"
+  }
+}

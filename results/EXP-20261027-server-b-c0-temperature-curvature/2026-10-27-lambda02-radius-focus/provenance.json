@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-10-27T13:35:31.576337+00:00",
+  "script": "analysis/radius_focus_20261027/plot_radius_focus.py",
+  "script_sha256": "e6658acc8fce241317093d3601978fc6b25c907ac2a8801addc08dafaf1a1405",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim16_geometry_20261020/.venv/bin/python",
+    "outputs/c0_temperature_curvature_lambda02_20261027/analysis/radius_focus_20261027/plot_radius_focus.py"
+  ],
+  "pid": 1460717,
+  "port": null,
+  "no_gpu_used": true,
+  "readout": "epoch30, step9660, VAST validation2048, actual 512D features",
+  "radius_definition": "asinh(sqrt(c) * norm(x_space)) / sqrt(c)",
+  "sources": [
+    {
+      "condition": "C0_l02__T_t002",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__T_t002/gradient_probes.jsonl",
+      "sha256": "62b342904867a0b9fbf1409737ad332884e00ed20c766f11d0f1e50c6284e9a8"
+    },
+    {
+      "condition": "C0_l02__T_t0035",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__T_t0035/gradient_probes.jsonl",
+      "sha256": "cb41838ec9e80c4693acc4e4c07179684bef7907c03c004766867b921ad58f0d"
+    },
+    {
+      "condition": "C0_l02__T_t007dsqrt2",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__T_t007dsqrt2/gradient_probes.jsonl",
+      "sha256": "fe33368a444662508fd79b8d072ead1e20fb22dc4208f29e98cea0e1805b7b23"
+    },
+    {
+      "condition": "C0_l02__T_t007",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__T_t007/gradient_probes.jsonl",
+      "sha256": "48f48bf973e1bf65802eb205307c5174557097afc9c72c332b4a59c91909ca43"
+    },
+    {
+      "condition": "C0_l02__T_t007xsqrt2",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__T_t007xsqrt2/gradient_probes.jsonl",
+      "sha256": "03995c69c67de247e73d8726d1a619cbc7bf0f1a1164bc0f667fdf3931b142e0"
+    },
+    {
+      "condition": "C0_l02__T_t014",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__T_t014/gradient_probes.jsonl",
+      "sha256": "9ac5170dafda7f1eafb3d6468c038de4f3b78de64ec9f1fa49cded11e130b7c7"
+    },
+    {
+      "condition": "C0_l02__C_c025",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__C_c025/gradient_probes.jsonl",
+      "sha256": "a629e9aa905c38b375eeb0c59227f0bd3cbf6d9b7fb15ddcaefa495dd9d6305b"
+    },
+    {
+      "condition": "C0_l02__C_c05",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__C_c05/gradient_probes.jsonl",
+      "sha256": "85171c962a52b9f3262f4fdccf87320a00686a035c1f21b37443e4324237e792"
+    },
+    {
+      "condition": "C0_l02__C_c2",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__C_c2/gradient_probes.jsonl",
+      "sha256": "2c25fd90c4761135da32140b5d8433c0f790d0a9e9587d6b835d5ae602c9b77c"
+    },
+    {
+      "condition": "C0_l02__C_c4",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__C_c4/gradient_probes.jsonl",
+      "sha256": "9fbb2e5949e2a4bdf9b738cdb7b0e2125bca49d278c2c6b041fafa78025a7ed1"
+    },
+    {
+      "condition": "C0_l02__L_c0t1",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__L_c0t1/gradient_probes.jsonl",
+      "sha256": "11d12e3a5823ef9b739871531d46819b6d94861efe3e189b8724c719335371e8"
+    },
+    {
+      "condition": "C0_l02__L_c1t0",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__L_c1t0/gradient_probes.jsonl",
+      "sha256": "523a6d23f9cf273fd454ed8e3c409065dd6cf4b4804af60c04c57910cd6f428f"
+    },
+    {
+      "condition": "C0_l02__L_c1t1",
+      "kind": "gradient_probe",
+      "path": "runs/C0_l02__L_c1t1/gradient_probes.jsonl",
+      "sha256": "dd5d25be36fb08eb6755ef4a044562b130c2b308067a9d2df7cfafe2d2357a5c"
+    },
+    {
+      "condition": "C0_l02__T_t0035",
+      "kind": "final_metrics.json",
+      "path": "runs/C0_l02__T_t0035/final_metrics.json",
+      "sha256": "18b628319bc3c1505e9e061976f7a871a81c72b004aa22bca11b2c9fc0274425"
+    },
+    {
+      "condition": "C0_l02__T_t0035",
+      "kind": "final_features.pt",
+      "path": "runs/C0_l02__T_t0035/final_features.pt",
+      "sha256": "3f24210676a3f439b86db0cb3f160ead6ca7da5f411014573a21079727d76dfe"
+    },
+    {
+      "condition": "C0_l02__L_c1t1",
+      "kind": "final_metrics.json",
+      "path": "runs/C0_l02__L_c1t1/final_metrics.json",
+      "sha256": "61fb79f7c7da2a040b4f5570c6b034b4903e0119659eca147c27858bc62342ab"
+    },
+    {
+      "condition": "C0_l02__L_c1t1",
+      "kind": "final_features.pt",
+      "path": "runs/C0_l02__L_c1t1/final_features.pt",
+      "sha256": "5fb616899644f95d48a48a706816544541d1453391f8a249a62d62bd37f954a3"
+    }
+  ],
+  "norm_checks": {
+    "contrastive_norm": {
+      "count": 4154,
+      "minimum": 1.554517353703039e-05
+    },
+    "entailment_norm": {
+      "count": 4154,
+      "minimum": 0.0
+    },
+    "weighted_entailment_norm": {
+      "count": 4154,
+      "minimum": 0.0
+    },
+    "weighted_ratio": {
+      "count": 4154,
+      "minimum": 0.0
+    }
+  },
+  "cosine_count": 4092,
+  "negative_cosine_count": 3360,
+  "all_recorded_norms_and_ratios_nonnegative": true,
+  "plots": {
+    "C0_l02__T_t0035": "radius_fixed_tau0035_c1_lambda02",
+    "C0_l02__L_c1t1": "radius_learned_c_tau_lambda02"
+  }
+}

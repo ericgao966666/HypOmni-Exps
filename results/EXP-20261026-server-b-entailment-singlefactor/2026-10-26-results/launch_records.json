@@ -1,0 +1,4201 @@
+{
+  "launches": [
+    {
+      "condition": "C0__A_l01",
+      "device": 0,
+      "pid": 2118757,
+      "start_ticks": 80402845,
+      "run_id": "20261026T170011-server-b-C0__A_l01-619194",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__A_l01",
+        "--device",
+        "0",
+        "--run-id",
+        "20261026T170011-server-b-C0__A_l01-619194"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170011-server-b-C0__A_l01-619194.log",
+      "started_unix": 1793034011.3267248,
+      "started_at": "2026-10-26T17:00:11.326731+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 0,
+        "used": 32.908203125,
+        "free": 62.0634765625,
+        "total": 95.5927734375,
+        "utilization": 34.0
+      }
+    },
+    {
+      "condition": "M11_g2__A_l01",
+      "device": 5,
+      "pid": 2118792,
+      "start_ticks": 80402860,
+      "run_id": "20261026T170011-server-b-M11_g2__A_l01-597304",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__A_l01",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T170011-server-b-M11_g2__A_l01-597304"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170011-server-b-M11_g2__A_l01-597304.log",
+      "started_unix": 1793034011.4797297,
+      "started_at": "2026-10-26T17:00:11.479735+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 5.396484375,
+        "free": 89.57421875,
+        "total": 95.5927734375,
+        "utilization": 45.0
+      }
+    },
+    {
+      "condition": "C0__A_l0",
+      "device": 7,
+      "pid": 2123133,
+      "start_ticks": 80405035,
+      "run_id": "20261026T170033-server-b-C0__A_l0-17377",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__A_l0",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T170033-server-b-C0__A_l0-17377"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l0-17377.log",
+      "started_unix": 1793034033.2281656,
+      "started_at": "2026-10-26T17:00:33.228174+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 12.0,
+        "free": 82.970703125,
+        "total": 95.5927734375,
+        "utilization": 80.0
+      }
+    },
+    {
+      "condition": "C0__A_l005",
+      "device": 3,
+      "pid": 2123183,
+      "start_ticks": 80405050,
+      "run_id": "20261026T170033-server-b-C0__A_l005-885637",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__A_l005",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T170033-server-b-C0__A_l005-885637"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l005-885637.log",
+      "started_unix": 1793034033.3731449,
+      "started_at": "2026-10-26T17:00:33.373150+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 6.671875,
+        "free": 88.2998046875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "C0__A_l02",
+      "device": 6,
+      "pid": 2123234,
+      "start_ticks": 80405063,
+      "run_id": "20261026T170033-server-b-C0__A_l02-183158",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__A_l02",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T170033-server-b-C0__A_l02-183158"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l02-183158.log",
+      "started_unix": 1793034033.5085158,
+      "started_at": "2026-10-26T17:00:33.508519+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 10.703125,
+        "free": 84.2685546875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "C0__A_l05",
+      "device": 4,
+      "pid": 2123242,
+      "start_ticks": 80405078,
+      "run_id": "20261026T170033-server-b-C0__A_l05-467224",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__A_l05",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T170033-server-b-C0__A_l05-467224"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l05-467224.log",
+      "started_unix": 1793034033.6551256,
+      "started_at": "2026-10-26T17:00:33.655133+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 6.6826171875,
+        "free": 88.2890625,
+        "total": 95.5927734375,
+        "utilization": 100.0
+      }
+    },
+    {
+      "condition": "C0__A_l1",
+      "device": 2,
+      "pid": 2123269,
+      "start_ticks": 80405092,
+      "run_id": "20261026T170033-server-b-C0__A_l1-522387",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__A_l1",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T170033-server-b-C0__A_l1-522387"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l1-522387.log",
+      "started_unix": 1793034033.7927604,
+      "started_at": "2026-10-26T17:00:33.792764+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 9.3466796875,
+        "free": 85.625,
+        "total": 95.5927734375,
+        "utilization": 100.0
+      }
+    },
+    {
+      "condition": "C0__A_l2",
+      "device": 1,
+      "pid": 2123297,
+      "start_ticks": 80405107,
+      "run_id": "20261026T170033-server-b-C0__A_l2-447927",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__A_l2",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T170033-server-b-C0__A_l2-447927"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l2-447927.log",
+      "started_unix": 1793034033.94285,
+      "started_at": "2026-10-26T17:00:33.942854+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 4.0,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 9.40234375,
+        "free": 85.5693359375,
+        "total": 95.5927734375,
+        "utilization": 100.0
+      }
+    },
+    {
+      "condition": "C0__B_linear",
+      "device": 0,
+      "pid": 2123321,
+      "start_ticks": 80405121,
+      "run_id": "20261026T170034-server-b-C0__B_linear-895691",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__B_linear",
+        "--device",
+        "0",
+        "--run-id",
+        "20261026T170034-server-b-C0__B_linear-895691"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170034-server-b-C0__B_linear-895691.log",
+      "started_unix": 1793034034.0858517,
+      "started_at": "2026-10-26T17:00:34.085859+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.03759765625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 0,
+        "used": 33.744140625,
+        "free": 61.2275390625,
+        "total": 95.5927734375,
+        "utilization": 86.0
+      }
+    },
+    {
+      "condition": "C0__B_delayed",
+      "device": 5,
+      "pid": 2123351,
+      "start_ticks": 80405134,
+      "run_id": "20261026T170034-server-b-C0__B_delayed-577595",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__B_delayed",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T170034-server-b-C0__B_delayed-577595"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170034-server-b-C0__B_delayed-577595.log",
+      "started_unix": 1793034034.2125542,
+      "started_at": "2026-10-26T17:00:34.212558+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.0498046875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 6.2421875,
+        "free": 88.7294921875,
+        "total": 95.5927734375,
+        "utilization": 93.0
+      }
+    },
+    {
+      "condition": "C0__C_lr02",
+      "device": 7,
+      "pid": 2127833,
+      "start_ticks": 80407671,
+      "run_id": "20261026T170059-server-b-C0__C_lr02-895645",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__C_lr02",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T170059-server-b-C0__C_lr02-895645"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170059-server-b-C0__C_lr02-895645.log",
+      "started_unix": 1793034059.5808673,
+      "started_at": "2026-10-26T17:00:59.580873+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.03759765625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 12.8359375,
+        "free": 82.1357421875,
+        "total": 95.5927734375,
+        "utilization": 70.0
+      }
+    },
+    {
+      "condition": "C0__C_lr5",
+      "device": 2,
+      "pid": 2127841,
+      "start_ticks": 80407687,
+      "run_id": "20261026T170059-server-b-C0__C_lr5-146889",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__C_lr5",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T170059-server-b-C0__C_lr5-146889"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170059-server-b-C0__C_lr5-146889.log",
+      "started_unix": 1793034059.7407138,
+      "started_at": "2026-10-26T17:00:59.740720+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.03759765625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 10.181640625,
+        "free": 84.7900390625,
+        "total": 95.5927734375,
+        "utilization": 95.0
+      }
+    },
+    {
+      "condition": "M11_g2__A_l0",
+      "device": 3,
+      "pid": 2127886,
+      "start_ticks": 80407701,
+      "run_id": "20261026T170059-server-b-M11_g2__A_l0-573293",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__A_l0",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T170059-server-b-M11_g2__A_l0-573293"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170059-server-b-M11_g2__A_l0-573293.log",
+      "started_unix": 1793034059.8861914,
+      "started_at": "2026-10-26T17:00:59.886198+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.03759765625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 7.5068359375,
+        "free": 87.4638671875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "M11_g2__A_l005",
+      "device": 6,
+      "pid": 2127889,
+      "start_ticks": 80407717,
+      "run_id": "20261026T170100-server-b-M11_g2__A_l005-51735",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__A_l005",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T170100-server-b-M11_g2__A_l005-51735"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170100-server-b-M11_g2__A_l005-51735.log",
+      "started_unix": 1793034060.0447414,
+      "started_at": "2026-10-26T17:01:00.044745+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.03759765625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 11.5380859375,
+        "free": 83.43359375,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "M11_g2__A_l02",
+      "device": 0,
+      "pid": 2127894,
+      "start_ticks": 80407732,
+      "run_id": "20261026T170100-server-b-M11_g2__A_l02-536734",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__A_l02",
+        "--device",
+        "0",
+        "--run-id",
+        "20261026T170100-server-b-M11_g2__A_l02-536734"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170100-server-b-M11_g2__A_l02-536734.log",
+      "started_unix": 1793034060.1908286,
+      "started_at": "2026-10-26T17:01:00.190832+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 0,
+        "used": 34.6572265625,
+        "free": 60.314453125,
+        "total": 95.5927734375,
+        "utilization": 91.0
+      }
+    },
+    {
+      "condition": "M11_g2__A_l05",
+      "device": 5,
+      "pid": 2127921,
+      "start_ticks": 80407748,
+      "run_id": "20261026T170100-server-b-M11_g2__A_l05-120346",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__A_l05",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T170100-server-b-M11_g2__A_l05-120346"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170100-server-b-M11_g2__A_l05-120346.log",
+      "started_unix": 1793034060.3594327,
+      "started_at": "2026-10-26T17:01:00.359437+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 7.1552734375,
+        "free": 87.81640625,
+        "total": 95.5927734375,
+        "utilization": 94.0
+      }
+    },
+    {
+      "condition": "M11_g2__A_l1",
+      "device": 4,
+      "pid": 2129387,
+      "start_ticks": 80408555,
+      "run_id": "20261026T170108-server-b-M11_g2__A_l1-473818",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__A_l1",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T170108-server-b-M11_g2__A_l1-473818"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170108-server-b-M11_g2__A_l1-473818.log",
+      "started_unix": 1793034068.43019,
+      "started_at": "2026-10-26T17:01:08.430199+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.03759765625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 7.517578125,
+        "free": 87.4541015625,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "M11_g2__A_l2",
+      "device": 1,
+      "pid": 2129447,
+      "start_ticks": 80408614,
+      "run_id": "20261026T170109-server-b-M11_g2__A_l2-917944",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__A_l2",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T170109-server-b-M11_g2__A_l2-917944"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170109-server-b-M11_g2__A_l2-917944.log",
+      "started_unix": 1793034069.016008,
+      "started_at": "2026-10-26T17:01:09.016013+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.03759765625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 10.2373046875,
+        "free": 84.734375,
+        "total": 95.5927734375,
+        "utilization": 99.0
+      }
+    },
+    {
+      "condition": "M11_g2__B_linear",
+      "device": 2,
+      "pid": 2132462,
+      "start_ticks": 80410324,
+      "run_id": "20261026T170126-server-b-M11_g2__B_linear-952310",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__B_linear",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T170126-server-b-M11_g2__B_linear-952310"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-M11_g2__B_linear-952310.log",
+      "started_unix": 1793034086.1104174,
+      "started_at": "2026-10-26T17:01:26.110424+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 11.095703125,
+        "free": 83.8759765625,
+        "total": 95.5927734375,
+        "utilization": 91.0
+      }
+    },
+    {
+      "condition": "M11_g2__B_delayed",
+      "device": 3,
+      "pid": 2132521,
+      "start_ticks": 80410344,
+      "run_id": "20261026T170126-server-b-M11_g2__B_delayed-217631",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__B_delayed",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T170126-server-b-M11_g2__B_delayed-217631"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-M11_g2__B_delayed-217631.log",
+      "started_unix": 1793034086.3137665,
+      "started_at": "2026-10-26T17:01:26.313773+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.0498046875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 8.3525390625,
+        "free": 86.619140625,
+        "total": 95.5927734375,
+        "utilization": 95.0
+      }
+    },
+    {
+      "condition": "M11_g2__C_lr02",
+      "device": 6,
+      "pid": 2132560,
+      "start_ticks": 80410360,
+      "run_id": "20261026T170126-server-b-M11_g2__C_lr02-99549",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__C_lr02",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T170126-server-b-M11_g2__C_lr02-99549"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-M11_g2__C_lr02-99549.log",
+      "started_unix": 1793034086.4766233,
+      "started_at": "2026-10-26T17:01:26.476631+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.0498046875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 12.3828125,
+        "free": 82.587890625,
+        "total": 95.5927734375,
+        "utilization": 95.0
+      }
+    },
+    {
+      "condition": "M11_g2__C_lr5",
+      "device": 0,
+      "pid": 2132598,
+      "start_ticks": 80410378,
+      "run_id": "20261026T170126-server-b-M11_g2__C_lr5-504928",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__C_lr5",
+        "--device",
+        "0",
+        "--run-id",
+        "20261026T170126-server-b-M11_g2__C_lr5-504928"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-M11_g2__C_lr5-504928.log",
+      "started_unix": 1793034086.6507807,
+      "started_at": "2026-10-26T17:01:26.650785+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 0,
+        "used": 35.580078125,
+        "free": 59.3916015625,
+        "total": 95.5927734375,
+        "utilization": 93.0
+      }
+    },
+    {
+      "condition": "C0__D_g1_joint",
+      "device": 5,
+      "pid": 2132605,
+      "start_ticks": 80410393,
+      "run_id": "20261026T170126-server-b-C0__D_g1_joint-992334",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g1_joint",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T170126-server-b-C0__D_g1_joint-992334"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-C0__D_g1_joint-992334.log",
+      "started_unix": 1793034086.8047314,
+      "started_at": "2026-10-26T17:01:26.804738+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 8.078125,
+        "free": 86.8935546875,
+        "total": 95.5927734375,
+        "utilization": 92.0
+      }
+    },
+    {
+      "condition": "C0__D_g1_cone",
+      "device": 4,
+      "pid": 2133986,
+      "start_ticks": 80411175,
+      "run_id": "20261026T170134-server-b-C0__D_g1_cone-950104",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g1_cone",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T170134-server-b-C0__D_g1_cone-950104"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170134-server-b-C0__D_g1_cone-950104.log",
+      "started_unix": 1793034094.6299772,
+      "started_at": "2026-10-26T17:01:34.629985+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.0498046875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 8.3623046875,
+        "free": 86.6083984375,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "C0__D_g2_joint",
+      "device": 7,
+      "pid": 2134039,
+      "start_ticks": 80411198,
+      "run_id": "20261026T170134-server-b-C0__D_g2_joint-5159",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g2_joint",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T170134-server-b-C0__D_g2_joint-5159"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170134-server-b-C0__D_g2_joint-5159.log",
+      "started_unix": 1793034094.8581665,
+      "started_at": "2026-10-26T17:01:34.858172+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 13.7490234375,
+        "free": 81.22265625,
+        "total": 95.5927734375,
+        "utilization": 99.0
+      }
+    },
+    {
+      "condition": "C0__D_g2_cone",
+      "device": 1,
+      "pid": 2135190,
+      "start_ticks": 80411901,
+      "run_id": "20261026T170141-server-b-C0__D_g2_cone-199125",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g2_cone",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T170141-server-b-C0__D_g2_cone-199125"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170141-server-b-C0__D_g2_cone-199125.log",
+      "started_unix": 1793034101.8895836,
+      "started_at": "2026-10-26T17:01:41.889591+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.0498046875,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 11.08203125,
+        "free": 83.888671875,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "C0__D_g3_joint",
+      "device": 3,
+      "pid": 2137223,
+      "start_ticks": 80413104,
+      "run_id": "20261026T170153-server-b-C0__D_g3_joint-693974",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g3_joint",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T170153-server-b-C0__D_g3_joint-693974"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170153-server-b-C0__D_g3_joint-693974.log",
+      "started_unix": 1793034113.9196463,
+      "started_at": "2026-10-26T17:01:53.919652+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 9.353515625,
+        "free": 85.6181640625,
+        "total": 95.5927734375,
+        "utilization": 95.0
+      }
+    },
+    {
+      "condition": "C0__D_g3_cone",
+      "device": 6,
+      "pid": 2137251,
+      "start_ticks": 80413121,
+      "run_id": "20261026T170154-server-b-C0__D_g3_cone-506516",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g3_cone",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T170154-server-b-C0__D_g3_cone-506516"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170154-server-b-C0__D_g3_cone-506516.log",
+      "started_unix": 1793034114.082232,
+      "started_at": "2026-10-26T17:01:54.082240+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 13.1728515625,
+        "free": 81.798828125,
+        "total": 95.5927734375,
+        "utilization": 94.0
+      }
+    },
+    {
+      "condition": "C0__D_g4_joint",
+      "device": 2,
+      "pid": 2137259,
+      "start_ticks": 80413140,
+      "run_id": "20261026T170154-server-b-C0__D_g4_joint-721196",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g4_joint",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T170154-server-b-C0__D_g4_joint-721196"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170154-server-b-C0__D_g4_joint-721196.log",
+      "started_unix": 1793034114.2777877,
+      "started_at": "2026-10-26T17:01:54.277797+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 11.9404296875,
+        "free": 83.03125,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "C0__D_g4_cone",
+      "device": 4,
+      "pid": 2138986,
+      "start_ticks": 80414401,
+      "run_id": "20261026T170206-server-b-C0__D_g4_cone-729565",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g4_cone",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T170206-server-b-C0__D_g4_cone-729565"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170206-server-b-C0__D_g4_cone-729565.log",
+      "started_unix": 1793034126.885711,
+      "started_at": "2026-10-26T17:02:06.885718+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 9.2255859375,
+        "free": 85.74609375,
+        "total": 95.5927734375,
+        "utilization": 97.0
+      }
+    },
+    {
+      "condition": "C0__D_g5_joint",
+      "device": 7,
+      "pid": 2139037,
+      "start_ticks": 80414425,
+      "run_id": "20261026T170207-server-b-C0__D_g5_joint-40221",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g5_joint",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T170207-server-b-C0__D_g5_joint-40221"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170207-server-b-C0__D_g5_joint-40221.log",
+      "started_unix": 1793034127.1337166,
+      "started_at": "2026-10-26T17:02:07.133721+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 14.55078125,
+        "free": 80.419921875,
+        "total": 95.5927734375,
+        "utilization": 97.0
+      }
+    },
+    {
+      "condition": "C0__D_g5_cone",
+      "device": 1,
+      "pid": 2139055,
+      "start_ticks": 80414448,
+      "run_id": "20261026T170207-server-b-C0__D_g5_cone-480612",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g5_cone",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T170207-server-b-C0__D_g5_cone-480612"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170207-server-b-C0__D_g5_cone-480612.log",
+      "started_unix": 1793034127.3586912,
+      "started_at": "2026-10-26T17:02:07.358697+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 11.96484375,
+        "free": 83.0068359375,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "C0__D_g6_joint",
+      "device": 5,
+      "pid": 2168230,
+      "start_ticks": 80435282,
+      "run_id": "20261026T170535-server-b-C0__D_g6_joint-118006",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g6_joint",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T170535-server-b-C0__D_g6_joint-118006"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170535-server-b-C0__D_g6_joint-118006.log",
+      "started_unix": 1793034335.6984618,
+      "started_at": "2026-10-26T17:05:35.698466+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 8.15625,
+        "free": 86.8154296875,
+        "total": 95.5927734375,
+        "utilization": 95.0
+      }
+    },
+    {
+      "condition": "C0__D_g6_cone",
+      "device": 6,
+      "pid": 2175858,
+      "start_ticks": 80440792,
+      "run_id": "20261026T170630-server-b-C0__D_g6_cone-979367",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g6_cone",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T170630-server-b-C0__D_g6_cone-979367"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170630-server-b-C0__D_g6_cone-979367.log",
+      "started_unix": 1793034390.7986875,
+      "started_at": "2026-10-26T17:06:30.798694+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 13.3291015625,
+        "free": 81.642578125,
+        "total": 95.5927734375,
+        "utilization": 94.0
+      }
+    },
+    {
+      "condition": "C0__D_g7_joint",
+      "device": 4,
+      "pid": 2179109,
+      "start_ticks": 80443008,
+      "run_id": "20261026T170652-server-b-C0__D_g7_joint-783699",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g7_joint",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T170652-server-b-C0__D_g7_joint-783699"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170652-server-b-C0__D_g7_joint-783699.log",
+      "started_unix": 1793034412.9544764,
+      "started_at": "2026-10-26T17:06:52.954482+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 9.3818359375,
+        "free": 85.58984375,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "C0__D_g7_cone",
+      "device": 1,
+      "pid": 2179155,
+      "start_ticks": 80443024,
+      "run_id": "20261026T170653-server-b-C0__D_g7_cone-688818",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g7_cone",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T170653-server-b-C0__D_g7_cone-688818"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170653-server-b-C0__D_g7_cone-688818.log",
+      "started_unix": 1793034413.1150424,
+      "started_at": "2026-10-26T17:06:53.115048+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 12.76953125,
+        "free": 82.2021484375,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "C0__D_g8_joint",
+      "device": 3,
+      "pid": 2182063,
+      "start_ticks": 80444662,
+      "run_id": "20261026T170709-server-b-C0__D_g8_joint-128230",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g8_joint",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T170709-server-b-C0__D_g8_joint-128230"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170709-server-b-C0__D_g8_joint-128230.log",
+      "started_unix": 1793034429.497727,
+      "started_at": "2026-10-26T17:07:09.497735+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 9.431640625,
+        "free": 85.5400390625,
+        "total": 95.5927734375,
+        "utilization": 95.0
+      }
+    },
+    {
+      "condition": "C0__D_g8_cone",
+      "device": 2,
+      "pid": 2186384,
+      "start_ticks": 80447381,
+      "run_id": "20261026T170736-server-b-C0__D_g8_cone-462049",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g8_cone",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T170736-server-b-C0__D_g8_cone-462049"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170736-server-b-C0__D_g8_cone-462049.log",
+      "started_unix": 1793034456.6896703,
+      "started_at": "2026-10-26T17:07:36.689677+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 12.0966796875,
+        "free": 82.875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "C0__D_g9_joint",
+      "device": 7,
+      "pid": 2187225,
+      "start_ticks": 80447947,
+      "run_id": "20261026T170742-server-b-C0__D_g9_joint-169773",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g9_joint",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T170742-server-b-C0__D_g9_joint-169773"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170742-server-b-C0__D_g9_joint-169773.log",
+      "started_unix": 1793034462.35324,
+      "started_at": "2026-10-26T17:07:42.353248+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 14.5703125,
+        "free": 80.4013671875,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "C0__D_g9_cone",
+      "device": 7,
+      "pid": 2191747,
+      "start_ticks": 80450852,
+      "run_id": "20261026T170811-server-b-C0__D_g9_cone-226971",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "C0__D_g9_cone",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T170811-server-b-C0__D_g9_cone-226971"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170811-server-b-C0__D_g9_cone-226971.log",
+      "started_unix": 1793034491.3949988,
+      "started_at": "2026-10-26T17:08:11.395003+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 14.5107421875,
+        "free": 80.4599609375,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g1_joint",
+      "device": 4,
+      "pid": 2193259,
+      "start_ticks": 80452026,
+      "run_id": "20261026T170823-server-b-M11_g2__D_g1_joint-144877",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g1_joint",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T170823-server-b-M11_g2__D_g1_joint-144877"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170823-server-b-M11_g2__D_g1_joint-144877.log",
+      "started_unix": 1793034503.136293,
+      "started_at": "2026-10-26T17:08:23.136301+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 9.4208984375,
+        "free": 85.55078125,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g1_cone",
+      "device": 1,
+      "pid": 2197108,
+      "start_ticks": 80454823,
+      "run_id": "20261026T170851-server-b-M11_g2__D_g1_cone-907787",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g1_cone",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T170851-server-b-M11_g2__D_g1_cone-907787"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170851-server-b-M11_g2__D_g1_cone-907787.log",
+      "started_unix": 1793034531.1080124,
+      "started_at": "2026-10-26T17:08:51.108019+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 12.2666015625,
+        "free": 82.705078125,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g2_joint",
+      "device": 5,
+      "pid": 2208577,
+      "start_ticks": 80462484,
+      "run_id": "20261026T171007-server-b-M11_g2__D_g2_joint-984645",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g2_joint",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T171007-server-b-M11_g2__D_g2_joint-984645"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171007-server-b-M11_g2__D_g2_joint-984645.log",
+      "started_unix": 1793034607.716662,
+      "started_at": "2026-10-26T17:10:07.716669+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 8.0224609375,
+        "free": 86.9482421875,
+        "total": 95.5927734375,
+        "utilization": 86.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g2_cone",
+      "device": 6,
+      "pid": 2223141,
+      "start_ticks": 80471699,
+      "run_id": "20261026T171139-server-b-M11_g2__D_g2_cone-416746",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g2_cone",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T171139-server-b-M11_g2__D_g2_cone-416746"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171139-server-b-M11_g2__D_g2_cone-416746.log",
+      "started_unix": 1793034699.8657477,
+      "started_at": "2026-10-26T17:11:39.865756+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 13.3291015625,
+        "free": 81.642578125,
+        "total": 95.5927734375,
+        "utilization": 94.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g3_joint",
+      "device": 1,
+      "pid": 2226704,
+      "start_ticks": 80473904,
+      "run_id": "20261026T171201-server-b-M11_g2__D_g3_joint-714051",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g3_joint",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T171201-server-b-M11_g2__D_g3_joint-714051"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171201-server-b-M11_g2__D_g3_joint-714051.log",
+      "started_unix": 1793034721.919639,
+      "started_at": "2026-10-26T17:12:01.919646+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 12.533203125,
+        "free": 82.4375,
+        "total": 95.5927734375,
+        "utilization": 88.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g3_cone",
+      "device": 4,
+      "pid": 2233944,
+      "start_ticks": 80478894,
+      "run_id": "20261026T171251-server-b-M11_g2__D_g3_cone-510038",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g3_cone",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T171251-server-b-M11_g2__D_g3_cone-510038"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171251-server-b-M11_g2__D_g3_cone-510038.log",
+      "started_unix": 1793034771.8192391,
+      "started_at": "2026-10-26T17:12:51.819245+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 9.4208984375,
+        "free": 85.55078125,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g4_joint",
+      "device": 3,
+      "pid": 2235402,
+      "start_ticks": 80480006,
+      "run_id": "20261026T171302-server-b-M11_g2__D_g4_joint-968760",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g4_joint",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T171302-server-b-M11_g2__D_g4_joint-968760"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171302-server-b-M11_g2__D_g4_joint-968760.log",
+      "started_unix": 1793034782.9387097,
+      "started_at": "2026-10-26T17:13:02.938716+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 9.431640625,
+        "free": 85.5400390625,
+        "total": 95.5927734375,
+        "utilization": 94.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g4_cone",
+      "device": 2,
+      "pid": 2236233,
+      "start_ticks": 80480609,
+      "run_id": "20261026T171308-server-b-M11_g2__D_g4_cone-396448",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g4_cone",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T171308-server-b-M11_g2__D_g4_cone-396448"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171308-server-b-M11_g2__D_g4_cone-396448.log",
+      "started_unix": 1793034788.9674551,
+      "started_at": "2026-10-26T17:13:08.967462+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 12.0966796875,
+        "free": 82.875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g5_joint",
+      "device": 7,
+      "pid": 2239911,
+      "start_ticks": 80483380,
+      "run_id": "20261026T171336-server-b-M11_g2__D_g5_joint-925416",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g5_joint",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T171336-server-b-M11_g2__D_g5_joint-925416"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171336-server-b-M11_g2__D_g5_joint-925416.log",
+      "started_unix": 1793034816.6776648,
+      "started_at": "2026-10-26T17:13:36.677672+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 14.4560546875,
+        "free": 80.515625,
+        "total": 95.5927734375,
+        "utilization": 99.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g5_cone",
+      "device": 5,
+      "pid": 2240552,
+      "start_ticks": 80483942,
+      "run_id": "20261026T171342-server-b-M11_g2__D_g5_cone-880997",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g5_cone",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T171342-server-b-M11_g2__D_g5_cone-880997"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171342-server-b-M11_g2__D_g5_cone-880997.log",
+      "started_unix": 1793034822.303623,
+      "started_at": "2026-10-26T17:13:42.303629+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 7.884765625,
+        "free": 87.0859375,
+        "total": 95.5927734375,
+        "utilization": 83.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g6_joint",
+      "device": 1,
+      "pid": 2242011,
+      "start_ticks": 80485054,
+      "run_id": "20261026T171353-server-b-M11_g2__D_g6_joint-314092",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g6_joint",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T171353-server-b-M11_g2__D_g6_joint-314092"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171353-server-b-M11_g2__D_g6_joint-314092.log",
+      "started_unix": 1793034833.416789,
+      "started_at": "2026-10-26T17:13:53.416795+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 12.384765625,
+        "free": 82.5869140625,
+        "total": 95.5927734375,
+        "utilization": 97.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g6_cone",
+      "device": 7,
+      "pid": 2243640,
+      "start_ticks": 80486168,
+      "run_id": "20261026T171404-server-b-M11_g2__D_g6_cone-905853",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g6_cone",
+        "--device",
+        "7",
+        "--run-id",
+        "20261026T171404-server-b-M11_g2__D_g6_cone-905853"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171404-server-b-M11_g2__D_g6_cone-905853.log",
+      "started_unix": 1793034844.5553205,
+      "started_at": "2026-10-26T17:14:04.555327+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.13525390625,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 7,
+        "used": 14.3623046875,
+        "free": 80.609375,
+        "total": 95.5927734375,
+        "utilization": 97.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g7_joint",
+      "device": 6,
+      "pid": 2245945,
+      "start_ticks": 80487863,
+      "run_id": "20261026T171421-server-b-M11_g2__D_g7_joint-891182",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g7_joint",
+        "--device",
+        "6",
+        "--run-id",
+        "20261026T171421-server-b-M11_g2__D_g7_joint-891182"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171421-server-b-M11_g2__D_g7_joint-891182.log",
+      "started_unix": 1793034861.5096524,
+      "started_at": "2026-10-26T17:14:21.509658+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 6,
+        "used": 13.462890625,
+        "free": 81.5087890625,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g7_cone",
+      "device": 4,
+      "pid": 2246005,
+      "start_ticks": 80487897,
+      "run_id": "20261026T171421-server-b-M11_g2__D_g7_cone-792413",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g7_cone",
+        "--device",
+        "4",
+        "--run-id",
+        "20261026T171421-server-b-M11_g2__D_g7_cone-792413"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171421-server-b-M11_g2__D_g7_cone-792413.log",
+      "started_unix": 1793034861.8472362,
+      "started_at": "2026-10-26T17:14:21.847242+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 4,
+        "used": 9.3662109375,
+        "free": 85.60546875,
+        "total": 95.5927734375,
+        "utilization": 97.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g8_joint",
+      "device": 1,
+      "pid": 2257737,
+      "start_ticks": 80495488,
+      "run_id": "20261026T171537-server-b-M11_g2__D_g8_joint-197571",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g8_joint",
+        "--device",
+        "1",
+        "--run-id",
+        "20261026T171537-server-b-M11_g2__D_g8_joint-197571"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171537-server-b-M11_g2__D_g8_joint-197571.log",
+      "started_unix": 1793034937.7587245,
+      "started_at": "2026-10-26T17:15:37.758730+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 1,
+        "used": 12.537109375,
+        "free": 82.43359375,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g8_cone",
+      "device": 2,
+      "pid": 2263737,
+      "start_ticks": 80499273,
+      "run_id": "20261026T171615-server-b-M11_g2__D_g8_cone-701512",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g8_cone",
+        "--device",
+        "2",
+        "--run-id",
+        "20261026T171615-server-b-M11_g2__D_g8_cone-701512"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171615-server-b-M11_g2__D_g8_cone-701512.log",
+      "started_unix": 1793034975.6106288,
+      "started_at": "2026-10-26T17:16:15.610634+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 2,
+        "used": 12.0966796875,
+        "free": 82.875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g9_joint",
+      "device": 5,
+      "pid": 2264705,
+      "start_ticks": 80499880,
+      "run_id": "20261026T171621-server-b-M11_g2__D_g9_joint-883233",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g9_joint",
+        "--device",
+        "5",
+        "--run-id",
+        "20261026T171621-server-b-M11_g2__D_g9_joint-883233"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171621-server-b-M11_g2__D_g9_joint-883233.log",
+      "started_unix": 1793034981.677452,
+      "started_at": "2026-10-26T17:16:21.677457+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 5,
+        "used": 8.0185546875,
+        "free": 86.9521484375,
+        "total": 95.5927734375,
+        "utilization": 78.0
+      }
+    },
+    {
+      "condition": "M11_g2__D_g9_cone",
+      "device": 3,
+      "pid": 2267334,
+      "start_ticks": 80501547,
+      "run_id": "20261026T171638-server-b-M11_g2__D_g9_cone-945126",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+        "-u",
+        "-B",
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+        "--condition",
+        "M11_g2__D_g9_cone",
+        "--device",
+        "3",
+        "--run-id",
+        "20261026T171638-server-b-M11_g2__D_g9_cone-945126"
+      ],
+      "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171638-server-b-M11_g2__D_g9_cone-945126.log",
+      "started_unix": 1793034998.3486757,
+      "started_at": "2026-10-26T17:16:38.348684+00:00",
+      "overlay_ready": false,
+      "reserved_gib": 2.1474609375,
+      "observed_gpu_gib": 0.0,
+      "admission": {
+        "index": 3,
+        "used": 9.431640625,
+        "free": 85.5400390625,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      }
+    }
+  ],
+  "exits": [
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g1_joint",
+        "device": 5,
+        "pid": 2132605,
+        "start_ticks": 80410393,
+        "run_id": "20261026T170126-server-b-C0__D_g1_joint-992334",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g1_joint",
+          "--device",
+          "5",
+          "--run-id",
+          "20261026T170126-server-b-C0__D_g1_joint-992334"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-C0__D_g1_joint-992334.log",
+        "started_unix": 1793034086.8047314,
+        "started_at": "2026-10-26T17:01:26.804738+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.85546875,
+        "admission": {
+          "index": 5,
+          "used": 8.078125,
+          "free": 86.8935546875,
+          "total": 95.5927734375,
+          "utilization": 92.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:05:35.092739+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g3_cone",
+        "device": 6,
+        "pid": 2137251,
+        "start_ticks": 80413121,
+        "run_id": "20261026T170154-server-b-C0__D_g3_cone-506516",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g3_cone",
+          "--device",
+          "6",
+          "--run-id",
+          "20261026T170154-server-b-C0__D_g3_cone-506516"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170154-server-b-C0__D_g3_cone-506516.log",
+        "started_unix": 1793034114.082232,
+        "started_at": "2026-10-26T17:01:54.082240+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.8359375,
+        "admission": {
+          "index": 6,
+          "used": 13.1728515625,
+          "free": 81.798828125,
+          "total": 95.5927734375,
+          "utilization": 94.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:06:30.232188+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g1_cone",
+        "device": 4,
+        "pid": 2133986,
+        "start_ticks": 80411175,
+        "run_id": "20261026T170134-server-b-C0__D_g1_cone-950104",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g1_cone",
+          "--device",
+          "4",
+          "--run-id",
+          "20261026T170134-server-b-C0__D_g1_cone-950104"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170134-server-b-C0__D_g1_cone-950104.log",
+        "started_unix": 1793034094.6299772,
+        "started_at": "2026-10-26T17:01:34.629985+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.0498046875,
+        "observed_gpu_gib": 0.796875,
+        "admission": {
+          "index": 4,
+          "used": 8.3623046875,
+          "free": 86.6083984375,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:06:52.464085+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g2_cone",
+        "device": 1,
+        "pid": 2135190,
+        "start_ticks": 80411901,
+        "run_id": "20261026T170141-server-b-C0__D_g2_cone-199125",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g2_cone",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T170141-server-b-C0__D_g2_cone-199125"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170141-server-b-C0__D_g2_cone-199125.log",
+        "started_unix": 1793034101.8895836,
+        "started_at": "2026-10-26T17:01:41.889591+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.0498046875,
+        "observed_gpu_gib": 0.8359375,
+        "admission": {
+          "index": 1,
+          "used": 11.08203125,
+          "free": 83.888671875,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:06:52.464719+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g3_joint",
+        "device": 3,
+        "pid": 2137223,
+        "start_ticks": 80413104,
+        "run_id": "20261026T170153-server-b-C0__D_g3_joint-693974",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g3_joint",
+          "--device",
+          "3",
+          "--run-id",
+          "20261026T170153-server-b-C0__D_g3_joint-693974"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170153-server-b-C0__D_g3_joint-693974.log",
+        "started_unix": 1793034113.9196463,
+        "started_at": "2026-10-26T17:01:53.919652+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.875,
+        "admission": {
+          "index": 3,
+          "used": 9.353515625,
+          "free": 85.6181640625,
+          "total": 95.5927734375,
+          "utilization": 95.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:07:08.995358+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g4_joint",
+        "device": 2,
+        "pid": 2137259,
+        "start_ticks": 80413140,
+        "run_id": "20261026T170154-server-b-C0__D_g4_joint-721196",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g4_joint",
+          "--device",
+          "2",
+          "--run-id",
+          "20261026T170154-server-b-C0__D_g4_joint-721196"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170154-server-b-C0__D_g4_joint-721196.log",
+        "started_unix": 1793034114.2777877,
+        "started_at": "2026-10-26T17:01:54.277797+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.875,
+        "admission": {
+          "index": 2,
+          "used": 11.9404296875,
+          "free": 83.03125,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:07:36.203829+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g2_joint",
+        "device": 7,
+        "pid": 2134039,
+        "start_ticks": 80411198,
+        "run_id": "20261026T170134-server-b-C0__D_g2_joint-5159",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g2_joint",
+          "--device",
+          "7",
+          "--run-id",
+          "20261026T170134-server-b-C0__D_g2_joint-5159"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170134-server-b-C0__D_g2_joint-5159.log",
+        "started_unix": 1793034094.8581665,
+        "started_at": "2026-10-26T17:01:34.858172+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.85546875,
+        "admission": {
+          "index": 7,
+          "used": 13.7490234375,
+          "free": 81.22265625,
+          "total": 95.5927734375,
+          "utilization": 99.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:07:41.698303+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g5_joint",
+        "device": 7,
+        "pid": 2139037,
+        "start_ticks": 80414425,
+        "run_id": "20261026T170207-server-b-C0__D_g5_joint-40221",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g5_joint",
+          "--device",
+          "7",
+          "--run-id",
+          "20261026T170207-server-b-C0__D_g5_joint-40221"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170207-server-b-C0__D_g5_joint-40221.log",
+        "started_unix": 1793034127.1337166,
+        "started_at": "2026-10-26T17:02:07.133721+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.875,
+        "admission": {
+          "index": 7,
+          "used": 14.55078125,
+          "free": 80.419921875,
+          "total": 95.5927734375,
+          "utilization": 97.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:07:47.357966+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g4_cone",
+        "device": 4,
+        "pid": 2138986,
+        "start_ticks": 80414401,
+        "run_id": "20261026T170206-server-b-C0__D_g4_cone-729565",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g4_cone",
+          "--device",
+          "4",
+          "--run-id",
+          "20261026T170206-server-b-C0__D_g4_cone-729565"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170206-server-b-C0__D_g4_cone-729565.log",
+        "started_unix": 1793034126.885711,
+        "started_at": "2026-10-26T17:02:06.885718+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.85546875,
+        "admission": {
+          "index": 4,
+          "used": 9.2255859375,
+          "free": 85.74609375,
+          "total": 95.5927734375,
+          "utilization": 97.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:08:22.243676+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g5_cone",
+        "device": 1,
+        "pid": 2139055,
+        "start_ticks": 80414448,
+        "run_id": "20261026T170207-server-b-C0__D_g5_cone-480612",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g5_cone",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T170207-server-b-C0__D_g5_cone-480612"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170207-server-b-C0__D_g5_cone-480612.log",
+        "started_unix": 1793034127.3586912,
+        "started_at": "2026-10-26T17:02:07.358697+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.85546875,
+        "admission": {
+          "index": 1,
+          "used": 11.96484375,
+          "free": 83.0068359375,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:08:50.109939+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g6_joint",
+        "device": 5,
+        "pid": 2168230,
+        "start_ticks": 80435282,
+        "run_id": "20261026T170535-server-b-C0__D_g6_joint-118006",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g6_joint",
+          "--device",
+          "5",
+          "--run-id",
+          "20261026T170535-server-b-C0__D_g6_joint-118006"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170535-server-b-C0__D_g6_joint-118006.log",
+        "started_unix": 1793034335.6984618,
+        "started_at": "2026-10-26T17:05:35.698466+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.89453125,
+        "admission": {
+          "index": 5,
+          "used": 8.15625,
+          "free": 86.8154296875,
+          "total": 95.5927734375,
+          "utilization": 95.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:10:06.961043+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g6_cone",
+        "device": 6,
+        "pid": 2175858,
+        "start_ticks": 80440792,
+        "run_id": "20261026T170630-server-b-C0__D_g6_cone-979367",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g6_cone",
+          "--device",
+          "6",
+          "--run-id",
+          "20261026T170630-server-b-C0__D_g6_cone-979367"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170630-server-b-C0__D_g6_cone-979367.log",
+        "started_unix": 1793034390.7986875,
+        "started_at": "2026-10-26T17:06:30.798694+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.89453125,
+        "admission": {
+          "index": 6,
+          "used": 13.3291015625,
+          "free": 81.642578125,
+          "total": 95.5927734375,
+          "utilization": 94.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:11:39.346638+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g1_cone",
+        "device": 1,
+        "pid": 2197108,
+        "start_ticks": 80454823,
+        "run_id": "20261026T170851-server-b-M11_g2__D_g1_cone-907787",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g1_cone",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T170851-server-b-M11_g2__D_g1_cone-907787"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170851-server-b-M11_g2__D_g1_cone-907787.log",
+        "started_unix": 1793034531.1080124,
+        "started_at": "2026-10-26T17:08:51.108019+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.80078125,
+        "admission": {
+          "index": 1,
+          "used": 12.2666015625,
+          "free": 82.705078125,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:12:01.348755+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g1_joint",
+        "device": 4,
+        "pid": 2193259,
+        "start_ticks": 80452026,
+        "run_id": "20261026T170823-server-b-M11_g2__D_g1_joint-144877",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g1_joint",
+          "--device",
+          "4",
+          "--run-id",
+          "20261026T170823-server-b-M11_g2__D_g1_joint-144877"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170823-server-b-M11_g2__D_g1_joint-144877.log",
+        "started_unix": 1793034503.136293,
+        "started_at": "2026-10-26T17:08:23.136301+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.859375,
+        "admission": {
+          "index": 4,
+          "used": 9.4208984375,
+          "free": 85.55078125,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:12:50.985802+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g8_joint",
+        "device": 3,
+        "pid": 2182063,
+        "start_ticks": 80444662,
+        "run_id": "20261026T170709-server-b-C0__D_g8_joint-128230",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g8_joint",
+          "--device",
+          "3",
+          "--run-id",
+          "20261026T170709-server-b-C0__D_g8_joint-128230"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170709-server-b-C0__D_g8_joint-128230.log",
+        "started_unix": 1793034429.497727,
+        "started_at": "2026-10-26T17:07:09.497735+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.89453125,
+        "admission": {
+          "index": 3,
+          "used": 9.431640625,
+          "free": 85.5400390625,
+          "total": 95.5927734375,
+          "utilization": 95.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:13:02.391813+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g8_cone",
+        "device": 2,
+        "pid": 2186384,
+        "start_ticks": 80447381,
+        "run_id": "20261026T170736-server-b-C0__D_g8_cone-462049",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g8_cone",
+          "--device",
+          "2",
+          "--run-id",
+          "20261026T170736-server-b-C0__D_g8_cone-462049"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170736-server-b-C0__D_g8_cone-462049.log",
+        "started_unix": 1793034456.6896703,
+        "started_at": "2026-10-26T17:07:36.689677+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.89453125,
+        "admission": {
+          "index": 2,
+          "used": 12.0966796875,
+          "free": 82.875,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:13:07.947173+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g9_cone",
+        "device": 7,
+        "pid": 2191747,
+        "start_ticks": 80450852,
+        "run_id": "20261026T170811-server-b-C0__D_g9_cone-226971",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g9_cone",
+          "--device",
+          "7",
+          "--run-id",
+          "20261026T170811-server-b-C0__D_g9_cone-226971"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170811-server-b-C0__D_g9_cone-226971.log",
+        "started_unix": 1793034491.3949988,
+        "started_at": "2026-10-26T17:08:11.395003+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.89453125,
+        "admission": {
+          "index": 7,
+          "used": 14.5107421875,
+          "free": 80.4599609375,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:13:35.877655+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g2_joint",
+        "device": 5,
+        "pid": 2208577,
+        "start_ticks": 80462484,
+        "run_id": "20261026T171007-server-b-M11_g2__D_g2_joint-984645",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g2_joint",
+          "--device",
+          "5",
+          "--run-id",
+          "20261026T171007-server-b-M11_g2__D_g2_joint-984645"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171007-server-b-M11_g2__D_g2_joint-984645.log",
+        "started_unix": 1793034607.716662,
+        "started_at": "2026-10-26T17:10:07.716669+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.859375,
+        "admission": {
+          "index": 5,
+          "used": 8.0224609375,
+          "free": 86.9482421875,
+          "total": 95.5927734375,
+          "utilization": 86.0
+        }
+      },
+      "exit_code": 1,
+      "status": "failed",
+      "time": "2026-10-26T17:13:41.690231+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g7_cone",
+        "device": 1,
+        "pid": 2179155,
+        "start_ticks": 80443024,
+        "run_id": "20261026T170653-server-b-C0__D_g7_cone-688818",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g7_cone",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T170653-server-b-C0__D_g7_cone-688818"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170653-server-b-C0__D_g7_cone-688818.log",
+        "started_unix": 1793034413.1150424,
+        "started_at": "2026-10-26T17:06:53.115048+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.89453125,
+        "admission": {
+          "index": 1,
+          "used": 12.76953125,
+          "free": 82.2021484375,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:13:52.946630+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g9_joint",
+        "device": 7,
+        "pid": 2187225,
+        "start_ticks": 80447947,
+        "run_id": "20261026T170742-server-b-C0__D_g9_joint-169773",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g9_joint",
+          "--device",
+          "7",
+          "--run-id",
+          "20261026T170742-server-b-C0__D_g9_joint-169773"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170742-server-b-C0__D_g9_joint-169773.log",
+        "started_unix": 1793034462.35324,
+        "started_at": "2026-10-26T17:07:42.353248+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.89453125,
+        "admission": {
+          "index": 7,
+          "used": 14.5703125,
+          "free": 80.4013671875,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:14:04.039524+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__D_g7_joint",
+        "device": 4,
+        "pid": 2179109,
+        "start_ticks": 80443008,
+        "run_id": "20261026T170652-server-b-C0__D_g7_joint-783699",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__D_g7_joint",
+          "--device",
+          "4",
+          "--run-id",
+          "20261026T170652-server-b-C0__D_g7_joint-783699"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170652-server-b-C0__D_g7_joint-783699.log",
+        "started_unix": 1793034412.9544764,
+        "started_at": "2026-10-26T17:06:52.954482+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.89453125,
+        "admission": {
+          "index": 4,
+          "used": 9.3818359375,
+          "free": 85.58984375,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:14:20.724440+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g2_cone",
+        "device": 6,
+        "pid": 2223141,
+        "start_ticks": 80471699,
+        "run_id": "20261026T171139-server-b-M11_g2__D_g2_cone-416746",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g2_cone",
+          "--device",
+          "6",
+          "--run-id",
+          "20261026T171139-server-b-M11_g2__D_g2_cone-416746"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171139-server-b-M11_g2__D_g2_cone-416746.log",
+        "started_unix": 1793034699.8657477,
+        "started_at": "2026-10-26T17:11:39.865756+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.83984375,
+        "admission": {
+          "index": 6,
+          "used": 13.3291015625,
+          "free": 81.642578125,
+          "total": 95.5927734375,
+          "utilization": 94.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:14:20.725125+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g3_joint",
+        "device": 1,
+        "pid": 2226704,
+        "start_ticks": 80473904,
+        "run_id": "20261026T171201-server-b-M11_g2__D_g3_joint-714051",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g3_joint",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T171201-server-b-M11_g2__D_g3_joint-714051"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171201-server-b-M11_g2__D_g3_joint-714051.log",
+        "started_unix": 1793034721.919639,
+        "started_at": "2026-10-26T17:12:01.919646+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.87890625,
+        "admission": {
+          "index": 1,
+          "used": 12.533203125,
+          "free": 82.4375,
+          "total": 95.5927734375,
+          "utilization": 88.0
+        }
+      },
+      "exit_code": 1,
+      "status": "failed",
+      "time": "2026-10-26T17:15:37.185058+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g4_cone",
+        "device": 2,
+        "pid": 2236233,
+        "start_ticks": 80480609,
+        "run_id": "20261026T171308-server-b-M11_g2__D_g4_cone-396448",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g4_cone",
+          "--device",
+          "2",
+          "--run-id",
+          "20261026T171308-server-b-M11_g2__D_g4_cone-396448"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171308-server-b-M11_g2__D_g4_cone-396448.log",
+        "started_unix": 1793034788.9674551,
+        "started_at": "2026-10-26T17:13:08.967462+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.859375,
+        "admission": {
+          "index": 2,
+          "used": 12.0966796875,
+          "free": 82.875,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:16:15.089942+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g5_cone",
+        "device": 5,
+        "pid": 2240552,
+        "start_ticks": 80483942,
+        "run_id": "20261026T171342-server-b-M11_g2__D_g5_cone-880997",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g5_cone",
+          "--device",
+          "5",
+          "--run-id",
+          "20261026T171342-server-b-M11_g2__D_g5_cone-880997"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171342-server-b-M11_g2__D_g5_cone-880997.log",
+        "started_unix": 1793034822.303623,
+        "started_at": "2026-10-26T17:13:42.303629+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.859375,
+        "admission": {
+          "index": 5,
+          "used": 7.884765625,
+          "free": 87.0859375,
+          "total": 95.5927734375,
+          "utilization": 83.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:16:20.615109+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__A_l01",
+        "device": 5,
+        "pid": 2118792,
+        "start_ticks": 80402860,
+        "run_id": "20261026T170011-server-b-M11_g2__A_l01-597304",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__A_l01",
+          "--device",
+          "5",
+          "--run-id",
+          "20261026T170011-server-b-M11_g2__A_l01-597304"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170011-server-b-M11_g2__A_l01-597304.log",
+        "started_unix": 1793034011.4797297,
+        "started_at": "2026-10-26T17:00:11.479735+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 5,
+          "used": 5.396484375,
+          "free": 89.57421875,
+          "total": 95.5927734375,
+          "utilization": 45.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:16:37.605274+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g4_joint",
+        "device": 3,
+        "pid": 2235402,
+        "start_ticks": 80480006,
+        "run_id": "20261026T171302-server-b-M11_g2__D_g4_joint-968760",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g4_joint",
+          "--device",
+          "3",
+          "--run-id",
+          "20261026T171302-server-b-M11_g2__D_g4_joint-968760"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171302-server-b-M11_g2__D_g4_joint-968760.log",
+        "started_unix": 1793034782.9387097,
+        "started_at": "2026-10-26T17:13:02.938716+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.87890625,
+        "admission": {
+          "index": 3,
+          "used": 9.431640625,
+          "free": 85.5400390625,
+          "total": 95.5927734375,
+          "utilization": 94.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:16:37.620276+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g3_cone",
+        "device": 4,
+        "pid": 2233944,
+        "start_ticks": 80478894,
+        "run_id": "20261026T171251-server-b-M11_g2__D_g3_cone-510038",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g3_cone",
+          "--device",
+          "4",
+          "--run-id",
+          "20261026T171251-server-b-M11_g2__D_g3_cone-510038"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171251-server-b-M11_g2__D_g3_cone-510038.log",
+        "started_unix": 1793034771.8192391,
+        "started_at": "2026-10-26T17:12:51.819245+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.83984375,
+        "admission": {
+          "index": 4,
+          "used": 9.4208984375,
+          "free": 85.55078125,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:16:43.359122+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g6_cone",
+        "device": 7,
+        "pid": 2243640,
+        "start_ticks": 80486168,
+        "run_id": "20261026T171404-server-b-M11_g2__D_g6_cone-905853",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g6_cone",
+          "--device",
+          "7",
+          "--run-id",
+          "20261026T171404-server-b-M11_g2__D_g6_cone-905853"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171404-server-b-M11_g2__D_g6_cone-905853.log",
+        "started_unix": 1793034844.5553205,
+        "started_at": "2026-10-26T17:14:04.555327+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.8984375,
+        "admission": {
+          "index": 7,
+          "used": 14.3623046875,
+          "free": 80.609375,
+          "total": 95.5927734375,
+          "utilization": 97.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:17:27.861077+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g5_joint",
+        "device": 7,
+        "pid": 2239911,
+        "start_ticks": 80483380,
+        "run_id": "20261026T171336-server-b-M11_g2__D_g5_joint-925416",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g5_joint",
+          "--device",
+          "7",
+          "--run-id",
+          "20261026T171336-server-b-M11_g2__D_g5_joint-925416"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171336-server-b-M11_g2__D_g5_joint-925416.log",
+        "started_unix": 1793034816.6776648,
+        "started_at": "2026-10-26T17:13:36.677672+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.87890625,
+        "admission": {
+          "index": 7,
+          "used": 14.4560546875,
+          "free": 80.515625,
+          "total": 95.5927734375,
+          "utilization": 99.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:17:33.333600+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__A_l02",
+        "device": 0,
+        "pid": 2127894,
+        "start_ticks": 80407732,
+        "run_id": "20261026T170100-server-b-M11_g2__A_l02-536734",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__A_l02",
+          "--device",
+          "0",
+          "--run-id",
+          "20261026T170100-server-b-M11_g2__A_l02-536734"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170100-server-b-M11_g2__A_l02-536734.log",
+        "started_unix": 1793034060.1908286,
+        "started_at": "2026-10-26T17:01:00.190832+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 0,
+          "used": 34.6572265625,
+          "free": 60.314453125,
+          "total": 95.5927734375,
+          "utilization": 91.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:18:16.453861+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__C_lr5",
+        "device": 0,
+        "pid": 2132598,
+        "start_ticks": 80410378,
+        "run_id": "20261026T170126-server-b-M11_g2__C_lr5-504928",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__C_lr5",
+          "--device",
+          "0",
+          "--run-id",
+          "20261026T170126-server-b-M11_g2__C_lr5-504928"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-M11_g2__C_lr5-504928.log",
+        "started_unix": 1793034086.6507807,
+        "started_at": "2026-10-26T17:01:26.650785+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 0,
+          "used": 35.580078125,
+          "free": 59.3916015625,
+          "total": 95.5927734375,
+          "utilization": 93.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:18:16.454803+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g7_joint",
+        "device": 6,
+        "pid": 2245945,
+        "start_ticks": 80487863,
+        "run_id": "20261026T171421-server-b-M11_g2__D_g7_joint-891182",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g7_joint",
+          "--device",
+          "6",
+          "--run-id",
+          "20261026T171421-server-b-M11_g2__D_g7_joint-891182"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171421-server-b-M11_g2__D_g7_joint-891182.log",
+        "started_unix": 1793034861.5096524,
+        "started_at": "2026-10-26T17:14:21.509658+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.8984375,
+        "admission": {
+          "index": 6,
+          "used": 13.462890625,
+          "free": 81.5087890625,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:18:32.772630+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__A_l0",
+        "device": 3,
+        "pid": 2127886,
+        "start_ticks": 80407701,
+        "run_id": "20261026T170059-server-b-M11_g2__A_l0-573293",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__A_l0",
+          "--device",
+          "3",
+          "--run-id",
+          "20261026T170059-server-b-M11_g2__A_l0-573293"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170059-server-b-M11_g2__A_l0-573293.log",
+        "started_unix": 1793034059.8861914,
+        "started_at": "2026-10-26T17:00:59.886198+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.03759765625,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 3,
+          "used": 7.5068359375,
+          "free": 87.4638671875,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:18:38.294255+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__A_l01",
+        "device": 0,
+        "pid": 2118757,
+        "start_ticks": 80402845,
+        "run_id": "20261026T170011-server-b-C0__A_l01-619194",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__A_l01",
+          "--device",
+          "0",
+          "--run-id",
+          "20261026T170011-server-b-C0__A_l01-619194"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170011-server-b-C0__A_l01-619194.log",
+        "started_unix": 1793034011.3267248,
+        "started_at": "2026-10-26T17:00:11.326731+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 0,
+          "used": 32.908203125,
+          "free": 62.0634765625,
+          "total": 95.5927734375,
+          "utilization": 34.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:18:43.752933+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g7_cone",
+        "device": 4,
+        "pid": 2246005,
+        "start_ticks": 80487897,
+        "run_id": "20261026T171421-server-b-M11_g2__D_g7_cone-792413",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g7_cone",
+          "--device",
+          "4",
+          "--run-id",
+          "20261026T171421-server-b-M11_g2__D_g7_cone-792413"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171421-server-b-M11_g2__D_g7_cone-792413.log",
+        "started_unix": 1793034861.8472362,
+        "started_at": "2026-10-26T17:14:21.847242+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.8984375,
+        "admission": {
+          "index": 4,
+          "used": 9.3662109375,
+          "free": 85.60546875,
+          "total": 95.5927734375,
+          "utilization": 97.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:18:49.062145+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__B_linear",
+        "device": 0,
+        "pid": 2123321,
+        "start_ticks": 80405121,
+        "run_id": "20261026T170034-server-b-C0__B_linear-895691",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__B_linear",
+          "--device",
+          "0",
+          "--run-id",
+          "20261026T170034-server-b-C0__B_linear-895691"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170034-server-b-C0__B_linear-895691.log",
+        "started_unix": 1793034034.0858517,
+        "started_at": "2026-10-26T17:00:34.085859+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.03759765625,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 0,
+          "used": 33.744140625,
+          "free": 61.2275390625,
+          "total": 95.5927734375,
+          "utilization": 86.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:19:10.729014+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g6_joint",
+        "device": 1,
+        "pid": 2242011,
+        "start_ticks": 80485054,
+        "run_id": "20261026T171353-server-b-M11_g2__D_g6_joint-314092",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g6_joint",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T171353-server-b-M11_g2__D_g6_joint-314092"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171353-server-b-M11_g2__D_g6_joint-314092.log",
+        "started_unix": 1793034833.416789,
+        "started_at": "2026-10-26T17:13:53.416795+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.8984375,
+        "admission": {
+          "index": 1,
+          "used": 12.384765625,
+          "free": 82.5869140625,
+          "total": 95.5927734375,
+          "utilization": 97.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:19:16.045580+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__A_l05",
+        "device": 5,
+        "pid": 2127921,
+        "start_ticks": 80407748,
+        "run_id": "20261026T170100-server-b-M11_g2__A_l05-120346",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__A_l05",
+          "--device",
+          "5",
+          "--run-id",
+          "20261026T170100-server-b-M11_g2__A_l05-120346"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170100-server-b-M11_g2__A_l05-120346.log",
+        "started_unix": 1793034060.3594327,
+        "started_at": "2026-10-26T17:01:00.359437+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 5,
+          "used": 7.1552734375,
+          "free": 87.81640625,
+          "total": 95.5927734375,
+          "utilization": 94.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:19:37.672812+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g8_cone",
+        "device": 2,
+        "pid": 2263737,
+        "start_ticks": 80499273,
+        "run_id": "20261026T171615-server-b-M11_g2__D_g8_cone-701512",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g8_cone",
+          "--device",
+          "2",
+          "--run-id",
+          "20261026T171615-server-b-M11_g2__D_g8_cone-701512"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171615-server-b-M11_g2__D_g8_cone-701512.log",
+        "started_unix": 1793034975.6106288,
+        "started_at": "2026-10-26T17:16:15.610634+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.8984375,
+        "admission": {
+          "index": 2,
+          "used": 12.0966796875,
+          "free": 82.875,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:19:42.939630+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__B_delayed",
+        "device": 3,
+        "pid": 2132521,
+        "start_ticks": 80410344,
+        "run_id": "20261026T170126-server-b-M11_g2__B_delayed-217631",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__B_delayed",
+          "--device",
+          "3",
+          "--run-id",
+          "20261026T170126-server-b-M11_g2__B_delayed-217631"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-M11_g2__B_delayed-217631.log",
+        "started_unix": 1793034086.3137665,
+        "started_at": "2026-10-26T17:01:26.313773+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.0498046875,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 3,
+          "used": 8.3525390625,
+          "free": 86.619140625,
+          "total": 95.5927734375,
+          "utilization": 95.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:20:04.074897+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g9_joint",
+        "device": 5,
+        "pid": 2264705,
+        "start_ticks": 80499880,
+        "run_id": "20261026T171621-server-b-M11_g2__D_g9_joint-883233",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g9_joint",
+          "--device",
+          "5",
+          "--run-id",
+          "20261026T171621-server-b-M11_g2__D_g9_joint-883233"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171621-server-b-M11_g2__D_g9_joint-883233.log",
+        "started_unix": 1793034981.677452,
+        "started_at": "2026-10-26T17:16:21.677457+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.8984375,
+        "admission": {
+          "index": 5,
+          "used": 8.0185546875,
+          "free": 86.9521484375,
+          "total": 95.5927734375,
+          "utilization": 78.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:20:09.351040+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g9_cone",
+        "device": 3,
+        "pid": 2267334,
+        "start_ticks": 80501547,
+        "run_id": "20261026T171638-server-b-M11_g2__D_g9_cone-945126",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g9_cone",
+          "--device",
+          "3",
+          "--run-id",
+          "20261026T171638-server-b-M11_g2__D_g9_cone-945126"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171638-server-b-M11_g2__D_g9_cone-945126.log",
+        "started_unix": 1793034998.3486757,
+        "started_at": "2026-10-26T17:16:38.348684+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.8984375,
+        "admission": {
+          "index": 3,
+          "used": 9.431640625,
+          "free": 85.5400390625,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:20:14.682387+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__B_delayed",
+        "device": 5,
+        "pid": 2123351,
+        "start_ticks": 80405134,
+        "run_id": "20261026T170034-server-b-C0__B_delayed-577595",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__B_delayed",
+          "--device",
+          "5",
+          "--run-id",
+          "20261026T170034-server-b-C0__B_delayed-577595"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170034-server-b-C0__B_delayed-577595.log",
+        "started_unix": 1793034034.2125542,
+        "started_at": "2026-10-26T17:00:34.212558+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.0498046875,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 5,
+          "used": 6.2421875,
+          "free": 88.7294921875,
+          "total": 95.5927734375,
+          "utilization": 93.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:20:40.966182+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__B_linear",
+        "device": 2,
+        "pid": 2132462,
+        "start_ticks": 80410324,
+        "run_id": "20261026T170126-server-b-M11_g2__B_linear-952310",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__B_linear",
+          "--device",
+          "2",
+          "--run-id",
+          "20261026T170126-server-b-M11_g2__B_linear-952310"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-M11_g2__B_linear-952310.log",
+        "started_unix": 1793034086.1104174,
+        "started_at": "2026-10-26T17:01:26.110424+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.13525390625,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 2,
+          "used": 11.095703125,
+          "free": 83.8759765625,
+          "total": 95.5927734375,
+          "utilization": 91.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:20:46.232069+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__C_lr02",
+        "device": 6,
+        "pid": 2132560,
+        "start_ticks": 80410360,
+        "run_id": "20261026T170126-server-b-M11_g2__C_lr02-99549",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__C_lr02",
+          "--device",
+          "6",
+          "--run-id",
+          "20261026T170126-server-b-M11_g2__C_lr02-99549"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170126-server-b-M11_g2__C_lr02-99549.log",
+        "started_unix": 1793034086.4766233,
+        "started_at": "2026-10-26T17:01:26.476631+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.0498046875,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 6,
+          "used": 12.3828125,
+          "free": 82.587890625,
+          "total": 95.5927734375,
+          "utilization": 95.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:20:51.512500+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__D_g8_joint",
+        "device": 1,
+        "pid": 2257737,
+        "start_ticks": 80495488,
+        "run_id": "20261026T171537-server-b-M11_g2__D_g8_joint-197571",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__D_g8_joint",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T171537-server-b-M11_g2__D_g8_joint-197571"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T171537-server-b-M11_g2__D_g8_joint-197571.log",
+        "started_unix": 1793034937.7587245,
+        "started_at": "2026-10-26T17:15:37.758730+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.1474609375,
+        "observed_gpu_gib": 0.8984375,
+        "admission": {
+          "index": 1,
+          "used": 12.537109375,
+          "free": 82.43359375,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:20:51.513054+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__A_l005",
+        "device": 6,
+        "pid": 2127889,
+        "start_ticks": 80407717,
+        "run_id": "20261026T170100-server-b-M11_g2__A_l005-51735",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__A_l005",
+          "--device",
+          "6",
+          "--run-id",
+          "20261026T170100-server-b-M11_g2__A_l005-51735"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170100-server-b-M11_g2__A_l005-51735.log",
+        "started_unix": 1793034060.0447414,
+        "started_at": "2026-10-26T17:01:00.044745+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.03759765625,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 6,
+          "used": 11.5380859375,
+          "free": 83.43359375,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:21:39.464685+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__A_l0",
+        "device": 7,
+        "pid": 2123133,
+        "start_ticks": 80405035,
+        "run_id": "20261026T170033-server-b-C0__A_l0-17377",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__A_l0",
+          "--device",
+          "7",
+          "--run-id",
+          "20261026T170033-server-b-C0__A_l0-17377"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l0-17377.log",
+        "started_unix": 1793034033.2281656,
+        "started_at": "2026-10-26T17:00:33.228174+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 7,
+          "used": 12.0,
+          "free": 82.970703125,
+          "total": 95.5927734375,
+          "utilization": 80.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:23:40.647053+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__A_l2",
+        "device": 1,
+        "pid": 2129447,
+        "start_ticks": 80408614,
+        "run_id": "20261026T170109-server-b-M11_g2__A_l2-917944",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__A_l2",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T170109-server-b-M11_g2__A_l2-917944"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170109-server-b-M11_g2__A_l2-917944.log",
+        "started_unix": 1793034069.016008,
+        "started_at": "2026-10-26T17:01:09.016013+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.03759765625,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 1,
+          "used": 10.2373046875,
+          "free": 84.734375,
+          "total": 95.5927734375,
+          "utilization": 99.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:23:56.373179+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "M11_g2__A_l1",
+        "device": 4,
+        "pid": 2129387,
+        "start_ticks": 80408555,
+        "run_id": "20261026T170108-server-b-M11_g2__A_l1-473818",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "M11_g2__A_l1",
+          "--device",
+          "4",
+          "--run-id",
+          "20261026T170108-server-b-M11_g2__A_l1-473818"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170108-server-b-M11_g2__A_l1-473818.log",
+        "started_unix": 1793034068.43019,
+        "started_at": "2026-10-26T17:01:08.430199+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.03759765625,
+        "observed_gpu_gib": 0.91796875,
+        "admission": {
+          "index": 4,
+          "used": 7.517578125,
+          "free": 87.4541015625,
+          "total": 95.5927734375,
+          "utilization": 98.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:24:17.375203+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__A_l005",
+        "device": 3,
+        "pid": 2123183,
+        "start_ticks": 80405050,
+        "run_id": "20261026T170033-server-b-C0__A_l005-885637",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__A_l005",
+          "--device",
+          "3",
+          "--run-id",
+          "20261026T170033-server-b-C0__A_l005-885637"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l005-885637.log",
+        "started_unix": 1793034033.3731449,
+        "started_at": "2026-10-26T17:00:33.373150+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 3,
+          "used": 6.671875,
+          "free": 88.2998046875,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:24:43.579931+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__A_l1",
+        "device": 2,
+        "pid": 2123269,
+        "start_ticks": 80405092,
+        "run_id": "20261026T170033-server-b-C0__A_l1-522387",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__A_l1",
+          "--device",
+          "2",
+          "--run-id",
+          "20261026T170033-server-b-C0__A_l1-522387"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l1-522387.log",
+        "started_unix": 1793034033.7927604,
+        "started_at": "2026-10-26T17:00:33.792764+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 2,
+          "used": 9.3466796875,
+          "free": 85.625,
+          "total": 95.5927734375,
+          "utilization": 100.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:26:07.492545+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__A_l02",
+        "device": 6,
+        "pid": 2123234,
+        "start_ticks": 80405063,
+        "run_id": "20261026T170033-server-b-C0__A_l02-183158",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__A_l02",
+          "--device",
+          "6",
+          "--run-id",
+          "20261026T170033-server-b-C0__A_l02-183158"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l02-183158.log",
+        "started_unix": 1793034033.5085158,
+        "started_at": "2026-10-26T17:00:33.508519+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 6,
+          "used": 10.703125,
+          "free": 84.2685546875,
+          "total": 95.5927734375,
+          "utilization": 96.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:26:17.972772+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__C_lr02",
+        "device": 7,
+        "pid": 2127833,
+        "start_ticks": 80407671,
+        "run_id": "20261026T170059-server-b-C0__C_lr02-895645",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__C_lr02",
+          "--device",
+          "7",
+          "--run-id",
+          "20261026T170059-server-b-C0__C_lr02-895645"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170059-server-b-C0__C_lr02-895645.log",
+        "started_unix": 1793034059.5808673,
+        "started_at": "2026-10-26T17:00:59.580873+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.03759765625,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 7,
+          "used": 12.8359375,
+          "free": 82.1357421875,
+          "total": 95.5927734375,
+          "utilization": 70.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:26:17.973447+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__C_lr5",
+        "device": 2,
+        "pid": 2127841,
+        "start_ticks": 80407687,
+        "run_id": "20261026T170059-server-b-C0__C_lr5-146889",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__C_lr5",
+          "--device",
+          "2",
+          "--run-id",
+          "20261026T170059-server-b-C0__C_lr5-146889"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170059-server-b-C0__C_lr5-146889.log",
+        "started_unix": 1793034059.7407138,
+        "started_at": "2026-10-26T17:00:59.740720+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 2.03759765625,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 2,
+          "used": 10.181640625,
+          "free": 84.7900390625,
+          "total": 95.5927734375,
+          "utilization": 95.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:26:28.444468+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__A_l05",
+        "device": 4,
+        "pid": 2123242,
+        "start_ticks": 80405078,
+        "run_id": "20261026T170033-server-b-C0__A_l05-467224",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__A_l05",
+          "--device",
+          "4",
+          "--run-id",
+          "20261026T170033-server-b-C0__A_l05-467224"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l05-467224.log",
+        "started_unix": 1793034033.6551256,
+        "started_at": "2026-10-26T17:00:33.655133+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 4,
+          "used": 6.6826171875,
+          "free": 88.2890625,
+          "total": 95.5927734375,
+          "utilization": 100.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:27:51.997761+00:00"
+    },
+    {
+      "event": "worker_exit",
+      "record": {
+        "condition": "C0__A_l2",
+        "device": 1,
+        "pid": 2123297,
+        "start_ticks": 80405107,
+        "run_id": "20261026T170033-server-b-C0__A_l2-447927",
+        "command": [
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+          "-u",
+          "-B",
+          "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py",
+          "--condition",
+          "C0__A_l2",
+          "--device",
+          "1",
+          "--run-id",
+          "20261026T170033-server-b-C0__A_l2-447927"
+        ],
+        "log": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/logs/20261026T170033-server-b-C0__A_l2-447927.log",
+        "started_unix": 1793034033.94285,
+        "started_at": "2026-10-26T17:00:33.942854+00:00",
+        "overlay_ready": true,
+        "reserved_gib": 4.0,
+        "observed_gpu_gib": 0.908203125,
+        "admission": {
+          "index": 1,
+          "used": 9.40234375,
+          "free": 85.5693359375,
+          "total": 95.5927734375,
+          "utilization": 100.0
+        }
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "time": "2026-10-26T17:34:09.542669+00:00"
+    }
+  ],
+  "coordinator": {
+    "pid": 2118614,
+    "start_ticks": 80402781,
+    "started_at": "2026-10-26T17:00:10.835756+00:00",
+    "source_digest": "1466d94778086865158c563fb99ba91a0d2a6ec655c81cd7c09b4f351c9fc662",
+    "adopted_pids": []
+  },
+  "status": {
+    "updated_at": "2026-10-26T17:34:09.777493+00:00",
+    "pid": 2118614,
+    "active": [],
+    "conditions": {
+      "C0__A_l0": "completed",
+      "C0__A_l005": "completed",
+      "C0__A_l01": "completed",
+      "C0__A_l02": "completed",
+      "C0__A_l05": "completed",
+      "C0__A_l1": "completed",
+      "C0__A_l2": "completed",
+      "C0__B_linear": "completed",
+      "C0__B_delayed": "completed",
+      "C0__C_lr02": "completed",
+      "C0__C_lr5": "completed",
+      "C0__D_g1_joint": "completed",
+      "C0__D_g1_cone": "completed",
+      "C0__D_g2_joint": "completed",
+      "C0__D_g2_cone": "completed",
+      "C0__D_g3_joint": "completed",
+      "C0__D_g3_cone": "completed",
+      "C0__D_g4_joint": "completed",
+      "C0__D_g4_cone": "completed",
+      "C0__D_g5_joint": "completed",
+      "C0__D_g5_cone": "completed",
+      "C0__D_g6_joint": "completed",
+      "C0__D_g6_cone": "completed",
+      "C0__D_g7_joint": "completed",
+      "C0__D_g7_cone": "completed",
+      "C0__D_g8_joint": "completed",
+      "C0__D_g8_cone": "completed",
+      "C0__D_g9_joint": "completed",
+      "C0__D_g9_cone": "completed",
+      "M11_g2__A_l0": "completed",
+      "M11_g2__A_l005": "completed",
+      "M11_g2__A_l01": "completed",
+      "M11_g2__A_l02": "completed",
+      "M11_g2__A_l05": "completed",
+      "M11_g2__A_l1": "completed",
+      "M11_g2__A_l2": "completed",
+      "M11_g2__B_linear": "completed",
+      "M11_g2__B_delayed": "completed",
+      "M11_g2__C_lr02": "completed",
+      "M11_g2__C_lr5": "completed",
+      "M11_g2__D_g1_joint": "completed",
+      "M11_g2__D_g1_cone": "completed",
+      "M11_g2__D_g2_joint": "failed",
+      "M11_g2__D_g2_cone": "completed",
+      "M11_g2__D_g3_joint": "failed",
+      "M11_g2__D_g3_cone": "completed",
+      "M11_g2__D_g4_joint": "completed",
+      "M11_g2__D_g4_cone": "completed",
+      "M11_g2__D_g5_joint": "completed",
+      "M11_g2__D_g5_cone": "completed",
+      "M11_g2__D_g6_joint": "completed",
+      "M11_g2__D_g6_cone": "completed",
+      "M11_g2__D_g7_joint": "completed",
+      "M11_g2__D_g7_cone": "completed",
+      "M11_g2__D_g8_joint": "completed",
+      "M11_g2__D_g8_cone": "completed",
+      "M11_g2__D_g9_joint": "completed",
+      "M11_g2__D_g9_cone": "completed"
+    },
+    "cards": [
+      {
+        "index": 0,
+        "used": 32.908203125,
+        "free": 62.0634765625,
+        "total": 95.5927734375,
+        "utilization": 11.0
+      },
+      {
+        "index": 1,
+        "used": 16.88671875,
+        "free": 78.0849609375,
+        "total": 95.5927734375,
+        "utilization": 99.0
+      },
+      {
+        "index": 2,
+        "used": 9.3466796875,
+        "free": 85.625,
+        "total": 95.5927734375,
+        "utilization": 100.0
+      },
+      {
+        "index": 3,
+        "used": 6.671875,
+        "free": 88.2998046875,
+        "total": 95.5927734375,
+        "utilization": 96.0
+      },
+      {
+        "index": 4,
+        "used": 6.4912109375,
+        "free": 88.48046875,
+        "total": 95.5927734375,
+        "utilization": 98.0
+      },
+      {
+        "index": 5,
+        "used": 5.67578125,
+        "free": 89.2958984375,
+        "total": 95.5927734375,
+        "utilization": 59.0
+      },
+      {
+        "index": 6,
+        "used": 10.3017578125,
+        "free": 84.669921875,
+        "total": 95.5927734375,
+        "utilization": 90.0
+      },
+      {
+        "index": 7,
+        "used": 11.599609375,
+        "free": 83.3720703125,
+        "total": 95.5927734375,
+        "utilization": 85.0
+      }
+    ],
+    "data_free_gib": 376.10338973999023,
+    "stopping": false,
+    "completed": 56,
+    "failed": 2,
+    "queued": 0
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "pid": 2459296,
+  "gpu": "4",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_native_baseline_v2/external_eval.py",
+    "--run-id",
+    "C0_s51",
+    "--device",
+    "4"
+  ],
+  "started_unix": 1793159304.4904315,
+  "passed": true,
+  "selection_sha256": "79a7312a36f5df16c34a07d4c64069b024fa2f0a1ad3a387c0e2d5d4e835d4e2",
+  "model": {
+    "path": "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/runs/C0_s51/last.pt",
+    "sha256": "43137ad8341e50ad8774293589c2a069de7d1a6a3e3a27258acd850c11c0366d",
+    "step": 2000
+  },
+  "metrics": {
+    "msrvtt": {
+      "t2va": {
+        "R@1": 47.51131236553192,
+        "R@5": 70.13574838638306,
+        "R@10": 77.9411792755127,
+        "query_count": 884,
+        "candidate_count": 884,
+        "candidate_recall": 83.93665313720703
+      },
+      "va2t": {
+        "R@1": 45.70135772228241,
+        "R@5": 66.74208045005798,
+        "R@10": 75.79185366630554,
+        "query_count": 884,
+        "candidate_count": 884,
+        "candidate_recall": 82.01358032226562
+      },
+      "main_mean": {
+        "R@1": 46.606335043907166,
+        "R@5": 68.43891441822052,
+        "R@10": 76.86651647090912
+      }
+    },
+    "vatex": {
+      "t2va": {
+        "R@1": 72.41013050079346,
+        "R@5": 93.22712421417236,
+        "R@10": 95.78431248664856,
+        "query_count": 12240,
+        "candidate_count": 1224,
+        "candidate_recall": 96.76470947265625
+      },
+      "va2t": {
+        "R@1": 85.78431606292725,
+        "R@5": 96.73202633857727,
+        "R@10": 98.20261597633362,
+        "query_count": 1224,
+        "candidate_count": 12240,
+        "candidate_recall": 99.10130310058594
+      },
+      "main_mean": {
+        "R@1": 79.09722328186035,
+        "R@5": 94.97957527637482,
+        "R@10": 96.99346423149109
+      }
+    }
+  },
+  "finished_unix": 1793160975.3585238,
+  "external_cache_sha256": "c3d5de8f3085423f58474c97945717a6a3238af95658747949d5625c1a0d5251"
+}

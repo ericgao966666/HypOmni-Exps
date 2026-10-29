@@ -1,0 +1,176 @@
+{
+  "experiment_id": "EXP-009",
+  "view": "five-method presentation",
+  "created_at_utc": "2026-10-20T18:33:04.858832+00:00",
+  "repository_synced_commit": "92aad7219cfadbceed98af5895795fe7eed9fc11",
+  "kept_methods": [
+    "vast",
+    "gram",
+    "pmrl",
+    "hyp_cone",
+    "euc_none"
+  ],
+  "excluded_methods": [
+    "hyp_none",
+    "euc_cone"
+  ],
+  "original_main_rows": 42,
+  "displayed_main_rows": 30,
+  "original_total_runs": 43,
+  "displayed_total_runs": 31,
+  "filtering_rule": "Exact method-membership filter; all metric values and checkpoint choices retained.",
+  "ranking_rule": "Best and second distinct displayed value per column among retained methods; Recall high, MedR low; ties preserved.",
+  "source_files": {
+    "results/EXP-009/2026-10-20-server-b/retrieval_42.csv": "60c2190e1a08dc746b095aa7680e792990a294b46f54c7df4cdadaa807ed7165",
+    "results/EXP-009/2026-10-20-server-b/metrics_43.json": "8efb9a4d3ab03df05174fdf8f6966ce2b218cb96cdf4dd254f26c0d781b427d7",
+    "results/EXP-009/2026-10-20-server-b/lambda_comparison.json": "be063904cad0f7d9612c8d58128b70b5194013bc6f40690d7d3e333ca42717fa",
+    "results/EXP-009/2026-10-20-server-b/provenance/run_provenance.json": "c72f1420d7a84ceaad3a60d247ea985e426a46c1d4afd13bedcddabf7d4ecbf9"
+  },
+  "plot_data": {
+    "R@1": {
+      "vast": [
+        6.504524886877828,
+        6.033182503770738,
+        9.181749622926093,
+        14.913273001508296,
+        18.68401206636501,
+        21.51206636500754
+      ],
+      "gram": [
+        5.637254901960784,
+        9.992458521870287,
+        13.122171945701355,
+        15.912518853695325,
+        18.212669683257918,
+        19.362745098039216
+      ],
+      "pmrl": [
+        6.014328808446456,
+        11.990950226244344,
+        17.741327300150832,
+        20.531674208144796,
+        21.361236802413273,
+        20.682503770739064
+      ],
+      "hyp_cone": [
+        5.580693815987934,
+        10.765460030165912,
+        15.818250377073909,
+        19.683257918552034,
+        21.644042232277524,
+        21.832579185520363
+      ],
+      "euc_none": [
+        5.637254901960784,
+        10.633484162895927,
+        14.932126696832581,
+        19.98491704374057,
+        21.96455505279035,
+        22.60558069381599
+      ]
+    },
+    "R@5": {
+      "vast": [
+        22.49245852187029,
+        19.70211161387632,
+        25.471342383107086,
+        34.33257918552036,
+        38.63122171945701,
+        41.70437405731523
+      ],
+      "gram": [
+        17.85444947209653,
+        26.112368024132724,
+        30.7315233785822,
+        33.76696832579186,
+        35.840874811463046,
+        37.89592760180996
+      ],
+      "pmrl": [
+        19.40045248868778,
+        31.447963800904983,
+        40.4788838612368,
+        43.60859728506788,
+        44.43815987933635,
+        43.53318250377074
+      ],
+      "hyp_cone": [
+        20.5316742081448,
+        31.56108597285068,
+        37.650829562594275,
+        42.55279034690799,
+        45.92760180995475,
+        45.56938159879336
+      ],
+      "euc_none": [
+        19.984917043740573,
+        31.297134238310715,
+        36.27450980392157,
+        43.21266968325792,
+        45.852187028657625,
+        46.417797888386126
+      ]
+    },
+    "R@10": {
+      "vast": [
+        34.20060331825037,
+        29.958521870286575,
+        36.51960784313726,
+        44.87179487179487,
+        48.755656108597286,
+        51.18778280542987
+      ],
+      "gram": [
+        26.07466063348416,
+        35.671191553544496,
+        40.4788838612368,
+        42.590497737556554,
+        44.53242835595777,
+        46.248114630467576
+      ],
+      "pmrl": [
+        29.468325791855204,
+        42.77903469079939,
+        52.09276018099548,
+        54.67571644042233,
+        54.826546003016595,
+        54.185520361990946
+      ],
+      "hyp_cone": [
+        31.975867269984917,
+        43.32579185520362,
+        49.8868778280543,
+        54.31749622926093,
+        56.73076923076923,
+        57.20211161387632
+      ],
+      "euc_none": [
+        32.03242835595777,
+        43.51432880844646,
+        49.00075414781298,
+        54.71342383107089,
+        57.12669683257919,
+        57.522624434389144
+      ]
+    }
+  },
+  "unchanged_reused_artifacts": {
+    "results/EXP-009/2026-10-20-server-b/lambda16_comparison.png": "9d114f5bc23b7740cce30f13191575fecf5d726f1dde0c4273d2457e7b69015d",
+    "results/EXP-009/2026-10-20-server-b/lambda16_comparison.pdf": "25616e34de2c08733eb1309e7fa61d35782efdc89d17da929b502448ac2eb2b6",
+    "results/EXP-009/2026-10-20-server-b/lambda_comparison.json": "be063904cad0f7d9612c8d58128b70b5194013bc6f40690d7d3e333ca42717fa",
+    "results/EXP-009/2026-10-20-server-b/lambda16_training_curves.csv": "7a98b0a6118d4e868e8224db81d0214750f08f19902036d6c0fbce70c7999a79",
+    "results/EXP-009/2026-10-20-server-b/geometry/native_constraints_all_widths.png": "6a806e9f3de52c0c9ab1a8c5341d83e039165e0eb844e34c1a19d0bfc6aa2ecc",
+    "results/EXP-009/2026-10-20-server-b/geometry/projections_8_16.png": "8dbf200c70429c1118c18dbe188b8db2b66852e025b9a73a134da12947a9ba19",
+    "results/EXP-009/2026-10-20-server-b/geometry/projections_32_64.png": "54c955ef02b657eb6acf1c467c9179db22e0775495738c8fa58f8485637fe37f",
+    "results/EXP-009/2026-10-20-server-b/geometry/projections_128_512.png": "61af8a11b8bce37be3ecb8dc7c62071726c9f580e0925969be83a4bfe944af8c",
+    "results/EXP-009/2026-10-20-server-b/geometry/all_widths_geometry_report.pdf": "e06d6be4e82b112e964507071242badcc5da98c56599e67c8f35169615e34f94",
+    "results/EXP-009/2026-10-20-server-b/geometry/native_metrics.csv": "d194138cad81e042824cb80e521d551e2e46bc456331b0fc88ddafe3a09608f4",
+    "results/EXP-009/2026-10-20-server-b/geometry/projection_quality.csv": "9dca56c191971379f93eecd8b2447fb48641bf846d12fd4d18cb5d4762707ca5",
+    "results/EXP-009/2026-10-20-server-b/geometry/projection_faithfulness.png": "a534ddd98ce83b60645e27e8de783469182b7ff9d5f4b9b8c70149b3c5e95cca",
+    "results/EXP-009/2026-10-20-server-b/geometry/provenance.json": "c085b272d6659e603c234cfedf5ef8d75b46c9bc73238baf092c77d0a2978252"
+  },
+  "generator_source": "Hyperbolic-Omnimodal/code/outputs/lowdim_five_method_view_20261020/build_view.py",
+  "generator_sha256": "4629cab43313759ea76755b6c66356643180b547464d9f74e3ddb119211ae1aa",
+  "new_training": false,
+  "additional_training_seeds": false
+}

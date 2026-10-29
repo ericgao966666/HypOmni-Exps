@@ -1,0 +1,28 @@
+{
+  "change": "Only the R0 radius panel uses an independent y-axis; existing projections and all numerical results reused unchanged.",
+  "axis_limits": {
+    "R0": [
+      0.9834994487125713,
+      1.0324227404758215
+    ],
+    "R3": [
+      0.8,
+      3.6
+    ]
+  },
+  "input_sha256": {
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/analysis_summary.json": "35cfee21f871e826c42c4bed8645752ef9622daa97302ad5063546588f3fc65f",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/analyze_recipes.py": "a79e43e64a546be7c222ea10efcd1fc8096375dae685ce0b52c78d9ab10152d0",
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/R0_validation_features.pt": "b3693ac66d07227c96a6a54734ff6291a7b67b445076cb3281d3d0f867e58aba",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/horo_R0.npy": "ba175910b647b6634071666d24545746b656c3da5034ac3996fef02081a3b3fe",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/cosne_R0.npy": "2ca55bfad1b679a35837f66d8317d9c1298f69cae042fe7a97350ce22a512fe8",
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/runs/hyp_cone_d64_s50_R3/joint/validation_features.pt": "0c169121e224aee2a6f9bc4cf287853523e9d5a2df062228fdce55dde55b28d5",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/horo_R3.npy": "a24a4c61b618d9552bdf85cc2d67e9b92bbf9dd062101bd524a90405e4061a35",
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim_retrieval_20261021/analysis/geometry_validation_20261023/cosne_R3.npy": "89139cba9ef020169bd3b66e96598d3f7ad369d46138c1ed6def31fd3c499b0e"
+  },
+  "script_sha256": "7a22d23bef08e4485c6aad99317d114ee060a2d1599c79159436c7773d6bd119",
+  "outputs": {
+    "geometry_R0_vs_R3.png": "429c89d6cac2a3213930f642fac7fd66a2775d768211f1a481fcdbe7c2f68d26",
+    "geometry_R0_vs_R3.pdf": "f0a63287efaab23201cdf56fb99e664fc0fd9e00bc66fc76705746a4e5b82b0e"
+  }
+}

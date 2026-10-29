@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "id": "uncha_native_hyperbolic_s0_w0.2",
+    "role": "main",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.2,
+      "geometry": "hyperbolic",
+      "global_beta": 14.285714285714285,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "uncha",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  "parameters": 149619974,
+  "projection_sha256": "65bf2e1760745bf929592cd03b6583d39e072c7e18921c88fc1b94eb05630b0e",
+  "stage": "joint"
+}

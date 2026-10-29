@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "M11_g2__D_g2_joint",
+    "run_id": "20261026T171007-server-b-M11_g2__D_g2_joint-984645",
+    "pid": 2208577,
+    "device": 5,
+    "started_at": "2026-10-26T17:10:12.924866+00:00",
+    "status": "failed",
+    "step": 1971,
+    "error": "FloatingPointError('Nonfinite unscaled gradients')",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py\", line 177, in run\n    raise FloatingPointError('Nonfinite unscaled gradients')\nFloatingPointError: Nonfinite unscaled gradients\n",
+    "time": "2026-10-26T17:13:37.333989+00:00"
+  },
+  {
+    "condition": "M11_g2__D_g3_joint",
+    "run_id": "20261026T171201-server-b-M11_g2__D_g3_joint-714051",
+    "pid": 2226704,
+    "device": 1,
+    "started_at": "2026-10-26T17:12:06.374526+00:00",
+    "status": "failed",
+    "step": 1619,
+    "error": "FloatingPointError('Nonfinite unscaled gradients')",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/entailment_singlefactor_20261026/train.py\", line 177, in run\n    raise FloatingPointError('Nonfinite unscaled gradients')\nFloatingPointError: Nonfinite unscaled gradients\n",
+    "time": "2026-10-26T17:15:34.900134+00:00"
+  }
+]

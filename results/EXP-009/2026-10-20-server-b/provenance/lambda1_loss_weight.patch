@@ -1,0 +1,11 @@
+--- baseline/lowdim_finetune.py
++++ lambda1/lowdim_finetune.py
+@@ -256,7 +256,7 @@
+             for group in optimizer.param_groups:group['lr']=group['initial_lr']*factor
+             with torch.autocast('cuda',dtype=torch.float16):output=train_model(batch)
+             if ours(args.method):
+-                value,terms=subset_loss(output,geometry_for(args.method),.1 if args.method.endswith('_cone') else 0.)
++                value,terms=subset_loss(output,geometry_for(args.method),float(protocol['entailment_weight']) if args.method.endswith('_cone') else 0.)
+                 if int(terms['candidate_count'])!=64:raise RuntimeError('Incorrect contrastive candidate pool')
+             else:terms=output;value=sum(output.values())
+             if not torch.isfinite(value):raise FloatingPointError('Nonfinite training loss')

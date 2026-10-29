@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "id": "hycoclip_native_euclidean_s0_w0.2",
+    "role": "main",
+    "schedule_sha256": "a868e7497c0061f62687405d9816d247d0d1e15daf3731ef16ac86795d06a819",
+    "spec": {
+      "domain_mode": "native",
+      "entailment_weight": 0.2,
+      "euclidean_k": 0.02319413110165743,
+      "geometry": "euclidean",
+      "global_beta": 14.286670501786503,
+      "global_local_beta": 16.666666666666668,
+      "local_beta": 14.285714285714285,
+      "method": "hycoclip",
+      "seed": 0,
+      "width": 512
+    }
+  },
+  "parameters": 149619971,
+  "projection_sha256": "8348fd28369e6291f4031631b8af9e39f0daf2b5b09c4e3db5a9509e2a705bf7",
+  "stage": "joint"
+}

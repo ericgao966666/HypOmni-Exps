@@ -1,0 +1,31 @@
+{
+  "pid": 299082,
+  "gpu": "2",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_hierarchy/train_tier_a.py",
+    "--variant",
+    "C0",
+    "--architecture",
+    "local",
+    "--lr",
+    "0.001",
+    "--seed",
+    "50",
+    "--steps",
+    "2000",
+    "--eval-every",
+    "500",
+    "--microbatch",
+    "8",
+    "--device",
+    "2",
+    "--run-id",
+    "c0_local_lr1e3_s50_v1"
+  ],
+  "started_unix": 1793049734.8426044,
+  "step": 2000,
+  "loss": 0.5145383831113577,
+  "elapsed_seconds": 2232.544491581968,
+  "peak_reserved_gib": 0.189453125,
+  "updated_unix": 1793051967.3874626
+}

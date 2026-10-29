@@ -1,0 +1,148 @@
+{
+  "source_digest": "7f45a6d35589b8192fc9623fe01ca12c464e31c4d761bbd67fb3420a9bdc28cd",
+  "frozen_source": {
+    "bootstrap.py": "68a2ee90b3509d732a72091cf4a37198e7a5b4dd26994ffb640bf2512ca98f36",
+    "common.py": "0370dd43727ff8ed47ec7b9890b640a497dec0e966ffd732431174e6f10862d8",
+    "diagnostics.py": "86c0cd3c6cbf948e8f2ca12b72400bcc1a22ff1a13b8d6d450f9308d53ded6de",
+    "metrics.py": "2fa25abbe2182781c4b5453baea537f30ab1869172b34f4cee8e8768ae224cc8",
+    "model.py": "9377158439c24aba1a7ec215ed58697fa0656b7ef8c87b137be65c1489617615",
+    "schedule.py": "852bb276a1e8ccaef61683edc8410649a6db12281bbdbcf35981116a69fe65f4",
+    "tests/test_suite.py": "435994113cbd27fd50a5e67724a77535f8bb567881d59da9d4c2bc93adff8f6f",
+    "train.py": "97dfa754acac8f0175b18d7d3e9b2de9665f8f2f3f826f7b64d5a91ae4c8a4f6",
+    "vendor/MERU_LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "vendor/lorentz.py": "bd02210a14a4ca84c9eb24e7aad9b07ad42df5369d68124cf44d5ae07ba496f1",
+    "vendor/manifest.json": "5ee59858902b8949027fb54ee0e4dc9db850f4f28b7106c3b03406172279ec3e"
+  },
+  "initial_projection_sha256": "3f57840fdf7f1e69354e23e6935169713ca22d42ef68436aebc251f6a14e271d",
+  "protocol_sha256": "c6ddcdd025f9661cc7e1552f6bfa3ef3284466870dc644e5ca04345ee0aa4dc9",
+  "inputs": {
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/cache/vast_pooled/READY.json": {
+      "sha256": "731e8d20a966445e74e2455bd173eac15a4e12e0f9e5ac157e2d4205a43f3900",
+      "stat": [
+        857,
+        1792567673736000320,
+        194541480
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/data/vast/READY.json": {
+      "sha256": "294dbb8920a121caa2317c1d42875bd2494e07543e0b52525007e7c42c3e2d5c",
+      "stat": [
+        1001,
+        1792557662061245810,
+        194540399
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/protocol.json": {
+      "sha256": "a1f26dc4dc2735dc93a462e2123c4426f390efc9546d578fcea4be787eaf58f0",
+      "stat": [
+        6285,
+        1792555467739455084,
+        194540339
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/cache/vast_pooled/t.npy": {
+      "sha256": "ff8eaf2b391085c8024d4dee8f1f99edbe76a8f762022fab12fbcfed690c2002",
+      "stat": [
+        130031744,
+        1792567672926032899,
+        194541436
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/cache/vast_pooled/v.npy": {
+      "sha256": "3af191ccac5b3e1358eb9bafd0c176834060b6cfc5244f515565b02ac7a3932c",
+      "stat": [
+        238391424,
+        1792567672926032899,
+        194541477
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/cache/vast_pooled/a.npy": {
+      "sha256": "0fb5dd17cee4138c4b9abae64a85b255a2d961a470f45c410c47a865cd2770ba",
+      "stat": [
+        130031744,
+        1792567672926032899,
+        194541478
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/cache/vast_pooled/ids.json": {
+      "sha256": "70d14555f12b88ebf66e34bf3cbf01c2068acf705288df7c14ece8858e63b36a",
+      "stat": [
+        1667077,
+        1792567673263019344,
+        194541479
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/data/vast/train.json": {
+      "sha256": "e0d5207f27d354e91ae3e6693e6af4871f514346c8ac06854d82d60189017306",
+      "stat": [
+        39393505,
+        1792557661466256921,
+        194540489
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/lowdim_retrieval_20261021/data/vast/val.json": {
+      "sha256": "a0f8b185c3b46c7942682dfe99239d5861912b7188d2486f3fab43a3bb89801f",
+      "stat": [
+        973205,
+        1792557661828250162,
+        194540356
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/entailment_singlefactor_20261026/probes.json": {
+      "sha256": "2941272aa91559e09de3f46827941dc7d693ce4cf17cbbb7d63dc7a1b6b0dd63",
+      "stat": [
+        12625,
+        1793033896958018583,
+        194512325
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/initial_projections.pt": {
+      "sha256": "3f57840fdf7f1e69354e23e6935169713ca22d42ef68436aebc251f6a14e271d",
+      "stat": [
+        24120764,
+        1793023891395160507,
+        194511904
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/c0_temperature_curvature_20261027/probes.json": {
+      "sha256": "2941272aa91559e09de3f46827941dc7d693ce4cf17cbbb7d63dc7a1b6b0dd63",
+      "stat": [
+        12625,
+        1793089666401093586,
+        194515703
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/entailment_singlefactor_20261026/initial_projections.pt": {
+      "sha256": "3f57840fdf7f1e69354e23e6935169713ca22d42ef68436aebc251f6a14e271d",
+      "stat": [
+        24120764,
+        1793033895817058122,
+        194512323
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/c0_temperature_curvature_lambda02_20261027/probes.json": {
+      "sha256": "2941272aa91559e09de3f46827941dc7d693ce4cf17cbbb7d63dc7a1b6b0dd63",
+      "stat": [
+        12625,
+        1793102088796871282,
+        194519189
+      ]
+    },
+    "/data0/xiaobo.xia/yuxuan.gao/c0_temperature_curvature_20261027/initial_projections.pt": {
+      "sha256": "3f57840fdf7f1e69354e23e6935169713ca22d42ef68436aebc251f6a14e271d",
+      "stat": [
+        24120764,
+        1793089665842108446,
+        194515702
+      ]
+    }
+  },
+  "source_directory": "Hyperbolic-Omnimodal/code/outputs/c0_temperature_curvature_lambda02_20261027",
+  "python": "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/.venv/bin/python",
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4"
+  },
+  "version_note": "Isolated lambda=.2 extension. Model, training, metrics and diagnostics are byte-identical to the sealed 65-run predecessor.",
+  "remote_verified": false
+}

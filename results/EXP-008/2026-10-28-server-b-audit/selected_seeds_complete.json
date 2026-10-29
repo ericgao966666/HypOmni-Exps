@@ -1,0 +1,14 @@
+{
+  "selected_seeds": [
+    0
+  ],
+  "deferred_seeds": [
+    1,
+    2
+  ],
+  "protocol": "79c718455a90d7d2256aba76d54b84085c1be108e4c360796e32727231a650a3",
+  "time": 1792476782.370518,
+  "full_experiment_complete": false,
+  "test_evaluation_started": false,
+  "reason": "User requested seed 0 first; original test gate retained"
+}

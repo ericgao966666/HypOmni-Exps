@@ -1,0 +1,39 @@
+{
+  "user_authorized": "Use more GPUs and concurrent experiments per GPU",
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "frozen_per_gpu": 2,
+  "joint_groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "joint_per_group": 2,
+  "joint_world_size": 4,
+  "scientific_config_unchanged": true,
+  "selected_seeds": [
+    0
+  ],
+  "protocol": "79c718455a90d7d2256aba76d54b84085c1be108e4c360796e32727231a650a3",
+  "script": "/home/xiaobo.xia/YuxuanGao/meru-width-coco/scripts/region_parallel_server2.py",
+  "script_sha256": "ca34dcca21ac4af68fd42dc29131d40da2068427e2b34eee73f8f6134fb892a5",
+  "time": 1792474725.8758647,
+  "controller_pid": 2549974
+}

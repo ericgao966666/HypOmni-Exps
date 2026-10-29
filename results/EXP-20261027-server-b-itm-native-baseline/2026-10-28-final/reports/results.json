@@ -1,0 +1,2366 @@
+{
+  "runs": [
+    {
+      "run": "C0_s50",
+      "spec": {
+        "family": "C0",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "C0",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.0,
+        "parent": null,
+        "single_change": "reference",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 50.68359375,
+          "R@5": 71.6796875,
+          "R@10": 77.63671875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 49.072265625,
+          "R@5": 70.01953125,
+          "R@10": 77.1484375,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 41.064453125,
+          "R@5": 66.6015625,
+          "R@10": 77.783203125,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 45.947265625,
+          "R@5": 70.849609375,
+          "R@10": 80.322265625,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 2.490234375,
+          "R@5": 13.37890625,
+          "R@10": 26.904296875,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 5.859375,
+          "R@5": 21.630859375,
+          "R@10": 35.7421875,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 49.8779296875,
+          "R@5": 70.849609375,
+          "R@10": 77.392578125
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.8857612609863281,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9902709722518921,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.897845447063446,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5845870971679688,
+            "121": 0.9755172729492188,
+            "122": 0.99224853515625,
+            "123": 0.990692138671875
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7882671356201172,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8595865964889526,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7172647714614868,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5550460815429688,
+            "121": 0.7882080078125,
+            "122": 0.819122314453125,
+            "123": 0.990692138671875
+          }
+        }
+      },
+      "peak_reserved_gib": 1.1171875,
+      "elapsed_seconds_completed_attempt": 1343.8561127720168
+    },
+    {
+      "run": "C0_s51",
+      "spec": {
+        "family": "C0",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 51,
+        "source": "C0",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.0,
+        "parent": null,
+        "single_change": "reference",
+        "stage": "paired",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 49.169921875,
+          "R@5": 71.533203125,
+          "R@10": 77.099609375,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 49.560546875,
+          "R@5": 69.775390625,
+          "R@10": 76.85546875,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 41.943359375,
+          "R@5": 67.08984375,
+          "R@10": 77.24609375,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 46.2890625,
+          "R@5": 71.044921875,
+          "R@10": 80.95703125,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 2.1484375,
+          "R@5": 12.939453125,
+          "R@10": 25.732421875,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 5.6640625,
+          "R@5": 21.58203125,
+          "R@10": 35.888671875,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 49.365234375,
+          "R@5": 70.654296875,
+          "R@10": 76.9775390625
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.887725830078125,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9889342188835144,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.8916015625,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5889816284179688,
+            "121": 0.9804306030273438,
+            "122": 0.99139404296875,
+            "123": 0.9900970458984375
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7798843383789062,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8571208119392395,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.6982076168060303,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5456085205078125,
+            "121": 0.7893524169921875,
+            "122": 0.7944793701171875,
+            "123": 0.9900970458984375
+          }
+        }
+      },
+      "peak_reserved_gib": 4.876953125,
+      "elapsed_seconds_completed_attempt": 9112.473010032088
+    },
+    {
+      "run": "C0_s52",
+      "spec": {
+        "family": "C0",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 52,
+        "source": "C0",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.0,
+        "parent": null,
+        "single_change": "reference",
+        "stage": "paired",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 50.634765625,
+          "R@5": 70.947265625,
+          "R@10": 77.490234375,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 49.755859375,
+          "R@5": 70.5078125,
+          "R@10": 77.392578125,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 42.3828125,
+          "R@5": 66.552734375,
+          "R@10": 77.5390625,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 45.751953125,
+          "R@5": 71.09375,
+          "R@10": 80.126953125,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 2.490234375,
+          "R@5": 13.037109375,
+          "R@10": 25.9765625,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 6.15234375,
+          "R@5": 20.80078125,
+          "R@10": 34.5703125,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 50.1953125,
+          "R@5": 70.7275390625,
+          "R@10": 77.44140625
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.8826065063476562,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9904011487960815,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.8903768658638,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5737533569335938,
+            "121": 0.9781646728515625,
+            "122": 0.9913787841796875,
+            "123": 0.9871292114257812
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7771949768066406,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8589558601379395,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.6959024667739868,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5361480712890625,
+            "121": 0.7906341552734375,
+            "122": 0.7948684692382812,
+            "123": 0.9871292114257812
+          }
+        }
+      },
+      "peak_reserved_gib": 4.853515625,
+      "elapsed_seconds_completed_attempt": 6387.292245424003
+    },
+    {
+      "run": "H_C0_s50",
+      "spec": {
+        "family": "H_C0",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "C0",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.5,
+        "parent": "C0",
+        "single_change": "hard donor mixture rho0->0.5",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 45.361328125,
+          "R@5": 67.67578125,
+          "R@10": 76.07421875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 44.3359375,
+          "R@5": 65.380859375,
+          "R@10": 74.560546875,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 27.9296875,
+          "R@5": 58.0078125,
+          "R@10": 72.4609375,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 40.52734375,
+          "R@5": 66.50390625,
+          "R@10": 77.05078125,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 3.125,
+          "R@5": 14.990234375,
+          "R@10": 29.638671875,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 7.03125,
+          "R@5": 23.193359375,
+          "R@10": 37.646484375,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 44.8486328125,
+          "R@5": 66.5283203125,
+          "R@10": 75.3173828125
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.87542724609375,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.980629563331604,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.865395188331604,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.606292724609375,
+            "121": 0.9259414672851562,
+            "122": 0.9863433837890625,
+            "123": 0.9831314086914062
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7979259490966797,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.870147705078125,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7049703001976013,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5718002319335938,
+            "121": 0.7784347534179688,
+            "122": 0.85833740234375,
+            "123": 0.9831314086914062
+          }
+        }
+      },
+      "peak_reserved_gib": 5.83984375,
+      "elapsed_seconds_completed_attempt": 6158.237918534083
+    },
+    {
+      "run": "H_C0_s51",
+      "spec": {
+        "family": "H_C0",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 51,
+        "source": "C0",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.5,
+        "parent": "C0",
+        "single_change": "hard donor mixture rho0->0.5",
+        "stage": "paired",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 45.068359375,
+          "R@5": 67.28515625,
+          "R@10": 75.537109375,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 42.96875,
+          "R@5": 64.111328125,
+          "R@10": 73.095703125,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 31.640625,
+          "R@5": 57.275390625,
+          "R@10": 71.09375,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 41.162109375,
+          "R@5": 65.673828125,
+          "R@10": 76.904296875,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 2.83203125,
+          "R@5": 15.91796875,
+          "R@10": 29.541015625,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 6.982421875,
+          "R@5": 22.900390625,
+          "R@10": 37.79296875,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 44.0185546875,
+          "R@5": 65.6982421875,
+          "R@10": 74.31640625
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.87713623046875,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9772197008132935,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.8655232191085815,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6268081665039062,
+            "121": 0.9167556762695312,
+            "122": 0.9837722778320312,
+            "123": 0.9812088012695312
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.8018951416015625,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8630024790763855,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.699230968952179,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5806808471679688,
+            "121": 0.7922515869140625,
+            "122": 0.8534393310546875,
+            "123": 0.9812088012695312
+          }
+        }
+      },
+      "peak_reserved_gib": 5.83203125,
+      "elapsed_seconds_completed_attempt": 6082.031485905056
+    },
+    {
+      "run": "H_C0_s52",
+      "spec": {
+        "family": "H_C0",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 52,
+        "source": "C0",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.5,
+        "parent": "C0",
+        "single_change": "hard donor mixture rho0->0.5",
+        "stage": "paired",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 45.01953125,
+          "R@5": 68.26171875,
+          "R@10": 76.123046875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 42.7734375,
+          "R@5": 64.94140625,
+          "R@10": 74.072265625,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 30.56640625,
+          "R@5": 58.0078125,
+          "R@10": 72.802734375,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 41.015625,
+          "R@5": 66.11328125,
+          "R@10": 76.416015625,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 2.880859375,
+          "R@5": 14.794921875,
+          "R@10": 29.00390625,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 6.73828125,
+          "R@5": 22.65625,
+          "R@10": 36.9140625,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 43.896484375,
+          "R@5": 66.6015625,
+          "R@10": 75.09765625
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.8745040893554688,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9792134165763855,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.8576599359512329,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.60101318359375,
+            "121": 0.93426513671875,
+            "122": 0.984771728515625,
+            "123": 0.97796630859375
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.80029296875,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.872967541217804,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.6988993883132935,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5710296630859375,
+            "121": 0.7986068725585938,
+            "122": 0.8535690307617188,
+            "123": 0.97796630859375
+          }
+        }
+      },
+      "peak_reserved_gib": 5.80859375,
+      "elapsed_seconds_completed_attempt": 5926.290663110907
+    },
+    {
+      "run": "H_M0_s50",
+      "spec": {
+        "family": "H_M0",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "E1-t",
+        "weights": {
+          "tva": 0.5
+        },
+        "rho": 0.5,
+        "parent": "M0",
+        "single_change": "hard donor mixture rho0->0.5",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 43.75,
+          "R@5": 66.748046875,
+          "R@10": 75.390625,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 42.333984375,
+          "R@5": 65.576171875,
+          "R@10": 74.365234375,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 31.0546875,
+          "R@5": 60.693359375,
+          "R@10": 74.4140625,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 42.67578125,
+          "R@5": 68.75,
+          "R@10": 79.833984375,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 4.541015625,
+          "R@5": 19.384765625,
+          "R@10": 33.349609375,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 9.375,
+          "R@5": 26.85546875,
+          "R@10": 40.234375,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 43.0419921875,
+          "R@5": 66.162109375,
+          "R@10": 74.8779296875
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.9473190307617188,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9844767451286316,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.89434814453125,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.8344268798828125,
+            "121": 0.9775161743164062,
+            "122": 0.986602783203125,
+            "123": 0.9907302856445312
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.8198814392089844,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.871848464012146,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7138000726699829,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.632415771484375,
+            "121": 0.8062362670898438,
+            "122": 0.8501434326171875,
+            "123": 0.9907302856445312
+          }
+        }
+      },
+      "peak_reserved_gib": 5.8125,
+      "elapsed_seconds_completed_attempt": 6039.1697535070125
+    },
+    {
+      "run": "H_M_s50",
+      "spec": {
+        "family": "H_M",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "E1-t",
+        "weights": {
+          "tva": 0.5,
+          "tv": 0.25,
+          "ta": 0.25
+        },
+        "rho": 0.5,
+        "parent": "M_both",
+        "single_change": "hard donor mixture rho0->0.5",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 288,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 42.96875,
+          "R@5": 67.08984375,
+          "R@10": 74.90234375,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 41.30859375,
+          "R@5": 64.599609375,
+          "R@10": 75.146484375,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 28.22265625,
+          "R@5": 58.447265625,
+          "R@10": 73.33984375,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 41.259765625,
+          "R@5": 67.7734375,
+          "R@10": 79.58984375,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 5.517578125,
+          "R@5": 20.1171875,
+          "R@10": 33.837890625,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 9.375,
+          "R@5": 26.26953125,
+          "R@10": 40.576171875,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 42.138671875,
+          "R@5": 65.8447265625,
+          "R@10": 75.0244140625
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.9505214691162109,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9856893420219421,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.921160876750946,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.8484344482421875,
+            "121": 0.9729843139648438,
+            "122": 0.9868621826171875,
+            "123": 0.993804931640625
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.8201580047607422,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8753560781478882,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7500081658363342,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6368789672851562,
+            "121": 0.7992782592773438,
+            "122": 0.8506698608398438,
+            "123": 0.993804931640625
+          }
+        }
+      },
+      "peak_reserved_gib": 5.8359375,
+      "elapsed_seconds_completed_attempt": 10560.922766456963
+    },
+    {
+      "run": "M0_s50",
+      "spec": {
+        "family": "M0",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "E1-t",
+        "weights": {
+          "tva": 0.5
+        },
+        "rho": 0.0,
+        "parent": "N_t",
+        "single_change": "main loss weight1->0.5",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 31.0546875,
+          "R@5": 57.373046875,
+          "R@10": 68.5546875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 36.9140625,
+          "R@5": 62.98828125,
+          "R@10": 73.095703125,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 26.3671875,
+          "R@5": 57.861328125,
+          "R@10": 72.216796875,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 42.3828125,
+          "R@5": 72.0703125,
+          "R@10": 81.93359375,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 7.03125,
+          "R@5": 24.267578125,
+          "R@10": 38.525390625,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 10.205078125,
+          "R@5": 30.17578125,
+          "R@10": 43.603515625,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 33.984375,
+          "R@5": 60.1806640625,
+          "R@10": 70.8251953125
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.9806804656982422,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9908812642097473,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.898655116558075,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.9502029418945312,
+            "121": 0.98980712890625,
+            "122": 0.98651123046875,
+            "123": 0.9962005615234375
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7869834899902344,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8473307490348816,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7121073007583618,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6352767944335938,
+            "121": 0.7345046997070312,
+            "122": 0.781951904296875,
+            "123": 0.9962005615234375
+          }
+        }
+      },
+      "peak_reserved_gib": 4.865234375,
+      "elapsed_seconds_completed_attempt": 6347.995706087095
+    },
+    {
+      "run": "M_both_s50",
+      "spec": {
+        "family": "M_both",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "E1-t",
+        "weights": {
+          "tva": 0.5,
+          "tv": 0.25,
+          "ta": 0.25
+        },
+        "rho": 0.0,
+        "parent": "M0",
+        "single_change": "add TV and TA auxiliary task set",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 288,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 31.103515625,
+          "R@5": 57.51953125,
+          "R@10": 69.482421875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 36.328125,
+          "R@5": 61.962890625,
+          "R@10": 72.900390625,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 22.55859375,
+          "R@5": 54.4921875,
+          "R@10": 70.068359375,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 43.896484375,
+          "R@5": 72.705078125,
+          "R@10": 82.32421875,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 7.51953125,
+          "R@5": 24.70703125,
+          "R@10": 38.427734375,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 10.595703125,
+          "R@5": 29.39453125,
+          "R@10": 42.7734375,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 33.7158203125,
+          "R@5": 59.7412109375,
+          "R@10": 71.19140625
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.9790248870849609,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9917663335800171,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.9381672739982605,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.94573974609375,
+            "121": 0.9861297607421875,
+            "122": 0.9878616333007812,
+            "123": 0.996368408203125
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7825527191162109,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.852221667766571,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7411906123161316,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6370849609375,
+            "121": 0.7229232788085938,
+            "122": 0.773834228515625,
+            "123": 0.996368408203125
+          }
+        }
+      },
+      "peak_reserved_gib": 4.876953125,
+      "elapsed_seconds_completed_attempt": 12446.839638856938
+    },
+    {
+      "run": "M_ta_s50",
+      "spec": {
+        "family": "M_ta",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "E1-t",
+        "weights": {
+          "tva": 0.5,
+          "ta": 0.5
+        },
+        "rho": 0.0,
+        "parent": "M0",
+        "single_change": "add TA supervision",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 192,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 31.25,
+          "R@5": 57.568359375,
+          "R@10": 68.310546875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 36.083984375,
+          "R@5": 61.62109375,
+          "R@10": 72.509765625,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 22.265625,
+          "R@5": 52.978515625,
+          "R@10": 68.994140625,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 42.28515625,
+          "R@5": 71.77734375,
+          "R@10": 81.73828125,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 7.763671875,
+          "R@5": 24.462890625,
+          "R@10": 38.720703125,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 10.498046875,
+          "R@5": 30.126953125,
+          "R@10": 42.822265625,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 33.6669921875,
+          "R@5": 59.5947265625,
+          "R@10": 70.41015625
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.9792766571044922,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.990551769733429,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.9399353265762329,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.9489669799804688,
+            "121": 0.9856491088867188,
+            "122": 0.9865264892578125,
+            "123": 0.9959640502929688
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7805576324462891,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8373045921325684,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.744061291217804,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6358108520507812,
+            "121": 0.7217788696289062,
+            "122": 0.7686767578125,
+            "123": 0.9959640502929688
+          }
+        }
+      },
+      "peak_reserved_gib": 4.876953125,
+      "elapsed_seconds_completed_attempt": 11215.487759338925
+    },
+    {
+      "run": "M_tv_s50",
+      "spec": {
+        "family": "M_tv",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "E1-t",
+        "weights": {
+          "tva": 0.5,
+          "tv": 0.5
+        },
+        "rho": 0.0,
+        "parent": "M0",
+        "single_change": "add TV supervision",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 192,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 29.931640625,
+          "R@5": 56.494140625,
+          "R@10": 68.1640625,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 33.59375,
+          "R@5": 61.03515625,
+          "R@10": 72.0703125,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 23.779296875,
+          "R@5": 55.029296875,
+          "R@10": 71.044921875,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 40.52734375,
+          "R@5": 70.99609375,
+          "R@10": 81.689453125,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 6.982421875,
+          "R@5": 23.486328125,
+          "R@10": 37.6953125,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 9.86328125,
+          "R@5": 28.271484375,
+          "R@10": 42.626953125,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 31.7626953125,
+          "R@5": 58.7646484375,
+          "R@10": 70.1171875
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.9793243408203125,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9915080070495605,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.8943827748298645,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.94769287109375,
+            "121": 0.9883193969726562,
+            "122": 0.9865875244140625,
+            "123": 0.9946975708007812
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7798633575439453,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8552937507629395,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.6978922486305237,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6211395263671875,
+            "121": 0.7353744506835938,
+            "122": 0.7682418823242188,
+            "123": 0.9946975708007812
+          }
+        }
+      },
+      "peak_reserved_gib": 4.865234375,
+      "elapsed_seconds_completed_attempt": 11210.582223218982
+    },
+    {
+      "run": "N_t_s50",
+      "spec": {
+        "family": "N_t",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "E1-t",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.0,
+        "parent": "C0",
+        "single_change": "negative provenance quotas",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 31.15234375,
+          "R@5": 57.421875,
+          "R@10": 68.505859375,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 36.865234375,
+          "R@5": 62.939453125,
+          "R@10": 73.046875,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 26.26953125,
+          "R@5": 58.0078125,
+          "R@10": 72.16796875,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 42.48046875,
+          "R@5": 72.16796875,
+          "R@10": 81.884765625,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 7.080078125,
+          "R@5": 24.267578125,
+          "R@10": 38.427734375,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 10.25390625,
+          "R@5": 29.931640625,
+          "R@10": 43.65234375,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 34.0087890625,
+          "R@5": 60.1806640625,
+          "R@10": 70.7763671875
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.9807415008544922,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9908711314201355,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.898510754108429,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.9503402709960938,
+            "121": 0.9898834228515625,
+            "122": 0.9865036010742188,
+            "123": 0.9962387084960938
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7867851257324219,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8472534418106079,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7120524644851685,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6349639892578125,
+            "121": 0.734161376953125,
+            "122": 0.7817764282226562,
+            "123": 0.9962387084960938
+          }
+        }
+      },
+      "peak_reserved_gib": 4.865234375,
+      "elapsed_seconds_completed_attempt": 6049.723635489936
+    },
+    {
+      "run": "N_u_s50",
+      "spec": {
+        "family": "N_u",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "E1-u",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.0,
+        "parent": "C0",
+        "single_change": "negative provenance quotas",
+        "stage": "screen",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 27.734375,
+          "R@5": 54.150390625,
+          "R@10": 66.357421875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 34.86328125,
+          "R@5": 61.279296875,
+          "R@10": 71.875,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 27.392578125,
+          "R@5": 58.0078125,
+          "R@10": 72.8515625,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 42.3828125,
+          "R@5": 71.6796875,
+          "R@10": 81.787109375,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 7.861328125,
+          "R@5": 26.416015625,
+          "R@10": 41.064453125,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 11.865234375,
+          "R@5": 31.689453125,
+          "R@10": 45.01953125,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 31.298828125,
+          "R@5": 57.71484375,
+          "R@10": 69.1162109375
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.9829425811767578,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9900166392326355,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.8825337290763855,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.9590225219726562,
+            "121": 0.9930038452148438,
+            "122": 0.982666015625,
+            "123": 0.9970779418945312
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7861156463623047,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.844158947467804,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.70599365234375,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6338272094726562,
+            "121": 0.7329483032226562,
+            "122": 0.780609130859375,
+            "123": 0.9970779418945312
+          }
+        }
+      },
+      "peak_reserved_gib": 4.869140625,
+      "elapsed_seconds_completed_attempt": 6409.035354951979
+    },
+    {
+      "run": "cal_lr1e5_s50",
+      "spec": {
+        "family": "cal_lr1e5",
+        "lr": 1e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "C0",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.0,
+        "parent": null,
+        "single_change": "reference",
+        "stage": "calibration",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 50.68359375,
+          "R@5": 71.6796875,
+          "R@10": 77.63671875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 49.072265625,
+          "R@5": 70.01953125,
+          "R@10": 77.1484375,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 41.064453125,
+          "R@5": 66.6015625,
+          "R@10": 77.783203125,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 45.947265625,
+          "R@5": 70.849609375,
+          "R@10": 80.322265625,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 2.490234375,
+          "R@5": 13.37890625,
+          "R@10": 26.904296875,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 5.859375,
+          "R@5": 21.630859375,
+          "R@10": 35.7421875,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 49.8779296875,
+          "R@5": 70.849609375,
+          "R@10": 77.392578125
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.8857612609863281,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9902709722518921,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.897845447063446,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5845870971679688,
+            "121": 0.9755172729492188,
+            "122": 0.99224853515625,
+            "123": 0.990692138671875
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7882671356201172,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.8595865964889526,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7172647714614868,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5550460815429688,
+            "121": 0.7882080078125,
+            "122": 0.819122314453125,
+            "123": 0.990692138671875
+          }
+        }
+      },
+      "peak_reserved_gib": 4.876953125,
+      "elapsed_seconds_completed_attempt": 11898.315286958008
+    },
+    {
+      "run": "cal_lr3e5_s50",
+      "spec": {
+        "family": "cal_lr3e5",
+        "lr": 3e-05,
+        "steps": 2000,
+        "seed": 50,
+        "source": "C0",
+        "weights": {
+          "tva": 1.0
+        },
+        "rho": 0.0,
+        "parent": null,
+        "single_change": "reference",
+        "stage": "calibration",
+        "tuple_batch": 96,
+        "microbatch": 8,
+        "tva_views_per_update": 96,
+        "total_views_per_update": 96,
+        "optimizer": "AdamW",
+        "betas": [
+          0.9,
+          0.98
+        ],
+        "weight_decay": 0.01,
+        "checkpoint_every": 100,
+        "validation_every": 500,
+        "inference": "tva logit only; fixed top32",
+        "geometry_input": false,
+        "geometry_loss": false,
+        "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+      },
+      "metrics": {
+        "t2va": {
+          "R@1": 47.265625,
+          "R@5": 70.60546875,
+          "R@10": 76.708984375,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 46.58203125,
+          "R@5": 68.1640625,
+          "R@10": 76.318359375,
+          "candidate_recall": 84.27734375
+        },
+        "v2ta": {
+          "R@1": 37.939453125,
+          "R@5": 64.501953125,
+          "R@10": 76.5625,
+          "candidate_recall": 93.115234375
+        },
+        "ta2v": {
+          "R@1": 44.140625,
+          "R@5": 69.921875,
+          "R@10": 79.736328125,
+          "candidate_recall": 93.06640625
+        },
+        "a2tv": {
+          "R@1": 2.783203125,
+          "R@5": 13.330078125,
+          "R@10": 27.392578125,
+          "candidate_recall": 73.388671875
+        },
+        "tv2a": {
+          "R@1": 5.810546875,
+          "R@5": 21.38671875,
+          "R@10": 35.546875,
+          "candidate_recall": 74.0234375
+        },
+        "main_mean": {
+          "R@1": 46.923828125,
+          "R@5": 69.384765625,
+          "R@10": 76.513671875
+        },
+        "step": 2000
+      },
+      "diagnostics": {
+        "uniform": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.8893108367919922,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.9879454374313354,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.8920186161994934,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.6060714721679688,
+            "121": 0.9719161987304688,
+            "122": 0.9899063110351562,
+            "123": 0.989349365234375
+          }
+        },
+        "hard": {
+          "heads": {
+            "tva": {
+              "AUROC": 0.7797374725341797,
+              "positive_count": 512,
+              "negative_count": 512
+            },
+            "tv": {
+              "AUROC": 0.851641833782196,
+              "positive_count": 640,
+              "negative_count": 384
+            },
+            "ta": {
+              "AUROC": 0.7094137072563171,
+              "positive_count": 640,
+              "negative_count": 384
+            }
+          },
+          "tva_by_pattern": {
+            "112": 0.5555267333984375,
+            "121": 0.7693023681640625,
+            "122": 0.8047714233398438,
+            "123": 0.989349365234375
+          }
+        }
+      },
+      "peak_reserved_gib": 4.876953125,
+      "elapsed_seconds_completed_attempt": 14580.006664111977
+    }
+  ],
+  "selection": {
+    "selected_family": "C0",
+    "sigma_A": 0.41885121199406805,
+    "comparisons": {
+      "H_C0": {
+        "vs_C0": {
+          "differences": [
+            -5.029296875,
+            -5.3466796875,
+            -6.298828125
+          ],
+          "mean_gain": -5.558268229166667,
+          "threshold": 0.8377024239881361,
+          "supported": false
+        },
+        "vs_parent": {
+          "differences": [
+            -5.029296875,
+            -5.3466796875,
+            -6.298828125
+          ],
+          "mean_gain": -5.558268229166667,
+          "threshold": 0.8377024239881361,
+          "supported": false
+        },
+        "supported": false
+      }
+    },
+    "models": {
+      "C0_s50": {
+        "family": "C0",
+        "seed": 50,
+        "model_record_sha256": "32186bb0ec107204ac724cc36d4dc317f1c45eb71eaf9593a07c2169e41b31f2",
+        "validation_sha256": "d64efaf2c31bc757099404112ad15c329ef713bf47f39b3a067b8cd8c5b3d16b"
+      },
+      "C0_s51": {
+        "family": "C0",
+        "seed": 51,
+        "model_record_sha256": "f37826b55ebfa7852562ccaec94ac14d6b06bc58fb4f657693a0f949049f8efb",
+        "validation_sha256": "7e0fe53b7415c8e33168b34bb9dfd632c53a9d08138169e05b98615f2b28951c"
+      },
+      "C0_s52": {
+        "family": "C0",
+        "seed": 52,
+        "model_record_sha256": "38d0788939944e602d270d2f72ca778f70e9b32a04353dd23e860c0f5dd31a4e",
+        "validation_sha256": "e05d7bdb4b1ec009f4eb4b57e509dff3e9e29ce23373cb834a7b4325a008ea26"
+      }
+    },
+    "gate_source_digest": "440d0a582c01543938f180274240cfff0773130833d525c9f943b9ee49042147",
+    "rule": "positive mean gain>2sigma and all3 paired deltas positive; no test-set selection"
+  },
+  "external": {
+    "C0_s50": {
+      "pid": 2459295,
+      "gpu": "2",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_native_baseline_v2/external_eval.py",
+        "--run-id",
+        "C0_s50",
+        "--device",
+        "2"
+      ],
+      "started_unix": 1793159304.4403772,
+      "passed": true,
+      "selection_sha256": "79a7312a36f5df16c34a07d4c64069b024fa2f0a1ad3a387c0e2d5d4e835d4e2",
+      "model": {
+        "path": "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/runs/cal_lr1e5_s50/step_2000.pt",
+        "sha256": "55a4f00277f7efa5c048a0e4069ec1f1bdaa2daf72ce9434b27d5ac4a1c9c69a",
+        "step": 2000
+      },
+      "metrics": {
+        "msrvtt": {
+          "t2va": {
+            "R@1": 46.94570004940033,
+            "R@5": 69.45701241493225,
+            "R@10": 78.05429697036743,
+            "query_count": 884,
+            "candidate_count": 884,
+            "candidate_recall": 83.93665313720703
+          },
+          "va2t": {
+            "R@1": 45.02262473106384,
+            "R@5": 67.08144545555115,
+            "R@10": 75.11312365531921,
+            "query_count": 884,
+            "candidate_count": 884,
+            "candidate_recall": 82.01358032226562
+          },
+          "main_mean": {
+            "R@1": 45.984162390232086,
+            "R@5": 68.2692289352417,
+            "R@10": 76.58371031284332
+          }
+        },
+        "vatex": {
+          "t2va": {
+            "R@1": 72.72058725357056,
+            "R@5": 93.22712421417236,
+            "R@10": 95.84967494010925,
+            "query_count": 12240,
+            "candidate_count": 1224,
+            "candidate_recall": 96.76470947265625
+          },
+          "va2t": {
+            "R@1": 85.45751571655273,
+            "R@5": 97.30392098426819,
+            "R@10": 98.3660101890564,
+            "query_count": 1224,
+            "candidate_count": 12240,
+            "candidate_recall": 99.10130310058594
+          },
+          "main_mean": {
+            "R@1": 79.08905148506165,
+            "R@5": 95.26552259922028,
+            "R@10": 97.10784256458282
+          }
+        }
+      },
+      "finished_unix": 1793160909.0699077,
+      "external_cache_sha256": "c3d5de8f3085423f58474c97945717a6a3238af95658747949d5625c1a0d5251"
+    },
+    "C0_s51": {
+      "pid": 2459296,
+      "gpu": "4",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_native_baseline_v2/external_eval.py",
+        "--run-id",
+        "C0_s51",
+        "--device",
+        "4"
+      ],
+      "started_unix": 1793159304.4904315,
+      "passed": true,
+      "selection_sha256": "79a7312a36f5df16c34a07d4c64069b024fa2f0a1ad3a387c0e2d5d4e835d4e2",
+      "model": {
+        "path": "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/runs/C0_s51/last.pt",
+        "sha256": "43137ad8341e50ad8774293589c2a069de7d1a6a3e3a27258acd850c11c0366d",
+        "step": 2000
+      },
+      "metrics": {
+        "msrvtt": {
+          "t2va": {
+            "R@1": 47.51131236553192,
+            "R@5": 70.13574838638306,
+            "R@10": 77.9411792755127,
+            "query_count": 884,
+            "candidate_count": 884,
+            "candidate_recall": 83.93665313720703
+          },
+          "va2t": {
+            "R@1": 45.70135772228241,
+            "R@5": 66.74208045005798,
+            "R@10": 75.79185366630554,
+            "query_count": 884,
+            "candidate_count": 884,
+            "candidate_recall": 82.01358032226562
+          },
+          "main_mean": {
+            "R@1": 46.606335043907166,
+            "R@5": 68.43891441822052,
+            "R@10": 76.86651647090912
+          }
+        },
+        "vatex": {
+          "t2va": {
+            "R@1": 72.41013050079346,
+            "R@5": 93.22712421417236,
+            "R@10": 95.78431248664856,
+            "query_count": 12240,
+            "candidate_count": 1224,
+            "candidate_recall": 96.76470947265625
+          },
+          "va2t": {
+            "R@1": 85.78431606292725,
+            "R@5": 96.73202633857727,
+            "R@10": 98.20261597633362,
+            "query_count": 1224,
+            "candidate_count": 12240,
+            "candidate_recall": 99.10130310058594
+          },
+          "main_mean": {
+            "R@1": 79.09722328186035,
+            "R@5": 94.97957527637482,
+            "R@10": 96.99346423149109
+          }
+        }
+      },
+      "finished_unix": 1793160975.3585238,
+      "external_cache_sha256": "c3d5de8f3085423f58474c97945717a6a3238af95658747949d5625c1a0d5251"
+    },
+    "C0_s52": {
+      "pid": 2459297,
+      "gpu": "5",
+      "command": [
+        "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_native_baseline_v2/external_eval.py",
+        "--run-id",
+        "C0_s52",
+        "--device",
+        "5"
+      ],
+      "started_unix": 1793159304.4445102,
+      "passed": true,
+      "selection_sha256": "79a7312a36f5df16c34a07d4c64069b024fa2f0a1ad3a387c0e2d5d4e835d4e2",
+      "model": {
+        "path": "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/runs/C0_s52/last.pt",
+        "sha256": "b1abcea0b99c0c1a7cb87d12452c49e5e7b8a78df406eec5e3898c3364ee319b",
+        "step": 2000
+      },
+      "metrics": {
+        "msrvtt": {
+          "t2va": {
+            "R@1": 46.94570004940033,
+            "R@5": 69.57013607025146,
+            "R@10": 78.73303294181824,
+            "query_count": 884,
+            "candidate_count": 884,
+            "candidate_recall": 83.93665313720703
+          },
+          "va2t": {
+            "R@1": 45.13574540615082,
+            "R@5": 66.74208045005798,
+            "R@10": 75.45248866081238,
+            "query_count": 884,
+            "candidate_count": 884,
+            "candidate_recall": 82.01358032226562
+          },
+          "main_mean": {
+            "R@1": 46.040722727775574,
+            "R@5": 68.15610826015472,
+            "R@10": 77.09276080131531
+          }
+        },
+        "vatex": {
+          "t2va": {
+            "R@1": 72.78594970703125,
+            "R@5": 93.4477150440216,
+            "R@10": 95.83333134651184,
+            "query_count": 12240,
+            "candidate_count": 1224,
+            "candidate_recall": 96.76470947265625
+          },
+          "va2t": {
+            "R@1": 85.78431606292725,
+            "R@5": 96.97712659835815,
+            "R@10": 98.69281053543091,
+            "query_count": 1224,
+            "candidate_count": 12240,
+            "candidate_recall": 99.10130310058594
+          },
+          "main_mean": {
+            "R@1": 79.28513288497925,
+            "R@5": 95.21242082118988,
+            "R@10": 97.26307094097137
+          }
+        }
+      },
+      "finished_unix": 1793161021.0282712,
+      "external_cache_sha256": "c3d5de8f3085423f58474c97945717a6a3238af95658747949d5625c1a0d5251"
+    }
+  }
+}

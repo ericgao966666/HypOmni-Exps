@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "created_at": "2026-10-27T14:19:41.306082+00:00",
+  "configurations_recomputed": 6,
+  "edge_distributions": 54,
+  "edges_per_configuration": 18432,
+  "original_features_equal_reproduced_baseline": true,
+  "all_validation_ids_aligned": true,
+  "matched_single_factor_comparisons": 4,
+  "summary_and_edge_metrics_verified": true,
+  "hexbin_counts_preserved": true,
+  "source_unchanged": true,
+  "files": {
+    "README.md": "6fc742ac95b99d759c486b823225aad0f56be6fad3c53aa17e4821d88a529408",
+    "angle_statistics.csv": "d134ac8561b564e104ba6738c9cb2c5dc5bfd0615f45859fde3d84052c648944",
+    "cone_angle_overview.pdf": "cab058f000930a9acd1cea32cec8f69b588e69e494d04e43f89a0ed9eb03ce05",
+    "cone_angle_overview.png": "9c5a90e987bac46ef9560023c8741961df95d59d64f67eeb15a735bdd772f094",
+    "cone_angle_pair_density.pdf": "419d58297b32fbf7bbe381c183b6136bd18fba193a65c877235c3c569bcd0420",
+    "cone_angle_pair_density.png": "2a7cdbe01146d10c72bc68e567f18093a7abd08c4c316058e4b67a87b6b23d60",
+    "cone_mean_angle_schematic.pdf": "684271df1b7bb2ca65367f90336afb78b2cb0f9798e3b1f413250a02cf2c3dc4",
+    "cone_mean_angle_schematic.png": "ddff5b01cf43833c7a5ccbc12ab6a9cd44aef00f78d13e2535dc1f825c142027",
+    "cone_single_factor_changes.pdf": "a410f980584dd0fe4097eaca79613679964e4cd4da1f412616e81fa5c0aed6cb",
+    "cone_single_factor_changes.png": "8ec0cf5dbaf37763b554948eccf94a8897b4cff19d186187462d7a0b40270457",
+    "edge_angle_statistics.csv": "20c708b850839bdaaee2820660fcb4d598e00f92fcf9f512eddee24909e5edd1",
+    "provenance.json": "35953644e61f0bdfc40d4a2d79412f224af0b5c361541862a5105eac51626821",
+    "single_factor_angle_changes.csv": "72e74596ca27380b46db0d4148bae3220ca4f1f7df3e592b5ebb26fba9f76a7a"
+  }
+}

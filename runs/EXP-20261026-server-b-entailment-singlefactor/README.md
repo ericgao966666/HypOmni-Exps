@@ -1,0 +1,64 @@
+# EXP-20261026-server-b-entailment-singlefactor运行索引
+
+最后核对：2026-10-26T17:40:51.263057+00:00 UTC。56/58完成，2失败，全部本轮登记进程已退出。
+
+| run ID | 条件 | 状态 | updates |
+| --- | --- | --- | --- |
+| [20261026T170011-server-b-C0__A_l01-619194](20261026T170011-server-b-C0__A_l01-619194.md) | C0__A_l01 | completed | 9660 |
+| [20261026T170011-server-b-M11_g2__A_l01-597304](20261026T170011-server-b-M11_g2__A_l01-597304.md) | M11_g2__A_l01 | completed | 9660 |
+| [20261026T170033-server-b-C0__A_l0-17377](20261026T170033-server-b-C0__A_l0-17377.md) | C0__A_l0 | completed | 9660 |
+| [20261026T170033-server-b-C0__A_l005-885637](20261026T170033-server-b-C0__A_l005-885637.md) | C0__A_l005 | completed | 9660 |
+| [20261026T170033-server-b-C0__A_l02-183158](20261026T170033-server-b-C0__A_l02-183158.md) | C0__A_l02 | completed | 9660 |
+| [20261026T170033-server-b-C0__A_l05-467224](20261026T170033-server-b-C0__A_l05-467224.md) | C0__A_l05 | completed | 9660 |
+| [20261026T170033-server-b-C0__A_l1-522387](20261026T170033-server-b-C0__A_l1-522387.md) | C0__A_l1 | completed | 9660 |
+| [20261026T170033-server-b-C0__A_l2-447927](20261026T170033-server-b-C0__A_l2-447927.md) | C0__A_l2 | completed | 9660 |
+| [20261026T170034-server-b-C0__B_linear-895691](20261026T170034-server-b-C0__B_linear-895691.md) | C0__B_linear | completed | 9660 |
+| [20261026T170034-server-b-C0__B_delayed-577595](20261026T170034-server-b-C0__B_delayed-577595.md) | C0__B_delayed | completed | 9660 |
+| [20261026T170059-server-b-C0__C_lr02-895645](20261026T170059-server-b-C0__C_lr02-895645.md) | C0__C_lr02 | completed | 9660 |
+| [20261026T170059-server-b-C0__C_lr5-146889](20261026T170059-server-b-C0__C_lr5-146889.md) | C0__C_lr5 | completed | 9660 |
+| [20261026T170059-server-b-M11_g2__A_l0-573293](20261026T170059-server-b-M11_g2__A_l0-573293.md) | M11_g2__A_l0 | completed | 9660 |
+| [20261026T170100-server-b-M11_g2__A_l005-51735](20261026T170100-server-b-M11_g2__A_l005-51735.md) | M11_g2__A_l005 | completed | 9660 |
+| [20261026T170100-server-b-M11_g2__A_l02-536734](20261026T170100-server-b-M11_g2__A_l02-536734.md) | M11_g2__A_l02 | completed | 9660 |
+| [20261026T170100-server-b-M11_g2__A_l05-120346](20261026T170100-server-b-M11_g2__A_l05-120346.md) | M11_g2__A_l05 | completed | 9660 |
+| [20261026T170108-server-b-M11_g2__A_l1-473818](20261026T170108-server-b-M11_g2__A_l1-473818.md) | M11_g2__A_l1 | completed | 9660 |
+| [20261026T170109-server-b-M11_g2__A_l2-917944](20261026T170109-server-b-M11_g2__A_l2-917944.md) | M11_g2__A_l2 | completed | 9660 |
+| [20261026T170126-server-b-M11_g2__B_linear-952310](20261026T170126-server-b-M11_g2__B_linear-952310.md) | M11_g2__B_linear | completed | 9660 |
+| [20261026T170126-server-b-M11_g2__B_delayed-217631](20261026T170126-server-b-M11_g2__B_delayed-217631.md) | M11_g2__B_delayed | completed | 9660 |
+| [20261026T170126-server-b-M11_g2__C_lr02-99549](20261026T170126-server-b-M11_g2__C_lr02-99549.md) | M11_g2__C_lr02 | completed | 9660 |
+| [20261026T170126-server-b-M11_g2__C_lr5-504928](20261026T170126-server-b-M11_g2__C_lr5-504928.md) | M11_g2__C_lr5 | completed | 9660 |
+| [20261026T170126-server-b-C0__D_g1_joint-992334](20261026T170126-server-b-C0__D_g1_joint-992334.md) | C0__D_g1_joint | completed | 2000 |
+| [20261026T170134-server-b-C0__D_g1_cone-950104](20261026T170134-server-b-C0__D_g1_cone-950104.md) | C0__D_g1_cone | completed | 2000 |
+| [20261026T170134-server-b-C0__D_g2_joint-5159](20261026T170134-server-b-C0__D_g2_joint-5159.md) | C0__D_g2_joint | completed | 2000 |
+| [20261026T170141-server-b-C0__D_g2_cone-199125](20261026T170141-server-b-C0__D_g2_cone-199125.md) | C0__D_g2_cone | completed | 2000 |
+| [20261026T170153-server-b-C0__D_g3_joint-693974](20261026T170153-server-b-C0__D_g3_joint-693974.md) | C0__D_g3_joint | completed | 2000 |
+| [20261026T170154-server-b-C0__D_g3_cone-506516](20261026T170154-server-b-C0__D_g3_cone-506516.md) | C0__D_g3_cone | completed | 2000 |
+| [20261026T170154-server-b-C0__D_g4_joint-721196](20261026T170154-server-b-C0__D_g4_joint-721196.md) | C0__D_g4_joint | completed | 2000 |
+| [20261026T170206-server-b-C0__D_g4_cone-729565](20261026T170206-server-b-C0__D_g4_cone-729565.md) | C0__D_g4_cone | completed | 2000 |
+| [20261026T170207-server-b-C0__D_g5_joint-40221](20261026T170207-server-b-C0__D_g5_joint-40221.md) | C0__D_g5_joint | completed | 2000 |
+| [20261026T170207-server-b-C0__D_g5_cone-480612](20261026T170207-server-b-C0__D_g5_cone-480612.md) | C0__D_g5_cone | completed | 2000 |
+| [20261026T170535-server-b-C0__D_g6_joint-118006](20261026T170535-server-b-C0__D_g6_joint-118006.md) | C0__D_g6_joint | completed | 2000 |
+| [20261026T170630-server-b-C0__D_g6_cone-979367](20261026T170630-server-b-C0__D_g6_cone-979367.md) | C0__D_g6_cone | completed | 2000 |
+| [20261026T170652-server-b-C0__D_g7_joint-783699](20261026T170652-server-b-C0__D_g7_joint-783699.md) | C0__D_g7_joint | completed | 2000 |
+| [20261026T170653-server-b-C0__D_g7_cone-688818](20261026T170653-server-b-C0__D_g7_cone-688818.md) | C0__D_g7_cone | completed | 2000 |
+| [20261026T170709-server-b-C0__D_g8_joint-128230](20261026T170709-server-b-C0__D_g8_joint-128230.md) | C0__D_g8_joint | completed | 2000 |
+| [20261026T170736-server-b-C0__D_g8_cone-462049](20261026T170736-server-b-C0__D_g8_cone-462049.md) | C0__D_g8_cone | completed | 2000 |
+| [20261026T170742-server-b-C0__D_g9_joint-169773](20261026T170742-server-b-C0__D_g9_joint-169773.md) | C0__D_g9_joint | completed | 2000 |
+| [20261026T170811-server-b-C0__D_g9_cone-226971](20261026T170811-server-b-C0__D_g9_cone-226971.md) | C0__D_g9_cone | completed | 2000 |
+| [20261026T170823-server-b-M11_g2__D_g1_joint-144877](20261026T170823-server-b-M11_g2__D_g1_joint-144877.md) | M11_g2__D_g1_joint | completed | 2000 |
+| [20261026T170851-server-b-M11_g2__D_g1_cone-907787](20261026T170851-server-b-M11_g2__D_g1_cone-907787.md) | M11_g2__D_g1_cone | completed | 2000 |
+| [20261026T171007-server-b-M11_g2__D_g2_joint-984645](20261026T171007-server-b-M11_g2__D_g2_joint-984645.md) | M11_g2__D_g2_joint | failed | 1971 |
+| [20261026T171139-server-b-M11_g2__D_g2_cone-416746](20261026T171139-server-b-M11_g2__D_g2_cone-416746.md) | M11_g2__D_g2_cone | completed | 2000 |
+| [20261026T171201-server-b-M11_g2__D_g3_joint-714051](20261026T171201-server-b-M11_g2__D_g3_joint-714051.md) | M11_g2__D_g3_joint | failed | 1619 |
+| [20261026T171251-server-b-M11_g2__D_g3_cone-510038](20261026T171251-server-b-M11_g2__D_g3_cone-510038.md) | M11_g2__D_g3_cone | completed | 2000 |
+| [20261026T171302-server-b-M11_g2__D_g4_joint-968760](20261026T171302-server-b-M11_g2__D_g4_joint-968760.md) | M11_g2__D_g4_joint | completed | 2000 |
+| [20261026T171308-server-b-M11_g2__D_g4_cone-396448](20261026T171308-server-b-M11_g2__D_g4_cone-396448.md) | M11_g2__D_g4_cone | completed | 2000 |
+| [20261026T171336-server-b-M11_g2__D_g5_joint-925416](20261026T171336-server-b-M11_g2__D_g5_joint-925416.md) | M11_g2__D_g5_joint | completed | 2000 |
+| [20261026T171342-server-b-M11_g2__D_g5_cone-880997](20261026T171342-server-b-M11_g2__D_g5_cone-880997.md) | M11_g2__D_g5_cone | completed | 2000 |
+| [20261026T171353-server-b-M11_g2__D_g6_joint-314092](20261026T171353-server-b-M11_g2__D_g6_joint-314092.md) | M11_g2__D_g6_joint | completed | 2000 |
+| [20261026T171404-server-b-M11_g2__D_g6_cone-905853](20261026T171404-server-b-M11_g2__D_g6_cone-905853.md) | M11_g2__D_g6_cone | completed | 2000 |
+| [20261026T171421-server-b-M11_g2__D_g7_joint-891182](20261026T171421-server-b-M11_g2__D_g7_joint-891182.md) | M11_g2__D_g7_joint | completed | 2000 |
+| [20261026T171421-server-b-M11_g2__D_g7_cone-792413](20261026T171421-server-b-M11_g2__D_g7_cone-792413.md) | M11_g2__D_g7_cone | completed | 2000 |
+| [20261026T171537-server-b-M11_g2__D_g8_joint-197571](20261026T171537-server-b-M11_g2__D_g8_joint-197571.md) | M11_g2__D_g8_joint | completed | 2000 |
+| [20261026T171615-server-b-M11_g2__D_g8_cone-701512](20261026T171615-server-b-M11_g2__D_g8_cone-701512.md) | M11_g2__D_g8_cone | completed | 2000 |
+| [20261026T171621-server-b-M11_g2__D_g9_joint-883233](20261026T171621-server-b-M11_g2__D_g9_joint-883233.md) | M11_g2__D_g9_joint | completed | 2000 |
+| [20261026T171638-server-b-M11_g2__D_g9_cone-945126](20261026T171638-server-b-M11_g2__D_g9_cone-945126.md) | M11_g2__D_g9_cone | completed | 2000 |

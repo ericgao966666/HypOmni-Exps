@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-27T15:37:58.359877+00:00",
+  "script": "analysis/poincare_examples_20261027/plot_poincare_examples.py",
+  "script_sha256": "72ac94979c7802310bf917880d8c991d43d34db6d929cdd372052c641d84d71f",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/outputs/lowdim16_geometry_20261020/.venv/bin/python",
+    "outputs/c0_temperature_curvature_lambda02_20261027/analysis/poincare_examples_20261027/plot_poincare_examples.py"
+  ],
+  "pid": 1619542,
+  "no_gpu_used": true,
+  "source_digest": "7f45a6d35589b8192fc9623fe01ca12c464e31c4d761bbd67fb3420a9bdc28cd",
+  "sources": [
+    {
+      "path": "meru512_scale_pretrain_20261026/runs/C0/DONE.json",
+      "sha256": "e954be08cff947c861d780cb99e2f951e5bc249c00894b2267a1f3d1323bd515"
+    },
+    {
+      "path": "meru512_scale_pretrain_20261026/runs/C0/config.json",
+      "sha256": "70ad802d8e18b4a2382c62d3af4cd354fb7be41a785feb7fe36564ab884034c3"
+    },
+    {
+      "path": "meru512_scale_pretrain_20261026/runs/C0/final_features.pt",
+      "sha256": "213fcf54ac75583f3e8bea482fa9a48ea1bc2d1a71a7fd4541f06358ef2b5ded"
+    },
+    {
+      "path": "meru512_scale_pretrain_20261026/runs/C0/final_metrics.json",
+      "sha256": "58a97a5c2f2929a7b5b7987ac8bc43a5e1c38f785d5bab2e4921c08076afce46"
+    },
+    {
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t0035/DONE.json",
+      "sha256": "bbeb8ab940444fbc2332e016891a21d0b8887ac116226fc18b4846298fafd3c8"
+    },
+    {
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t0035/config.json",
+      "sha256": "ee203dc342a877a7d3dd8c02492d40145671fd86c49243fbcaf5f22a8bbe07b9"
+    },
+    {
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t0035/final_features.pt",
+      "sha256": "3f24210676a3f439b86db0cb3f160ead6ca7da5f411014573a21079727d76dfe"
+    },
+    {
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__T_t0035/final_metrics.json",
+      "sha256": "18b628319bc3c1505e9e061976f7a871a81c72b004aa22bca11b2c9fc0274425"
+    },
+    {
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__L_c1t1/DONE.json",
+      "sha256": "a2609456407855f774f24bcf51bd51fd5b6237b0ae32693dc4054acc08d0c2d9"
+    },
+    {
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__L_c1t1/config.json",
+      "sha256": "9712a7d6a59fa32429213f981f1468ad1314438dcf34bbd02e80a441ff51e2bd"
+    },
+    {
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__L_c1t1/final_features.pt",
+      "sha256": "5fb616899644f95d48a48a706816544541d1453391f8a249a62d62bd37f954a3"
+    },
+    {
+      "path": "c0_temperature_curvature_lambda02_20261027/runs/C0_l02__L_c1t1/final_metrics.json",
+      "sha256": "61fb79f7c7da2a040b4f5570c6b034b4903e0119659eca147c27858bc62342ab"
+    }
+  ],
+  "selection": {
+    "seed": 50,
+    "method": "numpy.default_rng(50).choice(2048,3,replace=False), then sorted; independent of geometry and performance",
+    "validation_indices": [
+      1463,
+      1598,
+      1611
+    ],
+    "sample_id_sha256": {
+      "1463": "016fb3b215429d11375dd3f7538b4fd1ca01b2be1605c7a9a04f4a111164ae5f",
+      "1598": "d1e8a2074e04137dc386c8b283c48f44176840ae2c5b2199eb968cc03b97699c",
+      "1611": "69dbd6065c4b9c0535d0a481f107ac89835130705bb17438a4dea6c34b9465df"
+    },
+    "edges": [
+      "t->tv",
+      "tv->tva"
+    ],
+    "same_ids_across_cases": true
+  },
+  "checks": {
+    "max_hyperbolic_distance_error": 1.199040866595169e-14,
+    "max_distance_difference_vs_official_fp32": 1.9545821112743056e-06,
+    "max_radius_difference_vs_saved_fp32": 2.659677997840504e-07,
+    "max_angle_difference_vs_official_fp32_degrees": 0.00027969327130794537,
+    "max_cone_boundary_angle_error_radians": 5.689893001203927e-16,
+    "max_boundary_orthogonal_circle_residual": 1.0658141036401503e-14,
+    "max_geodesic_constant_speed_error": 2.4424906541753444e-15,
+    "membership_agreement": true
+  },
+  "formulas": {
+    "poincare": "b = x_space / (sqrt(1+c*||x_space||^2)+1); ball radius=1/sqrt(c)",
+    "plane": "Preserve parent norm, child norm, and their Euclidean inner product in the span of the two spatial vectors; rotate parent to the positive horizontal axis.",
+    "mobius": "For normalized complex disk coordinates: p (+) z = (p+z)/(1+conj(p)*z). Geodesic = p (+) tanh(t*atanh(|(-p)(+)q|))*unit((-p)(+)q).",
+    "cone": "Mobius image of the angular sector [-psi,+psi] at the origin, using the saved official FP32 cone half-aperture; its boundaries are hyperbolic geodesic rays.",
+    "precision": "FP64 plotting transforms of saved FP32 features. Training and original metrics remain FP32; plotted labels use original FP32 angles."
+  },
+  "reference": "https://geoopt.readthedocs.io/en/latest/extended/stereographic.html#geoopt.manifolds.stereographic.math.geodesic"
+}

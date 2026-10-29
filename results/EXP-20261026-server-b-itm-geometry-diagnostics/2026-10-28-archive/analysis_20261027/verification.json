@@ -1,0 +1,77 @@
+{
+  "checked_utc": "2026-10-27T06:47:31.957396+00:00",
+  "original_training_source_unchanged": {
+    "c0_native_lr1e4_s50_v1": {
+      "core.py": true,
+      "cache_reader.py": true,
+      "training_protocol.py": true,
+      "evaluate_matcher.py": true,
+      "native_matcher.py": true,
+      "training_step.py": true,
+      "checkpointing.py": true,
+      "train_tier_a.py": true
+    },
+    "c0_local_lr1e4_s50_v1": {
+      "core.py": true,
+      "cache_reader.py": true,
+      "training_protocol.py": true,
+      "evaluate_matcher.py": true,
+      "native_matcher.py": true,
+      "training_step.py": true,
+      "checkpointing.py": true,
+      "train_tier_a.py": true
+    },
+    "c0_local_lr1e3_s50_v1": {
+      "core.py": true,
+      "cache_reader.py": true,
+      "training_protocol.py": true,
+      "evaluate_matcher.py": true,
+      "native_matcher.py": true,
+      "training_step.py": true,
+      "checkpointing.py": true,
+      "train_tier_a.py": true
+    },
+    "c0_local_lr3e4_s50_v1": {
+      "core.py": true,
+      "cache_reader.py": true,
+      "training_protocol.py": true,
+      "evaluate_matcher.py": true,
+      "native_matcher.py": true,
+      "training_step.py": true,
+      "checkpointing.py": true,
+      "train_tier_a.py": true
+    }
+  },
+  "analysis_files_sha256": {
+    "03_cone_excess.pdf": "b6de812fa653624fab6fc6aaa8af24382fcad79b07a6a155563151756dd16304",
+    "edge_statistics.csv": "1c4b77d19bc4478b1bdfd251249a487376cc46742911b8edaed34121b9cb2f5a",
+    "06_c0_curves.png": "71a5f4b53f837784d41891d318e49a0bb4d16eddca3d074b7660daae967beba9",
+    "02_edge_radius_scatter.pdf": "78dca2b5f11bb262fc4a8981b0ad95e97b3f90ce33cb69e30c88232f4057a043",
+    "07_c0_with_zero.png": "f9814f72fb04b352e7636b005a8e1208bbda44192c20cd7315df2818b627cb7b",
+    "native_zero_runtime.json": "6d8898846ba671adfb67317557ee86a3bf9abbe6371753d2676c353228a0bbdb",
+    "audit_train_vs_val.py": "d1ea0874a1b7cb0b872f52474896b09b861e639c90a8b4523c75509d3312390a",
+    "analysis.json": "700431fb5f6e6ae8646fdbb71e39629422932a890a5f3592f995045e476f1fb9",
+    "01_radial_overview.pdf": "fe095da9cc0a4c328e109b41345cbc4cf4a54a9c114e9e85a00114d310c3b5aa",
+    "evaluate_native_zero.py": "6634516807eef392c712ce66868a264760d9682d48d816eddbbaa68d0a6f99a8",
+    "05_previous_sweep_comparison.png": "996530301bf37d7ae95f45309a5eb73fd15f2fbcdf512c5d626df9004320e0d7",
+    "visualize_and_summarize.py": "ba3eae681a46614f3e45656bc277f973c3df18cc2e061665e5c374d85cf2b237",
+    "train_val_geometry.json": "84cd594b953375a9039f7581ab2527c2b543f9bbae2d9e651c76e9a8afe31b85",
+    "01_radial_overview.png": "7c766b626d6e5287fa592a9cbad308e10b3677602fa41e7ca6e36c5b1954e743",
+    "all_figures.pdf": "6e00c72a7522746cb4567f060e66878d7f50e7ea6e98a3b01729cbdff502cdc5",
+    "native_zero_progress.json": "9c50cdf4682093c4b6be047dcd09d7eabb7417b1e8711d67b21d4ae281a0b85c",
+    "02_edge_radius_scatter.png": "ef765e202397051891e9007a5e3b3b86be6b761fb64881069dab9e2418783ce6",
+    "03_cone_excess.png": "4c55dedcb5ede064f119a48a41217c9c6bb80c22398d5d07d9fb195aa0af5cbf",
+    "06_c0_curves.pdf": "6c15587b934b71c24501bbdea57813d34ed8f798e400df88c7cd3ff960698555",
+    "07_c0_with_zero.pdf": "4398e2b6b61c33a84cb6805381b81c6da12f53a161dbe76ff6a314bb38b378c8",
+    "plot_zero_reference.py": "564c28c482a7db5f4b8c0ea6ba991ab9ba2ee052e663d28a2c3dfdf81a4cf7ee",
+    "04_exact_pair_planes.pdf": "42580f5cc3853c8c3472aae0b22f441a77595fb3bd89ee8d76c6567e97663029",
+    "native_zero_validation.json": "d4573c457e00484cdd423ee5499acc76a56d81a491889271eeedb0f8621ff8f3",
+    "REPORT.md": "4b56853e20cbad3e99453102aec4da993644b70d389bbb77777d715be89d7cf1",
+    "05_previous_sweep_comparison.pdf": "532379b8743731e5354a37b12fc09e79495997056db370da93faf04487be8220",
+    "04_exact_pair_planes.png": "072500adaabe35b1cf49d4dd8020147adfe3fad1b95ad59c8215480da0c08a7b",
+    "plot_single_edge.py": "97c9738b5fbb5b6370ef02937ed5f2e5e0afbcffdee9ea264b2a435d59f03187",
+    "08_tv_tva_zoom.png": "ae85046ded358f0c3a79b407af38f6874f4bc244ac04921cea933a85e1768b27",
+    "08_tv_tva_zoom.pdf": "05bf807672a1e128c9f6942eada79dc704b425d2cdddb7f05d3903fc2797c5ba"
+  },
+  "note": "New visualizations and zero-update validation only; no checkpoint updates or external-test model scores"
+}

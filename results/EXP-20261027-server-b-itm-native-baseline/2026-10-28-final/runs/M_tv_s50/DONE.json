@@ -1,0 +1,50 @@
+{
+  "pid": 1908908,
+  "gpu": "3",
+  "command": [
+    "/home/xiaobo.xia/YuxuanGao/Hyperbolic-Omnimodal/code/experiments/itm_native_baseline_v2/runner.py",
+    "--spec",
+    "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/specs/M_tv_s50.json",
+    "--device",
+    "3"
+  ],
+  "started_unix": 1793130050.7599277,
+  "execution_source_digest": "440d0a582c01543938f180274240cfff0773130833d525c9f943b9ee49042147",
+  "steps": 2000,
+  "spec": {
+    "family": "M_tv",
+    "lr": 1e-05,
+    "steps": 2000,
+    "seed": 50,
+    "source": "E1-t",
+    "weights": {
+      "tva": 0.5,
+      "tv": 0.5
+    },
+    "rho": 0.0,
+    "parent": "M0",
+    "single_change": "add TV supervision",
+    "stage": "screen",
+    "tuple_batch": 96,
+    "microbatch": 8,
+    "tva_views_per_update": 96,
+    "total_views_per_update": 192,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "weight_decay": 0.01,
+    "checkpoint_every": 100,
+    "validation_every": 500,
+    "inference": "tva logit only; fixed top32",
+    "geometry_input": false,
+    "geometry_loss": false,
+    "teacher": "fixed existing ITC scores for candidates and hard sampling only"
+  },
+  "completed_unix": 1793141261.3427262,
+  "final_metrics_sha256": "e44cc32e7d1d6cbc750caadd4a7115560d234c1e52eed8018f656d4fde6a736b",
+  "identity_sha256": "00408a3722bf9910c2a0817e07a7ad8b9b4a578d9bffea45309d007fc5608eaa",
+  "elapsed_seconds": 11210.582223218982,
+  "peak_reserved_gib": 4.865234375
+}

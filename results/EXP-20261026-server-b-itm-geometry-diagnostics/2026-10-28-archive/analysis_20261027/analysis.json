@@ -1,0 +1,399 @@
+{
+  "trunk_lock": {
+    "trunk": "/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026/runs/C0/final.pt",
+    "trunk_sha256": "908b907c4ee1acc27674a1a571d5ff58b9c94cfd3988e437535543822681a318",
+    "validation_features_sha256": "213fcf54ac75583f3e8bea482fa9a48ea1bc2d1a71a7fd4541f06358ef2b5ded",
+    "historical_identity": {
+      "condition": {
+        "name": "C0",
+        "mode": "C0",
+        "gamma": null,
+        "dimension": 512,
+        "seed": 50,
+        "head_type": "independent_radius",
+        "learn_curvature": false,
+        "learn_temperature": false
+      },
+      "source_digest": "e55adfdb597052cd0866f9c2aed661737c9096eb00c018cd8fb2396edb2ca5a4",
+      "protocol_sha256": "067da2610ad494904622ad00812c80aa4087765051f9e2321ecce2aaa325c19d",
+      "initial_projection_sha256": "3f57840fdf7f1e69354e23e6935169713ca22d42ef68436aebc251f6a14e271d"
+    },
+    "fork_epoch": 30,
+    "fork_step": 9660,
+    "choice": "original independent-radius 9-pair/9-edge terminal trunk, chosen before ITM results; no search over MERU variants",
+    "candidates": "FP32 negative Lorentz distance; stable ties by validation row index; top32",
+    "primary_positives": "exact clip identity; never remove queries missing positives from candidate pool",
+    "auxiliary_positives": "same source video; reported separately, not a replacement for exact-clip metric",
+    "split_sha256": {
+      "train": "e0d5207f27d354e91ae3e6693e6af4871f514346c8ac06854d82d60189017306",
+      "val": "a0f8b185c3b46c7942682dfe99239d5861912b7188d2486f3fab43a3bb89801f"
+    },
+    "timestamp_unix": 1793033930.6873114,
+    "script_sha256": "1dcec8eb10ce0b562c6dff38d2a86bbf3ae422e5250efd475e3069f51ba0daf6",
+    "limitations": [
+      "Existing trunk updated only seven heads, not VAST encoders.",
+      "End-point fork does not establish earliest stable fork or satisfy new every-1k checkpoint schedule.",
+      "Positive entailment training does not prove valid cone containment."
+    ],
+    "candidates_sha256": "28d4b11e8bb7715c05f4ab8bb9aab3f99eca234e3925074465f882dd2f024a7b"
+  },
+  "n_validation": 2048,
+  "edge_statistics": [
+    {
+      "edge": "t->tv",
+      "radial_order_percent": 78.173828125,
+      "phi_mean_deg": 140.17801954792077,
+      "aperture_mean_deg": 2.8304926805286557,
+      "min_excess_deg": 126.19334939350105,
+      "median_excess_deg": 137.295769461072,
+      "max_excess_deg": 149.12227669887545,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": 0.05868425008573172
+    },
+    {
+      "edge": "t->ta",
+      "radial_order_percent": 98.681640625,
+      "phi_mean_deg": 131.2019173637011,
+      "aperture_mean_deg": 2.8304926805286557,
+      "min_excess_deg": 113.34310189853122,
+      "median_excess_deg": 128.30076948732233,
+      "max_excess_deg": 140.86407911183096,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": 0.14685620884636985
+    },
+    {
+      "edge": "v->tv",
+      "radial_order_percent": 5.95703125,
+      "phi_mean_deg": 137.48660551446437,
+      "aperture_mean_deg": 2.503193920437782,
+      "min_excess_deg": 126.56623211635548,
+      "median_excess_deg": 134.86920905105356,
+      "max_excess_deg": 146.98538162846975,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": -0.06180737822641969
+    },
+    {
+      "edge": "v->va",
+      "radial_order_percent": 100.0,
+      "phi_mean_deg": 127.06987972810727,
+      "aperture_mean_deg": 2.503193920437782,
+      "min_excess_deg": 112.84614840565936,
+      "median_excess_deg": 124.43681133675081,
+      "max_excess_deg": 139.74101861101863,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": 0.17463627759576938
+    },
+    {
+      "edge": "a->ta",
+      "radial_order_percent": 91.11328125,
+      "phi_mean_deg": 143.02362616044513,
+      "aperture_mean_deg": 2.6592122946627454,
+      "min_excess_deg": 128.17395088805713,
+      "median_excess_deg": 140.422233036889,
+      "max_excess_deg": 150.45380291171205,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": 0.08451706923326441
+    },
+    {
+      "edge": "a->va",
+      "radial_order_percent": 99.8046875,
+      "phi_mean_deg": 145.6088026160173,
+      "aperture_mean_deg": 2.6592122946627454,
+      "min_excess_deg": 131.8396518819755,
+      "median_excess_deg": 142.9395424775745,
+      "max_excess_deg": 152.9111302951194,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": 0.23278876629481537
+    },
+    {
+      "edge": "tv->tva",
+      "radial_order_percent": 100.0,
+      "phi_mean_deg": 65.69244572297109,
+      "aperture_mean_deg": 2.6674208889584383,
+      "min_excess_deg": 41.53076790044117,
+      "median_excess_deg": 62.42833541498909,
+      "max_excess_deg": 96.57841221737728,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": 1.8095766149465407
+    },
+    {
+      "edge": "ta->tva",
+      "radial_order_percent": 100.0,
+      "phi_mean_deg": 129.3272559556653,
+      "aperture_mean_deg": 2.4366367560700355,
+      "min_excess_deg": 112.35850041522926,
+      "median_excess_deg": 126.79036167950107,
+      "max_excess_deg": 145.45647989132314,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": 1.7214046561859027
+    },
+    {
+      "edge": "va->tva",
+      "radial_order_percent": 100.0,
+      "phi_mean_deg": 136.10952217111713,
+      "aperture_mean_deg": 2.0922997369723104,
+      "min_excess_deg": 121.45554846761088,
+      "median_excess_deg": 134.0363069753235,
+      "max_excess_deg": 147.35852144609785,
+      "strict_containment_percent": 0.0,
+      "reversed_containment_percent": 0.0,
+      "radial_difference_mean": 1.5731329591243517
+    }
+  ],
+  "mean_radius": {
+    "t": 2.1087291369482735,
+    "v": 2.229220765260425,
+    "a": 2.171068276561379,
+    "tv": 2.1674133870340055,
+    "ta": 2.2555853457946435,
+    "va": 2.4038570428561945,
+    "tva": 3.976990001980546
+  },
+  "max_independent_angle_difference_deg": 7.579516250302078e-08,
+  "slice_samples": [
+    {
+      "edge": "t->tv",
+      "validation_row": 670,
+      "clip_id": "Je-SVwAa7D8.7",
+      "radius_parent": 2.1032266856338238,
+      "radius_child": 2.2582756862323947,
+      "exterior_angle_deg": 142.97485040348246,
+      "aperture_deg": 2.8409274231240698,
+      "angle_at_origin_deg": 36.74731499175833
+    },
+    {
+      "edge": "v->tv",
+      "validation_row": 670,
+      "clip_id": "Je-SVwAa7D8.7",
+      "radius_parent": 2.2816585931476063,
+      "radius_child": 2.2582756862323947,
+      "exterior_angle_deg": 135.89640190480594,
+      "aperture_deg": 2.3656289537944404,
+      "angle_at_origin_deg": 23.282365494164278
+    },
+    {
+      "edge": "tv->tva",
+      "validation_row": 670,
+      "clip_id": "Je-SVwAa7D8.7",
+      "radius_parent": 2.2582756862323947,
+      "radius_child": 3.981418500540664,
+      "exterior_angle_deg": 57.91217799484233,
+      "aperture_deg": 2.42285201676562,
+      "angle_at_origin_deg": 6.459442259345407
+    }
+  ],
+  "tolerance_sweep_percent": {
+    "0": 0.0,
+    "1": 0.0,
+    "5": 0.0,
+    "10": 0.0,
+    "30": 0.0
+  },
+  "c0_runs": [
+    {
+      "run": "c0_local_lr1e3_s50_v1",
+      "best": {
+        "t2va": {
+          "R@1": 3.466796875,
+          "R@5": 16.064453125,
+          "R@10": 32.421875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 4.931640625,
+          "R@5": 20.80078125,
+          "R@10": 35.83984375,
+          "candidate_recall": 84.27734375
+        },
+        "main_mean": {
+          "R@1": 4.19921875,
+          "R@5": 18.4326171875,
+          "R@10": 34.130859375
+        },
+        "step": 2000,
+        "loss": 0.5145383831113577
+      },
+      "final": {
+        "t2va": {
+          "R@1": 3.466796875,
+          "R@5": 16.064453125,
+          "R@10": 32.421875,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 4.931640625,
+          "R@5": 20.80078125,
+          "R@10": 35.83984375,
+          "candidate_recall": 84.27734375
+        },
+        "main_mean": {
+          "R@1": 4.19921875,
+          "R@5": 18.4326171875,
+          "R@10": 34.130859375
+        },
+        "step": 2000,
+        "loss": 0.5145383831113577
+      },
+      "completed_utc": "2026-10-26T22:04:02.647751+00:00",
+      "peak_reserved_gib": 0.193359375
+    },
+    {
+      "run": "c0_local_lr1e4_s50_v1",
+      "best": {
+        "t2va": {
+          "R@1": 3.61328125,
+          "R@5": 15.673828125,
+          "R@10": 29.541015625,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 3.3203125,
+          "R@5": 18.115234375,
+          "R@10": 34.130859375,
+          "candidate_recall": 84.27734375
+        },
+        "main_mean": {
+          "R@1": 3.466796875,
+          "R@5": 16.89453125,
+          "R@10": 31.8359375
+        },
+        "step": 2000,
+        "loss": 0.6007898263633251
+      },
+      "final": {
+        "t2va": {
+          "R@1": 3.61328125,
+          "R@5": 15.673828125,
+          "R@10": 29.541015625,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 3.3203125,
+          "R@5": 18.115234375,
+          "R@10": 34.130859375,
+          "candidate_recall": 84.27734375
+        },
+        "main_mean": {
+          "R@1": 3.466796875,
+          "R@5": 16.89453125,
+          "R@10": 31.8359375
+        },
+        "step": 2000,
+        "loss": 0.6007898263633251
+      },
+      "completed_utc": "2026-10-26T20:36:00.641474+00:00",
+      "peak_reserved_gib": 0.193359375
+    },
+    {
+      "run": "c0_local_lr3e4_s50_v1",
+      "best": {
+        "t2va": {
+          "R@1": 2.5390625,
+          "R@5": 12.158203125,
+          "R@10": 25.78125,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 2.587890625,
+          "R@5": 11.5234375,
+          "R@10": 24.21875,
+          "candidate_recall": 84.27734375
+        },
+        "main_mean": {
+          "R@1": 2.5634765625,
+          "R@5": 11.8408203125,
+          "R@10": 25.0
+        },
+        "step": 1500,
+        "loss": 0.6930865533649921
+      },
+      "final": {
+        "t2va": {
+          "R@1": 2.197265625,
+          "R@5": 11.572265625,
+          "R@10": 25.0,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 2.001953125,
+          "R@5": 10.009765625,
+          "R@10": 22.4609375,
+          "candidate_recall": 84.27734375
+        },
+        "main_mean": {
+          "R@1": 2.099609375,
+          "R@5": 10.791015625,
+          "R@10": 23.73046875
+        },
+        "step": 2000,
+        "loss": 0.6884653158485889
+      },
+      "completed_utc": "2026-10-26T21:21:36.661644+00:00",
+      "peak_reserved_gib": 0.189453125
+    },
+    {
+      "run": "c0_native_lr1e4_s50_v1",
+      "best": {
+        "t2va": {
+          "R@1": 39.16015625,
+          "R@5": 63.818359375,
+          "R@10": 72.314453125,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 38.96484375,
+          "R@5": 60.693359375,
+          "R@10": 71.923828125,
+          "candidate_recall": 84.27734375
+        },
+        "main_mean": {
+          "R@1": 39.0625,
+          "R@5": 62.255859375,
+          "R@10": 72.119140625
+        },
+        "step": 500,
+        "loss": 0.18901791438111104
+      },
+      "final": {
+        "t2va": {
+          "R@1": 37.255859375,
+          "R@5": 62.79296875,
+          "R@10": 72.119140625,
+          "candidate_recall": 84.27734375
+        },
+        "va2t": {
+          "R@1": 34.08203125,
+          "R@5": 59.716796875,
+          "R@10": 70.751953125,
+          "candidate_recall": 84.27734375
+        },
+        "main_mean": {
+          "R@1": 35.6689453125,
+          "R@5": 61.2548828125,
+          "R@10": 71.435546875
+        },
+        "step": 2000,
+        "loss": 0.2045143567956984
+      },
+      "completed_utc": "2026-10-26T22:05:19.311705+00:00",
+      "peak_reserved_gib": 4.853515625
+    }
+  ],
+  "figure_files": [
+    "01_radial_overview.png",
+    "02_edge_radius_scatter.png",
+    "03_cone_excess.png",
+    "04_exact_pair_planes.png",
+    "05_previous_sweep_comparison.png",
+    "06_c0_curves.png"
+  ],
+  "source_sha256": "ba3eae681a46614f3e45656bc277f973c3df18cc2e061665e5c374d85cf2b237"
+}

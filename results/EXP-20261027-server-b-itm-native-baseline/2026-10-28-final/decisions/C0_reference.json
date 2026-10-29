@@ -1,0 +1,31 @@
+{
+  "path": "/data0/xiaobo.xia/yuxuan.gao/itm_native_baseline_20261027_v2/runs/cal_lr1e5_s50/step_2000.pt",
+  "sha256": "55a4f00277f7efa5c048a0e4069ec1f1bdaa2daf72ce9434b27d5ac4a1c9c69a",
+  "step": 2000,
+  "selection": {
+    "calibration": "cal_lr1e5",
+    "lr": 1e-05,
+    "steps": 2000
+  },
+  "expected_metrics": {
+    "t2va": {
+      "R@1": 50.68359375,
+      "R@5": 71.6796875,
+      "R@10": 77.63671875,
+      "candidate_recall": 84.27734375
+    },
+    "va2t": {
+      "R@1": 49.072265625,
+      "R@5": 70.01953125,
+      "R@10": 77.1484375,
+      "candidate_recall": 84.27734375
+    },
+    "main_mean": {
+      "R@1": 49.8779296875,
+      "R@5": 70.849609375,
+      "R@10": 77.392578125
+    },
+    "step": 2000,
+    "loss": 0.125624944223091
+  }
+}
