@@ -1,13 +1,36 @@
-# 本机配置
+# 本机路径配置
 
-`servers.example.json` 是可同步模板，`servers.local.json` 是被 Git 忽略的本机配置。当前机器登记为 `server-a`；另一台为 `server-b`，具体路径尚未确认，保持 null。
+`config/servers.local.json` 是被 Git 忽略的本机配置。它只登记各服务器已确认的路径，不会连接远端、挂载磁盘或同步详细结果；GitHub 阅读版不依赖此文件。
 
-另一台服务器 clone 后，若本机配置尚不存在，复制模板：
+新机器可在本地创建该文件，按下面结构填写实际服务器别名与已获授权的路径。已有配置继续使用，不覆盖。原 `servers.example.json` 只在旧机器本地保留，新 clone 使用这里的示例。
 
-```bash
-cp -n config/servers.example.json config/servers.local.json
+```json
+{
+  "schema_version": 1,
+  "current_server": "server-a",
+  "servers": {
+    "server-a": {
+      "workspace_root": null,
+      "dataset_root": null,
+      "projects": {
+        "Hyperbolic-Omnimodal": null,
+        "meru-width-coco": null,
+        "VAST27M-download": null
+      }
+    },
+    "server-b": {
+      "workspace_root": null,
+      "dataset_root": null,
+      "projects": {
+        "Hyperbolic-Omnimodal": null,
+        "meru-width-coco": null,
+        "VAST27M-download": null
+      }
+    }
+  }
+}
 ```
 
-将 `current_server` 改为实际别名，填写实际存在且已获授权的工作区和项目路径。不要复用本机路径作为远端已确认路径，不在配置中存放密码、Token、Cookie、私钥或代理认证信息。
+`server-a` / `server-b` 是稳定别名；不能把另一台机器的未知位置照抄为当前路径。未确认的路径保留 `null`。不在此文件或公开文档中存放密码、Token、Cookie、私钥或代理认证信息。
 
-该配置是路径登记表，不会自动连接服务器、挂载存储或改写链接。内部结果快照不依赖这些路径；查看原始日志和模型才需要对应服务器的数据。
+详细结果访问方式见 [LOCAL_ARTIFACTS.md](../LOCAL_ARTIFACTS.md)，同步规则见 [SYNC.md](../SYNC.md)。

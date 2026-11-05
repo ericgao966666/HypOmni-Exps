@@ -6,13 +6,13 @@
 
 2026-10-26T14:43:59 UTC：17/17组全部完成30轮，每组9660次更新，合计164220次；0组失败。训练及协调器进程均已退出，没有MSRVTT微调或测试集评估。
 
-[完整图文报告](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/REPORT_WITH_RADII.md) · [末轮CSV](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/final_epoch.csv) · [最佳轮次CSV](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/best_validation.csv) · [完整JSON](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/results.json) · [图件PDF](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/diagnostics.pdf)。
+[完整图文报告](../summaries/EXP-20261026-server-b-meru512-scale/2026-10-26-results/REPORT_WITH_RADII.md) · 末轮CSV（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/final_epoch.csv`） · 最佳轮次CSV（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/best_validation.csv`） · 完整JSON（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/results.json`） · 图件PDF（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/diagnostics.pdf`）。
 
-Markdown明细：[逐方向检索](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/DIRECTIONS.md) · [逐边几何与错配](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/GEOMETRY.md) · [scale与半径](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/PARAMETERS.md)。
+Markdown明细：逐方向检索（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/DIRECTIONS.md`） · 逐边几何与错配（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/GEOMETRY.md`） · scale与半径（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/PARAMETERS.md`）。
 
-半径分布补充：[初始化、末轮、最佳轮次的完整分布](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/RADIUS_DISTRIBUTIONS.md) · [分位数统计CSV](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/radius_distribution_statistics.csv) · [五页PDF](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/radius_distributions.pdf)。此前参数表和热力图只有均值，本补充展示每子集全部2048个验证视频的分布。
+半径分布补充：初始化、末轮、最佳轮次的完整分布（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/RADIUS_DISTRIBUTIONS.md`） · 分位数统计CSV（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/radius_distribution_statistics.csv`） · 五页PDF（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/radius_distributions.pdf`）。此前参数表和热力图只有均值，本补充展示每子集全部2048个验证视频的分布。
 
-![第30轮原空间半径分布](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/radius_distribution_final.png)
+第30轮原空间半径分布（图件仅存本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/radius_distribution_final.png`）
 
 小提琴为密度估计，箱体为P25–P75，须为P05–P95，黑横线为中位数，黑菱形为均值；末轮与最佳轮次图使用共同纵轴。补充报告另有无量纲半径sqrt(c)×r与q分布，区分不同曲率的尺度。分位范围是视频间差异，不是置信区间或跨seed不确定性。
 
@@ -25,13 +25,13 @@ Markdown明细：[逐方向检索](../results/EXP-20261026-server-b-meru512-scal
 | 2 | 15.67 | 15.80 | 15.79 | 15.95 |
 | 4 | 15.75 | 16.02 | 15.83 | 16.26 |
 
-C0独立半径头末轮macro R@1为18.66%。17组末轮父节点合法域覆盖均为100%，官方截断满足率与合法域满足率均为0%，九条边全部合法且满足率均为0%。逐方向和逐边数值见[方向CSV](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/directions.csv)与[边CSV](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/edges.csv)。
+C0独立半径头末轮macro R@1为18.66%。17组末轮父节点合法域覆盖均为100%，官方截断满足率与合法域满足率均为0%，九条边全部合法且满足率均为0%。逐方向和逐边数值见方向CSV（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/directions.csv`）与边CSV（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/edges.csv`）。
 
-![训练与验证曲线](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/training_curves.png)
+训练与验证曲线（图件仅存本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/training_curves.png`）
 
 每行一个初始scale倍数；左为验证R@1，中为训练对比损失，右为未加权锥损失；均为512D、seed50。C0参考曲线在各行重复展示。
 
-![原空间外角与开角](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/native_cone_angles.png)
+原空间外角与开角（图件仅存本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/native_cone_angles.png`）
 
 本图使用各组验证检索最佳checkpoint，标题注明实际轮次；与上方末轮表分开读取。每组固定同一48个验证视频、九条边，坐标为原空间FP32外角与半开角，未用二维投影判定包含。
 
@@ -54,7 +54,7 @@ C0独立半径头末轮macro R@1为18.66%。17组末轮父节点合法域覆盖�
 | 读出 | 30轮末轮主表；验证macro R@1最佳附表，同分R@5、较早轮，含epoch0 |
 | 范围 | 仅VAST冻结头部训练及验证；不微调MSRVTT、不使用测试集 |
 
-完整实现与命令见[本机README](../../Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/README.md)。
+完整实现与命令见本机README（源路径，需对应服务器：`../Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/README.md`）。
 
 ## 来源与验证
 
@@ -64,7 +64,7 @@ C0独立半径头末轮macro R@1为18.66%。17组末轮父节点合法域覆盖�
 
 21项CPU/报告检查通过，包括共同初始化、参数更新、曲率梯度、官方非有限边界、恢复优化器和RNG、45GiB准入边界、最多16任务与缺失末轮读出。没有GPU profiling或独立试训；GPU检查发生在正式首批更新。
 
-[可同步实现证据](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-implementation/)包含协议、21项检查、4096个训练样本的初始化审计、官方来源、源码清单和启动快照；哈希已登记到结果manifest。
+可同步实现证据（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-implementation`）包含协议、21项检查、4096个训练样本的初始化审计、官方来源、源码清单和启动快照；哈希已登记到结果manifest。
 
 ## 运行与位置
 
@@ -72,10 +72,10 @@ C0独立半径头末轮macro R@1为18.66%。17组末轮父节点合法域覆盖�
 - GPU0–7可用，每卡最多两个本轮任务。第一个真实更新后重新检查总占用≤45GiB、空闲≥48GiB才叠加第二个。
 - 每进程40GiB上限，运行GPU余量8GiB，数据盘余量40GiB及检查点写入保护；只管理本轮已登记PID。
 - 原始权重和结果：`/data0/xiaobo.xia/yuxuan.gao/meru512_scale_pretrain_20261026`。
-- 命令、PID、GPU、日志与恢复事件：[本机日志目录](../../Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs/)。
-- [单次运行索引](../runs/EXP-20261026-server-b-meru512-scale/README.md)。
+- 命令、PID、GPU、日志与恢复事件：本机日志目录（源路径，需对应服务器：`../Hyperbolic-Omnimodal/code/outputs/meru512_scale_pretrain_20261026/logs`）。
+- 单次运行索引（本地：`runs/EXP-20261026-server-b-meru512-scale/README.md`）。
 
-以上PID为历史记录，均已退出。实际最大并发为16、每卡最多两组；最后一组M11_g4于14:35:10 UTC自动启动在GPU1。用户提出将剩余任务放在最低显存GPU后，在核对和安排叠加期间，该组已由原调度器启动，因此没有重复启动或迁移。每组PyTorch保留显存峰值为0.166–0.176GiB，不含全部CUDA上下文开销。[完成核验](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/completion_summary.json)与[运行审计](../results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/run_audit.json)记录预算、哈希、实际dtype、准入与进程退出检查。
+以上PID为历史记录，均已退出。实际最大并发为16、每卡最多两组；最后一组M11_g4于14:35:10 UTC自动启动在GPU1。用户提出将剩余任务放在最低显存GPU后，在核对和安排叠加期间，该组已由原调度器启动，因此没有重复启动或迁移。每组PyTorch保留显存峰值为0.166–0.176GiB，不含全部CUDA上下文开销。完成核验（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/completion_summary.json`）与运行审计（本地：`results/EXP-20261026-server-b-meru512-scale/2026-10-26-results/run_audit.json`）记录预算、哈希、实际dtype、准入与进程退出检查。
 
 本机已成功fetch公开origin/main至`9cfce9f`；原工作区存在未提交改动及未合并的远端更新，本次保留原有内容，仅登记新实验。没有commit、push或上传。
 

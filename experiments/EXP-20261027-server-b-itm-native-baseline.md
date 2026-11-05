@@ -19,7 +19,7 @@ C0使用LR1e-5；主任务为t↔va双向R@1，不是六方向平均。筛选see
 
 seed50来源负例N-t、N-u分别为34.0088%、31.2988%，低于同seed C0的49.8779%。来源混合下M0、M-TV、M-TA、M-Both为33.9844%、31.7627%、33.6670%、33.7158%；hard下H-M0/H-M为43.0420%/42.1387%。这些筛选结果只描述seed50，不能当作三seed稳定性比较。
 
-C0_s50音频相关a→tv、tv→a的R@1仅2.4902%、5.8594%；主任务提升不能等同于全方向均衡改善。完整六方向和来源诊断见[机器结果](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/results.json)。
+C0_s50音频相关a→tv、tv→a的R@1仅2.4902%、5.8594%；主任务提升不能等同于全方向均衡改善。完整六方向和来源诊断见机器结果（本地：`results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/results.json`）。
 
 ## 锁定后外部评测
 
@@ -28,14 +28,14 @@ C0_s50音频相关a→tv、tv→a的R@1仅2.4902%、5.8594%；主任务提升不
 | MSRVTT | 884视频 | 46.2104 ± 0.3440 |
 | VATEX | 1,224视频 / 12,240 captions | 79.1571 ± 0.1109 |
 
-两行是不同数据集，不参与同列排名。均非标准全量榜单；本轮没有同协议PMRL训练对照，不能据此声称超过PMRL。三份[外部结果](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/external_results/)绑定同一[选择锁](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/SELECTION_LOCK.json)。
+两行是不同数据集，不参与同列排名。均非标准全量榜单；本轮没有同协议PMRL训练对照，不能据此声称超过PMRL。三份外部结果（本地：`results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/external_results`）绑定同一选择锁（本地：`results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/SELECTION_LOCK.json`）。
 
-![固定预算末点的验证结果](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/figure_1.png)
+固定预算末点的验证结果（图件仅存本地：`results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/figure_1.png`）
 
-图为源报告按各run固定预算末点绘制的结果；筛选seed与三seed复核需分别解读。[PDF](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/figures.pdf) · [第二张分析图](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/figure_2.png) · [完整原报告](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/REPORT.md)。
+图为源报告按各run固定预算末点绘制的结果；筛选seed与三seed复核需分别解读。PDF（本地：`results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/figures.pdf`） · 第二张分析图（本地：`results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/figure_2.png`） · [完整原报告](../summaries/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/reports/REPORT.md)。
 
 ## 完成范围与限制
 
-已核实16份run记录（C0_s50复用校准结果，不是16次独立训练）、各run的DONE及三份外部评测成功记录；[全局完成标记](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/COMPLETE.json)与[调度终态](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/logs/status.json)一致。失败/恢复记录保留于快照的attempts和[运行索引](../runs/EXP-20261027-server-b-itm-native-baseline/README.md)。
+已核实16份run记录（C0_s50复用校准结果，不是16次独立训练）、各run的DONE及三份外部评测成功记录；全局完成标记（本地：`results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/COMPLETE.json`）与调度终态（本地：`results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/logs/status.json`）一致。失败/恢复记录保留于快照的attempts和运行索引（本地：`runs/EXP-20261027-server-b-itm-native-baseline/README.md`）。
 
-150条语义审查仍未人工完成，不报告假负例率；几何接入token matcher、边级matcher和联合trunk训练没有被本轮证明有效。此前10月27日“运行中”的[阶段报告](../results/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/history-20261027/REPORT.md)作为历史保留，当前权威状态以本卡及10月28日完成快照为准。
+150条语义审查仍未人工完成，不报告假负例率；几何接入token matcher、边级matcher和联合trunk训练没有被本轮证明有效。此前10月27日“运行中”的[阶段报告](../summaries/EXP-20261027-server-b-itm-native-baseline/2026-10-28-final/history-20261027/REPORT.md)作为历史保留，当前权威状态以本卡及10月28日完成快照为准。

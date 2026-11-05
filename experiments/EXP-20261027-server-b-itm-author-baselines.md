@@ -14,7 +14,7 @@
 | GRAM | <ins>46.7041</ins> | <ins>49.3164</ins> |
 | PMRL | **49.4629** | **50.0244** |
 
-[原始完整报告](../results/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/REPORT.md) · [VAST结果](../results/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/vast/results.json) · [GRAM结果](../results/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/gram/results.json) · [PMRL结果](../results/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/pmrl/results.json)。各方法protocol包含模型来源与哈希，DONE及数值等价检查保留在[快照](../results/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/)和[运行记录](../runs/EXP-20261027-server-b-itm-author-baselines/README.md)。
+[原始完整报告](../summaries/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/REPORT.md) · VAST结果（本地：`results/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/vast/results.json`） · GRAM结果（本地：`results/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/gram/results.json`） · PMRL结果（本地：`results/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive/pmrl/results.json`）。各方法protocol包含模型来源与哈希，DONE及数值等价检查保留在[快照](../summaries/EXP-20261027-server-b-itm-author-baselines/2026-10-28-archive)和运行记录（本地：`runs/EXP-20261027-server-b-itm-author-baselines/README.md`）。
 
 ## 比较边界
 

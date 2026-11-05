@@ -63,7 +63,7 @@
 
 ## 完整结果与来源
 
-- [当前完整双向R@1报告](../results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/summary.md) · [全部R@1/5/10 CSV](../results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/results.csv) · [机器结果及置信区间](../results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/results.json)
-- [正式协议](../results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/protocol.json) · [冻结输入来源](../results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/freeze.json) · [完成与数值核验](../results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/verification.json) · [8项原生评测指标](../results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics/)
-- [运行记录与失败重试历史](../runs/EXP-20261026-server2-pmrl-data-scale/20261026T153907-server2-data-scale-seed50.md) · [来源及SHA-256总清单](../results/manifest.json)
-- [实验代码](../../PMRL-minimal-hyperbolic/data_scale/) · [历史基线协议](EXP-001-zero-shot-baselines.md)
+- [当前完整双向R@1报告](../summaries/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/summary.md) · 全部R@1/5/10 CSV（本地：`results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/results.csv`） · 机器结果及置信区间（本地：`results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/results.json`）
+- 正式协议（本地：`results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/protocol.json`） · 冻结输入来源（本地：`results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/freeze.json`） · 完成与数值核验（本地：`results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/verification.json`） · 8项原生评测指标（本地：`results/EXP-20261026-server2-pmrl-data-scale/2026-10-26-final-seed50/metrics`）
+- 运行记录与失败重试历史（本地：`runs/EXP-20261026-server2-pmrl-data-scale/20261026T153907-server2-data-scale-seed50.md`） · 来源及SHA-256总清单（本地：`results/manifest.json`）
+- 实验代码（源路径，需对应服务器：`../PMRL-minimal-hyperbolic/data_scale`） · [历史基线协议](EXP-001-zero-shot-baselines.md)

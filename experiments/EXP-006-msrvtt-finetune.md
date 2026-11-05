@@ -29,7 +29,7 @@ Ours 相对 VAST 的 macro 提升 3.88 pp，条件样本 bootstrap 区间 [2.70,
 
 几何测量中八类边半径顺序正确率 100%，A→TA 为 99.77%，但九类边的严格锥满足率均为 0%。平均 exterior angle 为 30.19°–146.08°，平均 aperture 仅 1.79°–2.91°，显示径向顺序与角度包含没有共同学成。
 
-T/V/A分别表示文本/视频/音频。完整Recall来自[原始 CSV](../results/EXP-006/2026-10-20/comparison.csv)，MedR 来自[原始 JSON](../results/EXP-006/2026-10-20/comparison.json)。
+T/V/A分别表示文本/视频/音频。完整Recall来自原始 CSV（本地：`results/EXP-006/2026-10-20/comparison.csv`），MedR 来自原始 JSON（本地：`results/EXP-006/2026-10-20/comparison.json`）。
 
 ### 微调后六方向R@1（%）
 
@@ -43,9 +43,9 @@ T/V/A分别表示文本/视频/音频。完整Recall来自[原始 CSV](../result
 
 ## 训练曲线
 
-![MSRVTT 四模型验证集平均 R@1 训练曲线和微调前后测试表现](../results/EXP-006/2026-10-20/training_comparison.png)
+MSRVTT 四模型验证集平均 R@1 训练曲线和微调前后测试表现（图件仅存本地：`results/EXP-006/2026-10-20/training_comparison.png`）
 
-[打开原图](../results/EXP-006/2026-10-20/training_comparison.png) · [下载矢量 PDF](../results/EXP-006/2026-10-20/training_comparison.pdf) · [选模与结果汇总](../results/EXP-006/2026-10-20/comparison.json)
+打开原图（本地：`results/EXP-006/2026-10-20/training_comparison.png`） · 下载矢量 PDF（本地：`results/EXP-006/2026-10-20/training_comparison.pdf`） · 选模与结果汇总（本地：`results/EXP-006/2026-10-20/comparison.json`）
 
 左图是 500 个验证视频上随 epoch 变化的六方向 macro R@1，黑圈为验证选中的 checkpoint；右图是相同 884 个测试视频上微调前后的 macro R@1。图版对应四种方法均完成十轮预算后的结果。各模型的绝对训练 loss 不在这张图中。
 
@@ -62,4 +62,4 @@ T/V/A分别表示文本/视频/音频。完整Recall来自[原始 CSV](../result
 
 [微调前后全部六方向R@1/5/10、MedR](details/EXP-006-full-results.md) · [初始化、预算补足和来源审计](details/EXP-006-provenance.md)。
 
-[原始CSV](../results/EXP-006/2026-10-20/comparison.csv) · [原始JSON](../results/EXP-006/2026-10-20/comparison.json) · [检索分析PDF](../results/EXP-006/2026-10-20/analysis_figures.pdf) · [几何分析PDF](../results/EXP-006/2026-10-20/hyperbolic_geometry_report.pdf) · [几何数值](../results/EXP-006/2026-10-20/geometry_summary.json)。
+原始CSV（本地：`results/EXP-006/2026-10-20/comparison.csv`） · 原始JSON（本地：`results/EXP-006/2026-10-20/comparison.json`） · 检索分析PDF（本地：`results/EXP-006/2026-10-20/analysis_figures.pdf`） · 几何分析PDF（本地：`results/EXP-006/2026-10-20/hyperbolic_geometry_report.pdf`） · 几何数值（本地：`results/EXP-006/2026-10-20/geometry_summary.json`）。

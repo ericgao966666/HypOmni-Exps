@@ -16,7 +16,7 @@
 
 ## 协议与运行
 
-9 对和 21 对分别筛选，再进行训练细节与 seed 50/51/52 复核。共 57 次正式运行、2 次额外共享 warmup、15 次锁定测试评估；固定预算全部完成。数据延续 EXP-002。完整条件保存在[运行目录](../../Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/)。
+9 对和 21 对分别筛选，再进行训练细节与 seed 50/51/52 复核。共 57 次正式运行、2 次额外共享 warmup、15 次锁定测试评估；固定预算全部完成。数据延续 EXP-002。完整条件保存在运行目录（源路径，需对应服务器：`../Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016`）。
 
 ## 结果
 
@@ -33,13 +33,13 @@
 
 21 对共享温度机制在训练细节比较前将验证平均违约从 1.8246 降至 1.4160 rad，但严格包含仍为零。纯层级准备阶段曾出现正配对和错配对都 100% 包含、检索约 2.06%；加入对比训练后二者包含率回到零。
 
-权威结果：[完成摘要](../results/EXP-003/2026-10-20/completion_summary.json)、[全条件表](../results/EXP-003/2026-10-20/comparison.csv)、[几何对照图](../../Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/geometry_overview_paired.pdf)。
+权威结果：完成摘要（本地：`results/EXP-003/2026-10-20/completion_summary.json`）、全条件表（本地：`results/EXP-003/2026-10-20/comparison.csv`）、几何对照图（源路径，需对应服务器：`../Hyperbolic-Omnimodal/outputs/subset_mechanisms_20261016/geometry_overview_paired.pdf`）。
 
 ## 头部训练曲线
 
-![seed50 下 B0–B2 和 A1–A9 的 9 对与 21 对验证检索及锥违约曲线](../results/EXP-003/2026-10-20/paired_training_curves.png)
+seed50 下 B0–B2 和 A1–A9 的 9 对与 21 对验证检索及锥违约曲线（图件仅存本地：`results/EXP-003/2026-10-20/paired_training_curves.png`）
 
-[打开完整预览](../results/EXP-003/2026-10-20/paired_training_curves.png) · [下载原始 PDF](../results/EXP-003/2026-10-20/paired_training_curves.pdf)
+打开完整预览（本地：`results/EXP-003/2026-10-20/paired_training_curves.png`） · 下载原始 PDF（本地：`results/EXP-003/2026-10-20/paired_training_curves.pdf`）
 
 每行对比同一机制的 9 对（蓝）与 21 对（橙）模型，横轴为 epoch；左列是验证集十二方向 macro R@1（%），右列是平均锥违约（rad）。图只包含 seed50 的 standard 训练，不是三种子均值或测试集曲线。各条件均独立从共享 warmup 开始。
 

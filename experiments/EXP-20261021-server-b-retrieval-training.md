@@ -16,7 +16,7 @@
 | 固定条件 | 仅seed50，联合微调全局batch64；双曲λ=.1，欧氏λ=0；测试不参与方案选择 |
 | 指标与范围 | 同一MSRVTT test884、六方向macro，单位%；本轮不新增8D/16D，跨方案训练预算并不相同 |
 
-验证选定方案为双曲/欧氏/GRAM的R1，VAST/PMRL的R3。[四候选验证表](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/validation_candidates_64d.csv)与以下测试结果分开保存。
+验证选定方案为双曲/欧氏/GRAM的R1，VAST/PMRL的R3。四候选验证表（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/validation_candidates_64d.csv`）与以下测试结果分开保存。
 
 ## 主要结果
 
@@ -52,31 +52,31 @@
 
 ## 已完成双曲方案的验证集几何可视化
 
-2026-10-23：已用同一批验证视频比较R0/R1/R2/R3的HoroPCA和CO-SNE。R3原空间单/双/三模态平均半径约1.265/1.679/3.168，R0则约0.996/1.005/1.014；仅延长微调的R1仍较接近半径1。R3两种投影均显示TVA外移，其半径相关性分别为0.863和0.979，但严格锥满足率仍为0%。数据和训练阶段同时变化，不能只归因于训练轮数。详见[完整图文与数值](../results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/README.md)。
+2026-10-23：已用同一批验证视频比较R0/R1/R2/R3的HoroPCA和CO-SNE。R3原空间单/双/三模态平均半径约1.265/1.679/3.168，R0则约0.996/1.005/1.014；仅延长微调的R1仍较接近半径1。R3两种投影均显示TVA外移，其半径相关性分别为0.863和0.979，但严格锥满足率仍为0%。数据和训练阶段同时变化，不能只归因于训练轮数。详见[完整图文与数值](../summaries/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/README.md)。
 
-![R0与R3的HoroPCA、CO-SNE及原空间半径](../results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_R0_vs_R3.png)
+R0与R3的HoroPCA、CO-SNE及原空间半径（图件仅存本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_R0_vs_R3.png`）
 
-图左/中为固定48个验证视频×7子集，训练及投影seed50；右侧为全部500验证视频的原空间半径。各方案使用按检索选出的checkpoint，颜色为子集类型，灰线不代表包含成立。未使用最终测试集。[完整四页PDF](../results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_validation_report.pdf) · [R1/R2图](../results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_R1_vs_R2.png) · [原空间CSV](../results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/native_geometry.csv) · [保真度CSV](../results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/projection_quality.csv)。
+图左/中为固定48个验证视频×7子集，训练及投影seed50；右侧为全部500验证视频的原空间半径。各方案使用按检索选出的checkpoint，颜色为子集类型，灰线不代表包含成立。未使用最终测试集。完整四页PDF（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_validation_report.pdf`） · R1/R2图（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/geometry_R1_vs_R2.png`） · 原空间CSV（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/native_geometry.csv`） · 保真度CSV（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-23-geometry-validation/projection_quality.csv`）。
 
 
 ## 下一步判断与完成范围
 
 先补齐VAST、PMRL的6个扩维条件，才能评价完整跨方法趋势；若要解释几何机制，需进一步使用匹配预算的欧氏/双曲及锥约束消融。
 
-截至2026-10-25的运行观察，训练已中断，VAST32D warmup保留第5轮检查点，原因未确认。[运行状态证据](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/runtime_observation.json)与[历史启停记录](../runs/EXP-20261021-server-b-retrieval-training/history-before-results-rewrite-20261026.md)供恢复时查阅；本次文档重写没有重新检查或启动训练。
+截至2026-10-25的运行观察，训练已中断，VAST32D warmup保留第5轮检查点，原因未确认。运行状态证据（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/runtime_observation.json`）与历史启停记录（本地：`runs/EXP-20261021-server-b-retrieval-training/history-before-results-rewrite-20261026.md`）供恢复时查阅；本次文档重写没有重新检查或启动训练。
 
 ## 完整结果与来源
 
-[完整结果说明](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/README.md) · [汇总CSV](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/test_macro.csv) · [六方向CSV](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/test_directions.csv) · [原始测试JSON](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations/) · [全体选择锁](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/SELECTIONS_LOCKED.json) · [R0对照](../results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/baseline_r0_64d.json)。
+[完整结果说明](../summaries/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/README.md) · 汇总CSV（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/test_macro.csv`） · 六方向CSV（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/test_directions.csv`） · 原始测试JSON（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/evaluations`） · 全体选择锁（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/SELECTIONS_LOCKED.json`） · R0对照（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-25-current-results/baseline_r0_64d.json`）。
 
-[运行索引](../runs/EXP-20261021-server-b-retrieval-training/README.md)及历史快照保留数据、源码和检查点来源；结果依据记录中的实际运行源码快照，不以当前代码HEAD替代。
+运行索引（本地：`runs/EXP-20261021-server-b-retrieval-training/README.md`）及历史快照保留数据、源码和检查点来源；结果依据记录中的实际运行源码快照，不以当前代码HEAD替代。
 
 ## 2026-10-28记录核对与补充对照
 
-本机method_evaluations仍为14个选定条件加2个历史R0结果，VAST/PMRL的32/128/512D共6项缺失。[重新核对清单](../results/EXP-20261021-server-b-retrieval-training/2026-10-28-status-audit/evaluation_inventory.json)按文件存在和哈希核验，不把历史中断原因或PID当作当前监控。
+本机method_evaluations仍为14个选定条件加2个历史R0结果，VAST/PMRL的32/128/512D共6项缺失。重新核对清单（本地：`results/EXP-20261021-server-b-retrieval-training/2026-10-28-status-audit/evaluation_inventory.json`）按文件存在和哈希核验，不把历史中断原因或PID当作当前监控。
 
-10月27日补充的[五方法完整测试展示](../results/EXP-20261021-server-b-retrieval-training/2026-10-27-five-method-tests/README.md)、[同方案与半径对照](../results/EXP-20261021-server-b-retrieval-training/2026-10-27-matched-recipes/README.md)、[独立半径纵轴图](../results/EXP-20261021-server-b-retrieval-training/2026-10-27-baseline-radius-axis/README.md)一并保留。
+10月27日补充的[五方法完整测试展示](../summaries/EXP-20261021-server-b-retrieval-training/2026-10-27-five-method-tests/README.md)、[同方案与半径对照](../summaries/EXP-20261021-server-b-retrieval-training/2026-10-27-matched-recipes/README.md)、[独立半径纵轴图](../summaries/EXP-20261021-server-b-retrieval-training/2026-10-27-baseline-radius-axis/README.md)一并保留。
 
-10月28日新增64D R3 λ=.2、c/τ均可学习的单seed候选，预算为8轮warmup＋30轮冻结＋10轮微调；目前只有运行记录，不能替代原验证锁定方案或宣称产生新收益。与同R3欧氏比较时，欧氏温度固定，因此不是纯曲率消融。[运行与协议](../runs/EXP-20261021-server-b-retrieval-training/20261028T123204-server-b-r3-d64-lambda02-learnct-seed50.md)。
+10月28日新增64D R3 λ=.2、c/τ均可学习的单seed候选，预算为8轮warmup＋30轮冻结＋10轮微调；目前只有运行记录，不能替代原验证锁定方案或宣称产生新收益。与同R3欧氏比较时，欧氏温度固定，因此不是纯曲率消融。运行与协议（本地：`runs/EXP-20261021-server-b-retrieval-training/20261028T123204-server-b-r3-d64-lambda02-learnct-seed50.md`）。
 
-合并前本地卡片的完整过程与负结果保留在[本地历史附录](../runs/EXP-20261021-server-b-retrieval-training/history-local-before-reconciliation-20261028.md)，远端旧过程附录亦保留。
+合并前本地卡片的完整过程与负结果保留在本地历史附录（本地：`runs/EXP-20261021-server-b-retrieval-training/history-local-before-reconciliation-20261028.md`），远端旧过程附录亦保留。

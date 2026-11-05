@@ -68,4 +68,4 @@ MSRVTT测试集：
 
 [全部六方向R@1/5/10与MedR](details/EXP-004-full-results.md) · [checkpoint差异和训练预算审计](details/EXP-004-provenance.md)。
 
-原始数据：[VAST CSV](../results/EXP-004/2026-10-20/vast_comparison.csv)、[MSRVTT CSV](../results/EXP-004/2026-10-20/msrvtt_comparison.csv)、[音频CSV](../results/EXP-004/2026-10-20/audio_comparison.csv)。数值未因本次重写而改变。
+原始数据：VAST CSV（本地：`results/EXP-004/2026-10-20/vast_comparison.csv`）、MSRVTT CSV（本地：`results/EXP-004/2026-10-20/msrvtt_comparison.csv`）、音频CSV（本地：`results/EXP-004/2026-10-20/audio_comparison.csv`）。数值未因本次重写而改变。

@@ -27,11 +27,11 @@
 
 ## 位置
 
-- [下载器说明](../../VAST27M-download/README.md)
-- [最新进度](</data-nfs/xiaoboxia/YuxuanGao/datasets/vast150k_recovery/bulk-20261009/state/progress.json>)
-- [规范数据目录](</data-nfs/xiaoboxia/YuxuanGao/PMRL/datasets/vast150k/>)
-- [可用性报告](</data-nfs/xiaoboxia/YuxuanGao/PMRL/datasets/vast150k/availability_report.json>)
-- [恢复日志](../../VAST27M-download/logs/recover-vast150k-20261009.log)
+- 下载器说明（源路径，需对应服务器：`../VAST27M-download/README.md`）
+- 最新进度（源路径，需对应服务器：`/data-nfs/xiaoboxia/YuxuanGao/datasets/vast150k_recovery/bulk-20261009/state/progress.json`）
+- 规范数据目录（源路径，需对应服务器：`/data-nfs/xiaoboxia/YuxuanGao/PMRL/datasets/vast150k`）
+- 可用性报告（源路径，需对应服务器：`/data-nfs/xiaoboxia/YuxuanGao/PMRL/datasets/vast150k/availability_report.json`）
+- 恢复日志（源路径，需对应服务器：`../VAST27M-download/logs/recover-vast150k-20261009.log`）
 
 ## 对实验的影响
 

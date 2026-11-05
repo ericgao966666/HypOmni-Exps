@@ -15,12 +15,12 @@ GRIT子集100,000/5,000/5,000图像，512D、global batch256；原协议20个冻
 
 matched冻结目标seed0下，HyCoCLIP双曲/欧氏为37.19%/37.11%，UNCHA为37.89%/37.92%，差异很小。native冻结目标与matched目标表现不同，不能把native检索增益全部归因于空间曲率。
 
-[24阶段末轮完整数值](../results/EXP-008/2026-10-28-server-b-audit/stage_summary.json) · [协议](../results/EXP-008/2026-10-28-server-b-audit/protocol.json) · [条件清单](../results/EXP-008/2026-10-28-server-b-audit/arms.json) · [各阶段证据](../results/EXP-008/2026-10-28-server-b-audit/arms/)。末轮提取保留源JSONL哈希，完整日志和权重留在数据目录。
+24阶段末轮完整数值（本地：`results/EXP-008/2026-10-28-server-b-audit/stage_summary.json`） · 协议（本地：`results/EXP-008/2026-10-28-server-b-audit/protocol.json`） · 条件清单（本地：`results/EXP-008/2026-10-28-server-b-audit/arms.json`） · 各阶段证据（本地：`results/EXP-008/2026-10-28-server-b-audit/arms`）。末轮提取保留源JSONL哈希，完整日志和权重留在数据目录。
 
 ## 当前完成范围
 
 核实20个冻结阶段和4个seed0联合阶段均为5000步完成，共24/32阶段；seed1/2的8个联合阶段延期，**不是seed1/2所有训练都未做**。聚合状态为selected_seeds_complete，full_experiment_complete=false，test_evaluation_started=false。原测试门槛仍要求全32阶段完成；本次未启动训练或测试。
 
-[选择种子完成标记](../results/EXP-008/2026-10-28-server-b-audit/selected_seeds_complete.json) · [聚合状态](../results/EXP-008/2026-10-28-server-b-audit/pipeline_status.json) · [运行索引](../runs/EXP-008/README.md)。尚缺跨seed联合结果、正式测试和完整几何判定，不能声称整个实验结束或已经证明严格层级包含。
+选择种子完成标记（本地：`results/EXP-008/2026-10-28-server-b-audit/selected_seeds_complete.json`） · 聚合状态（本地：`results/EXP-008/2026-10-28-server-b-audit/pipeline_status.json`） · 运行索引（本地：`runs/EXP-008/README.md`）。尚缺跨seed联合结果、正式测试和完整几何判定，不能声称整个实验结束或已经证明严格层级包含。
 
-原迁移和停止历史完整保留在[交接附录](../runs/EXP-008/history-handoff-before-audit-20261028.md)。后续先确认是否继续延期条件，再按原门槛统一测试；本次仅补录已存在证据。
+原迁移和停止历史完整保留在交接附录（本地：`runs/EXP-008/history-handoff-before-audit-20261028.md`）。后续先确认是否继续延期条件，再按原门槛统一测试；本次仅补录已存在证据。

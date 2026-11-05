@@ -18,7 +18,7 @@
 
 共 64 个条件：48 个主条件和 16 个 seed0 权重敏感性条件。主条件覆盖原生/合法锥域、32/512 维、seed 0/1/2、E0/E1/H0/H1。0 为无锥约束，1 为 λ=0.2；敏感性权重为 0.05/0.8。每组 5,000 步，固定预算而非收敛保证。
 
-COCO 头部适配训练，冻结官方 CLIP-B；训练 96,895 图像、开发 10,000 图像。HierarCaps 不参与本轮训练、校准或选择。全部 64 个最终 checkpoint 就绪后进行测试。完整[协议](../../meru-width-coco/GEOMETRY_COMPARE.md)与[配置](../../meru-width-coco/configs/width_experiment/geometry_compare.json)。
+COCO 头部适配训练，冻结官方 CLIP-B；训练 96,895 图像、开发 10,000 图像。HierarCaps 不参与本轮训练、校准或选择。全部 64 个最终 checkpoint 就绪后进行测试。完整协议（源路径，需对应服务器：`../meru-width-coco/GEOMETRY_COMPARE.md`）与配置（源路径，需对应服务器：`../meru-width-coco/configs/width_experiment/geometry_compare.json`）。
 
 ## 结果
 
@@ -60,7 +60,7 @@ COCO 头部适配训练，冻结官方 CLIP-B；训练 96,895 图像、开发 10
 
 小幅检索优势不能作为额外层级能力的证据。原生双曲锥还存在合法率低的问题；合法域没有观察到文本层级包含迁移。结果支持使用欧氏强基线，但不能推广为双曲方法整体无效：本轮是固定骨干、有限径向范围和固定训练预算。
 
-权威[中文解读与完整结果](../results/EXP-007/2026-10-20/results.md)、[运行目录与 checkpoint](../../meru-width-coco/output/geometry_compare_20261017/)。
+权威[中文解读与完整结果](../summaries/EXP-007/2026-10-20/results.md)、运行目录与 checkpoint（源路径，需对应服务器：`../meru-width-coco/output/geometry_compare_20261017`）。
 
 ## 下一步与变更
 

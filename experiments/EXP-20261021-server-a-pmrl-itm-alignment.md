@@ -47,7 +47,7 @@
 - 事前选定sigma_max在融合口径下为51.4771%，比融合基线51.6185%低0.1414个百分点。不能把纯ITM的增益当成实际预选融合方案的正结果。
 - 相对原legacy_va候选基线的变化还包含候选生成机制，不能全部归因于训练采样。
 - 原计划追加的42/123已取消，当前预算仅seed50。配对视频bootstrap条件于该训练seed，不估计训练种子方差；旧文件中的三seed未完成标记不代表当前预算缺失。
-- 原accepted清单中排除一条阻塞样本后，四组统一使用86,706条冻结清单；媒体无损修复和AMP跳步等执行证据见[完成核验](../results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/verification.json)。这些影响数据/预算解读的事实保留，具体重启和迁移时间线见运行附录。
+- 原accepted清单中排除一条阻塞样本后，四组统一使用86,706条冻结清单；媒体无损修复和AMP跳步等执行证据见完成核验（本地：`results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/verification.json`）。这些影响数据/预算解读的事实保留，具体重启和迁移时间线见运行附录。
 
 ## 下一步判断
 
@@ -55,6 +55,6 @@
 
 ## 完整结果与来源
 
-[当前权威汇总](../results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/summary.md) · [原始JSON](../results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/results.json) · [完整交叉报告](../results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/REPORT.md) · [逐任务指标](../results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics/) · [开发集选择](../results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/selection.json) · [单seed范围](../results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/execution_policy.json)。
+[当前权威汇总](../summaries/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/summary.md) · 原始JSON（本地：`results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/results.json`） · [完整交叉报告](../summaries/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/REPORT.md) · 逐任务指标（本地：`results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/metrics`） · 开发集选择（本地：`results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/selection.json`） · 单seed范围（本地：`results/EXP-20261021-server-a-pmrl-itm-alignment/2026-10-24-final-seed50/execution_policy.json`）。
 
-[运行与迁移历史](../runs/EXP-20261021-server-a-pmrl-itm-alignment/history-before-results-rewrite-20261026.md)保留原实验卡的全部启停、修复、核查和版本记录。指标、运行源码摘要和数据来源以快照核验文件为准。
+运行与迁移历史（本地：`runs/EXP-20261021-server-a-pmrl-itm-alignment/history-before-results-rewrite-20261026.md`）保留原实验卡的全部启停、修复、核查和版本记录。指标、运行源码摘要和数据来源以快照核验文件为准。

@@ -21,16 +21,16 @@
 
 | 模型 | 本轮微调的起始权重 | 微调前的原始评测 |
 |---|---|---|
-| VAST | 官方发布的 `model_step_204994.pt` | [VAST metrics](../../results/EXP-006/2026-10-20/provenance/vast_before_metrics.json) |
-| GRAM | 官方发布的 `gram_model_step_459.pt` | [GRAM metrics](../../results/EXP-006/2026-10-20/provenance/gram_before_metrics.json) |
-| PMRL | 官方发布的 `pmrl_base.pt` | [PMRL metrics](../../results/EXP-006/2026-10-20/provenance/pmrl_before_metrics.json) |
-| Ours | VAST 官方骨干，加上此前在 VAST 上训练、按验证集选定的 `minimal9_B1_standard_s50/best.pt` 子集头，9 对、λ=0.1、seed50 | [Ours metrics](../../results/EXP-006/2026-10-20/provenance/ours_before_metrics.json) |
+| VAST | 官方发布的 `model_step_204994.pt` | VAST metrics（本地：`results/EXP-006/2026-10-20/provenance/vast_before_metrics.json`） |
+| GRAM | 官方发布的 `gram_model_step_459.pt` | GRAM metrics（本地：`results/EXP-006/2026-10-20/provenance/gram_before_metrics.json`） |
+| PMRL | 官方发布的 `pmrl_base.pt` | PMRL metrics（本地：`results/EXP-006/2026-10-20/provenance/pmrl_before_metrics.json`） |
+| Ours | VAST 官方骨干，加上此前在 VAST 上训练、按验证集选定的 `minimal9_B1_standard_s50/best.pt` 子集头，9 对、λ=0.1、seed50 | Ours metrics（本地：`results/EXP-006/2026-10-20/provenance/ours_before_metrics.json`） |
 
 因此，“微调前”模型已经有预训练经历，Ours 还已经完成此前的子集头训练；这里衡量的是随后在 MSRVTT 上端到端微调带来的变化。四种方法的预训练历史不同，不能把前后比较解释为相同初始模型下仅改变损失的因果消融。
 
-在结果整理代码中，`report_msrvtt_finetune.py` 从 `outputs/msrvtt_author_unimodal_20261016/<model>/metrics.json` 读取 `before`，从本轮各方法的 `test_metrics.json` 读取 `after`。本次已核对：微调前的全部 84 个 Recall 值与 EXP-004 及原始评测文件一致，测试 manifest 的 SHA-256 也一致；四组初始化路径与之前评测的 checkpoint 路径相符。依据见[本轮协议](../../results/EXP-006/2026-10-20/provenance/finetune_protocol.json)和加载记录：[VAST](../../results/EXP-006/2026-10-20/provenance/vast_load_audit.json)、[GRAM](../../results/EXP-006/2026-10-20/provenance/gram_load_audit.json)、[PMRL](../../results/EXP-006/2026-10-20/provenance/pmrl_load_audit.json)、[Ours](../../results/EXP-006/2026-10-20/provenance/ours_load_audit.json)。
+在结果整理代码中，`report_msrvtt_finetune.py` 从 `outputs/msrvtt_author_unimodal_20261016/<model>/metrics.json` 读取 `before`，从本轮各方法的 `test_metrics.json` 读取 `after`。本次已核对：微调前的全部 84 个 Recall 值与 EXP-004 及原始评测文件一致，测试 manifest 的 SHA-256 也一致；四组初始化路径与之前评测的 checkpoint 路径相符。依据见本轮协议（本地：`results/EXP-006/2026-10-20/provenance/finetune_protocol.json`）和加载记录：VAST（本地：`results/EXP-006/2026-10-20/provenance/vast_load_audit.json`）、GRAM（本地：`results/EXP-006/2026-10-20/provenance/gram_load_audit.json`）、PMRL（本地：`results/EXP-006/2026-10-20/provenance/pmrl_load_audit.json`）、Ours（本地：`results/EXP-006/2026-10-20/provenance/ours_load_audit.json`）。
 
-**训练曲线的 epoch 0 与表格“微调前”使用不同数据划分。** 曲线是 500 个验证视频的分数，用于选模；表格是 884 个测试视频的分数。例如 VAST 的表格微调前 macro R@1 为 18.10%，而曲线 epoch 0 为 22.10%。四组初始验证结果见 [VAST](../../results/EXP-006/2026-10-20/provenance/vast_epoch0_validation.json)、[GRAM](../../results/EXP-006/2026-10-20/provenance/gram_epoch0_validation.json)、[PMRL](../../results/EXP-006/2026-10-20/provenance/pmrl_epoch0_validation.json)、[Ours](../../results/EXP-006/2026-10-20/provenance/ours_epoch0_validation.json)。
+**训练曲线的 epoch 0 与表格“微调前”使用不同数据划分。** 曲线是 500 个验证视频的分数，用于选模；表格是 884 个测试视频的分数。例如 VAST 的表格微调前 macro R@1 为 18.10%，而曲线 epoch 0 为 22.10%。四组初始验证结果见 VAST（本地：`results/EXP-006/2026-10-20/provenance/vast_epoch0_validation.json`）、GRAM（本地：`results/EXP-006/2026-10-20/provenance/gram_epoch0_validation.json`）、PMRL（本地：`results/EXP-006/2026-10-20/provenance/pmrl_epoch0_validation.json`）、Ours（本地：`results/EXP-006/2026-10-20/provenance/ours_epoch0_validation.json`）。
 
 
 ## 变更记录

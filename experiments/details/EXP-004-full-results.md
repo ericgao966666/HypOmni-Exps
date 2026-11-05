@@ -21,7 +21,7 @@ T 表示文本，V 表示视频，A 表示音频。Recall 指标单位均为 %�
 
 ### VAST 测试样本集，2,048 条
 
-[下载完整 CSV](../../results/EXP-004/2026-10-20/vast_comparison.csv)
+下载完整 CSV（本地：`results/EXP-004/2026-10-20/vast_comparison.csv`）
 
 #### R@1
 
@@ -63,7 +63,7 @@ T 表示文本，V 表示视频，A 表示音频。Recall 指标单位均为 %�
 
 ### MSRVTT 音视频交集，884 条
 
-[下载完整 CSV](../../results/EXP-004/2026-10-20/msrvtt_comparison.csv)
+下载完整 CSV（本地：`results/EXP-004/2026-10-20/msrvtt_comparison.csv`）
 
 #### R@1
 

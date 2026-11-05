@@ -8,7 +8,7 @@
 | 状态 | 56/58完成，2失败；全部本轮进程已退出 |
 | 最后核对 | 2026-10-26T17:40:51.263057+00:00 UTC |
 | 前序 | [512D MERU式scale对照](EXP-20261026-server-b-meru512-scale.md) |
-| 权威报告 | [Markdown完整结果](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/REPORT.md) |
+| 权威报告 | [Markdown完整结果](../summaries/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/REPORT.md) |
 
 ## 研究问题与协议
 
@@ -20,7 +20,7 @@
 
 主比较固定末轮；最佳检索和最佳合法满足率含epoch0，分别选模、单列附录。合法满足率分母为全部9N（D另报kN），同时报告合法覆盖、条件满足率与每视频九边同时满足。r/u/q来自真实512D特征。循环错配与最近错误视频不是人工非蕴含标签。
 
-[完整冻结协议](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/protocol.json) · [源码与数据哈希](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/source_manifest.json) · [58组运行记录](../runs/EXP-20261026-server-b-entailment-singlefactor/README.md)
+完整冻结协议（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/protocol.json`） · 源码与数据哈希（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/source_manifest.json`） · 58组运行记录（本地：`runs/EXP-20261026-server-b-entailment-singlefactor/README.md`）
 
 ## 观察结果
 
@@ -29,23 +29,23 @@
 - M11_g2新对照：R@1 15.951%，合法满足率0.000%；本路线最高满足率条件M11_g2__A_l2为43.202%，R@1 11.711%（相对对照-4.240 pp）。这是描述性取舍，不按预设容忍线筛选。
 - M11_g2九边训练诊断：joint的R@1/S=100.000%/100.000%；cone-only为1.302%/41.840%。样本数128，与全量验证分开解释。
 
-[全量末轮CSV](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/full_final.csv) · [训练诊断CSV](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tiny_final.csv) · [70个因果对照差值](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/single_factor_deltas.csv)
+全量末轮CSV（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/full_final.csv`） · 训练诊断CSV（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tiny_final.csv`） · 70个因果对照差值（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/single_factor_deltas.csv`）
 
 ## 图表
 
-![全量验证集取舍](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tradeoffs.png)
+全量验证集取舍（图件仅存本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tradeoffs.png`）
 
-VAST validation 2048条，22个epoch30条件；[PDF](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tradeoffs.pdf)。右列角度降低不等于严格包含。
+VAST validation 2048条，22个epoch30条件；PDF（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tradeoffs.pdf`）。右列角度降低不等于严格包含。
 
-![训练集逐边诊断](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tiny_graphs.png)
+训练集逐边诊断（图件仅存本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tiny_graphs.png`）
 
-固定128条训练集、step2000，joint与cone-only只在同一图中比较；[PDF](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tiny_graphs.pdf)。完整半径箱线图、梯度曲线及多父兼容性见Markdown报告。
+固定128条训练集、step2000，joint与cone-only只在同一图中比较；PDF（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/tiny_graphs.pdf`）。完整半径箱线图、梯度曲线及多父兼容性见Markdown报告。
 
 ## 验证与限制
 
 执行前22项CPU测试通过；终态独立审计复核1444个产物哈希、真实特征几何、保存的精确检索rank、选模规则、源代码不变、实际dtype和PID退出。58组共执行284110次更新；最高并发32、每卡最多4组。仅管理本任务登记进程。
 
-[测试证据](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/implementation_tests.json) · [终态独立审计](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/audit.json) · [命令/PID/GPU](../results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/launch_records.json)
+测试证据（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/implementation_tests.json`） · 终态独立审计（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/audit.json`） · 命令/PID/GPU（本地：`results/EXP-20261026-server-b-entailment-singlefactor/2026-10-26-results/launch_records.json`）
 
 只有seed50，未验证跨种子稳定性；查看多个验证条件存在选择偏差。小样本拟合成功不等于全量泛化成功。未据此宣布唯一最佳方案。新实验与旧17组源码、结果分别保存，原有未提交修改保留。
 

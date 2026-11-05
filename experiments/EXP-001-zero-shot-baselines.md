@@ -23,11 +23,11 @@
 - 新增 MERU 为单 seed 50 配对实验；HyperGRAM pure 使用 TVA/TVAS 联合候选，调参结果为单 seed、评测集选参。它们不与历史三 seed 结果合并统计或重排最优／次优。
 - 第 2.5 节的 9 月 Mean/SVD parent 与文末 10 月 14 日的 Parent holdout 消融属于不同实验，不合并。
 
-[当前完整报告快照](../results/EXP-001/2026-10-20-server-b/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md) · [旧版报告（2026-09-01）](../results/EXP-001/2026-10-20/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md) · [历史执行协议说明](../results/EXP-001/2026-10-20/zero_shot/MAIN_RESULT_PROTOCOL.md) · [历史机器可读协议](../results/EXP-001/2026-10-20/zero_shot/protocol.json) · [来源及哈希](../results/manifest.json)
+[当前完整报告快照](../summaries/EXP-001/2026-10-20-server-b/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md) · [旧版报告（2026-09-01）](../summaries/EXP-001/2026-10-20/zero_shot/ZERO_SHOT_COMPLETE_RESULTS.md) · [历史执行协议说明](../summaries/EXP-001/2026-10-20/zero_shot/MAIN_RESULT_PROTOCOL.md) · 历史机器可读协议（本地：`results/EXP-001/2026-10-20/zero_shot/protocol.json`） · 来源及哈希（本地：`results/manifest.json`）
 
 快速定位：[视频 Top-50](#video-top50) · [视频 Top-20](#video-top20) · [视频 Stage-1](#video-stage1) · [Stage-1 汇总](#stage1-summary) · [音频 direct](#audio-direct) · [MERU 配对](#meru-paired) · [HyperGRAM pure](#hypergram-pure) · [HyperGRAM 调参](#hypergram-tuning) · [历史 Parent 消融](#historical-parent)
 
-原报告更新时间：2026-10-15；本次只同步已有记录，未重跑实验。完整快照逐字节保存，报告中的服务器路径和未收录辅助文档仍为原始来源记录，不代表可跨服务器访问。实验卡保留现有仓库内证据链接；新增章节的原始路径以代码形式列出。第 5 节结论限定为历史三 seed 实验，新增结果按各节协议解释。
+原报告更新时间：2026-10-15；本次只同步已有记录，未重跑实验。完整快照在本地逐字节保存，GitHub 阅读版只调整链接与来源说明；报告中的服务器路径和未收录辅助文档仍为原始来源记录，不代表可跨服务器访问。实验卡链接公开 Markdown 报告，详细证据的本地位置以代码形式列出。第 5 节结论限定为历史三 seed 实验，新增结果按各节协议解释。
 
 本文档汇总当前已经完成的 video–text 和 audio–text zero-shot retrieval
 实验。所有表格均报告 Recall@1（R@1，%）。Video–text 分别报告最终
@@ -334,22 +334,22 @@ ITM，因此不能解释为纯 audio–text Stage-1 direct retrieval。
 汇总文件：
 
 - PMRL/Ours video–text Markdown：
-  [paired_zeroshot.md](../results/EXP-001/2026-10-20/zero_shot/paired_zeroshot.md)
+  [paired_zeroshot.md](../summaries/EXP-001/2026-10-20/zero_shot/paired_zeroshot.md)
 - PMRL/Ours video–text JSON：
-  [paired_zeroshot.json](../results/EXP-001/2026-10-20/zero_shot/paired_zeroshot.json)
+  paired_zeroshot.json（本地：`results/EXP-001/2026-10-20/zero_shot/paired_zeroshot.json`）
 - VAST/GRAM/HyperGRAM/TRIANGLE video–text JSON：
-  [external_local.json](../results/EXP-001/2026-10-20/zero_shot/external_local.json)
+  external_local.json（本地：`results/EXP-001/2026-10-20/zero_shot/external_local.json`）
 - PMRL/Ours audio–text JSON：
-  [paired_audio_zeroshot.json](../results/EXP-001/2026-10-20/zero_shot/paired_audio_zeroshot.json)
+  paired_audio_zeroshot.json（本地：`results/EXP-001/2026-10-20/zero_shot/paired_audio_zeroshot.json`）
 - VAST/GRAM/HyperGRAM/TRIANGLE audio–text JSON：
-  [external_audio_zeroshot.json](../results/EXP-001/2026-10-20/zero_shot/external_audio_zeroshot.json)
+  external_audio_zeroshot.json（本地：`results/EXP-001/2026-10-20/zero_shot/external_audio_zeroshot.json`）
 - PMRL/Ours 纯 audio–text Stage-1 direct JSON：
-  [paired_audio_stage1_direct.json](../results/EXP-001/2026-10-20/zero_shot/paired_audio_stage1_direct.json)
+  paired_audio_stage1_direct.json（本地：`results/EXP-001/2026-10-20/zero_shot/paired_audio_stage1_direct.json`）
 - VAST/GRAM/HyperGRAM/TRIANGLE 纯 audio–text Stage-1 direct JSON：
-  [external_audio_stage1_direct.json](../results/EXP-001/2026-10-20/zero_shot/external_audio_stage1_direct.json)
-- PMRL `tau1=0.1` 三 seed JSON：[pmrl_tau1_0p1.json](../results/EXP-001/2026-10-20/zero_shot/pmrl_tau1_0p1.json)
-- PMRL `tau1=0.07` 三 seed JSON：[pmrl_tau1_0p07.json](../results/EXP-001/2026-10-20/zero_shot/pmrl_tau1_0p07.json)
-- Video–text Top-20 三 seed JSON：[video_top20.json](../results/EXP-001/2026-10-20/zero_shot/video_top20.json)
+  external_audio_stage1_direct.json（本地：`results/EXP-001/2026-10-20/zero_shot/external_audio_stage1_direct.json`）
+- PMRL `tau1=0.1` 三 seed JSON：pmrl_tau1_0p1.json（本地：`results/EXP-001/2026-10-20/zero_shot/pmrl_tau1_0p1.json`）
+- PMRL `tau1=0.07` 三 seed JSON：pmrl_tau1_0p07.json（本地：`results/EXP-001/2026-10-20/zero_shot/pmrl_tau1_0p07.json`）
+- Video–text Top-20 三 seed JSON：video_top20.json（本地：`results/EXP-001/2026-10-20/zero_shot/video_top20.json`）
 
 逐 seed 指标位于：
 
@@ -377,7 +377,7 @@ eval/top20/<family>/<name>/seed-<seed>/metrics.json
 位于 `external/` 路径。
 
 
-补充权重消融汇总：[entailment=0.2](../results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p2.json)、[entailment=0.3](../results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p3.json)、[entailment=0.5](../results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p5.json)。原始逐 seed 文件留在源服务器；上述轻量汇总与原报告已纳入[来源及哈希清单](../results/manifest.json)。
+补充权重消融汇总：entailment=0.2（本地：`results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p2.json`）、entailment=0.3（本地：`results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p3.json`）、entailment=0.5（本地：`results/EXP-001/2026-10-20/zero_shot/ours_entailment_0p5.json`）。原始逐 seed 文件留在源服务器；上述轻量汇总与原报告已纳入来源及哈希清单（本地：`results/manifest.json`）。
 
 <a id="meru-paired"></a>
 
@@ -669,7 +669,7 @@ VAST 86,707 条 accepted 标注、TVAS 原生训练、batch128、学习率5e-5�
 
 512 维，seed 50，四组各 1,360 步；Perron/Text/SVD 的约束权重为 0.1。主比较是 Perron 对本机 E0。八卡全局 batch 64。本轮属于独立探索，不与服务器 A 的结果直接配对。
 
-精确设置与运行清单见[执行方案](../../Hyperbolic-Omnimodal/experiments/next_steps/SERVER_B_EXECUTION_20261014.md)和[运行目录](../../Hyperbolic-Omnimodal/outputs/server_b_20261014/)。
+精确设置与运行清单见执行方案（源路径，需对应服务器：`../Hyperbolic-Omnimodal/experiments/next_steps/SERVER_B_EXECUTION_20261014.md`）和运行目录（源路径，需对应服务器：`../Hyperbolic-Omnimodal/outputs/server_b_20261014`）。
 
 ### 结果
 
@@ -682,7 +682,7 @@ VAST 86,707 条 accepted 标注、TVAS 原生训练、batch128、学习率5e-5�
 | Text λ=0.1 | 41.80 | **54.60** | **4.80** |
 | SVD λ=0.1 | **42.05** | 54.40 | <ins>4.75</ins> |
 
-带蕴含约束的三组锥满足率均为 0%。原始[汇总表](../results/EXP-001/2026-10-20/summary.md)、[结构化结果](../results/EXP-001/2026-10-20/summary.json)、[完成状态](../../Hyperbolic-Omnimodal/outputs/server_b_20261014/controller_status.json)。
+带蕴含约束的三组锥满足率均为 0%。原始[汇总表](../summaries/EXP-001/2026-10-20/summary.md)、结构化结果（本地：`results/EXP-001/2026-10-20/summary.json`）、完成状态（源路径，需对应服务器：`../Hyperbolic-Omnimodal/outputs/server_b_20261014/controller_status.json`）。
 
 ### 结论与下一步
 

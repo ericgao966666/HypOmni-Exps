@@ -13,18 +13,18 @@
 | 仅距离 | <ins>15.0879</ins> | <ins>24.0234</ins> |
 | 完整几何 | **18.4570** | **24.0723** |
 
-[完整报告](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/GEOMETRY_PROBE_REPORT.md) · [机器结果](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/geometry_probe_results.json) · [困难来源诊断](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/HARD_DIAGNOSTIC_REPORT.md)。单seed且小幅差异未做种子稳定性验证；本探针不是token ITM，也不是PMRL对照。
+[完整报告](../summaries/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/GEOMETRY_PROBE_REPORT.md) · 机器结果（本地：`results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/geometry_probe_results.json`） · [困难来源诊断](../summaries/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/HARD_DIAGNOSTIC_REPORT.md)。单seed且小幅差异未做种子稳定性验证；本探针不是token ITM，也不是PMRL对照。
 
 ## 早期结构与学习率对照
 
 原生matcher LR1e-4在500步达到39.06%，2000步回落到35.67%；同候选零步原生matcher为31.59%。轻量matcher三学习率末轮仅3.47%、2.10%、4.20%。不同初始化结构的差距不证明所有统一matcher无效，但当前轻量基线不足以支撑进一步层级归因。
 
-![含零步参照的早期C0曲线](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/07_c0_with_zero.png)
+含零步参照的早期C0曲线（图件仅存本地：`results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/07_c0_with_zero.png`）
 
-此图为四组seed50早期条件，与后续低学习率C0三seed是不同协议。[曲线PDF](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/07_c0_with_zero.pdf)。
+此图为四组seed50早期条件，与后续低学习率C0三seed是不同协议。曲线PDF（本地：`results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/07_c0_with_zero.pdf`）。
 
-![冻结七节点的半径分布](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/01_radial_overview.png)
+冻结七节点的半径分布（图件仅存本地：`results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/01_radial_overview.png`）
 
-半径分层只描述冻结表示，不能替代严格锥包含或有效重排。[完整分析及图注](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/REPORT.md) · [数值](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/analysis.json) · [逐边统计](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/edge_statistics.csv) · [图集PDF](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/all_figures.pdf)。
+半径分层只描述冻结表示，不能替代严格锥包含或有效重排。[完整分析及图注](../summaries/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/REPORT.md) · 数值（本地：`results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/analysis.json`） · 逐边统计（本地：`results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/edge_statistics.csv`） · 图集PDF（本地：`results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/analysis_20261027/all_figures.pdf`）。
 
-四组早期C0均有DONE；几何探针完成证据、协议与历史恢复信息见[结果目录](../results/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive/)及[运行索引](../runs/EXP-20261026-server-b-itm-geometry-diagnostics/README.md)。未追加训练或读取新的测试集。
+四组早期C0均有DONE；几何探针完成证据、协议与历史恢复信息见[结果目录](../summaries/EXP-20261026-server-b-itm-geometry-diagnostics/2026-10-28-archive)及运行索引（本地：`runs/EXP-20261026-server-b-itm-geometry-diagnostics/README.md`）。未追加训练或读取新的测试集。

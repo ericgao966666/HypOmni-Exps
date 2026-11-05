@@ -1,6 +1,6 @@
 # 多模态低维端到端几何对照
 
-[返回实验总览](../README.md) · [五方法展示版](../results/EXP-009/2026-10-20-server-b-five-methods/README.md)
+[返回实验总览](../README.md) · [五方法展示版](../summaries/EXP-009/2026-10-20-server-b-five-methods/README.md)
 
 | 字段 | 内容 |
 |---|---|
@@ -9,7 +9,7 @@
 | 实验日期 / 最后核对 | 2026-10-19 至 2026-10-20 / 2026-10-20T17:57:38.608924+00:00 |
 | 来源服务器 | server-b，交接接收端；本机路径按 SYNC.md 登记在忽略的 `config/servers.local.json` |
 | 前序 | [旧 MSRVTT 微调](EXP-006-msrvtt-finetune.md)、[几何对照](EXP-007-coco-geometry.md) |
-| 运行与证据 | [43 次完成训练及失败重跑记录](../runs/EXP-009/README.md)、[源码与启动清单](../results/EXP-009/2026-10-20-server-b/provenance/run_provenance.json) |
+| 运行与证据 | 43 次完成训练及失败重跑记录（本地：`runs/EXP-009/README.md`）、源码与启动清单（本地：`results/EXP-009/2026-10-20-server-b/provenance/run_provenance.json`） |
 
 ## 范围、完成数与读数口径
 
@@ -38,7 +38,7 @@
 | 精度 | CUDA autocast FP16；自有方向头 FP32、几何计算 FP64；非有限梯度使运行失败，不静默跳步 |
 | 卡数 | VAST 各维度单卡；GRAM 16D 成功重跑单卡；64D 七方法均单卡；其他主实验多数双卡。每组实际 world size 已写入 CSV/运行记录，所有组全局 batch 均为 64 |
 
-原始协议：[28 组主体](../results/EXP-009/2026-10-20-server-b/provenance/protocol_main28.json)、[16D](../results/EXP-009/2026-10-20-server-b/provenance/protocol_d16.json)、[64D](../results/EXP-009/2026-10-20-server-b/provenance/protocol_d64.json)、[λ=1.0](../results/EXP-009/2026-10-20-server-b/provenance/protocol_lambda1.json)。数据哈希见 [MSRVTT READY](../results/EXP-009/2026-10-20-server-b/provenance/msrvtt_ready.json)。
+原始协议：28 组主体（本地：`results/EXP-009/2026-10-20-server-b/provenance/protocol_main28.json`）、16D（本地：`results/EXP-009/2026-10-20-server-b/provenance/protocol_d16.json`）、64D（本地：`results/EXP-009/2026-10-20-server-b/provenance/protocol_d64.json`）、λ=1.0（本地：`results/EXP-009/2026-10-20-server-b/provenance/protocol_lambda1.json`）。数据哈希见 MSRVTT READY（本地：`results/EXP-009/2026-10-20-server-b/provenance/msrvtt_ready.json`）。
 
 ### 四个自有版本的结构与目标
 
@@ -69,7 +69,7 @@
 | MSRVTT 训练 | 十轮、全局 batch64、最高头部 LR 2e-5 | 相同十轮/全局 batch/LR 预算 |
 | 原空间平均半径 T/V/A → 双模态 → TVA | 2.161 → 2.487 → 3.934 | 512D best：1.0047 → 1.0069 → 1.0249 |
 
-旧来源证据见 [EXP-006 起始权重说明](EXP-006-msrvtt-finetune.md#微调前的结果从哪里来)、[原协议](../results/EXP-006/2026-10-20/provenance/finetune_protocol.json)及 [EXP-003 头部训练](EXP-003-subset-mechanisms.md)。新同步的[旧训练预算与checkpoint审计](../results/EXP-004/2026-10-21/training/checkpoint_audit.json)已补齐此前缺失的信息：共享warmup为8轮/2576步，主训练任务为30轮/9660步；实际导入MSRVTT的是主训练第22轮的best，而旧VAST冻结测试使用第30轮last。基础协议记录warmup_lr=3e-4、head_lr=1e-4；第25/30轮实际记录LR=5e-5。任务完成预算与选中checkpoint的训练步数应分开解释。旧方案径向分层明显，但严格锥包含同样未成功。
+旧来源证据见 [EXP-006 起始权重说明](details/EXP-006-provenance.md#微调前的结果从哪里来)、原协议（本地：`results/EXP-006/2026-10-20/provenance/finetune_protocol.json`）及 [EXP-003 头部训练](EXP-003-subset-mechanisms.md)。新同步的旧训练预算与checkpoint审计（本地：`results/EXP-004/2026-10-21/training/checkpoint_audit.json`）已补齐此前缺失的信息：共享warmup为8轮/2576步，主训练任务为30轮/9660步；实际导入MSRVTT的是主训练第22轮的best，而旧VAST冻结测试使用第30轮last。基础协议记录warmup_lr=3e-4、head_lr=1e-4；第25/30轮实际记录LR=5e-5。任务完成预算与选中checkpoint的训练步数应分开解释。旧方案径向分层明显，但严格锥包含同样未成功。
 
 ## 主实验结果：42 组
 
@@ -85,9 +85,9 @@
 | 欧氏有锥 | 5.64 | <ins>10.86</ins> | 14.89 | 19.70 | <ins>21.85</ins> | <ins>22.57</ins> |
 | 欧氏无锥 | 5.64 | 10.63 | 14.93 | 19.98 | **21.96** | **22.61** |
 
-![六维度七方法的测试平均R@1](../results/EXP-009/2026-10-20-server-b/retrieval_vs_dimension.png)
+六维度七方法的测试平均R@1（图件仅存本地：`results/EXP-009/2026-10-20-server-b/retrieval_vs_dimension.png`）
 
-[图 PDF](../results/EXP-009/2026-10-20-server-b/retrieval_vs_dimension.pdf) · [原始精度 CSV，42组](../results/EXP-009/2026-10-20-server-b/retrieval_42.csv) · [完整六方向 R@1/5/10 与 MedR 表](../results/EXP-009/2026-10-20-server-b/directional_results.md) · [43组结构化指标](../results/EXP-009/2026-10-20-server-b/metrics_43.json)
+图 PDF（本地：`results/EXP-009/2026-10-20-server-b/retrieval_vs_dimension.pdf`） · 原始精度 CSV，42组（本地：`results/EXP-009/2026-10-20-server-b/retrieval_42.csv`） · [完整六方向 R@1/5/10 与 MedR 表](../summaries/EXP-009/2026-10-20-server-b/directional_results.md) · 43组结构化指标（本地：`results/EXP-009/2026-10-20-server-b/metrics_43.json`）
 
 ### 平均 R@5
 
@@ -117,7 +117,7 @@
 
 ## 后续 16D 权重消融：λ=0.1 → 1.0
 
-这是看到原结果后提出的探索性实验，不并入原 42 组的固定条件排名。保持相同 VAST 起点、半径 r=1、16D、seed50、双卡 world size=2、全局 batch64、十轮预算；从头训练，仅将自有锥损失系数从 0.1 改为 1.0。实际损失日志已确认 λ=1.0 生效，不只是改了配置标签；[唯一训练源码改动](../results/EXP-009/2026-10-20-server-b/provenance/lambda1_loss_weight.patch)。
+这是看到原结果后提出的探索性实验，不并入原 42 组的固定条件排名。保持相同 VAST 起点、半径 r=1、16D、seed50、双卡 world size=2、全局 batch64、十轮预算；从头训练，仅将自有锥损失系数从 0.1 改为 1.0。实际损失日志已确认 λ=1.0 生效，不只是改了配置标签；唯一训练源码改动（本地：`results/EXP-009/2026-10-20-server-b/provenance/lambda1_loss_weight.patch`）。
 
 | λ | 测试 R@1 | 测试 R@5 | 测试 R@10 | 严格锥满足率 | Best epoch |
 |---:|---:|---:|---:|---:|---:|
@@ -126,25 +126,25 @@
 
 R@1 增加 **1.00 个百分点**，R@5/10 小幅下降；严格锥满足率仍为 0%。增加权重扩大了径向间隔、降低了原空间违约，但未建立严格包含。表中零满足率的并列加粗遵循排名格式，不表示约束成功。该实验仍是本轮重新初始化流程，没有补回旧方案的头预训练。
 
-![16D锥权重消融：训练、验证、测试与原空间半径](../results/EXP-009/2026-10-20-server-b/lambda16_comparison.png)
+16D锥权重消融：训练、验证、测试与原空间半径（图件仅存本地：`results/EXP-009/2026-10-20-server-b/lambda16_comparison.png`）
 
 上排分别为验证 R@1 和训练中的**未加权**锥违反量；下排为 best 测试 Recall 与原空间平均半径，不能混同验证/测试或加权/未加权损失。
 
-[消融图 PDF](../results/EXP-009/2026-10-20-server-b/lambda16_comparison.pdf) · [完整消融结果及验证曲线](../results/EXP-009/2026-10-20-server-b/lambda_comparison.json) · [两种权重的训练/验证曲线CSV](../results/EXP-009/2026-10-20-server-b/lambda16_training_curves.csv)
+消融图 PDF（本地：`results/EXP-009/2026-10-20-server-b/lambda16_comparison.pdf`） · 完整消融结果及验证曲线（本地：`results/EXP-009/2026-10-20-server-b/lambda_comparison.json`） · 两种权重的训练/验证曲线CSV（本地：`results/EXP-009/2026-10-20-server-b/lambda16_training_curves.csv`）
 
 ## 几何可视化与约束是否充分
 
 原 λ=0.1 的 8/16/32/64/128/512D 双曲有锥模型，best 测试与最后一轮验证的严格锥满足率均为 **0%**。各维度 TVA 的**平均原空间半径**均为七类表示中最大；存在弱径向顺序，但角度条件远未满足。不能把 CO-SNE 中 TVA 靠近中心解释为原空间 TVA 半径最小。
 
-![六个维度的原空间半径和锥约束](../results/EXP-009/2026-10-20-server-b/geometry/native_constraints_all_widths.png)
+六个维度的原空间半径和锥约束（图件仅存本地：`results/EXP-009/2026-10-20-server-b/geometry/native_constraints_all_widths.png`）
 
 HoroPCA 和 CO-SNE 每个维度固定抽取同一批 48 个测试视频、7 子集共 336 点；训练种子及本报告投影种子均为 50。原空间指标使用完整 884 视频。图中的颜色是观测子集类型，不是语义类别；灰色连线表示指定父子关系，不代表通过了包含判定。
 
-[8/16D 投影图](../results/EXP-009/2026-10-20-server-b/geometry/projections_8_16.png) · [32/64D 投影图](../results/EXP-009/2026-10-20-server-b/geometry/projections_32_64.png) · [128/512D 投影图](../results/EXP-009/2026-10-20-server-b/geometry/projections_128_512.png) · [全部五页 PDF](../results/EXP-009/2026-10-20-server-b/geometry/all_widths_geometry_report.pdf)
+8/16D 投影图（本地：`results/EXP-009/2026-10-20-server-b/geometry/projections_8_16.png`） · 32/64D 投影图（本地：`results/EXP-009/2026-10-20-server-b/geometry/projections_32_64.png`） · 128/512D 投影图（本地：`results/EXP-009/2026-10-20-server-b/geometry/projections_128_512.png`） · 全部五页 PDF（本地：`results/EXP-009/2026-10-20-server-b/geometry/all_widths_geometry_report.pdf`）
 
-HoroPCA 使用作者实现、500步、LR=0.05，Frechet 中心化后把原始原点通过等距变换复位；CO-SNE 使用作者实现、1000步、perplexity20、LR=5、径向项步长0.1、gamma0.1。记录了旧 torch.solve 的兼容更新、CO-SNE 越界点的径向投影修正及调试历史内存优化，原始作者梯度约定保留；[实现来源](../results/EXP-009/2026-10-20-server-b/geometry/author_implementation_manifest.json)、[数值一致性检查](../results/EXP-009/2026-10-20-server-b/geometry/implementation_checks.json)。
+HoroPCA 使用作者实现、500步、LR=0.05，Frechet 中心化后把原始原点通过等距变换复位；CO-SNE 使用作者实现、1000步、perplexity20、LR=5、径向项步长0.1、gamma0.1。记录了旧 torch.solve 的兼容更新、CO-SNE 越界点的径向投影修正及调试历史内存优化，原始作者梯度约定保留；实现来源（本地：`results/EXP-009/2026-10-20-server-b/geometry/author_implementation_manifest.json`）、数值一致性检查（本地：`results/EXP-009/2026-10-20-server-b/geometry/implementation_checks.json`）。
 
-CO-SNE 的距离与半径保真度偏低；部分半径排序相关性为负，二维环状或中心聚集不能证明层级。HoroPCA 也丢失邻域信息。质量数值见 [CSV](../results/EXP-009/2026-10-20-server-b/geometry/projection_quality.csv)、[保真度图](../results/EXP-009/2026-10-20-server-b/geometry/projection_faithfulness.png)、[分析来源](../results/EXP-009/2026-10-20-server-b/geometry/provenance.json)。此前单独的16D探索曾尝试投影 seed50/51/52及较小步长，它们不代表多模型训练；本页跨维度图只使用投影seed50。
+CO-SNE 的距离与半径保真度偏低；部分半径排序相关性为负，二维环状或中心聚集不能证明层级。HoroPCA 也丢失邻域信息。质量数值见 CSV（本地：`results/EXP-009/2026-10-20-server-b/geometry/projection_quality.csv`）、保真度图（本地：`results/EXP-009/2026-10-20-server-b/geometry/projection_faithfulness.png`）、分析来源（本地：`results/EXP-009/2026-10-20-server-b/geometry/provenance.json`）。此前单独的16D探索曾尝试投影 seed50/51/52及较小步长，它们不代表多模型训练；本页跨维度图只使用投影seed50。
 
 目前检索与 entailment 共用同一维度，没有独立 entailment 分支。现有高维对照不支持“仅因16D太小而失败”，但还没有独立固定检索16D、只改变 entailment 维度的消融。权重、头部预训练、半径优化和父锥兼容性需要分开检验。
 
@@ -157,7 +157,7 @@ CO-SNE 的距离与半径保真度偏低；部分半径排序相关性为负，�
 5. 64D最终七方法各单卡，GPU0/2/3/4/5/6/7分别运行VAST/GRAM/PMRL/双曲有锥/双曲无锥/欧氏有锥/欧氏无锥，cap40GiB。独立控制器监控显存和磁盘余量，未停止其他人的进程。
 6. λ=1.0 独立快照按用户要求直接在GPU1/2训练；只做源码/资源一致性核对，没有新完整CPU/GPU门槛，不把它写成已通过预检。最终43组全部完成预算和测试；源码、协议、输入与结果哈希均已核对。
 
-逐项命令、PID、GPU、运行时间、实际 world size、源码/协议哈希和失败恢复关系见[单次运行目录](../runs/EXP-009/README.md)与[完整来源清单](../results/EXP-009/2026-10-20-server-b/provenance/run_provenance.json)。代码基础 commit `8457b8e615837203f48d3c11957ae8777811a827` 仅代表交接底座；实际训练使用未提交修订与独立快照，以各运行源码摘要为准，不能用当前仓库 HEAD 冒充执行版本。
+逐项命令、PID、GPU、运行时间、实际 world size、源码/协议哈希和失败恢复关系见单次运行目录（本地：`runs/EXP-009/README.md`）与完整来源清单（本地：`results/EXP-009/2026-10-20-server-b/provenance/run_provenance.json`）。代码基础 commit `8457b8e615837203f48d3c11957ae8777811a827` 仅代表交接底座；实际训练使用未提交修订与独立快照，以各运行源码摘要为准，不能用当前仓库 HEAD 冒充执行版本。
 
 ## 结论与后续
 

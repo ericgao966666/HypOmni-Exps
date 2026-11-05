@@ -23,7 +23,7 @@ Ours 相对 VAST 的 macro 提升 3.88 pp，条件样本 bootstrap 区间 [2.70,
 
 几何测量中八类边半径顺序正确率 100%，A→TA 为 99.77%，但九类边的严格锥满足率均为 0%。平均 exterior angle 为 30.19°–146.08°，平均 aperture 仅 1.79°–2.91°，显示径向顺序与角度包含没有共同学成。
 
-完整结果按微调阶段分别列出，T/V/A 分别表示文本/视频/音频。R@1、R@5、R@10 越高越好，MedR（中位排名）越低越好；各表各列按展示精度标记最优和次优。Recall 来自[原始 CSV](../../results/EXP-006/2026-10-20/comparison.csv)，MedR 来自[原始 JSON](../../results/EXP-006/2026-10-20/comparison.json)。
+完整结果按微调阶段分别列出，T/V/A 分别表示文本/视频/音频。R@1、R@5、R@10 越高越好，MedR（中位排名）越低越好；各表各列按展示精度标记最优和次优。Recall 来自原始 CSV（本地：`results/EXP-006/2026-10-20/comparison.csv`），MedR 来自原始 JSON（本地：`results/EXP-006/2026-10-20/comparison.json`）。
 
 ### 微调后完整结果
 

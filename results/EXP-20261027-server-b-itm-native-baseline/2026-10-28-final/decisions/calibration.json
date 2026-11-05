@@ -1,5 +1,0 @@
-{
-  "calibration": "cal_lr1e5",
-  "lr": 1e-05,
-  "steps": 2000
-}
