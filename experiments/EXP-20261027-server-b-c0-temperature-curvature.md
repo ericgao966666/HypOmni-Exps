@@ -1,11 +1,15 @@
 # C0温度、曲率与检索—蕴含取舍
 
+λ=.25补充已归档：固定30轮、seed50的R@1为18.457%，介于λ=.2的18.750%和λ=.3的18.107%之间；平均超锥角60.022°，严格合法满足仍为0%。原79条件加本次1组，累计80条件；没有新微调或测试结果。
+
+[λ=.25匹配报告](../summaries/recent-20261105/lambda025.md) · 文档补录：2026-11-05；本次读取现存产物。
+
 [返回实验总览](../README.md)
 
 | 字段 | 内容 |
 | --- | --- |
 | 编号 | EXP-20261027-server-b-c0-temperature-curvature |
-| 状态 | 原65组完成；补充13/13完成、0失败；本轮进程全部退出 |
+| 状态 | 原79条件及λ=.25单组结果均已归档，累计80条件；历史运行核对时间见下文 |
 | 最后核对 | 2026-10-27T15:45:14.858701+00:00 UTC |
 | 前序 | [单变量蕴含实验](EXP-20261026-server-b-entailment-singlefactor.md) |
 | λ=.2补充结果 | [新报告](../summaries/EXP-20261027-server-b-c0-temperature-curvature/2026-10-27-lambda02-results/REPORT.md) · [匹配比较](../summaries/EXP-20261027-server-b-c0-temperature-curvature/2026-10-27-lambda02-results/LAMBDA_COMPARISON.md) |

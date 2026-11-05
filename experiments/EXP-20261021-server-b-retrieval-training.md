@@ -80,3 +80,7 @@ R0与R3的HoroPCA、CO-SNE及原空间半径（图件仅存本地：`results/EXP
 10月28日新增64D R3 λ=.2、c/τ均可学习的单seed候选，预算为8轮warmup＋30轮冻结＋10轮微调；目前只有运行记录，不能替代原验证锁定方案或宣称产生新收益。与同R3欧氏比较时，欧氏温度固定，因此不是纯曲率消融。运行与协议（本地：`runs/EXP-20261021-server-b-retrieval-training/20261028T123204-server-b-r3-d64-lambda02-learnct-seed50.md`）。
 
 合并前本地卡片的完整过程与负结果保留在本地历史附录（本地：`runs/EXP-20261021-server-b-retrieval-training/history-local-before-reconciliation-20261028.md`），远端旧过程附录亦保留。
+
+## 后续R3曲率与温度候选
+
+2026-11-05补录：[独立R3曲率卡](EXP-20261029-server-a-r3-curvature.md)记录64D验证R@1 28.467%的固定参数候选及17条件头部扫描。它没有新增测试集推理，不能填补本卡历史VAST/PMRL扩维6项缺失，也不与本卡最终测试主表混排。
