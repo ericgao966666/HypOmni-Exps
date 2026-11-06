@@ -133,3 +133,8 @@ __pycache__/
 # Reviewed common-VAST 5+25 protocol and reusable target-server guide, 2026-11-06.
 !/experiments/EXP-20261106-server-b-vast-init-baselines.md
 !/operations/OPS-20261106-native-baselines-5plus25.md
+
+# Fixed15 protocol revision and source-side diagnostic summary, 2026-11-06.
+!/experiments/EXP-20261106-server-b-geodesic-fixed15.md
+!/experiments/details/PROTOCOL-20261106-fixed15-no-early-stop.md
+!/operations/OPS-20261106-native-baselines-fixed15.md

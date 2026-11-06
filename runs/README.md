@@ -6,4 +6,4 @@
 
 已有 run 文件保持原位和原字节；当前训练状态只能以实际核对时间为准。新 clone 不会获得这些记录。首次从旧版本更新前，按 [同步说明](../SYNC.md) 备份并恢复，具体访问规则见 [本地证据说明](../LOCAL_ARTIFACTS.md)。
 
-VAST/GRAM/PMRL共同VAST初始化、5+25训练的新服务器通用步骤见[操作指南](../operations/OPS-20261106-native-baselines-5plus25.md)；该指南可随Git同步，实际PID、路径和运行记录仍只存本地。
+VAST/GRAM/PMRL共同VAST初始化、固定15轮、无早停的新服务器通用步骤见[操作指南](../operations/OPS-20261106-native-baselines-fixed15.md)；该指南可随Git同步，实际PID、路径和运行记录仍只存本地。
