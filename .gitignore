@@ -129,3 +129,7 @@ __pycache__/
 !/summaries/recent-20261105/no_floor.md
 !/summaries/recent-20261105/official_cone.md
 !/summaries/recent-20261105/r3_curvature.md
+
+# Reviewed common-VAST 5+25 protocol and reusable target-server guide, 2026-11-06.
+!/experiments/EXP-20261106-server-b-vast-init-baselines.md
+!/operations/OPS-20261106-native-baselines-5plus25.md

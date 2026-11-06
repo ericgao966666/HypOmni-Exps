@@ -6,12 +6,13 @@
 
 本目录是独立 Git 仓库，分支为 `main`，远端为 [ericgao966666/HypOmni-Exps](https://github.com/ericgao966666/HypOmni-Exps)。两台服务器的使用方式见[同步说明](SYNC.md)，维护规则见 [AGENTS.md](AGENTS.md)。本地内容是否已经推送，以 Git 分支状态和远端提交记录为准。
 
-快捷入口：[结果报告](summaries/README.md) · [本地证据与图件](LOCAL_ARTIFACTS.md) · [运行记录说明](runs/README.md) · [本机路径配置](config/README.md)
+快捷入口：[新服务器5+25操作指南](operations/OPS-20261106-native-baselines-5plus25.md) · [结果报告](summaries/README.md) · [本地证据与图件](LOCAL_ARTIFACTS.md) · [运行记录说明](runs/README.md) · [本机路径配置](config/README.md)
 
 同步范围于 **2026-11-05** 调整为总结文档；这次整理没有重新运行实验，也没有更新各实验原有的结果核对日期。数据与图件不再出现在当前 GitHub 文件树，旧提交历史保留。两台服务器首次更新的本地文件保护步骤见 [SYNC.md](SYNC.md)。
 
 ## 当前关注
 
+- **共同VAST初始化的5+25基线待目标端运行**：[实验卡](experiments/EXP-20261106-server-b-vast-init-baselines.md)统一VAST/GRAM/PMRL的预训练起点与阶段预算；[按步骤操作](operations/OPS-20261106-native-baselines-5plus25.md)。尚无本轮正式性能结果。
 - **近期实验已补录**：[近期索引](summaries/recent-20261105/README.md)按研究问题汇总角度、K/合法域、ITM、AURORA及官方权重诊断，完整数据继续只存本地。
 - **最新端到端比较仍缺GRAM**：[30轮与五数据集](experiments/EXP-20261103-server-a-joint30-five-datasets.md)完成15/20项；MSRVTT角度ITM R@1为41.007%，测地线39.649%、PMRL37.613%，不代表完整四方法排名。
 - **K扫描的检索回升可重复，完整合法层级仍失败**：[测地线与下界](experiments/EXP-20261103-server-a-geodesic-domain.md)中K=.3→.5三seed配对R@1 +0.564±0.125pp；动态合法域由参数化保证，不能当作层级学习成功。
@@ -38,6 +39,7 @@
 
 | 编号 / 简称 | 研究问题 | 项目 | 最近实验记录 | 状态 | 当前判断 |
 |---|---|---|---|---|---|
+| 共同VAST起点5+25基线 | [共同初始化下比较VAST/GRAM/PMRL](experiments/EXP-20261106-server-b-vast-init-baselines.md) | Hyperbolic-Omnimodal | 11-06方案核对 | 已交接，目标端待运行 | 尚无正式结果；[操作指南](operations/OPS-20261106-native-baselines-5plus25.md) |
 | 锥训练参数 | [锥训练参数：改善局部满足仍未形成完整层级](experiments/EXP-20261029-server-a-cone-parameters.md) | Hyperbolic-Omnimodal | 10-29；11-05核对 | 已完成 | K=.3合法满足12.869%，检索−0.684pp |
 | 原C0几何控制 | [原C0几何控制：双曲无锥略优，锥约束有检索代价](experiments/EXP-20261030-server-a-c0-geometry.md) | Hyperbolic-Omnimodal | 10-30；11-05核对 | 已完成 | 512D无锥双曲R@1 19.019%，欧氏18.783% |
 | R3固定曲率 | [R3固定曲率：64D验证候选小幅提高，尚无新测试](experiments/EXP-20261029-server-a-r3-curvature.md) | Hyperbolic-Omnimodal | 10-29；11-05核对 | 已完成 | 固定c=.3/τ=.035：MSRVTT验证28.467% |
