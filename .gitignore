@@ -138,3 +138,7 @@ __pycache__/
 !/experiments/EXP-20261106-server-b-geodesic-fixed15.md
 !/experiments/details/PROTOCOL-20261106-fixed15-no-early-stop.md
 !/operations/OPS-20261106-native-baselines-fixed15.md
+
+# Reviewed MSRVTT head-initialization protocol, 2026-11-08.
+!/experiments/EXP-20261107-server-b-msrvtt-head-init.md
+!/experiments/details/PROTOCOL-20261107-msrvtt-head-init.md
