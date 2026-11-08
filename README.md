@@ -12,7 +12,7 @@
 
 ## 当前关注
 
-- **MSRVTT直接微调与head迁移，六组计划已确定**：[实验卡](experiments/EXP-20261107-server-b-msrvtt-head-init.md)比较两种初始化×三个K，统一2轮head＋8轮联合、逐轮验证，不早停；尚无正式结果。[完整协议](experiments/details/PROTOCOL-20261107-msrvtt-head-init.md)。
+- **MSRVTT直接微调与head迁移，六组队列已启动**：[实验卡](experiments/EXP-20261107-server-b-msrvtt-head-init.md)比较两种初始化×三个K，统一2轮head＋8轮联合、逐轮验证，不早停；11-08启动核对，尚无完整预算后的正式测试结果。[完整协议](experiments/details/PROTOCOL-20261107-msrvtt-head-init.md)。
 
 - **测地线改为固定15轮、无早停**：[新版与旧轮诊断](experiments/EXP-20261106-server-b-geodesic-fixed15.md)保留5轮head并联合训练10轮，每轮评估ITC/ITM/几何，完成预算后验证选模；旧轮第20轮ITC较早期峰值下降约7pp，新版尚无正式测试结果。
 - **共同VAST初始化的固定15轮基线待目标端运行**：[实验卡](experiments/EXP-20261106-server-b-vast-init-baselines.md)统一VAST/GRAM/PMRL的预训练起点与阶段预算；[按步骤操作](operations/OPS-20261106-native-baselines-fixed15.md)。尚无本轮正式性能结果。
