@@ -16,7 +16,7 @@
 
 - **MSRVTT直接微调与head迁移，六组队列已启动**：[实验卡](experiments/EXP-20261107-server-b-msrvtt-head-init.md)比较两种初始化×三个K，统一2轮head＋8轮联合、逐轮验证，不早停；11-08启动核对，尚无完整预算后的正式测试结果。[完整协议](experiments/details/PROTOCOL-20261107-msrvtt-head-init.md)。
 
-- **VAST固定15轮出现外部退化，正在恢复缺失checkpoint**：[结果与恢复记录](experiments/EXP-20261106-server-b-geodesic-fixed15.md)中K=.2/.5四集ITM均值由第9轮49.815%/49.717%降到第15轮47.528%/47.189%；11-08建立从完整第5轮状态重放的队列，保留全部轮次并核对原模型锚点，恢复结果待验证。
+- **VAST权重已恢复，正在补齐180个全轮次外部评测点**：[结果与恢复记录](experiments/EXP-20261106-server-b-geodesic-fixed15.md)的三K原锚点/逐轮/逐步记录全部复现；11-10启动epoch1–15×四集补评，复用40点、新测140点。此前稀疏节点显示后期退化，完整曲线待汇齐。
 - **共同VAST初始化的固定15轮基线待目标端运行**：[实验卡](experiments/EXP-20261106-server-b-vast-init-baselines.md)统一VAST/GRAM/PMRL的预训练起点与阶段预算；[按步骤操作](operations/OPS-20261106-native-baselines-fixed15.md)。尚无本轮正式性能结果。
 - **近期实验已补录**：[近期索引](summaries/recent-20261105/README.md)按研究问题汇总角度、K/合法域、ITM、AURORA及官方权重诊断，完整数据继续只存本地。
 - **最新端到端比较仍缺GRAM**：[30轮与五数据集](experiments/EXP-20261103-server-a-joint30-five-datasets.md)完成15/20项；MSRVTT角度ITM R@1为41.007%，测地线39.649%、PMRL37.613%，不代表完整四方法排名。
@@ -44,7 +44,7 @@
 
 | 编号 / 简称 | 研究问题 | 项目 | 最近实验记录 | 状态 | 当前判断 |
 |---|---|---|---|---|---|
-| 测地线固定15轮 | [固定15轮结果与checkpoint恢复](experiments/EXP-20261106-server-b-geodesic-fixed15.md) | Hyperbolic-Omnimodal | 11-08恢复来源核对 | 原训练完成；checkpoint恢复中 | 外部四集后期退化；从完整epoch5重放补齐权重，锚点一致性待验证 |
+| 测地线固定15轮 | [固定15轮结果与完整外部曲线](experiments/EXP-20261106-server-b-geodesic-fixed15.md) | Hyperbolic-Omnimodal | 11-10恢复与补评核对 | 权重恢复完成；180点补评中 | 恢复轨迹一致；旧保留点显示外部退化，完整轮次定位待完成 |
 | 共同VAST起点固定15轮基线 | [共同初始化下比较VAST/GRAM/PMRL](experiments/EXP-20261106-server-b-vast-init-baselines.md) | Hyperbolic-Omnimodal | 11-06方案核对 | 已交接，目标端待运行 | 尚无正式结果；[操作指南](operations/OPS-20261106-native-baselines-fixed15.md) |
 | 锥训练参数 | [锥训练参数：改善局部满足仍未形成完整层级](experiments/EXP-20261029-server-a-cone-parameters.md) | Hyperbolic-Omnimodal | 10-29；11-05核对 | 已完成 | K=.3合法满足12.869%，检索−0.684pp |
 | 原C0几何控制 | [原C0几何控制：双曲无锥略优，锥约束有检索代价](experiments/EXP-20261030-server-a-c0-geometry.md) | Hyperbolic-Omnimodal | 10-30；11-05核对 | 已完成 | 512D无锥双曲R@1 19.019%，欧氏18.783% |
