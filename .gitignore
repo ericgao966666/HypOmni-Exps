@@ -145,3 +145,6 @@ __pycache__/
 
 # Matched affine-head composition probe, 2026-11-10.
 !/experiments/EXP-20261110-server-b-msrvtt-composed-head-init.md
+
+# Reviewed weekly reconciliation, 2026-11-10.
+!/weekly/2026-11-03_2026-11-10.md
