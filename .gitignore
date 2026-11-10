@@ -142,3 +142,6 @@ __pycache__/
 # Reviewed MSRVTT head-initialization protocol, 2026-11-08.
 !/experiments/EXP-20261107-server-b-msrvtt-head-init.md
 !/experiments/details/PROTOCOL-20261107-msrvtt-head-init.md
+
+# Matched affine-head composition probe, 2026-11-10.
+!/experiments/EXP-20261110-server-b-msrvtt-composed-head-init.md

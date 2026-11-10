@@ -12,6 +12,8 @@
 
 ## 当前关注
 
+- **组合初始化保住VAST起点，两轮检索优于随机，cone仍为0**：[实验卡](experiments/EXP-20261110-server-b-msrvtt-composed-head-init.md)在884视频探索性test上两轮ITC/ITM R@1为37.048%/41.629%，随机对照19.457%/39.536%；组合初态ITC为36.086%。仅单seed短head阶段，不能单独归因三个额外组合head或外推完整微调收益。
+
 - **MSRVTT直接微调与head迁移，六组队列已启动**：[实验卡](experiments/EXP-20261107-server-b-msrvtt-head-init.md)比较两种初始化×三个K，统一2轮head＋8轮联合、逐轮验证，不早停；11-08启动核对，尚无完整预算后的正式测试结果。[完整协议](experiments/details/PROTOCOL-20261107-msrvtt-head-init.md)。
 
 - **VAST固定15轮出现外部退化，正在恢复缺失checkpoint**：[结果与恢复记录](experiments/EXP-20261106-server-b-geodesic-fixed15.md)中K=.2/.5四集ITM均值由第9轮49.815%/49.717%降到第15轮47.528%/47.189%；11-08建立从完整第5轮状态重放的队列，保留全部轮次并核对原模型锚点，恢复结果待验证。
