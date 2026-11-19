@@ -14,6 +14,7 @@
 __pycache__/
 
 # Explicit publication allowlist.
+!/experiments/EXP-20261112-server-a-hopa-joint-alignment.md
 !/.editorconfig
 !/.gitattributes
 !/.gitignore
@@ -134,20 +135,46 @@ __pycache__/
 !/experiments/EXP-20261106-server-b-vast-init-baselines.md
 !/operations/OPS-20261106-native-baselines-5plus25.md
 
+# HoPA spectral-theory rebuttal protocol, 2026-11-07.
+!/experiments/EXP-20261107-server-a-hopa-spectral-theory.md
+
 # Fixed15 protocol revision and source-side diagnostic summary, 2026-11-06.
 !/experiments/EXP-20261106-server-b-geodesic-fixed15.md
 !/experiments/details/PROTOCOL-20261106-fixed15-no-early-stop.md
 !/operations/OPS-20261106-native-baselines-fixed15.md
 
-# Reviewed MSRVTT head-initialization protocol, 2026-11-08.
-!/experiments/EXP-20261107-server-b-msrvtt-head-init.md
-!/experiments/details/PROTOCOL-20261107-msrvtt-head-init.md
+# HoPA Q5 rebuttal summary only.
+!/experiments/EXP-20261107-server-a-hopa-budget-efficiency.md
 
-# Matched affine-head composition probe, 2026-11-10.
-!/experiments/EXP-20261110-server-b-msrvtt-composed-head-init.md
+# HoPA Table 3 protocol and uncertainty summary only.
+!/experiments/EXP-20261107-server-a-hopa-cross-architecture.md
+!/summaries/EXP-20261107-server-a-hopa-cross-architecture/TABLE3_COMPLETE_REPORT.md
+
+# HoPA Table 9 joint-baseline tuning protocol and summary only.
+!/experiments/EXP-20261108-server-a-hopa-joint-tuning.md
+
+# HoPA low-tuple-budget paired study.
+!/experiments/EXP-20261108-server-a-hopa-low-budget.md
+!/experiments/EXP-20261110-server-a-hopa-random-head.md
+!/experiments/EXP-20261111-server-a-pmrl-positive-init.md
+!/experiments/EXP-20261111-server-a-hopa-positive-distill.md
+!/experiments/EXP-20261111-server-a-hopa-modality-scaling.md
 
 # Reviewed weekly reconciliation, 2026-11-10.
+!/experiments/EXP-20261107-server-b-msrvtt-head-init.md
+!/experiments/EXP-20261110-server-b-msrvtt-composed-head-init.md
+!/experiments/details/PROTOCOL-20261107-msrvtt-head-init.md
 !/weekly/2026-11-03_2026-11-10.md
+
+# Reviewed local rebuttal record reconciliation, 2026-11-12.
+!/summaries/rebuttal-20261112/README.md
+!/experiments/details/EXP-20261107-server-a-hopa-budget-efficiency-equal-budget.md
+
+# Reviewed fixed-final directional analysis and AC Q1, 2026-11-15.
+!/summaries/EXP-20261114-server-a-hopa-lm-directional/2026-11-15-fixed-final/REPORT.md
+
+# HoPA N100 3-pair plus spectral alignment, summary only.
+!/experiments/EXP-20261117-server-a-hopa-three-pair-lm.md
 
 # Reviewed result summaries and historical backfill, 2026-11-19.
 !/experiments/EXP-20260818-pmrl-objectives-width.md

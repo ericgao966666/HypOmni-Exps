@@ -6,6 +6,8 @@
 
 ## 近期实验补录
 
+- [HoPA Table 3跨架构实验完整报告](EXP-20261107-server-a-hopa-cross-architecture/TABLE3_COMPLETE_REPORT.md)（11-13整理）：三架构head/router、多seed、LanguageBind全量微调与不同LR、输入适配、OmniBind历史容量诊断，以及原生WBCE温度修正；保留历史结果和当前待补项目。
+- [Rebuttal：10个研究问题、reviewer对应及各补充实验目录](rebuttal-20261112/README.md)（11-12本地核对；含最终结果回填、负结果与待核实项）。
 - [2026-11-19 补录：完整五集测试、梯度路由、蒸馏与历史复现](recent-20261119/README.md)
 - [2026-10-28 至 11-05 的归档：13 个研究问题与 24 份报告](recent-20261105/README.md)
 

@@ -2,6 +2,8 @@
 
 `config/servers.local.json` 是被 Git 忽略的本机配置。它只登记各服务器已确认的路径，不会连接远端、挂载磁盘或同步详细结果；GitHub 阅读版不依赖此文件。
 
+本源服务器登记为 `server-a`；`server2` 独立于历史 `server-b`，已核实路径保留在本机配置。PMRL–ITM 操作说明位于本地 `../PMRL-ITM/REMOTE_RUNBOOK.md`。
+
 新机器可在本地创建该文件，按下面结构填写实际服务器别名与已获授权的路径。已有配置继续使用，不覆盖。原 `servers.example.json` 只在旧机器本地保留，新 clone 使用这里的示例。
 
 ```json
