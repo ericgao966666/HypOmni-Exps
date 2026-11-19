@@ -3,6 +3,8 @@
 > 归档核对：2026-11-05T08:39:54.407550+00:00；原实验时间与范围以正文为准。本次未重跑实验。
 > 本地原文：`workspace/Hyperbolic-Omnimodal/code/experiments/joint30_five_datasets_20261103/REPORT.md`；SHA-256：`fb1326c1e55f65c791addd82481f9c4bfa30cc1a2df10864ce4f6d3bf2f3c19d`。详细数值和图件仅存本地，见[访问说明](../../LOCAL_ARTIFACTS.md)。
 
+> 2026-11-19 已核对[完整 20 项的后续版本](../recent-20261119/joint30.md)。本页保留原 15 项快照。
+
 完成正式评测 15/20 项。尚缺 5 项；未完成结果不填充。
 
 所有模型seed50、VAST同一82608条训练数据、全局batch256、固定第30轮；主任务T↔VA。原生预训练权重与ITM采样配方不同，仅匹配追加训练预算。所有caption保留，Top32漏召回计未命中。当前媒体交集和2帧/1窗/40token统一协议不是标准全量榜单。

@@ -148,3 +148,23 @@ __pycache__/
 
 # Reviewed weekly reconciliation, 2026-11-10.
 !/weekly/2026-11-03_2026-11-10.md
+
+# Reviewed result summaries and historical backfill, 2026-11-19.
+!/experiments/EXP-20260818-pmrl-objectives-width.md
+!/experiments/EXP-20260826-pmrl-reconstruction.md
+!/experiments/EXP-20260929-pmrl-lorentz-omnimodal.md
+!/experiments/EXP-20260929-pmrl-parent-proxies.md
+!/experiments/EXP-20261009-barybind-reproduction.md
+!/experiments/EXP-20261012-msrvtt-spectral-proxy-dependence.md
+!/experiments/EXP-20261013-vast-tree-assumption.md
+!/experiments/EXP-20261015-multimodal-order-diagnostics.md
+!/experiments/EXP-20261110-server-b-geodesic-gradient-routes.md
+!/experiments/EXP-20261114-server-a-hopa-lm-directional.md
+!/experiments/EXP-20261114-server-b-languagebind-positive.md
+!/summaries/recent-20261119/README.md
+!/summaries/recent-20261119/barybind-reproduction.md
+!/summaries/recent-20261119/gradient-routes.md
+!/summaries/recent-20261119/hopa-lm-directional.md
+!/summaries/recent-20261119/joint30.md
+!/summaries/recent-20261119/languagebind-positive.md
+!/summaries/recent-20261119/msrvtt-head-init.md

@@ -2,9 +2,9 @@
 
 这里统一记录研究问题、实验状态、主要结论和结果位置。通常一个研究问题对应一张实验卡；同一问题的种子、消融、失败重试和续跑放在卡内。历史基线与方法探索可按章节汇总，如 EXP-001。GitHub 保留实验结论、关键结果表与 Markdown 报告；原始配置、详细数据、图件、日志和 checkpoint 留在本地。阅读版报告位于 `summaries/`，原始快照仍在本地 `results/`。
 
-首批整理范围：2026-10-13 至 2026-10-20；现已补入 2026 年 8–10 月的零样本基线与方法探索，EXP-001 已同步 server-b 的 2026-10-15 版完整报告。历史归档核对：2026-10-28；近期补录核对：2026-11-05（覆盖10-28至11-05已有产物）；各结果实际发生时间以卡内证据为准。其他更早实验尚未系统补录；交接到其他服务器的任务，只记录当前能核实的交接状态。
+首批整理范围为 2026-10-13 至 10-20。已有历史基线见 EXP-001；11-19 补录早期 PMRL、重建、BaryBind 与冻结特征诊断，并用本机评测产物更新近期实验。核对范围为本机工作区、授权数据目录及已有 GitHub 记录，其他服务器独有产物仍以各自可核实的源记录为准。
 
-本周双曲多模态工作已按[11-03至11-10周报](weekly/2026-11-03_2026-11-10.md)核对本地与远端记录。周报区分整理前的记录覆盖和仍待核实的执行状态；本次发布纳入共同VAST基线完整结果、PMRL新数据组及相关状态修订，并保留远端`ee98a3e`中的最新实验记录。记录复核日期不替代卡内的训练/评测实际核对时间。
+[11-19 补录索引](summaries/recent-20261119/README.md)收录新报告和历史实验入口。[11-03 至 11-10 周报](weekly/2026-11-03_2026-11-10.md)保留当周记录状态，四方法固定末轮和 MSRVTT head 初始化以对应实验卡的完整结果为准。
 
 本目录是独立 Git 仓库，分支为 `main`，远端为 [ericgao966666/HypOmni-Exps](https://github.com/ericgao966666/HypOmni-Exps)。两台服务器的使用方式见[同步说明](SYNC.md)，维护规则见 [AGENTS.md](AGENTS.md)。本地内容是否已经推送，以 Git 分支状态和远端提交记录为准。
 
@@ -16,12 +16,12 @@
 
 - **组合初始化保住VAST起点，两轮检索优于随机，cone仍为0**：[实验卡](experiments/EXP-20261110-server-b-msrvtt-composed-head-init.md)在884视频探索性test上两轮ITC/ITM R@1为37.048%/41.629%，随机对照19.457%/39.536%；组合初态ITC为36.086%。仅单seed短head阶段，不能单独归因三个额外组合head或外推完整微调收益。
 
-- **MSRVTT直接微调与head迁移，后续状态待核实**：[实验卡](experiments/EXP-20261107-server-b-msrvtt-head-init.md)比较两种初始化×三个K，统一2轮head＋8轮联合、逐轮验证，不早停；最新执行证据为11-08启动，11-10已发布记录仍无完整预算后的正式测试结果，不能当作实时运行状态。[完整协议](experiments/details/PROTOCOL-20261107-msrvtt-head-init.md)。
+- **MSRVTT head 迁移提高检索**。[六组完整测试](experiments/EXP-20261107-server-b-msrvtt-head-init.md)中，VAST 第 5 轮 head 迁移相对同 K 直接微调，在 MSRVTT 的 ITC R@1 提高 10.463–11.538pp、ITM 提高 1.357–1.923pp。迁移组另有 1,610 步 VAST 训练，来自单 seed。
 
 - **VAST全轮次180点已测齐，外部高点在联合第1–2轮**：[完整曲线结论](experiments/EXP-20261106-server-b-geodesic-fixed15.md)中三K四集平均ITM在总epoch6–7最高约51.10–51.22%，到epoch15降低3.50–3.91pp；head第1–5轮仍持续改善，不能把联合后期退化直接归于warmup过长。
 - **共同VAST初始化的三方法结果齐全，保留全部模型的重跑已暂停**：[实验卡](experiments/EXP-20261106-server-b-vast-init-baselines.md)原固定15轮及15项测试已完成；MSRVTT ITM R@1为GRAM44.06%、VAST43.55%、PMRL40.21%。按11-08要求在server2独立重跑并永久保留逐轮模型，现因用户需使用GPU而暂停；完整断点及原结果保留，等待明确恢复。原版结果核对21:08、暂停核对23:30（Asia/Shanghai），重跑尚无新正式结果。
 - **近期实验已补录**：[近期索引](summaries/recent-20261105/README.md)按研究问题汇总角度、K/合法域、ITM、AURORA及官方权重诊断，完整数据继续只存本地。
-- **旧30轮端到端比较仍缺GRAM终态证据**：[30轮与五数据集](experiments/EXP-20261103-server-a-joint30-five-datasets.md)的11-05快照完成15/20项，11-10复核记录未见补齐；MSRVTT角度ITM R@1为41.007%，测地线39.649%、PMRL37.613%。固定15轮的新基线结果不能填入此协议，不代表完整四方法排名。
+- **四方法 30 轮的五集结果已齐**。[固定末轮测试](experiments/EXP-20261103-server-a-joint30-five-datasets.md)共 20/20 项，PMRL 外部四集 ITM R@1 均值 48.605%，GRAM 为 48.172%。MSRVTT 的最高值来自角度组 41.007%。
 - **K扫描的检索回升可重复，完整合法层级仍失败**：[测地线与下界](experiments/EXP-20261103-server-a-geodesic-domain.md)中K=.3→.5三seed配对R@1 +0.564±0.125pp；动态合法域由参数化保证，不能当作层级学习成功。
 - **角度和GP的证据分开**：[角度最小消融](experiments/EXP-20261101-server-a-angular-alignment.md)A0比距离带锥高0.220pp，但比角度无蕴含仅高0.008pp；[GP替代](experiments/EXP-20261102-server-a-gromov-alignment.md)的最佳直接增益区间跨0。
 - **图文重建与零训练审计已补齐**：[AURORA/CLIP](experiments/EXP-20261101-server-a-aurora-reconstruction.md)为23.661%/23.037% COCO双向R@1；[官方锥审计](experiments/EXP-20261029-server-a-official-cone-audit.md)区分表观与合法满足；[MERU对数映射](experiments/EXP-20261102-server-a-meru-logmap.md)不与训练消融混用。
@@ -46,7 +46,18 @@
 
 | 编号 / 简称 | 研究问题 | 项目 | 最近实验记录 | 状态 | 当前判断 |
 |---|---|---|---|---|---|
-| MSRVTT head初始化 | [直接微调与VAST head迁移](experiments/EXP-20261107-server-b-msrvtt-head-init.md) | Hyperbolic-Omnimodal | 11-08启动；11-10记录复核 | 六组已启动，后续终态待源端核实 | 两初始化×三K，2+8轮；已发布记录尚无正式结果 |
+| 测地线梯度路由 | [半径学习与主干更新](experiments/EXP-20261110-server-b-geodesic-gradient-routes.md) | Hyperbolic-Omnimodal | 11-11 | 两个续训条件完成 | 第 10 轮验证 ITM R@1，冻结 32.202%，正常联合 50.879%，阻断 cone 51.050% |
+| HoPA 去 L_M | [去 L_M 方向消融](experiments/EXP-20261114-server-a-hopa-lm-directional.md) | HoPA | 11-14 至 15 | VGGSound-S 配对 8/8，MSR-VTT 首轮部分完成 | VGGSound-S 末态六向差 +0.557/+1.073pp（N=100/500） |
+| LanguageBind 正初始化 | [严格配对 CE/WBCE 与独立 LoRS](experiments/EXP-20261114-server-b-languagebind-positive.md) | LanguageBind | 11-14 至 15 | 两组补实验已完成，验证集 | 独立 LoRS 固定 LR R@1 3.201%，HoPA 学习 LR 3.611% |
+| 早期 PMRL 目标与宽度 | [谱目标、半径、直接压缩与后接低维 head](experiments/EXP-20260818-pmrl-objectives-width.md) | PMRL | 08-02 至 18 | 历史对照已归档 | 8D 有单 seed 正信号；严格配对 64D post-head 双曲回落 |
+| PMRL 重建与正则 | [SCRR、decoder 筛选与 proxy 方向](experiments/EXP-20260826-pmrl-reconstruction.md) | PMRL-Reconstruction | 08–09 | 核心对照及诊断完成 | 323 步仅正则 46.6628%，full 45.0226% |
+| Parent 代理 | [均值、SVD、低维及类别探针](experiments/EXP-20260929-pmrl-parent-proxies.md) | PMRL | 09-28 至 30 | 固定预算对照完成 | Top-50 R@1 差值很小；类别正例严格锥满足为 0 |
+| Lorentz 全模态 | [映射、谱共识及曲率](experiments/EXP-20260929-pmrl-lorentz-omnimodal.md) | PMRL | 09-29 至 30 | 探索与三 seed 确认完成 | 新的完整曲率组 Top-50 58.7833%，对照 59.5333% |
+| BaryBind 复现 | [预算匹配 PMRL 与 WB 软势修订](experiments/EXP-20261009-barybind-reproduction.md) | BaryBind | 10-09 至 10 | 四集结果已归档 | 末态 MSR-VTT T→V/V→T 相对 PMRL +1.584/+0.566pp |
+| 谱 proxy 与残差 | [冻结 VAST 的 MSR-VTT 校准诊断](experiments/EXP-20261012-msrvtt-spectral-proxy-dependence.md) | PMRL-Reconstruction | 10-12 | 已完成，当前保留完成记录 | 完整 proxy 5/9，留一 proxy 9/9 |
+| VAST 树假设 | [冻结特征 D1–D4](experiments/EXP-20261013-vast-tree-assumption.md) | VAST | 10-13 | D1–D4 完成 | 全局树未过阈值，视觉与音频局部嵌套有信号 |
+| 多模态证据顺序 | [两轮合成、切空间与 AudioCaps 门控](experiments/EXP-20261015-multimodal-order-diagnostics.md) | PMRL-minimal-hyperbolic | 10-15 | 诊断完成，E3 未启动 | 合成 Lorentz O4 的子集内部 ρ 为 0.219，音频验证未过门槛 |
+| MSRVTT head 初始化 | [直接微调与 VAST head 迁移](experiments/EXP-20261107-server-b-msrvtt-head-init.md) | Hyperbolic-Omnimodal | 11-09 源报告，11-19 文件核对 | 六组训练与五集测试完成 | 同 K 迁移组的 MSRVTT ITM 提高 1.357–1.923pp |
 | VAST组合head初始化 | [保留检索起点与两轮冷启动对照](experiments/EXP-20261110-server-b-msrvtt-composed-head-init.md) | Hyperbolic-Omnimodal | 11-10源端记录 | 两条件两轮小试完成 | 组合/随机ITM41.629%/39.536%；单seed探索性test，严格cone仍为0% |
 | 测地线固定15轮 | [固定15轮结果与完整外部曲线](experiments/EXP-20261106-server-b-geodesic-fixed15.md) | Hyperbolic-Omnimodal | 11-10最终核验 | 权重恢复及180点补评完成 | 外部高点在总epoch6–7；head前5轮持续改善，后期joint退化 |
 | 共同VAST起点固定15轮基线 | [共同初始化下比较VAST/GRAM/PMRL](experiments/EXP-20261106-server-b-vast-init-baselines.md) | Hyperbolic-Omnimodal | 11-08 21:08结果/23:30暂停核对，Asia/Shanghai | 原版三方法/15项测试完成；keepall重跑按用户要求暂停，完整断点保留 | MSRVTT ITM R@1：GRAM44.06%、VAST43.55%、PMRL40.21%；重跑尚无新正式结果 |
@@ -59,7 +70,7 @@
 | Gromov product | [Gromov product：46组探索未找到可信的替代收益](experiments/EXP-20261102-server-a-gromov-alignment.md) | Hyperbolic-Omnimodal | 11-02；11-05核对 | 已完成 | GP_E仅+0.024pp，区间跨0 |
 | ITM几何输入 | [ITM几何输入：两套三seed门槛均保留原均匀基线](experiments/EXP-20261103-server-a-itm-geometry.md) | Hyperbolic-Omnimodal | 11-03；11-05核对 | 已完成 | I2/D3均未过门槛，锁定I0/D0 |
 | 模态组合锥与理想根 | [模态组合锥与理想根：18条件均未通过预设双目标](experiments/EXP-20261103-server-a-cone-root.md) | Hyperbolic-Omnimodal | 11-03；11-05核对 | 已完成 | 18/18完成，均未过双目标门槛 |
-| 四方法30轮与五数据集 | [四方法30轮与五数据集：已完成15/20项，GRAM仍缺](experiments/EXP-20261103-server-a-joint30-five-datasets.md) | Hyperbolic-Omnimodal | 11-05结果快照；11-10记录复核 | 部分完成：15/20测试，后续待核实 | MSRVTT角度ITM41.007%；缺本协议GRAM结果，不以fixed15替代 |
+| 四方法 30 轮与五数据集 | [同预算固定末轮](experiments/EXP-20261103-server-a-joint30-five-datasets.md) | Hyperbolic-Omnimodal | 11-05 源报告，11-19 文件核对 | 20/20 正式测试 | PMRL 外部均值 48.605%，角度在 MSRVTT 最高 41.007% |
 | 官方锥审计 | [官方锥审计：高表观满足掩盖定义域问题](experiments/EXP-20261029-server-a-official-cone-audit.md) | meru-width-coco | 10-29；11-05核对 | 已完成 | 表观98–100%，合法覆盖0–1.371% |
 | AURORA受控重建 | [AURORA受控重建：检索收益未证明HEC独立贡献](experiments/EXP-20261101-server-a-aurora-reconstruction.md) | meru-width-coco | 11-01；11-05核对 | 已完成 | AURORA23.661%，CLIP23.037%；去HEC23.729% |
 | MERU对数映射 | [MERU对数映射：L2几乎保持检索，余弦明显下降](experiments/EXP-20261102-server-a-meru-logmap.md) | meru-width-coco | 11-02；11-05核对 | 已完成 | logmap-L2 mean recall34.427%，原生34.367% |
