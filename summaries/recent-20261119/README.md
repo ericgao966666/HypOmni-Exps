@@ -7,8 +7,6 @@
 - [四方法 30 轮与五数据集完整测试](joint30.md) · [实验卡](../../experiments/EXP-20261103-server-a-joint30-five-datasets.md)
 - [MSRVTT 初始化对照完整测试](msrvtt-head-init.md) · [实验卡](../../experiments/EXP-20261107-server-b-msrvtt-head-init.md)
 - [梯度路由外部评测](gradient-routes.md) · [实验卡](../../experiments/EXP-20261110-server-b-geodesic-gradient-routes.md)
-- [HoPA 去 L_M 逐方向结果](hopa-lm-directional.md) · [实验卡](../../experiments/EXP-20261114-server-a-hopa-lm-directional.md)
-- [LanguageBind 严格配对与独立 LoRS](languagebind-positive.md) · [实验卡](../../experiments/EXP-20261114-server-b-languagebind-positive.md)
 - [BaryBind 复现和 WB 修订四集结果](barybind-reproduction.md) · [实验卡](../../experiments/EXP-20261009-barybind-reproduction.md)
 
 ## 历史实验

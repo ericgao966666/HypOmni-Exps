@@ -1,63 +1,4 @@
-# 实验总览
-
-<!-- THREE-PAIR-PAIRED-EXPERT-A100-START -->
-- [HoPA统一选优与单学生对照](experiments/EXP-20261117-server-a-hopa-three-pair-lm.md)：四方法统一修正专家配对，沿用联合查询表的选优规则及单学生：三seed平均R@1为3-pair 17.075±0.443%；L_M + 3-pair 17.019±0.264%；5L_M + 3-pair 17.094±0.175%；HoPA 21.512±0.019%。
-<!-- THREE-PAIR-PAIRED-EXPERT-A100-END -->
-
-<!-- THREE-PAIR-SELECTED-COMPARISON-START -->
-- [HoPA统一选优与单学生对照](experiments/EXP-20261117-server-a-hopa-three-pair-lm.md)：**失败待恢复GPU，六组均未进行训练更新**，核对2026-11-18 05:14:53 +0800。GPU0–7均显示GPU requires reset，PyTorch CUDA初始化失败；需要管理员恢复GPU/CUDA。六个worker、控制器及缓存进程均已退出，约57.1GiB RAM已释放。配置、专家池、旧结果和失败证据保留，尚无完整选优横评结果。
-<!-- THREE-PAIR-SELECTED-COMPARISON-END -->
-
-<!-- THREE-PAIR-LM5-THREE-SEED-START -->
-- [HoPA λ5共享target三seed](experiments/EXP-20261117-server-a-hopa-three-pair-lm.md)：固定λM=5、共享1组target，三蒸馏seed的Avg.R@1/5/10为17.182 ± 0.151/39.585 ± 0.637/51.251 ± 0.364%；相对各seed匹配Random的R@1差为-2.420 ± 0.264pp。每seed先平均五学生，±为跨三个蒸馏seed的样本SD。
-<!-- THREE-PAIR-LM5-THREE-SEED-END -->
-
-<!-- THREE-PAIR-SHARED-WEIGHT-START -->
-- [HoPA共享target与固定权重](experiments/EXP-20261117-server-a-hopa-three-pair-lm.md)：共享同一target、蒸馏seed0固定2000步/学生20轮：λM=5的Avg.R@1为17.195%，λM=10为16.629%，差值-0.566pp。各数值平均5个学生；只有一个蒸馏seed，不报告跨蒸馏seed SD。
-<!-- THREE-PAIR-SHARED-WEIGHT-END -->
-
-<!-- SELECTED-STUDENT-SPECTRAL-20261117-OVERVIEW-START -->
-- **最佳合成集训练后的谱残差**：[三seed、固定epoch20复核](experiments/EXP-20261112-server-a-hopa-joint-alignment.md#最佳合成集训练后的谱残差三seed复核)：11-17 20:46完成。共同884条test的平均ρ：Random **0.456403±0.003095**、3-pair <ins>0.463577±0.006380</ins>、HoPA 0.484212±0.003233；三个seed顺序一致。各自100条训练数据的ρ为0.446965/0.071439/0.424437（同顺序），训练内谱集中不能替代真实test表现。历史test外层选模限制保留。
-<!-- SELECTED-STUDENT-SPECTRAL-20261117-OVERVIEW-END -->
-
-<!-- THREE-PAIR-LM-N100-START -->
-- [HoPA N100 3-pair＋L_M](experiments/EXP-20261117-server-a-hopa-three-pair-lm.md)：固定外层2000/学生20轮：3-pair＋L_M Avg.R@1 17.113 ± 0.532%，3-pair 17.037 ± 0.681%；配对差值 +0.075±0.217pp。±为三个蒸馏seed的样本SD，先在每seed内平均五个学生。
-<!-- THREE-PAIR-LM-N100-END -->
-
-<!-- JOINT-THREE-SEED-OVERVIEW-START -->
-- [HoPA联合查询三seed扩充](experiments/EXP-20261112-server-a-hopa-joint-alignment.md)：**complete**，核对：2026-11-17 19:01:26 +0800。三个source seed固定20轮、平均双查询R@1（%）：hopa 29.613±0.549；shared3pair 25.855±0.022；random 26.332±0.480。±为跨蒸馏/采样seed的样本SD，外层历史test选择限制保留。
-<!-- JOINT-THREE-SEED-OVERVIEW-END -->
-
-- **归一化fusion核验**：[联合查询实验](experiments/EXP-20261112-server-a-hopa-joint-alignment.md)，11-17 19:45完成。显式归一化查询和与原等权分数融合的R@1/5/10全部相同；HoPA T+A→V为44.382±0.285%，较Frozen +3.092±0.285pp。支持组合查询效用，不新增不可分解高阶交互证据。
-
-<!-- MEAN-PROXY-20261117-OVERVIEW-START -->
-- **HoPA均值proxy对照完成**：[谱理论实验卡](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：267个同表示离线状态已测。outer600/inner15平均E为谱0.1119、单位均值0.1081；后者在151/204个合成状态更低。不能据此声称谱proxy直接近似普遍更准；未做替换proxy后的重训。
-<!-- MEAN-PROXY-20261117-OVERVIEW-END -->
-
-<!-- POSITIVE-FIDELITY-20261117-OVERVIEW-START -->
-- **正随机初始化近似质量补测完成**：[谱理论实验卡](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：5专家平均E从0.2632到0.0757，validation R@1从0.125%到20.229%；单source seed20的outer0/500/1000/1950实际rollout已补采，原checkpoint复现通过。机制联系不作因果或跨source seed结论。 新增outer1500恢复读出：inner15平均E0.0721、P950.1616，非负实例68%，原采样和已测节点一致性核验通过。
-- **正初始化专家约5epoch网格补齐**：5专家、40次新增读出，验证检索精确复现；实际4.23至40.14epoch平均E从0.0898±0.0006降至0.0763±0.0002，完整表含初始与42.25epoch末态。[实验卡](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)。
-<!-- POSITIVE-OUTER-GRID-20261118-OVERVIEW-START -->
-- **正初始化outer600/1200/1800补测完成**：[谱理论实验卡](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：inner15 Mean/P95为0.0782/0.1740、0.0654/0.1467、0.0687/0.1569；inner0另报。原artifact/optimizer/RNG及旧读出完全复现，已存每100步快照。单source seed20。
-<!-- POSITIVE-OUTER-GRID-20261118-OVERVIEW-END -->
-<!-- POSITIVE-FIDELITY-20261117-OVERVIEW-END -->
-
-<!-- MULTISEED-E-20261117-OVERVIEW-START -->
-- **HoPA实际近似误差三seed完成**：[谱理论实验卡](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：11-17核对612个actual rollout状态，seed0完全复现旧单seed。inner15下outer600平均E为0.1183±0.0109、outer1950为0.1295±0.0150；8个指定outer点及完整逐seed表图齐全，±为跨3蒸馏seed的样本SD。未重训，仅谱proxy。
-<!-- MULTISEED-E-20261117-OVERVIEW-END -->
-
-<!-- THEOREM3-STATES-20261117-OVERVIEW-START -->
-- **HoPA训练状态直接近似误差完成**：[谱理论实验卡](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：11-17完成80个专家状态及204个实际合成内循环状态。专家epoch10平均E为0.0672±0.0002；合成各状态均值0.0670–0.2765、P95为0.1137–0.5149，存在波动，谱界保守。原表checkpoint已明确，英文回复和完整表图齐全。
-<!-- THEOREM3-STATES-20261117-OVERVIEW-END -->
-
-<!-- N50-BUDGET-OVERVIEW-START -->
-- **独立LoRS N50与训练预算曲线**：[结果与协议](experiments/details/EXP-20261107-server-a-hopa-budget-efficiency-equal-budget.md)：**complete**，核对：2026-11-15 15:06:39 +0800。三对N50和声明的学生预算评测已结束；单seed，所有预算点保留。 固定20步双查询R@1：HoPA 27.338%，LoRS50 31.825%；独立LoRS合计训练GPU时间0.467s，HoPA为2.054s。 存在共卡计算，耗时仅作执行记录，不用于公平效率结论。
-<!-- N50-BUDGET-OVERVIEW-END -->
-
-- **HoPA 去 L_M 方向分解**：[实验卡](experiments/EXP-20261114-server-a-hopa-lm-directional.md) · [固定末轮均值/方差与全部方向](summaries/EXP-20261114-server-a-hopa-lm-directional/2026-11-15-fixed-final/REPORT.md)：24/24完成；去L_M规模差MSR−1.212±0.252pp、VGG+0.581±0.808pp，VGG仅2/3seed上涨。
-- **HoPA 去 L_M 解读限制**：固定末轮与选优口径的VGG趋势符号不同；稿件/manifest的VGG样本量及lr_lr记载待核对，DiDeMo/pairwise机制未由本轮验证。
-
-- **MSR-VTT AC W2联合评测**：[联合对齐实验](experiments/EXP-20261112-server-a-hopa-joint-alignment.md)：11-13固定学生20轮已完成，双查询R@1为HoPA30.053%、共享3-pair25.867%、独立LoRS32.541%；HoPA/共享3-pair的ρ为0.484814/0.464067。保留旧学生选优结果；合成集仍沿用历史test外层选择，非完全独立测试。
+# 双曲空间全模态表征学习实验总览
 
 这里统一记录研究问题、实验状态、主要结论和结果位置。通常一个研究问题对应一张实验卡；同一问题的种子、消融、失败重试和续跑放在卡内。历史基线与方法探索可按章节汇总，如 EXP-001。GitHub 保留实验结论、关键结果表与 Markdown 报告；原始配置、详细数据、图件、日志和 checkpoint 留在本地。阅读版报告位于 `summaries/`，原始快照仍在本地 `results/`。
 
@@ -71,82 +12,7 @@
 
 同步范围于 **2026-11-05** 调整为总结文档；这次整理没有重新运行实验，也没有更新各实验原有的结果核对日期。数据与图件不再出现在当前 GitHub 文件树，旧提交历史保留。两台服务器首次更新的本地文件保护步骤见 [SYNC.md](SYNC.md)。
 
-**Rebuttal专用检索入口：** [10个研究问题、reviewer对应与各补充实验](summaries/rebuttal-20261112/README.md)。11-12已补等预算队列说明，并将N500调参、随机head完整终测、正初始化蒸馏的最终结果回填原卡；原协议与失败历史保留。
-
 ## 当前关注
-
-<!-- Q3-SOURCE5-STUDENT5-START -->
-- **Table3五源×五学生扩充**：Table3五源×五学生扩充stopped，核对2026-11-15T14:34:38.430889+08:00：60/100条，新增24/64条，复用36条。 当前平衡子集为3源×5学生；LanguageBind/OmniBind的D−R R@1分别+0.0422±0.1445/-0.0061±0.1844pp。 [实验卡](experiments/EXP-20261107-server-a-hopa-cross-architecture.md)。 按用户要求停止，保留已有结果；五源完整结果未完成。
-<!-- Q3-SOURCE5-STUDENT5-END -->
-
-<!-- Q3-LB-OMNI-STUDENT3-START -->
-- **Table 3学生seed重复**：LanguageBind head与OmniBind dense的三源×三学生seed评测完成，核对2026-11-14T03:43:22.279439+08:00。固定20轮配对D−R R@1：LanguageBind +0.0602±0.1287pp，OmniBind +0.0241±0.2294pp。 [实验卡](experiments/EXP-20261107-server-a-hopa-cross-architecture.md)。
-<!-- Q3-LB-OMNI-STUDENT3-END -->
-
-<!-- Q3-OMNI-DENSE20-START -->
-- **OmniBind dense head对照**：OmniBind dense head20轮对照已完成，核对2026-11-14T00:26:27.996235+08:00。三源seed固定20轮Random/Distilled R@1为12.9028%/12.9861%；配对D−R +0.0833±0.1734pp；Distilled相对Frozen +0.2444pp。 [实验卡](experiments/EXP-20261107-server-a-hopa-cross-architecture.md)。
-<!-- Q3-OMNI-DENSE20-END -->
-
-<!-- Q3-WBCE-TEMPERATURE-V2-START -->
-- **ImageBind原生评测温度修正**：原生WBCE温度修正复评已完成15/15，核对2026-11-13T18:10:05.219778+08:00。三源seed、各自重新选定checkpoint后，Random/Distilled测试六方向R@1为12.7083%/12.6472%；配对D−R为-0.0611±0.3369pp。 [实验卡](experiments/EXP-20261107-server-a-hopa-cross-architecture.md)。
-<!-- Q3-WBCE-TEMPERATURE-V2-END -->
-
-<!-- Q5-LIFETIME-MEMORY-OVERVIEW-START -->
-- **六方法Q100完整进程显存**：GPU7单卡串行，已完成14/14个测量进程；100步并检查末段稳定性，必要时300步，含初始化与最终保存。MTT-VL/TESLA为仓库适配版。[结果卡](experiments/EXP-20261107-server-a-hopa-budget-efficiency.md)。
-<!-- Q5-LIFETIME-MEMORY-OVERVIEW-END -->
-
-<!-- HOPA-POSITIVE-DISTILL-START -->
-[正初始化蒸馏小试](experiments/EXP-20261111-server-a-hopa-positive-distill.md)：11-11完成，11-12补齐结果。验证R@1固定LR：HoPA/联合LoRS为4.076/3.688%；learned-LR为5.097/3.681%。一个蒸馏seed、三个配对新head，无test。
-<!-- HOPA-POSITIVE-DISTILL-END -->
-
-<!-- PMRL-POSITIVE-INIT-START -->
-- **PMRL正余弦前提小试完成**：[初始化与持续约束](experiments/EXP-20261111-server-a-pmrl-positive-init.md)：无pairwise warm-up，Full验证R@1从普通随机2.208%提高到仅正初始化20.292%、持续正约束20.229%；InfoNCE参照21.458%。8/8、单seed，持续条件负余弦始终0；没有WBCE/蒸馏/test结论。
-<!-- PMRL-POSITIVE-INIT-END -->
-
-<!-- RANDOM-HEAD-FULL-STATUS-START -->
-完整随机head实验状态：`complete`，核对2026-11-11T00:57:01+08:00。 测试六方向R@1：HoPA 12.472%、联合LoRS 14.174%；HoPA−LoRS -1.702pp，五个独立蒸馏seed。
-<!-- RANDOM-HEAD-FULL-STATUS-END -->
-
-<!-- HOPA-RANDOM-HEAD-START -->
-- **HoPA随机head完整结果已回填**：[完整终测与历史小试](experiments/EXP-20261110-server-a-hopa-random-head.md)：11-11完成五个独立蒸馏seed；HoPA比Random高9.310pp、比联合LoRS低1.702pp。学生只按800条validation选模，终测884条；CPU小试、GPU校准和资源微测保留为历史。
-<!-- HOPA-RANDOM-HEAD-END -->
-
-<!-- Q5-SVD-DIAGNOSTIC-OVERVIEW-START -->
-- **HoPA SVD替换计时完成**：[预算与效率实验卡](experiments/EXP-20261107-server-a-hopa-budget-efficiency.md)：三个seed扣除专家读取后SVD/mock为0.836/0.569秒/步，减少32.0%，未显示高于旧表39.1%的占比；seed0三对LoRS总时间比从1.271到1.882，当前短测不能单独解释历史退化。11-12核验，原始读取耗时另列。
-<!-- Q5-SVD-DIAGNOSTIC-OVERVIEW-END -->
-
-<!-- Q5-A100-EXCLUSIVE-OVERVIEW-START -->
-- **A100 GPU5空闲复测完成**：HoPA 155.91s、LoRS三对 241.96s，时间比 1.552；旧短测时间比 1.442。同seed、100测量步，不作多seed结论。[实验卡](experiments/EXP-20261107-server-a-hopa-budget-efficiency.md)。
-<!-- Q5-A100-EXCLUSIVE-OVERVIEW-END -->
-
-<!-- Q5-A100-COST-START -->
-- **HoPA Q5硬件与成本**：短程硬件结果已部分产出，server2完整对照仍在执行；两端关闭学生evaluation，A100共卡限制及结果见[实验卡](experiments/EXP-20261107-server-a-hopa-budget-efficiency.md)。
-<!-- Q5-A100-COST-END -->
-
-<!-- Q5-A100-MIGRATION-START -->
-- **HoPA Q5 A100 迁移**：已传输并通过目标机全量 SHA-256 校验；沿用相同原生代码、MSRVTT 划分、缓存与 80 条专家。已配置传输后纯成本复测，迁移完成不代表测量完成。[实验卡](experiments/EXP-20261107-server-a-hopa-budget-efficiency.md)。
-<!-- Q5-A100-MIGRATION-END -->
-
-- **HoPA Table 9七组调参已完成**：[MSR-VTT N500联合3-pair](experiments/EXP-20261108-server-a-hopa-joint-tuning.md)：11-09完成、11-12回填；最优conservative测试R@1为20.2489%，较原配置+2.6018pp，但低于配对Random0.4525pp。单seed、test参与选参；固定末态退化保留。
-
-- **HoPA Table 3协议与方差**：[跨架构转移](experiments/EXP-20261107-server-a-hopa-cross-architecture.md)：三源seed主配对18/18完成，固定学生seed1；Distilled−Random平均R@1为imagebind -0.0250pp；languagebind +0.0972pp；omnibind +0.0778pp。完整源seed SD及局限见卡；单seed插值小试另列。
-- **Table 3完整实验汇总**：[同一份总报告](summaries/EXP-20261107-server-a-hopa-cross-architecture/TABLE3_COMPLETE_REPORT.md)覆盖历史协议恢复、head/router、多LR全量微调及11-13温度修正；均值、标准差和方差分口径报告。修正后seed1改选step100，下游结果尚未补测。
-- **LanguageBind全量微调小试**：[跨架构实验卡](experiments/EXP-20261107-server-a-hopa-cross-architecture.md)：预设20轮单seed对照已完成；各设置的Distilled−Random R@1为matched_head20 +0.1500pp；bb1e-5 -0.1417pp；bb3e-6 +0.2167pp。测试驱动的学习率探索，与原三源seed主表分开报告。
-- **LanguageBind 3e-6三源seed复核**：[跨架构实验卡](experiments/EXP-20261107-server-a-hopa-cross-architecture.md)：6/6配对全量结果与匹配head对照齐全；full的D−R R@1为+0.0750±0.2241pp，Distilled绝对R@1相对head变化-0.0583pp。source2/3新增复核另列，保持测试选模限制。
-
-- **HoPA Q5原生验证通过，优先N100单seed**：[预算与效率](experiments/EXP-20261107-server-a-hopa-budget-efficiency.md)：专家仍为四目标各20条，专家并发上限提高；完成单seed完整对照后评估再扩展。旧v4结论已撤回。
-
-<!-- SPECTRAL-SERVER2-OVERVIEW-START -->
-- **HoPA理论条件与配对证据**：[谱变化、负Gram与关系保真](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：合成proxy投影系数加权后Spearman0.8195→0.9059，未达0.93示例门槛，解释获部分支持；同100条阶段ρ下降83/100，固定head后48/100，u₁异号13/100。 当前8.33%对应run的训练采样曲线已补齐，25条minibatch轨迹与100条选中head参考分别标注。 旧v3图已提供指定五节点及六节点版，原均值/SD不变；全点及其他版本保留，口径见实验卡。
-- **共享3-pair合成几何补图**：[固定20轮学生读出](experiments/EXP-20261112-server-a-hopa-joint-alignment.md)：每200步共11节点负Gram均0%，合成ρ从0.5513到0.0736；单seed、读出口径与旧HoPA inner16图不同，不作直接方法排名。
-<!-- HOPA-FIXED20-OVERVIEW-START -->
-- **HoPA固定20轮曲线已补齐**：[每200步全11点读出](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：单seed合成ρ 0.4495→0.4142，与3-pair统一学生训练轮数；各自训练协议的差异仍保留。
-<!-- HOPA-FIXED20-OVERVIEW-END -->
-- **谱统计主表对齐图**：[状态与checkpoint读出](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：Real初始化与Synthetic选中学生的head不同；600步8.33%已在原生读出曲线上对齐，不能写same fixed heads。
-<!-- HOPA-MULTISEED100-OVERVIEW-START -->
-- **三seed固定20轮谱曲线已完成**：[21点及指定五节点图](experiments/EXP-20261107-server-a-hopa-spectral-theory.md)：末态ρ 0.413850±0.007898，负Gram 10.555556±7.603605%；独立蒸馏seed0/1/2。
-<!-- HOPA-MULTISEED100-OVERVIEW-END -->
-<!-- SPECTRAL-SERVER2-OVERVIEW-END -->
 
 - **组合初始化保住VAST起点，两轮检索优于随机，cone仍为0**：[实验卡](experiments/EXP-20261110-server-b-msrvtt-composed-head-init.md)在884视频探索性test上两轮ITC/ITM R@1为37.048%/41.629%，随机对照19.457%/39.536%；组合初态ITC为36.086%。仅单seed短head阶段，不能单独归因三个额外组合head或外推完整微调收益。
 
@@ -176,41 +42,11 @@
 - **低维实验已完成**：[EXP-009](experiments/EXP-009-lowdim-finetune.md)已核实42组MSRVTT主实验及1组强锥约束消融；六维度双曲有锥仍无严格包含。与旧512D相比，本轮没有额外VAST子集头预训练。
 - **区域实验回填完成**：[区域层级实验](experiments/EXP-008-region-geometry.md)已完成20个冻结＋4个seed0联合阶段；8个联合阶段延期，正式test未开始。
 
-<!-- HOPA-LOW-BUDGET-START -->
-**HoPA低tuple预算**：[N25/50/100配对曲线](experiments/EXP-20261108-server-a-hopa-low-budget.md)：已迁移server2，完成9/9个条件，3蒸馏seed；仅HoPA–Random、按显存容量并发、排除GPU4，原生test选模与固定末态同时报告。核对11-09 03:33（Asia/Shanghai），结论以完整三seed结果为准。
-<!-- HOPA-LOW-BUDGET-END -->
-
-
-<!-- HOPA-Q2-STATUS-START -->
-**HoPA模态数量**：[四组合结果](experiments/EXP-20261111-server-a-hopa-modality-scaling.md)：test四模态HoPA/独立LoRS为2.887/2.827%；11-12 validation复核为6.418/7.512%，90组预测与已有记录一致。两种评估口径分别保留，原Table8的LoRS为共享四元组版本。
-<!-- HOPA-Q2-STATUS-END -->
-
-
-<!-- HOPA-Q2-SHARED-START -->
-共享LoRS已完成，核对2026-11-12 18:36:04 +0800。四组合三seed、validation/test与独占成本均齐全；结论及数值见实验卡共享对照章节。
-<!-- HOPA-Q2-SHARED-END -->
-
-
-<!-- HOPA-Q2-SVD-START -->
-**Ego4D Lemma2模态权重**：[实验卡](experiments/EXP-20261111-server-a-hopa-modality-scaling.md)：已按论文u₁重报固定专家probe，IMU平均系数0.2965→0.2106，始终较小且13%–28%为负；只统一整体符号，原u₁²能量份额留作辅助。离线诊断非因果证明，核对2026-11-14。
-<!-- HOPA-Q2-SVD-END -->
-
 ## 实验目录
 
 | 编号 / 简称 | 研究问题 | 项目 | 最近实验记录 | 状态 | 当前判断 |
 |---|---|---|---|---|---|
-| HoPA谱条件与关系 | [选中状态、配对与加权诊断](experiments/EXP-20261107-server-a-hopa-spectral-theory.md) | HoPA-Rebuttal | 11-09结果；11-12记录核对 | 主结果及三项补测已有记录 | 非负前提非全满足；加权proxy相关0.905889，单seed |
-| HoPA跨架构 | [三源seed迁移与全量微调](experiments/EXP-20261107-server-a-hopa-cross-architecture.md) | HoPA-Rebuttal | 11-10至11-11结果 | 18项配对完成；补充适配/全量微调齐全 | 三架构R@1配对差值−0.0250/+0.0972/+0.0778pp；test-informed |
-| HoPA预算与效率 | [原生预算、硬件、SVD和显存](experiments/EXP-20261107-server-a-hopa-budget-efficiency.md) | HoPA-Rebuttal | 11-12诊断结果 | 原生单seed及诊断有结果；等预算队列执行待核实 | 旧v1–v4撤回；SVD替换扣读取省32.0%；不同协议分开 |
-| HoPA N500调参 | [联合3-pair七配置](experiments/EXP-20261108-server-a-hopa-joint-tuning.md) | HoPA-Rebuttal | 11-09完成；11-12回填 | 7/7完成，单seed | 最优R@1 20.2489%，配对Random20.7014%，未超过Random |
-| HoPA低tuple预算 | [N25/50/100三个seed](experiments/EXP-20261108-server-a-hopa-low-budget.md) | HoPA-Rebuttal | 11-09完成镜像 | 9/9完成，已保留两种选模口径 | 低预算收益未稳定扩大；固定末态负结果保留 |
-| HoPA正初始化蒸馏 | [严格配对起点与两种LR读出](experiments/EXP-20261111-server-a-hopa-positive-distill.md) | HoPA-Rebuttal | 11-11完成；11-12回填 | 单蒸馏seed、三学生head验证完成 | 固定LR HoPA/LoRS4.076/3.688%；learned-LR5.097/3.681%；无test |
-| HoPA模态数量 | [四组合、验证复核与共享LoRS](experiments/EXP-20261111-server-a-hopa-modality-scaling.md) | HoPA-Rebuttal | 11-11至11-12 | 独立pair完成；共享tuple补充未齐 | 四模态test HoPA/独立LoRS2.887/2.827%；validation不能混报 |
-| PMRL正余弦初值 | [预设非负前提是否能冷启动](experiments/EXP-20261111-server-a-pmrl-positive-init.md) | HoPA-Rebuttal | 11-11 12:08完成 | 8条件单seed小试完成 | 无warm-up的Full约20.2%，随机2.2%；尚无新蒸馏 |
-| HoPA随机head | [可学习性与完整五seed蒸馏](experiments/EXP-20261110-server-a-hopa-random-head.md) | HoPA-Rebuttal | 11-11完成；11-12回填 | 完整终测完成，历史小试保留 | test HoPA12.472%、联合LoRS14.174%；HoPA−Random +9.310pp |
 | 测地线梯度路由 | [半径学习与主干更新](experiments/EXP-20261110-server-b-geodesic-gradient-routes.md) | Hyperbolic-Omnimodal | 11-11 | 两个续训条件完成 | 第 10 轮验证 ITM R@1，冻结 32.202%，正常联合 50.879%，阻断 cone 51.050% |
-| HoPA 去 L_M | [去 L_M 方向消融](experiments/EXP-20261114-server-a-hopa-lm-directional.md) | HoPA | 11-14 至 15 | 双数据集三 seed 主实验 24/24，另有 VGGSound-S 两 seed 配对快照 | 固定末轮去 L_M 的 N100→N500 变化：MSRVTT −1.212±0.252pp，VGGSound-S +0.581±0.808pp |
-| LanguageBind 正初始化 | [严格配对 CE/WBCE 与独立 LoRS](experiments/EXP-20261114-server-b-languagebind-positive.md) | LanguageBind | 11-14 至 15 | 两组补实验已完成，验证集 | 独立 LoRS 固定 LR R@1 3.201%，HoPA 学习 LR 3.611% |
 | 早期 PMRL 目标与宽度 | [谱目标、半径、直接压缩与后接低维 head](experiments/EXP-20260818-pmrl-objectives-width.md) | PMRL | 08-02 至 18 | 历史对照已归档 | 8D 有单 seed 正信号；严格配对 64D post-head 双曲回落 |
 | PMRL 重建与正则 | [SCRR、decoder 筛选与 proxy 方向](experiments/EXP-20260826-pmrl-reconstruction.md) | PMRL-Reconstruction | 08–09 | 核心对照及诊断完成 | 323 步仅正则 46.6628%，full 45.0226% |
 | Parent 代理 | [均值、SVD、低维及类别探针](experiments/EXP-20260929-pmrl-parent-proxies.md) | PMRL | 09-28 至 30 | 固定预算对照完成 | Top-50 R@1 差值很小；类别正例严格锥满足为 0 |
@@ -287,19 +123,3 @@
 ## 2026-10-28补充
 
 λ=.3、c/τ联合学习已完成30轮；C0累计79条件完成。[三组λ匹配报告](summaries/EXP-20261027-server-b-c0-temperature-curvature/2026-10-28-lambda03-results/REPORT.md)，仅seed50验证；本轮纳入统一同步。
-
-<!-- LB-POSITIVE-START -->
-完整单seed续跑已完成。固定LR验证R@1：HoPA 3.125±0.430%，联合LoRS 2.431±0.087%，配对均值差+0.694pp。 learned-LR验证R@1：HoPA 3.611±0.345%，联合LoRS 2.382±0.167%，配对均值差+1.229pp。 SD仅为三个学生head的波动，无test。 [实验卡](experiments/EXP-20261111-server-a-hopa-positive-distill.md)。
-<!-- LB-POSITIVE-END -->
-
-<!-- Q3-LB-POSITIVE-START -->
-Table3 LanguageBind初始化小试完成。固定3000更新：pretrained D−R R@1 +0.050±0.102pp；neutral D−R R@1 -0.156±0.285pp；positive_free D−R R@1 -0.164±0.121pp。 [实验卡](experiments/EXP-20261107-server-a-hopa-cross-architecture.md)。
-<!-- Q3-LB-POSITIVE-END -->
-
-<!-- IB-INDEPENDENT-START -->
-ImageBind正初始化独立pairwise补实验已完成。fixed_lr_0.03: HoPA 4.076%，独立LoRS 4.326%，HoPA−独立 -0.250pp；learned_lr: HoPA 5.097%，独立LoRS 4.507%，HoPA−独立 +0.590pp。 [实验卡](experiments/EXP-20261111-server-a-hopa-positive-distill.md)。
-<!-- IB-INDEPENDENT-END -->
-
-<!-- LB-INDEPENDENT-START -->
-LanguageBind正初始化独立pairwise补实验已完成。fixed_lr_0.03：HoPA 3.125±0.430%，独立LoRS 3.201±0.024%，差值-0.076pp；learned_lr：HoPA 3.611±0.345%，独立LoRS 3.236±0.052%，差值+0.375pp。 [实验卡](experiments/EXP-20261111-server-a-hopa-positive-distill.md)。
-<!-- LB-INDEPENDENT-END -->
